@@ -1,0 +1,25 @@
+{
+  "recordCount": 1,
+  "truncated": false,
+  "metadata": {
+    "revision": "ixku36",
+    "target": {
+      "id": "wb/kes0c2",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "match",
+      "tokens": [
+        "match"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

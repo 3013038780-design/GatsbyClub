@@ -1,0 +1,300 @@
+{
+  "collected_at": "2026-10-21T18:04:21+08:00",
+  "pages": [
+    {
+      "机构": "中企会企业家俱乐部",
+      "网址": "https://www.ceccclub.com/",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    },
+    {
+      "机构": "创合汇",
+      "网址": "https://www.chuanghehui.com/view/club",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 3841,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "raw/1b0a7f8867a63a.md",
+      "错误": ""
+    },
+    {
+      "机构": "阿拉善SEE生态协会",
+      "网址": "https://conservation.see.org.cn/disclosure/Annual/",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 5572,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "raw/3ac648f2c7a514.md",
+      "错误": ""
+    },
+    {
+      "机构": "创合汇",
+      "网址": "https://www.chuanghehui.cn/",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 7488,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "raw/7eb94db63f733c.md",
+      "错误": ""
+    },
+    {
+      "机构": "阿拉善SEE生态协会",
+      "网址": "https://conservation.see.org.cn/admission/",
+      "状态": "失败或正文不足",
+      "HTTP状态": 404,
+      "正文字数": 28,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "",
+      "错误": "Blocked by anti-bot protection: Structural: minimal_text on small page (144 bytes, 19 chars visible)"
+    },
+    {
+      "机构": "三亚半山半岛帆船港",
+      "网址": "https://serenity-marina.com/Jo_index_gci_14.html",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    },
+    {
+      "机构": "三亚鸿洲国际游艇会",
+      "网址": "https://www.visun-yacht.com/member.php",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    },
+    {
+      "机构": "创合汇",
+      "网址": "https://www.chuanghehui.com/view/activity",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 3486,
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "原文文件": "raw/549d63bfbbc27f.md",
+      "错误": ""
+    }
+  ],
+  "evidence": [
+    {
+      "机构": "创合汇",
+      "字段": "产品权益",
+      "原文片段": "合伙人、公司CEO； 3、有意拓展金融与股权投资或投资管理的企业家和高层管理者； 4、年持续投资额100万以上的具有投资意识的优质投资人。 会员权益 * 创合汇基金项目优先认购权 * 商学院好项目VIP入场券 * 投融资项目的零距离对接 * 项目路演与资源对接 * 投资领域专业知识分享 * 强大的投资管理团队及专家顾问团 * 商学院优秀校友人脉共享 * 荣选年度封面人物 * 创合汇年会优秀社群嘉奖 * 大咖零距离 * 优先参加创合汇平台组织的各项活动 [在线申请](https://jinsh",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "客户与规模",
+      "原文片段": "院共创联盟 作为创新者、创业者的成长生态圈，设有专题社群、行业社群、区域社群3大社群模块，涵盖30+专属社群组织，链接100,000+名社群成员，致力于打造一个创新者与创业者交流分享、共创共赢的生态平台，弘扬新时代下的企业家精神与商业文明。如果你是国内外知名商学院校友、追求社会责任的企业家、创业者、富有创新精神的职场精英，来加入全球商学院共创联盟，寻找属于你的圈子！ * 创投俱乐部 * HR俱乐部 * 人文与领导力俱乐部 * 大健康产业联盟 * 智造供应链产业联盟 ![](https://static.c",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "者、企业家和投资人在全新的产融商业背景及创新变局中，具备领先的创业与投资理念，锻造卓越的产融创新思维与决策力，捕捉全球发展新机遇。 在线申请报名咨询 6大模块 投资学堂 结合国内外金融投资实例，紧握时代趋势，对当代创投界进行深度解析。 * 如何寻找独角兽 * 经典估值模型解读 * 股权投资的法律风险与防范 * 股权投资的退出方式 投资新未来 瞄准BP，携手共赢！ 做成功早期投资人，提升投资者对接优质项目的能力与获取资源 * 全年4场商学院好项目路演会 创新创业高峰论坛 认知当下，共赢未来。 邀请知名媒体人、投资",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "董教练带领会员开启私董会 大咖闭门会 成功难以复制，失败或可避免 * 邀请知名投资人和行业领军企业家分享投资心得和经验 标杆企业参访 见贤思齐，力争上游 * 对独角兽企业及知名成功企业进行对标学习，收获商业实战经验 往期活动 * ![](https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou1.jpg) 走进游族网络 * ![](https://static.chuanghehui.com/chh_bc/images/club-a",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "投资领域专业知识分享 * 强大的投资管理团队及专家顾问团 * 商学院优秀校友人脉共享 * 荣选年度封面人物 * 创合汇年会优秀社群嘉奖 * 大咖零距离 * 优先参加创合汇平台组织的各项活动 [在线申请](https://jinshuju.net/f/Dh1tWV)报名咨询 平台生态 [创合汇创新院](https://www.chuanghehui.com/view/about) [创合汇资本](http://chhcapital.cn) 创合汇创服中心 关于我们 [",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "* 大咖零距离 * 优先参加创合汇平台组织的各项活动 [在线申请](https://jinshuju.net/f/Dh1tWV)报名咨询 平台生态 [创合汇创新院](https://www.chuanghehui.com/view/about) [创合汇资本](http://chhcapital.cn) 创合汇创服中心 关于我们 [关于我们](https://www.chuanghehui.com/view/about) [联系我们](https://www.chuanghehu",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "/portal/registerSystemInfo?recordcode=31010402008932) 沪B2-20200258 俱乐部报名咨询 ![](https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/shenglaoshi.png) 微信扫码添加顾问老师",
+      "来源": "https://www.chuanghehui.com/view/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "阿拉善SEE生态协会",
+      "字段": "客户与规模",
+      "原文片段": "nservation.see.org.cn/disclosure/Annual/) ### _阿拉善友情链接_  [阿拉善SEE生态协会成员单位](https://see.org.cn/comprehensive/) ### 关注我们 ###### ![](https://conservation.see.org.cn/thems/alsstxh/images/ewm.png) ![](https://conservation.see.org.cn/thems/alsstxh/images/ewm_05.jpg) * ### 阿",
+      "来源": "https://conservation.see.org.cn/disclosure/Annual/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "uanghehui.cn/index/activity/index.html) * 2023-02-23[南京市雨花台区委书记张连春带队参访创合汇资本已投企业沈德无创时代与爱可生 ](https://www.chuanghehui.cn/index/activity/detail/id/112/cid/466.html) * 2022-07-26[重磅｜2022首届“专精特新”创新增长大会暨科创大赛圆满落幕！ ](https://www.chuanghehui.cn/index/activity/detail/id/88/cid/",
+      "来源": "https://www.chuanghehui.cn/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "产品权益",
+      "原文片段": "c/images/pc/join-vip.png) ## 成为创合汇会员吧！ 此活动为会员专享，加入创合汇会员，公开课全年免费学 更有17项会员权益 ![二维码](https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/gkkqrc.png) 微信扫码加入会员",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "客户与规模",
+      "原文片段": "atic/images/pc/join-vip.png) ## 成为创合汇会员吧！ 此活动为会员专享，加入创合汇会员，公开课全年免费学 更有17项会员权益 ![二维码](https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/gkkqrc.png) 微信扫码加入会员",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "ng)400-6886-238 登录注册 【专精特新】2022首届创新增长大会 上海 2022/07/22 08:30:00 985人已报名 已结束 * 类型: * 全部 * 线下公开课 * 沙龙 * 企业参访 * 知行课堂 * 论坛峰会 * 创业说 * 抗疫直播 * 课程答疑 * 解码案例 * OMO直播 * 形式: * 全部 * 线下活动 * 线上直播 * 时间: * 全部 * 本周 * 本月 * 状态",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "2/07/22 08:30:00 985人已报名 已结束 * 类型: * 全部 * 线下公开课 * 沙龙 * 企业参访 * 知行课堂 * 论坛峰会 * 创业说 * 抗疫直播 * 课程答疑 * 解码案例 * OMO直播 * 形式: * 全部 * 线下活动 * 线上直播 * 时间: * 全部 * 本周 * 本月 * 状态: * 全部 * 未开始 * 已结束 * 进行中 ![活动封面](h",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "新发展大会暨上海交通大学国家电投智慧能源创新学院碳中和发展产学研智创中心成立仪式 上海 3月21日 13:30-17:45 1102人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1676627189133.jpg) 已结束 【开年十讲】第十讲：构建可复制的组织营销能力—华为LTC业务流程实践 上海 2月7日 19:30-20:30 950人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-sha",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "pg) 已结束 【开年十讲】第十讲：构建可复制的组织营销能力—华为LTC业务流程实践 上海 2月7日 19:30-20:30 950人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1676626372736.jpg) 已结束 【开年十讲】第九讲:企业如何协同创新，让研发成为高增长引擎？ 上海 2月6日 19:00-20:30 960人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "36.jpg) 已结束 【开年十讲】第九讲:企业如何协同创新，让研发成为高增长引擎？ 上海 2月6日 19:00-20:30 960人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1674011157516.jpg) 已结束 【开年十讲】第八讲：企业如何利用数字化，向成本要利润，向经营要效能？ 上海 2月5日 19:30-20:30 950人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-sha",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": "pg) 已结束 【开年十讲】第八讲：企业如何利用数字化，向成本要利润，向经营要效能？ 上海 2月5日 19:30-20:30 950人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1673948897340.jpg) 已结束 【开年十讲】第七讲：从华为基本法看如何构建一只打胜仗打硬仗的组织 上海 2月4日 19:30-20:30 955人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": ".jpg) 已结束 【开年十讲】第七讲：从华为基本法看如何构建一只打胜仗打硬仗的组织 上海 2月4日 19:30-20:30 955人已报名 ![活动封面](https://static.chuanghehui.com/pc-activity-share/1673948406189.jpg) 已结束 【开年十讲】第六讲：企业如何做绩效管理与激励机制，激发集体奋斗？ 上海 2月3日 13:00-14:00 955人已报名 加载更多 平台生态 [创合汇创新院](https://www.chuanghehui.com/vie",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "创合汇",
+      "字段": "活动与流程",
+      "原文片段": ".jpg) 已结束 【开年十讲】第六讲：企业如何做绩效管理与激励机制，激发集体奋斗？ 上海 2月3日 13:00-14:00 955人已报名 加载更多 平台生态 [创合汇创新院](https://www.chuanghehui.com/view/about) [创合汇资本](http://chhcapital.cn) 创合汇创服中心 关于我们 [关于我们](https://www.chuanghehui.com/view/about) [联系我们](https://www.chuangh",
+      "来源": "https://www.chuanghehui.com/view/activity",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    }
+  ],
+  "activity_links": [
+    {
+      "机构": "创合汇",
+      "链接标题": "活动",
+      "详情网址": "https://www.chuanghehui.com/view/activity",
+      "发现页": "https://www.chuanghehui.com/view/activity",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "创合汇",
+      "链接标题": "平台活动",
+      "详情网址": "https://www.chuanghehui.cn/index/activity/index/index.html",
+      "发现页": "https://www.chuanghehui.cn/",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "创合汇",
+      "链接标题": "重磅｜25家！创合汇又一批校友企业入选第四批专精特新“小巨人”企业名单",
+      "详情网址": "https://www.chuanghehui.cn/index/news/detail/id/1097/cid/466.html",
+      "发现页": "https://www.chuanghehui.cn/",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "创合汇",
+      "链接标题": "创合汇校友联盟全面升级：校友总会、数字科技产业联盟、科创投资百人会正式成立！",
+      "详情网址": "https://www.chuanghehui.cn/index/news/detail/id/1101/cid/466.html",
+      "发现页": "https://www.chuanghehui.cn/",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "创合汇",
+      "链接标题": "南京市雨花台区委书记张连春带队参访创合汇资本已投企业沈德无创时代与爱可生",
+      "详情网址": "https://www.chuanghehui.cn/index/activity/detail/id/112/cid/466.html",
+      "发现页": "https://www.chuanghehui.cn/",
+      "采集时间": "2026-10-21T18:04:21+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    }
+  ]
+}

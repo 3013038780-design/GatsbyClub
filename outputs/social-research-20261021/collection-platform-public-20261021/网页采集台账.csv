@@ -1,0 +1,6 @@
+﻿机构,网址,状态,HTTP状态,正文字数,采集时间,原文文件,错误
+中欧国际工商学院,https://jingxuan.douyin.com/m/video/7632217189461921030,失败或正文不足,302,1,2026-10-21T17:20:35+08:00,,"Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (6328 bytes, 0 chars visible)"
+中欧国际工商学院,https://jingxuan.douyin.com/m/video/7681618473243462963,已采集,302,2907,2026-10-21T17:20:35+08:00,raw/6777c88bb6f7af.md,
+中欧国际工商学院,https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%AC%A7%E5%9B%BD%E9%99%85%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2,失败或正文不足,,0,2026-10-21T17:20:35+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"

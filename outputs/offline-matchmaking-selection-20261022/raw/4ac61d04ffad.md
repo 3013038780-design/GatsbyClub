@@ -1,0 +1,81 @@
+[ ](https://shshjxh.com/m_index)
+#  上海市婚介协会 
+[ ](javascript:%20void\(0\))
+  * [首页](https://shshjxh.com/m_index)
+  * [组织](https://shshjxh.com/m_org_11##)
+    * [协会简介](https://shshjxh.com/m_news_14)
+    * [组织机构](https://shshjxh.com/m_news_16)
+    * [协会章程](https://shshjxh.com/m_news_15)
+    * [领导成员](https://shshjxh.com/m_news_17)
+    * [规范文件](https://shshjxh.com/m_channel_5)
+    * [协会公告](https://shshjxh.com/m_channel_6)
+  * [行业](https://shshjxh.com/m_org_11##)
+    * [行业动态](https://shshjxh.com/m_channel_7)
+    * [行业标准](https://shshjxh.com/m_channel_8)
+    * [行业机构](https://shshjxh.com/m_channel_org)
+    * [持证红娘](https://shshjxh.com/m_channel_hn)
+    * [行业培训](https://shshjxh.com/m_channel_15)
+    * [违规曝光](https://shshjxh.com/m_channel_10)
+    * [协会动态](https://shshjxh.com/m_channel_top)
+    * [荣誉表彰](https://shshjxh.com/m_channel_16)
+  * [活动](https://shshjxh.com/m_org_11#c3)
+    * [相亲大会](https://shshjxh.com/m_channel_11)
+    * [活动回顾](https://shshjxh.com/m_channel_12)
+    * [最新活动](https://shshjxh.com/m_channel_13)
+  * [我要投诉](https://shshjxh.com/m_complain)
+  * [成功案例](https://shshjxh.com/m_channel_19)
+
+
+  1. [首页](https://shshjxh.com/m_index)
+  2. [行业](https://shshjxh.com/m_org_11)
+  3. [行业机构](https://shshjxh.com/m_channel_org)
+  4. 机构信息
+
+
+### 机构信息
+#  上海都市白领婚姻俱乐部 会员机构 机构代码：08
+电话:021-54560999
+网址:<http://www.8w8m.com>
+年检期限:2020年12月31日
+地址:漕溪北路331号A楼504(中金国际广场)
+#  荣誉表彰  
+| 荣誉名称  | 发布日期  | 详情  |  
+| --- | --- | --- |  
+  * [首页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnhome_honor',''\))
+  * [上一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnpre_honor',''\))
+  * [下一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnnext_honor',''\))
+  * [尾页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnlast_honor',''\))
+  * 1 / 1
+
+
+#  执业红娘
+  * [ ![](https://shshjxh.com/Upload/HNPhoto/20170718021228.jpg) 卢正东 ](https://shshjxh.com/m_hn_13)
+  * [ ![](https://shshjxh.com/Upload/HNPhoto/20170718021521.jpg) 陈国娟 ](https://shshjxh.com/m_hn_14)
+  * [ ![](https://shshjxh.com/Upload/HNPhoto/20170718021627.jpg) 沈萍 ](https://shshjxh.com/m_hn_15)
+  * [ ![](https://shshjxh.com/Upload/HNPhoto/20170718021738.jpg) 刘冬冬 ](https://shshjxh.com/m_hn_16)
+  * [ ![](https://shshjxh.com/Upload/HNPhoto/20170718021835.jpg) 张琳淋 ](https://shshjxh.com/m_hn_17)
+
+
+  * [首页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnhome_hn',''\))
+  * [上一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnpre_hn',''\))
+  * [下一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnnext_hn',''\))
+  * [尾页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnlast_hn',''\))
+  * 1 / 4 2 / 4 3 / 4 4 / 4
+
+
+#  投诉记录  
+| 投诉人  | 性别  | 投诉日期  | 处理结果  | 处理日期  | 详情  |  
+| --- | --- | --- | --- | --- | --- |  
+  * [首页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnhome_complaint',''\))
+  * [上一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnpre_complaint',''\))
+  * [下一页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnnext_complaint',''\))
+  * [尾页](javascript:__doPostBack\('ctl00$ContentPlaceHolder1$btnlast_complaint',''\))
+  * 1 / 1
+
+
+![](https://shshjxh.com/assets/img/gw_124x47.png) |  ![](https://shshjxh.com/assets/img/bjcp.jpg)
+协会地址：黄浦区成都北路500号3805室
+协会联系电话：021-54197163 E-mail:shshjxh@163.com 
+沪ICP备17048279号-1
+公安备案号:31010402004157
+Copyright 2006-2026 上海市婚姻介绍机构管理协会 版权所有

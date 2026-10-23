@@ -1,0 +1,14 @@
+{
+  "datetime_checks": {
+    "E5": "北京时间保留正确",
+    "F5": "北京时间保留正确"
+  },
+  "golf_prices_checked": [
+    4000,
+    16300
+  ],
+  "document_pages_visually_reviewed": 10,
+  "workbook_sheets": 12,
+  "known_price_items": 24,
+  "recent_relevant_verified_brand_posts": 45
+}

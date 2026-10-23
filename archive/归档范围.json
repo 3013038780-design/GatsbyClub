@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-23",
+  "source_groups": [
+    "社区平台 outputs 全部研究成果",
+    "社区平台 tools 采集工具及本地修改",
+    "调研高端婚恋平台模式 private-club-site 网站源码和静态页",
+    "调研高端婚恋平台模式 club_research_20261019 报告讲解稿财务模型"
+  ],
+  "files": 4007,
+  "bytes": 1351604928,
+  "excluded_categories": [
+    "登录状态 Cookie 浏览器资料与二维码",
+    "Python和Node运行环境及chart-deps依赖",
+    "Git内部目录 托管账号绑定配置",
+    "编译缓存 临时锁和系统文件"
+  ],
+  "kept_categories": [
+    "现行正式报告与Excel",
+    "历史报告与数据版本",
+    "原始公开网页和采集记录",
+    "图片 海报 OCR及排版核验成果",
+    "构建采集和分析脚本",
+    "网站源码 图片来源和离线网页",
+    "商业方案 讲解稿和财务模型"
+  ],
+  "formatting": "最新版正式报告为23页；已统一格式，带17项目录。Excel内容为36家机构、57项收费权益，排版沿用上一轮。",
+  "validation": {
+    "root_readme_links": "全部存在",
+    "website_local_assets": "全部存在",
+    "credential_scan": "未发现高置信度密钥或登录Cookie",
+    "max_file_MB": 29.7
+  }
+}

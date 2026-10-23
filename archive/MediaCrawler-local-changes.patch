@@ -1,0 +1,62 @@
+diff --git a/media_platform/bilibili/core.py b/media_platform/bilibili/core.py
+index b34cfde..88bb20e 100644
+--- a/media_platform/bilibili/core.py
++++ b/media_platform/bilibili/core.py
+@@ -97,7 +97,7 @@ class BilibiliCrawler(AbstractCrawler):
+                 await self.browser_context.add_init_script(path="libs/stealth.min.js")
+ 
+             self.context_page = await self.browser_context.new_page()
+-            await self.context_page.goto(self.index_url)
++            await self.context_page.goto(self.index_url, wait_until="commit", timeout=60000)
+ 
+             # Create a client to interact with the xiaohongshu website.
+             self.bili_client = await self.create_bilibili_client(httpx_proxy_format)
+diff --git a/media_platform/douyin/core.py b/media_platform/douyin/core.py
+index 10380a6..f3f8d67 100644
+--- a/media_platform/douyin/core.py
++++ b/media_platform/douyin/core.py
+@@ -98,7 +98,7 @@ class DouYinCrawler(AbstractCrawler):
+                 await self.browser_context.add_init_script(path="libs/stealth.min.js")
+ 
+             self.context_page = await self.browser_context.new_page()
+-            await self.context_page.goto(self.index_url)
++            await self.context_page.goto(self.index_url, wait_until="commit", timeout=60000)
+ 
+             self.dy_client = await self.create_douyin_client(httpx_proxy_format)
+             if not await self.dy_client.pong(browser_context=self.browser_context):
+diff --git a/media_platform/douyin/login.py b/media_platform/douyin/login.py
+index 4b76d11..3202420 100644
+--- a/media_platform/douyin/login.py
++++ b/media_platform/douyin/login.py
+@@ -47,7 +47,7 @@ class DouYinLogin(AbstractLogin):
+         self.browser_context = browser_context
+         self.context_page = context_page
+         self.login_phone = login_phone
+-        self.scan_qrcode_time = 60
++        self.scan_qrcode_time = 300
+         self.cookie_str = cookie_str
+ 
+     async def begin(self):
+@@ -73,7 +73,8 @@ class DouYinLogin(AbstractLogin):
+         await asyncio.sleep(6)
+         current_page_title = await self.context_page.title()
+         if "验证码中间页" in current_page_title:
+-            await self.check_page_display_slider(move_step=3, slider_level="hard")
++            utils.logger.info("HUMAN_VERIFICATION_REQUIRED: 请在浏览器窗口手动完成平台验证。")
++            await self.context_page.wait_for_function("!document.title.includes('验证码中间页')", timeout=300000)
+ 
+         # check login state
+         utils.logger.info(f"[DouYinLogin.begin] login finished then check login state ...")
+diff --git a/media_platform/xhs/client.py b/media_platform/xhs/client.py
+index f9d5193..3d36ad8 100644
+--- a/media_platform/xhs/client.py
++++ b/media_platform/xhs/client.py
+@@ -161,7 +161,7 @@ class XiaoHongShuClient(AbstractApiClient, ProxyRefreshMixin):
+             verify_uuid = response.headers["Verifyuuid"]
+             msg = f"CAPTCHA appeared, request failed, Verifytype: {verify_type}, Verifyuuid: {verify_uuid}, Response: {response}"
+             utils.logger.error(msg)
+-            raise Exception(msg)
++            raise PlatformAccessError("XHS human verification required; automatic collection stopped")
+ 
+         response_data: Optional[Dict] = None
+         try:

@@ -1,0 +1,9 @@
+HIMMR会员商品 True 19633
+青藤会员权益 False 1
+青藤自动续费 False 1
+牵手权益协议 True 4634
+HIMMR服务入口 False 17
+大超第三方观察 True 7129
+青藤七夕互动 True 3961
+牵手8月产品说明 True 12236
+单身需求调查 False 0

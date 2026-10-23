@@ -1,0 +1,23 @@
+{
+  "institutions": 30,
+  "sheets": 27,
+  "price_records": 90,
+  "native_hyperlinks": 4369,
+  "unchanged_sheets_compared": [
+    "活动环节明细",
+    "宏观市场",
+    "扩展历史价格",
+    "平台内容明细",
+    "平台账号",
+    "扩展内容线索",
+    "扩展账号初筛",
+    "平台采样覆盖",
+    "抖音观察",
+    "原文提取片段",
+    "活动与会籍线索",
+    "后续验证",
+    "经营测算"
+  ],
+  "coverage": "七个专题均覆盖30家",
+  "formula_error_cells": 0
+}

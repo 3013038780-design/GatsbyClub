@@ -1,0 +1,334 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>德申汇 - 新闻活动</title>
+    <link href="https://detion.com/assets/index/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://detion.com/assets/index/css/style.css" rel="stylesheet">
+    <link href="https://detion.com/assets/index/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://detion.com/assets/admin/css/plugins/sweetalert/sweetalert.css">
+
+        <!-- [if lt IE 9]>
+<script src="https://detion.com/assets/index/js/html5shiv.min.js"></script>
+<script src="https://detion.com/assets/index/js/respond.min.js"></script>
+<![endif] -->
+</head>
+<body>
+        <!-- nav -->
+    <div class="pageNav">
+        <div class="container">
+            <div class="pull-left pageNav-logo">
+                <a href="/"><img src="https://detion.com/assets/index/img/page_logo.jpg" alt="" width="116" height="51"></a>
+            </div>
+            <ul class="pull-left pageNav-list">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                
+                <li>
+                    <a href="https://detion.com/company">企业展示</a>
+                </li>
+                
+                <li>
+                    <a href="https://detion.com/center">个人中心</a>
+                </li>
+                <li>
+                    <a href="https://detion.com/publish/company"> 企业认证</a>
+                </li>
+            </ul>
+            <div class="pull-right pageNav-btn">
+                <!-- 用户未登录状态 -->
+                                <!-- 用户未登录状态 -->
+                <div class="Identity">
+                    <a href="https://detion.com/login">登录</a>
+                    
+                </div>
+                
+                <!-- 用户登录状态 -->
+            <!--<div class="index-user">
+                    <div class="pull-left index-user-portrait">
+                        <span class="ce-portrait" style="background-image:url(https://detion.com/assets/index/img/club_01.jpg)"></span>
+                    </div>
+                    <div class="pull-right dropdown">
+                        <div class="index-user-name" data-toggle="dropdown">许武顺 <span class="caret"></span></div>
+                        <ul class="dropdown-menu index-user-menu">
+                            <li><a href="user.html">发布需求</a></li>
+                            <li><a href="user.html">发布供应</a></li>
+                            <li><a href="user.html">发布产品</a></li>
+                            <li><a href="user.html">发布服务</a></li>
+                            <li class="divider"></li>
+                            <li><a href="user.html">发布管理</a></li>
+                            <li><a href="user.html">修改密码</a></li>
+                            <li class="divider"></li>
+                            <li><a href="login.html">退出登录</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+                <!-- 选择语言 -->
+                <div class="pageNav-language" style="margin-left:20px">
+                    <i class="glyphicon glyphicon-globe"></i>
+                    <div class="dropdown">
+                        <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            语言
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="drop2">
+                            <li><a href="https://detion.com/english">English</a></li>
+                            <li><a href="https://detion.com/russia">русский язык</a></li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="/">中文(简体)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end nav -->
+
+    <!-- 当屏幕为手机的时候显示菜单 -->
+    <div class="pageNav pageNav-hidden">
+        <div class="container">
+            <div class="pull-left pageNav-logo">
+                <a href="/"><img src="https://detion.com/assets/index/img/page_logo.jpg" alt=""></a>
+            </div>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <i class="glyphicon glyphicon-align-justify"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                    <!-- 用户未登录状态 -->
+                                        <!-- 用户未登录状态 -->
+                    <div class="AppOperation">
+                        <a href="https://detion.com/login">登录</a>
+                        
+                    </div>
+                    
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/">首页</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/clubs">俱乐部</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/company">企业展示</a>
+                        </li>
+                        <li class="active">
+                            <a href="https://detion.com/news">新闻活动</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/center">个人中心</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/publish/company"> 企业认证</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                 语言 <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="drop2">
+                                <li><a href="https://detion.com/english">English</a></li>
+                                <li><a href="https://detion.com/russia">русский язык</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/">中文(简体)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="AppCn">
+    <!-- banner -->
+    <div class="container">
+        <div class="pageBanner" style="background-image:url(https://detion.com/assets/index/img/page_img.jpg)">
+            <span>新闻活动</span>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- 企业展示 -->
+    <div class="container">
+        <div class="Details">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                    <div class="DetailsLeft">
+                        <div class="DetailsLeft-title">
+                            德申动态 | 用户发展团队（中国区）第一次线上工作会议圆满举行
+                        </div>
+                        <div class="DetailsLeft-icon">
+                            <p><i class="glyphicon glyphicon-eye-open"></i>28241</p>
+                            <span>2024-07-04 14:00:01</span>
+                        </div>
+                        <div class="DetailsLeft-text">
+                            <p>7月4日下午两点，用户发展团队（中国区）工作会议以线上形式成功举行。德申科技创始人、CEO许武顺，用户发展团队（中国区）总监李欣瞳，用户发展委员会执行长刘广耀，成长教育委员会执行长韩志强，秘书长高岩军，副秘书长冯紫燦，101总监石琢，102总监朱左斌，103总监刘志红，104总监黄武辉，105总监徐前伟，106总监柯小童，助理姜峰、张凯，秘书张凤兰，讲师团队执行长张严，副执行长杨凯、徐月丽、时学民、刘妍，导师团队执行长尚洋，副执行长洪伟、季月兰、朱晓玲，秘书郑亚男以及各地区用户发展团队副总监：101A关弘梅、102A徐耀涵、102B沈斌、102C陈连升、102D彭志文、103A梁叁省、104A刘妍、105A许伟丽、105B张德明、105C张海扬、106A彭沅伟、106B朱晓玲、106C冯紫燦和各地区执行长等共计52人参与了此次会议。</p><p><img src="https://storages.detion.com/uploader/2024-07/10/1fd7c56d8b55c42278037449a6f6ba44.png" title="1fd7c56d8b55c42278037449a6f6ba44.png" alt="微信图片_20240708091435.png">会议伊始，用户发展团队（中国区）李欣瞳总监致辞，她指出，7月是用户发展团队（中国区）2024-2025年度新履职的首月，团队面临诸多新挑战。7月1日平台用户留存数据为9922人，且每日变动，用户留存挑战巨大。本年度设定发展用户目标为20000人，意味着用户保留和发展人数要翻番有余，相当于新建350支俱乐部。为达成这一艰巨目标，需从以下几方面着手：其一，抓好培训工作，出色完成本月29-31号的德申平台2024-2025年度VIP俱乐部总监研修班，目标100余人，新旧VIP俱乐部总监均应参与，让新任总监熟知德申文化，鼓励卸任总监创建俱乐部；其二，针对VIP俱乐部会友开展培训，加深其对平台文化的了解；其三，强化会友保留工作，会友从加入伊始抓起，将其列为俱乐部重点工作，设立4月用户发展与保留奖励机制，各区确保本年度保留率达80%；其四，做好讲师、导师内部培训，充分发挥其作用；其五，及时公布用户数据，追踪各区工作计划落实与执行情况，强化数据分析与跟踪；其六，力争创建4个新标准区。</p><p><img src="https://storages.detion.com/uploader/2024-07/10/2b8ce40360b680bd822510cda2748794.jpeg" title="2b8ce40360b680bd822510cda2748794.jpeg" alt="微信图片_20240708091407.jpg" width="1080" height="601">用户发展委员会执行长刘广耀发言，她介绍了用户发展委员会（中国区）的服务架构，并表示对年度目标达成充满信心。</p><p><img src="https://storages.detion.com/uploader/2024-07/10/e50ca12a528ddc37d930e99f161a3166.jpeg" title="e50ca12a528ddc37d930e99f161a3166.jpeg" alt="微信图片_20240708091459.jpg" width="1080" height="597"></p><section><section><p>成长教育委员会执行长韩志强指出以下四点：其一，成长教育委员会本年度除秉持培训系统标准化、流程化、规范化外，新增结果化。平台与地区培训相结合，实现培训的多层次、多场景、多元化；其二，加强VIP俱乐部培训，打造卓越总监及杰出会友；其三，实施双师培养计划，提升各地区讲师、导师数量和能力，平台新晋二星讲师40人、三星讲师10人、国际讲师10人、国际导师20人；其四，加大各地区培训力度，完善培训流程。<br></p></section></section><p><img src="https://storages.detion.com/uploader/2024-07/10/81cec00c6b3f692441c4e10e59bdbff2.png" title="81cec00c6b3f692441c4e10e59bdbff2.png" alt="微信图片_20240708091501.png"></p><p>随后，各大区总监依次进行服务架构与工作计划汇报。101石琢总监表示服务架构已搭建，正协助西安创区，沈阳也在寻找创建召集人，期望后台完善审核审批流程。杭州、苏州、常州如有需求也将提供协助。102朱左斌总监计划7月15日前完善服务架构，强调管理需规范化、标准化、制度化，倡导诚实守信文化。103刘圆圆总监要做好103B（济南）的重建工作，9月20日前达成300人，到潍坊、菏泽寻找创建召集人，为太原建立标准区助力。<br></p><p>104黄武辉总监计划京津冀人数达1500人左右，不动用地区总监及团队成员的基础上搭建服务架构，感谢石琢总监助力西安。计划12月底前建立10支俱乐部，7月20日前到石家庄与创建召集人面谈。105徐前伟总监指出105目前在期人数1106人，全年目标2844人，净增长1860人，计划新创VIP俱乐部45 支、1个标准区。106柯小童总监计划12月底前将 106A、106C保留率提升至60%，主抓106B的重建工作，12月底前达成500人的重建标准，筹建106D（珠海）标准区，12月底前达成500人的创建。</p><p><img src="https://storages.detion.com/uploader/2024-07/10/511204cc25e50f69fbac77a9ac17e391.png" title="511204cc25e50f69fbac77a9ac17e391.png" alt="微信图片_20240708091432.png"></p><p>接下来，各地区用户发展团队副总监分别对各自地区工作情况进行了汇报。101A关弘梅副总监计划发展会友至3000人，确保2800人，各季度成立相应俱乐部并开展创建说明会。102A徐耀函副总监计划每月15号举办“德申友约”，19号培训，邀请俱乐部设定“回家日”，发展会友至1500人，创建多支优秀俱乐部。102B沈斌副总监表示服务架构已搭建，目标发展会友至1200人，与多地讲师联合提升授课能力，兼顾发展与保留。102C陈连升副总监计划完善服务架构，发展人数至900人，创建俱乐部和分区，举办周年庆暨传承交接大会。102D彭志文副总监介绍了常州情况，计划借大会发展俱乐部，保留会友，开展多次培训。<br></p><p>103A梁叁省副总监对服务架构进行了介绍，会友目标发展600人，孵化多支俱乐部，开展培训。103B吕红梅副总监介绍103B现状，计划与执委和资深会友达成相应人数目标，完成标准区重建。104A刘妍副总监计划保底2000位会友，培养杰出俱乐部，提高会友保留率，开展导师、讲师复训，持续开展“德申友约”。105B张德明副总监介绍目标发展1000人，搭建服务架构，各季度创建新俱乐部。105C张海洋副总监目标发展新会友500人，搭建服务架构，因旅游旺季10月后开展传承交接工作。</p><p>106A彭沅伟副总监计划发展新会友1000人，举办商务交流活动，寻找俱乐部召集人。106C冯紫燦副总监计划7月份创建俱乐部，提高保留率，举办交接传承大会。104B胡秀红副总监计划本月重点保留会友，第一季度创建分区，本年度会友人数达1000 人。105A许伟丽副总监介绍105A现状，7月重点保留会友。102E章希副总监计划7月6日之前完善服务架构，目标发展保底800人，冲刺1000人。</p><p><br></p><p>因成长教育委员会（中国区）讲师团队执行长张严有重要会议，未能发言，由导师团队（中国区）执行长尚洋代为发言。尚洋执行长指出，师团队服务架构已搭建完毕，本年度重点工作包括新区建设、加强内训、建立服务结果、实行双师制、建立地区管理导师机制等。</p><p><br></p><p>用户发展团队（中国区）VIP俱乐部总监委员会秘书长郭伟达发言，分析VIP俱乐部总监现状，指出应从用户需求角度关爱总监，激发其责任感，帮助其成长。<br></p><p>随后，用户发展团队（中国区）秘书长高岩军发言，表示为团队和各区做好支持和服务，秘书团队工作繁杂，需细致入微，目前团队人员不足，需增加宣传副秘书长。</p><p>李欣瞳总监做总结发言。她回顾自身任职经历，表示用户发展团队有数据考核，今年目标发展20000 人。平台有标准服务架构和模式，各地区应依此搭建团队，既要传承良好基础，又要创新完成目标，对团队充满信心。</p><p>最后，许武顺先生发言，他表示认真听取并记录了大家的发言，称赞本年度团队行动早、行动快，强调发展同时要重保留，希望合理搭建地区服务架构，做好关爱俱乐部总监的工作，相信能够实现20000人的目标。</p><p><img src="https://storages.detion.com/uploader/2024-07/10/bb692338f0ad4834e142584130b1e125.jpeg" title="bb692338f0ad4834e142584130b1e125.jpeg" alt="微信图片_20240708091443.jpg"></p><section><section><p>用户发展团队2024-2025年度主题为“拼搏成就非凡，奋斗造就卓越！”团队要拼搏奋斗、创新方法、追求卓越，以拼搏精神为发力点，以奋斗激情为动力源，提高服务水平与能力，全力推进各项工作，为平台发展贡献力量，共同实现目标。</p></section></section><p></p><section><section><p style="text-align: right;"><span style="font-size: 14px;">撰稿：高岩军</span></p><p style="text-align: right;"><span style="font-size: 14px;">摄影：冯紫燦</span></p></section></section><p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="DetailsRight">
+                        <div class="DetailsRight-title">
+                            推荐
+                        </div>
+                        <ul class="DetailsRight-list">
+                                                        <li>
+                                <a href="https://detion.com/news/3641">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-09/09/b0a64b74f88892807e3bb9e3c47dc61a.jpg)"></span>
+                                    </div>
+                                    <p class="text-overflow">活动 | 丹青共赏 情谊同增</p>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://detion.com/news/3640">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-09/09/80b0452ceb27e1a13e5864718c859cb4.png)"></span>
+                                    </div>
+                                    <p class="text-overflow">德申公益日——九月九日 善久成光</p>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://detion.com/news/3638">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-08/27/a2dd2a5681e74ff82d3997f3cbbca9a6.jpg)"></span>
+                                    </div>
+                                    <p class="text-overflow">传承 | 京城团结 共筑辉煌</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end 企业展示 -->
+</div>
+        <!-- 搜索俱乐部 -->
+    <div class="searchClub">
+        <div class="container">
+            <div class="col-xs-4 col-md-8 pull-left searchClub-left">
+                <p>查找俱乐部</p>
+                <span>查找德申汇平台创建俱乐部</span>
+            </div>
+            <div class="col-xs-8 col-md-4 pull-right searchClub-right">
+                <form action="https://detion.com/clubs" method="get" accept-charset="utf-8">
+                    <input type="text" name="name" value="" placeholder="请输入查找的内容">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end 搜索俱乐部 -->
+
+    <!-- 底部 -->
+    <div class="indexFotter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        关于德申
+                    </div>
+                    <p>
+                        本会的中文名称为德申国际俱乐部，简称为“德申汇”；英文译名为“Detion Clubs International”简称为“DCI”本会由北京德申科技股份有限公司创建、运营和管理。
+                    </p>
+                    <a href="https://detion.com/about">了解更多</a>
+                </div>
+                <div class="col-xs-6 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        企业认证
+                    </div>
+                    <p>
+                        德申汇本着每个用户“诚信”的善意出发，建立自身“可信可靠”的社交公信，要求用户对自己的行为负责，诚信真实地填写公司认证信息。
+                    </p>
+                    <a href="https://detion.com/publish/company">立即认证</a>
+                </div>
+                <div class="col-xs-12 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        联系我们
+                    </div>
+                    <br>
+                    <div class="indexFotter-way">
+                        <span>电话：010-52474199</span>
+                        <span>地址：北京市朝阳区洒仙桥北路9号（厂区）7幢1层-430号</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 indexFotter-prompt">
+                Copyright © 2018 北京德申科技股份有限公司 版权所有  <a href="http://www.miitbeian.gov.cn" target="_blank">京ICP备18029635号-1</a>
+            </div>
+        </div>
+    </div>
+    <!-- end 底部 -->
+
+    <!-- footer -->
+    <footer class="container-fluid">
+    </footer>
+    <!-- end footer -->
+    
+    <!-- JS -->
+    <script src="https://detion.com/assets/index/js/jquery.min.js"></script>
+    <script src="https://detion.com/assets/index/js/bootstrap.min.js"></script>
+    <script src="https://detion.com/assets/index/js/swiper.min.js"></script>
+    <script src="https://detion.com/assets/admin/js/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="https://detion.com/assets/index/js/cjango.js"></script>
+    <script type="text/javascript">
+        $("#mobile-nav-taggle").click(function () {
+            var mobileMenu = $("#mobile-menu");
+            if (mobileMenu.hasClass("show-nav")) {
+                setTimeout(function () {
+                    mobileMenu.addClass("hide-nav").removeClass("show-nav");
+                }, 100)
+            }
+            else {
+                setTimeout(function (){
+                    mobileMenu.addClass("show-nav").removeClass("hide-nav");
+                }, 100)
+            }
+        })
+    </script>
+
+    <script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 5000
+    })
+
+    window.onscroll = function() {
+        if(document.body.scrollTop==0&&document.documentElement.scrollTop==0){
+            $(".fixedstyle").css("background"," none");
+        }
+        else{
+            $(".fixedstyle").css("background","rgb(55, 61, 65)");
+        }
+    }
+</script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.indexCompany-page> .indexCompany-next',
+        prevButton: '.indexCompany-page> .indexCompany-prev',
+    });
+</script>
+
+
+
+</body></html>

@@ -1,0 +1,28 @@
+{"kind":"sheet","id":"ws/e58r5h","name":"文件与数据说明","index":0,"range":"A1:C17","address":"A1:C17"}
+{"kind":"sheet","id":"ws/h3i0dv","name":"30家机构对照","index":1,"range":"A1:H34","address":"A1:H34"}
+{"kind":"sheet","id":"ws/mkmc6x","name":"30家价格","index":2,"range":"A1:K94","address":"A1:K94"}
+{"kind":"sheet","id":"ws/b3y9j6","name":"会员权益","index":3,"range":"A1:E52","address":"A1:E52"}
+{"kind":"sheet","id":"ws/yvuctg","name":"客户画像","index":4,"range":"A1:E51","address":"A1:E51"}
+{"kind":"sheet","id":"ws/olvwwd","name":"获客方式","index":5,"range":"A1:E46","address":"A1:E46"}
+{"kind":"sheet","id":"ws/83twpl","name":"活动流程","index":6,"range":"A1:E58","address":"A1:E58"}
+{"kind":"sheet","id":"ws/b120gw","name":"经营表现","index":7,"range":"A1:E85","address":"A1:E85"}
+{"kind":"sheet","id":"ws/df77qz","name":"经营指标明细","index":8,"range":"A1:H39","address":"A1:H39"}
+{"kind":"sheet","id":"ws/6e1ogp","name":"30家平台声量","index":9,"range":"A1:M34","address":"A1:M34"}
+{"kind":"sheet","id":"ws/7j4wj8","name":"活动环节明细","index":10,"range":"A1:F26","address":"A1:F26"}
+{"kind":"sheet","id":"ws/sgj7et","name":"宏观市场","index":11,"range":"A1:I29","address":"A1:I29"}
+{"kind":"sheet","id":"ws/i7tw0i","name":"市场机构地图","index":12,"range":"A1:K64","address":"A1:K64"}
+{"kind":"sheet","id":"ws/iqgqp9","name":"扩展历史价格","index":13,"range":"A1:L46","address":"A1:L46"}
+{"kind":"sheet","id":"ws/ze766i","name":"平台内容明细","index":14,"range":"A1:N122","address":"A1:N122"}
+{"kind":"sheet","id":"ws/lbuwu8","name":"平台账号","index":15,"range":"A1:I11","address":"A1:I11"}
+{"kind":"sheet","id":"ws/6a9i8e","name":"扩展内容线索","index":16,"range":"A1:N320","address":"A1:N320"}
+{"kind":"sheet","id":"ws/zfa48i","name":"扩展账号初筛","index":17,"range":"A1:H35","address":"A1:H35"}
+{"kind":"sheet","id":"ws/ako2nd","name":"平台采样覆盖","index":18,"range":"A1:F20","address":"A1:F20"}
+{"kind":"sheet","id":"ws/ib71b5","name":"抖音观察","index":19,"range":"A1:J5","address":"A1:J5"}
+{"kind":"sheet","id":"ws/udoghj","name":"来源台账","index":20,"range":"A1:I213","address":"A1:I213"}
+{"kind":"sheet","id":"ws/4lipry","name":"网页采集台账","index":21,"range":"A1:I193","address":"A1:I193"}
+{"kind":"notice","message":"Truncated: omitted 5 lines. Increase maxChars, narrow range, or use tableMaxRows/tableMaxCols/tableMaxCellChars."}
+{"kind":"notice","message":"Query matched 0 entries."}
+{"kind":"table","sheet":"30家价格","address":"A95:G99","rows":5,"cols":7,"values":[["我主良缘","iOS一个月会员",68,"CNY","人／月","2026-10-22页面","线上会员功能"],["我主良缘","iOS三个月会员",98,"CNY","人／3个月","2026-10-22页面","线上会员功能"],["我主良缘","iOS十二个月会员",198,"CNY","人／12个月","2026-10-22页面","线上会员功能"],["我主良缘","上海婚介合同个案",30000,"CNY","人／合同","2021年签约；2025年报道","匹配4个对象"],["我主良缘","上海两份合同累计个案",384000,"CNY","人／累计两份合同","2021年起；2025年报道","婚介与增值课程组合"]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+Inspect result written to file: /Users/olivialee/Documents/ChatGPT/社区平台/outputs/matchmaking-review-20261022/交付文件/中国高端会员社群市场研究数据工作簿_33家机构.xlsx.inspect.ndjson
+Workbook updated; original worksheets preserved.

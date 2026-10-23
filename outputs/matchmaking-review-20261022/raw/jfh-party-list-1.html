@@ -1,0 +1,1094 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<title>深圳相亲会-金凤凰深港婚介深圳征婚交友网-金凤凰婚介</title>
+<meta name="description" content="" />
+<meta name="keywords" content="相亲活动，深圳相亲会，婚恋交友活动，婚姻课程" />
+
+<link rel="stylesheet" href="/tpl/static/layui/css/layui.css" />
+<link rel="stylesheet" href="/tpl/templets/v5/css/style.css" />
+<link rel="stylesheet" href="/tpl/templets/v5/css/main.css" />
+<link rel="stylesheet" href="/tpl/static/varpop/css/oe_varpop.css" />
+<link rel="stylesheet" href="/tpl/static/varpop/css/box.css" />
+<script src="/tpl/static/js/jquery.min.js"></script>
+<script type='text/javascript'>
+var _ROOT_PATH = "/";
+var _OE_FILE = "/index.php";
+var _LOGIN_STATUS = "0"; //登录状态
+var _CONNET_LOGIN = 0;
+
+var INFOWIN_FLAG = "1";
+var INFOWIN_LOADTIME = "1";
+var INFOWIN_CLOSETIME = "10";
+var INFOWIN_LOOPTIME = "60";
+</script>
+<script src="/tpl/static/js/jquery.superslide.js"></script>
+<script src="/tpl/static/js/common.js"></script>
+<script src="/tpl/static/js/jquery.upload.js"></script>
+<script src="/tpl/static/js/jquery.placeholder.min.js"></script>
+<script src="/tpl/static/js/oelove.ajax.js"></script>
+<script src="/tpl/static/js/picker.area.js"></script>
+
+<script src="/tpl/static/varpop/oe_varpop.js"></script>
+<script src="/tpl/static/js/model.popdialog2.js"></script>
+<script src="/tpl/static/layui/layui.js"></script> 
+<meta name="author" content="OEdev" />
+<meta name="generator" content="OElove" />
+<!--[if lte IE 9]>  
+<script type="text/javascript">  
+$(function(){  
+    $('input[placeholder]').placeholder();
+    $('textarea[placeholder]').placeholder();  
+});  
+</script>  
+<![endif]-->
+
+<style type="text/css">
+.layui-btn{background:#14b5a0;}
+</style>
+</head>
+
+<body>
+<style type="text/css">
+/*导航菜单*/
+.oe_mu{background:#eb2f7a;}
+.oe_menu ul li a{color:#fff; }
+.oe_menu ul li.current a,.oe_menu ul li a:hover{background:#ebebeb; color:#333;}
+/* -----全局重写样式----- */
+.layui-form-radio > i:hover, .layui-form-radioed > i{color:#eb2f7a;}
+.layui-form-select dl dd.layui-this{background:#eb2f7a;}
+.layui-form-checked span, .layui-form-checked:hover span{background:#eb2f7a;}
+.layui-form-checked, .layui-form-checked:hover {border-color: #eb2f7a;}
+.layui-form-checked i, .layui-form-checked:hover i{color:#eb2f7a;}
+.layui-btn{background:#eb2f7a;}
+/*----about----*/
+.oe_about_left dt a{	border-bottom: 2px solid #eb2f7a;}
+/*首页*/
+.layui-form-radio > i:hover, .layui-form-radioed > i{color:#eb2f7a;}
+.oe_index_newuser .bd ul li a{color:#eb2f7a;}
+.oe_indexusercon .bd dl dd p.p_3{color:#eb2f7a;}
+.oe_partycon .bd dl dd p.p_1 span a{color:#eb2f7a;}
+.oe_inzhenhun .rhd{background:#eb2f7a;}
+.oe_index_story .bd dl dd h3 a{color:#eb2f7a;}
+.oe_index_story .bd dl:hover dd{border-bottom:1px solid #eb2f7a;}
+.macon p.p_2 span{background:#eb2f7a;}
+.oe_index_sercon .bdd ul li.btn button{background:#eb2f7a;}
+.oe_banner .hd ul li.on span{background:#eb2f7a;}
+/*会员列表*/
+.layui-form-checked span, .layui-form-checked:hover span{background:#eb2f7a;}
+.layui-form-checked, .layui-form-checked:hover {border-color: #eb2f7a;}
+.layui-form-checked i, .layui-form-checked:hover i{color:#eb2f7a;}
+.oe_searchcon button.btn{background:#eb2f7a;}
+.oe_user_list dl dd.dd_2 span{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_user_list dl dd.dd_2 span{d border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_user_list dl dd.dd_2 label{ background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_page a._current,.oe_page a:hover{background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_searchcon .selectmore .selectbd p label{background:#eb2f7a;}
+/*会员主页*/
+.oe_home_user .hd .tips a{color:#eb2f7a;}
+.oe_home_user .hd .no_photo span{color:#eb2f7a; }
+.oe_home_userinfo .divinfo span{color:#eb2f7a;}
+.oe_home_userinfo .userrz h4{color:#eb2f7a;}
+.oe_home_userinfo .userrz ul li{ color:#eb2f7a;}
+.oe_home_userinfo .userrz ul li a{color:#eb2f7a;}
+.home_btn span{background:#eb2f7a;}
+.oe_home_info dl dd ul li label{color:#eb2f7a;}
+/*日记列表*/
+.layui-btn{background:#eb2f7a;}
+/*日记详情*/
+.oe_comment h2 a{background:#eb2f7a;}
+/*活动列表+详情*/
+.oe_parea .oe_pareacon p label{background:#eb2f7a;}
+.oe_party_type ul li em{border-bottom:3px solid #eb2f7a;}
+.oe_party_detail dl.head dd.dd_2 p.p_2{ color:#eb2f7a;}
+.oe_party_detail dl.head dd.dd_1 ul li.btn span{background:#eb2f7a;}
+.oe_party_detail dl.head dd.dd_1 ul li em{color:#eb2f7a;}
+.detail_bm_user dl dt span em{color:#eb2f7a;}
+.partydetail_content .righttips dl dt span{background:#eb2f7a;}
+.oe_party_type ul li i{ border-color: #eb2f7a transparent transparent; }
+.oe_party_detail dl.head dd.dd_2 h3{background:#eb2f7a;}
+/*征婚*/
+.oe_marry_search .sex span.span_1{border:1px solid #eb2f7a; border-right:0px; border-radius:40px 0px 0px 40px;}
+.oe_marry_search .sex span.span_2{border:1px solid #eb2f7a; border-left:0px; border-radius:0px 40px 40px 0px;}
+.oe_marry_search .sex span.current{background:#eb2f7a; color:#fff;}
+.oe_marry_detail .left .des span{color:#eb2f7a;}
+.oe_marry_detail .left dl.head dd p.p_2{color:#eb2f7a;}
+.oe_marry_detail .left .bmbtn label{ background:#eb2f7a;  border:1px solid #eb2f7a;}
+.oe_marry_detail .left .bmbtn span{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_marry_detail .marry_marryright .hd ul li.current{border:1px solid #eb2f7a;}
+.oe_newmarrylist .hd{ color:#eb2f7a;}
+.oe_newmarrylist .hd label{ border-bottom:2px solid #eb2f7a;}
+.oe_marrytips .hd{color:#eb2f7a;}
+.oe_marrytips .hd label{ border-bottom:2px solid #eb2f7a;}
+/*案例*/
+.oe_story dl dd p.p_5{color:#eb2f7a;}
+.oe_comment h2 span{ background:#eb2f7a;}
+/*动态*/
+.oe_dynamic_content dl dd label.send{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_dynamic_content dl dd label.send:hover{background:#eb2f7a;}
+.oe_dynamic_content dl dd.dd_2 h3 span{ background:#eb2f7a;}
+.oe_dynamic .right .dynamic_fabiao span{background:#eb2f7a;}
+.dynamic_search .layui-btn{color:#eb2f7a;border:1px solid #eb2f7a;}
+.dynamic_user dl dd p.p_1 label.label_1{background:#eb2f7a;}
+.dynamic_user dl dd p.p_1 label{ color:#eb2f7a;}
+.dynamic_user dl dd p.p_1 label{border:1px solid #eb2f7a;}
+.dynamic_user dl dd p.p_1 label a{color:#eb2f7a;}
+.oe_dynamic_add dl.mar_dl dd button.layui-btn{background:#eb2f7a;}
+.oe_dynamic_content dl dd label.send a{color: #eb2f7a;}
+.dynamic_rank ul li.current a{color: #eb2f7a;}
+.dynamic_rank ul li.current{border:1px solid #eb2f7a;}
+.dynamic_rank ul li.current{border:1px solid #eb2f7a; border-bottom:2px solid #fff; font-weight:bold;}
+.oe_dynamic_content dl dd.dd_1 p.p_1 span{color:#eb2f7a}
+/*防骗中心*/
+.ser_top dl dt span.current{background:#eb2f7a; }
+.ser_top dl dd input{border:1px solid #eb2f7a; }
+.ser_top dl dd button.layui-btn{ background:#eb2f7a; }
+.oe_safety_r1 .bd p.p_3{color:#eb2f7a;}
+.oe_safety_index .left .hd ul li.current{ border-bottom:2px solid #eb2f7a; color:#eb2f7a;}
+.oe_safety_index .left .hd ul li.current a{color:#eb2f7a;}
+.oe_safety_index .right .layui-btn{ background:#eb2f7a;}
+/*媒婆圈专题*/
+.mp_banner .hd ul li.on span{background:#eb2f7a;}
+.mp_banner .mp_ft a{background:#eb2f7a; }
+/*留言反馈/弹窗*/
+.feedback_box dl dd label.current{background:#eb2f7a; border:1px solid #eb2f7a;}
+div.message_tips .hd{background: #eb2f7a;}
+div.message_tips .bd div.img p span.btn {background: #eb2f7a;}
+.oe_user_add dl dd label.current{background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_user_add dl.mar_dl dd button.layui-btn{background: #eb2f7a;}
+.oe_user_add dl.mar_dl dd button.layui-btn{background: #eb2f7a;}
+/*资讯文章*/
+.oe_article_cats .bd a:hover{color:#eb2f7a;}
+.oe_article_list .left dl dd h3 span{color:#eb2f7a;}
+.oe_article_cats .bd a.current{color:#eb2f7a;}
+.oe_article_cats .hd span{border-bottom:2px solid #eb2f7a;}
+/*推广路由*/
+.oe_user_display .login .tab_nav .reg_item.current{color:#eb2f7a}
+.oe_user_display .login h3{color:#eb2f7a}
+.oe_user_display .layui-btn{background:#eb2f7a}
+.oe_marry_display .marry_box .label{background:#eb2f7a}
+.oe_marry_display .marry_box .label em{border-top: 14px solid #eb2f7a;border-left: 5px solid #eb2f7a;}
+.oe_love .link .reg{border: 1px solid #eb2f7a;color: #eb2f7a;}
+.oe_love .link .login{background: #eb2f7a;}
+.oe_user_display .login .tab_nav .login_item.current{color:#eb2f7a}
+</style>
+
+  
+
+<div class="oe_headbar">
+	<div class="oe_container">
+		<a href="https://www.jfh999.com/" class="logo">
+			<img src="/data/attachment/upload/201808/01/8ad41a087cd47583.png" alt="金凤凰深港婚介深圳征婚交友网-金凤凰婚介" title="深圳相亲会-金凤凰深港婚介深圳征婚交友网-金凤凰婚介" >
+		</a>
+		<h3 class="logo_text">
+		 
+		 
+		<p>
+	<span><span><span><strong>金凤凰深港婚介</strong>公务员、白领、企业家、深圳本地征婚</span>成功率较高！</span></span> 
+</p>
+<p>
+	<span><strong><strong>金凤凰深港婚介</strong></strong>连续十六届荣获深圳“</span><span style="color:#D81E1F;">3.15消费者信得过诚信婚恋品牌</span><span>”</span> 
+</p>
+<p>
+	<strong><strong>金凤凰深港婚介</strong></strong>自购物业，“三不换”婚介，不换老板，不换场地，不换招牌
+</p> 
+		 
+		</h3>
+    <div class="area drop">
+      <dl class="cin">
+        <dt>
+        <span>
+                    全国
+                  </span>
+        <em></em>
+	    </dt>
+        <dd class="sub">
+          <ul>
+									<li>
+			<span>华北东北</span>
+									<a href="/tianjing/">天津</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>华东地区</span>
+									<a href="/shanghai/">上海</a>
+						<a href="/jiujiang/">九江市</a>
+						<a href="/nanchang/">南昌市</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>中部西部</span>
+									<a href="/changde/">常德市</a>
+						<a href="/ganzhou/">赣州市</a>
+						<a href="/changsha/">长沙市</a>
+						<a href="/wuhan/">武汉市</a>
+						<a href="/huangshi/">黄石市</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>华南地区</span>
+									<a href="/guangzhou/">广州市</a>
+						<a href="/zhongshan/">中山市</a>
+						<a href="/baise/">百色市</a>
+						<a href="/shenzhen/">深圳市</a>
+						<a href="/foshang/">佛山市</a>
+						<a href="/zhuhai/">珠海市</a>
+						<a href="/dongguan/">东莞市</a>
+						<a href="/huizhou/">惠州市</a>
+						<a href="/heyuan/">河源市</a>
+						<a href="/chaozhou/">潮州市</a>
+						<div class="clear"></div>
+			</li>
+			          </ul>
+          <div class="btn"> <a href="/city/">全部城市</a> </div>
+        </dd>
+      </dl>
+    </div>
+    <script type="text/javascript">
+      jQuery(".drop").slide({ type:"menu", titCell:".cin", targetCell:".sub",effect:"slideDown",delayTime:200,triggerTime:0,defaultPlay:false,returnDefault:true});
+    </script>
+    
+		<div class="phone">
+			<div class="phone_01">4006-333-526</div>
+			<div class="phone_02">
+			 
+			 
+			<p style="text-align:left;">
+	深圳征婚咨询热线：13392438871
+</p> 
+			 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="oe_navbar">
+	<div class="oe_container clearfix">
+		<ul class="fl">
+			<li><a href="/index.php">首页</a></li>
+						<li><a href="/user/">会员</a></li>
+			      <li><a href="/dynamic/">动态</a></li>
+      <li><a href="/marry/">征婚专区</a></li>
+      <li><a href="/index.php?c=hongkong&a=list&s_gender=&s_dist1=32&s_avatar=1">香港专区</a></li>
+      <li class='current'><a href="/party/">最新活动<em></em></a></li>
+      <li><a href="/story/">成功案例</a></li>
+      						<li><a href="/index.php?c=crm">红娘专区</a></li>
+									<li><a href="/article/">婚姻学院</a></li>
+			<li>
+        				<a href="/about/1.html">了解我们</a>
+        			</li>
+                  <li><a href="/meipo/">媒婆圈</a></li>
+            			
+		</ul>
+				<div class="login ft">
+			<a href="javascript:;" f="pop2_jdlogin" rel="nofollow">登录   </a>　
+      <a href="/passport/reg.html" rel="nofollow">注册</a>
+		</div>
+			</div>
+</div>
+<style type="text/css">
+  body{background:#f5f5f5;}
+</style>
+<div class="oe_nav">
+  当前位置：首页 / 活动
+</div>
+<div class="oe_party">
+  <div class="oe_party_type">
+    <ul>
+      <li class="current"><a href="/party/list.html">全部</a> <em></em><i></i></li>
+       
+       
+      <li><a href="/party/list-1-0-0-0-0-1-.html">婚恋课堂</a><em></em><i></i></li>
+       
+      <li><a href="/party/list-1-0-0-0-0-2-.html">相亲交友</a><em></em><i></i></li>
+       
+      <li><a href="/party/list-1-0-0-0-0-3-.html">公益活动</a><em></em><i></i></li>
+          </ul>
+    <div class="oe_party_tyright">
+      <div class="oe_party_area">
+          <form class="layui-form" action="/party/list.html" method="post" id="my_party_form">
+          <div class="layui-form-item">
+          
+            <div class="oe_parea">
+              <span class="text" id="s_area_text" f="but_open_area">
+                                <font color="#999">选择地区</font>
+                                <i class="layui-edge"></i>
+              </span>
+              
+              <div class="oe_pareacon" style="display:none;" id="party_area_box">
+                <div class="layui-input-inline">
+                                    <select name="s_area1" id="s_area1" lay-filter="area" data-depth="1" data-name="s_area" data-text="请选择">
+                    <option value="">请选择</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">天津</option>
+                                        <option value="3">河北</option>
+                                        <option value="4">山西</option>
+                                        <option value="5">内蒙古</option>
+                                        <option value="6">辽宁</option>
+                                        <option value="7">吉林</option>
+                                        <option value="8">黑龙江</option>
+                                        <option value="9">上海</option>
+                                        <option value="10">江苏</option>
+                                        <option value="11">浙江</option>
+                                        <option value="12">安徽</option>
+                                        <option value="13">福建</option>
+                                        <option value="14">江西</option>
+                                        <option value="15">山东</option>
+                                        <option value="16">河南</option>
+                                        <option value="17">湖北</option>
+                                        <option value="18">湖南</option>
+                                        <option value="19">广东</option>
+                                        <option value="20">广西</option>
+                                        <option value="21">海南</option>
+                                        <option value="22">重庆</option>
+                                        <option value="23">四川</option>
+                                        <option value="24">贵州</option>
+                                        <option value="25">云南</option>
+                                        <option value="26">西藏</option>
+                                        <option value="27">陕西</option>
+                                        <option value="28">甘肃</option>
+                                        <option value="29">青海</option>
+                                        <option value="30">宁夏</option>
+                                        <option value="31">新疆</option>
+                                        <option value="32">香港</option>
+                                        <option value="3522">国外</option>
+                                        <option value="" selected></option>
+                                      </select>
+                </div>
+                
+                <div class="layui-input-inline" id="json_s_area2">
+                                    <select name="s_area2" id="s_area2" lay-filter="area">
+                    <option value="">请选择</option>
+                  </select>
+                   
+                </div>
+                
+                <div class="layui-input-inline" id="json_s_area3">
+                                    <select name="s_area3" id="s_area3" lay-filter="area">
+                    <option value="">请选择</option>
+                  </select>
+                   
+                </div>
+                <div class="clear"></div>
+                <p>
+                  <label class="layui-btn layui-btn-lg oe_passport_btn" f="but_party_selarea">确定</label>
+                </p>
+              </div>
+            </div>
+            <!--//oe_parea End -->
+            
+            <div class="layui-input-inline">
+              <select name="s_orderby" id="s_orderby" lay-filter="orderby">
+                <option value="">默认排序</option>
+                <option value="1">最新报名</option>
+                <option value="2">最新发布</option>
+              </select>
+            </div>
+            
+          </div>
+          </form>
+          
+          
+      </div>
+      <script>
+        //Demo
+        layui.use('form', function(){
+          var form = layui.form;
+          
+          //监听提交
+          form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return false;
+          });
+        });
+      </script>
+    </div>
+    
+  </div>
+  
+  
+  <div class="oe_party_list">
+     
+            <dl class="">
+        <dt><a href="/party/311.html" target="_blank"><img class="headimg" src="/data/attachment/party/202608/31/c7e753ff57675369.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/data/attachment/upload/202609/09/651def760baee0e0.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 59 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/311.html" target="_blank">中秋寄相思，湾区遇知己 - 深港二婚离异专场联谊会</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/09/20 09:55</em>
+            <label><i></i>广东 深圳市 盐田区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/310.html" target="_blank"><img class="headimg" src="/data/attachment/party/202606/05/c2ab275860088cb6.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 48 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/310.html" target="_blank">鎏金夏日 恰好相逢 | 深圳这场夏日限定交友会，邀你遇见有趣的 TA</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/06/12 00:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/309.html" target="_blank"><img class="headimg" src="/data/attachment/party/202605/22/0377c8fcc4fb521e.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202606/16/272728/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/data/attachment/avatar/202606/14/272699/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/data/attachment/upload/202606/15/c977dca2794584cc.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/uploadpic/face/657304/120.jpg" /></span>
+                           
+            <label>已报名 49 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/309.html" target="_blank">深港金凤凰&amp;芒果TV联名打造恋综《当爱情再次降临》招募</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/06/27 17:00</em>
+            <label><i></i>广东 深圳市 </label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/305.html" target="_blank"><img class="headimg" src="/data/attachment/party/202603/11/2752f5217d390ec8.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/data/attachment/upload/202609/21/8ac5d431afa02b8d.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202607/06/272932/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202509/25/269473/avatar_big.jpg.thumb.jpg" /></span>
+                           
+            <label>已报名 75 人</label>
+            
+            
+                        <b>活动结束</b>
+                        
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/305.html" target="_blank">金凤凰深港婚恋全国招募公益性专业婚恋师！「悦单新青年・婚师育成」计划重磅启动</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/09/21 15:44</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/303.html" target="_blank"><img class="headimg" src="/data/attachment/party/202601/26/e0a919994ba070ec.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                           
+            <label>已报名 25 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/303.html" target="_blank">【婚姻学院621期公益讲座】：用高维智慧解决婚恋问题主题沙龙</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/02/01 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/302.html" target="_blank"><img class="headimg" src="/data/attachment/party/202601/19/7165da367201fae4.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202601/22/270687/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 35 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/302.html" target="_blank">【婚姻学院619期公益活动】山海皆可赴，新年共朝夕—2026年金凤凰深港交友联谊会，开始招募啦！</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/01/25 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/300.html" target="_blank"><img class="headimg" src="/data/attachment/party/202601/14/c7239c9c5c1300fa.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/upload/202601/16/7e0b70460b35bf2e.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202505/17/ce4db24a7a245c90.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                           
+            <label>已报名 18 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/300.html" target="_blank">婚姻学院617期公益活动：塔罗免费学，你的另一半何时出现？</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/01/18 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/299.html" target="_blank"><img class="headimg" src="/data/attachment/party/202601/04/4d415fa1df8d6897.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202411/08/265849/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/data/attachment/avatar/202512/22/270373/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                           
+            <label>已报名 29 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/299.html" target="_blank">【婚姻学院615期公益沙龙】《朱雀腾空》—2026丙午年趋势分析！解锁国运/行业/个人三重好运密码</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/01/11 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/295.html" target="_blank"><img class="headimg" src="/data/attachment/party/202512/29/c3d72403721295e0.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 19 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/295.html" target="_blank">婚姻学院613期公益活动：婚姻学院第二届掼蛋交友大赛，以牌会友，邂逅幸福！</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2026/01/03 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/292.html" target="_blank"><img class="headimg" src="/data/attachment/party/202512/22/c8bcd8124a1c0d6e.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202505/17/ce4db24a7a245c90.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 33 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/292.html" target="_blank">【婚姻学院610期公益活动】深港鹊桥已搭好！12.28金凤凰交友联谊会，遇见跨年同行的TA</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/12/28 12:00</em>
+            <label><i></i>广东 深圳市 </label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/291.html" target="_blank"><img class="headimg" src="/data/attachment/party/202512/15/d1c31368ec3e55c1.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202512/05/268215/avatar_big.jpg.thumb.jpg" /></span>
+                           
+            <label>已报名 17 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/291.html" target="_blank">冬至寻缘｜12.21金凤凰深港婚恋包饺子交友联谊会,开始招募啦！</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/12/21 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/290.html" target="_blank"><img class="headimg" src="/data/attachment/party/202512/08/183079f99a1fa785.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 18 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/290.html" target="_blank">婚姻学院605期公益活动：首届掼蛋交友大赛，以牌会友，邂逅良缘！</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/12/14 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/289.html" target="_blank"><img class="headimg" src="/data/attachment/party/202512/04/b716211b5d35f3f1.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/data/attachment/avatar/202512/05/268215/avatar_big.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                           
+            <label>已报名 14 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/289.html" target="_blank">婚姻学院604 期公益讲堂重磅来袭：《在恋爱开始前》的 “幸福通关秘籍”！</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/12/07 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/288.html" target="_blank"><img class="headimg" src="/data/attachment/party/202511/24/c70d3c161343ef30.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 16 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/288.html" target="_blank">【婚姻学院602期公益讲座】上市公司老总教你做财神喜欢的人！开财库 + 遇正缘，八字里的双重好运！（第二季）</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/11/30 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class="">
+        <dt><a href="/party/287.html" target="_blank"><img class="headimg" src="/data/attachment/party/202511/16/ade208d9126dea13.jpg.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_1.png" /></span>
+                           
+            <label>已报名 17 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/287.html" target="_blank">免费报名！婚姻学院599期公益活动「茶香 + 珠绣」双重治愈：慢品清茗，绣出宁静，遇见同频的 TA</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/11/23 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+            <dl class=" current ">
+        <dt><a href="/party/286.html" target="_blank"><img class="headimg" src="/data/attachment/party/202511/10/c7b41941b1d3c560.png.thumb.jpg" /></a> 
+           
+          <span></span> 
+           
+          
+          <div class="bm_user">
+             
+                                        <span><img src="/data/attachment/upload/202511/11/bffb8ed26401cfd0.jpg.thumb.jpg" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                                                      <span><img src="/tpl/static/images/gender_2.png" /></span>
+                           
+            <label>已报名 18 人</label>
+            
+            
+                                    <b>报名结束</b>
+                                    
+          </div>
+        </dt>
+        <dd>
+          <h3>
+                        <a href="/party/286.html" target="_blank">【婚姻学院598期公益讲座】岁安旺运，解密太岁民俗文化！婚姻学院邀你解锁 2025 运势密码</a> </h3>
+          <p class="time">
+             <i class="ico_4"></i>截止报名：
+              <em>2025/11/14 12:00</em>
+            <label><i></i>广东 深圳市 罗湖区</label>
+          </p>
+        </dd>
+        <div class="clear"></div>
+      </dl>
+       
+            <div class="clear"></div>
+  </div>
+  
+   
+        <div class="party_page">
+      <div class="oe_page"> <a class='_current' title='第1页'>1</a><a href='/party/list-2-0-0-0-0-0-0.html' title='第2页'>2</a><a href='/party/list-3-0-0-0-0-0-0.html' title='第3页'>3</a><a href='/party/list-4-0-0-0-0-0-0.html' title='第4页'>4</a><a href='/party/list-5-0-0-0-0-0-0.html' title='第5页'>5</a><a href='/party/list-6-0-0-0-0-0-0.html' title='第6页'>6</a><a href='/party/list-7-0-0-0-0-0-0.html' title='第7页'>7</a><a href='/party/list-8-0-0-0-0-0-0.html' title='第8页'>8</a><a href='/party/list-9-0-0-0-0-0-0.html' title='第9页'>9</a><a href='/party/list-10-0-0-0-0-0-0.html' title='第10页'>10</a><a title='下一页' href='/party/list-2-0-0-0-0-0-0.html'>下一页</a><a title='末页' href='/party/list-16-0-0-0-0-0-0.html'>末页</a>&nbsp;&nbsp;<span>页次：1/16&nbsp;&nbsp;记录：244</span> </div>
+    </div>
+     
+     
+  
+</div>
+
+<div class="oe_footbar">
+	<div class="oe_container clearfix">
+		<div class="left fl">
+			<div class="b_nav">
+				 
+         
+        <a href="/about/1.html" rel='nofollow'>关于我们</a>
+         
+        <a href="/about/30.html" rel='nofollow'>人才招聘</a>
+         
+        <a href="/about/2.html">联系方式</a>
+        			</div>
+			<div class="msg">
+				<p>
+	<span>主办单位：深圳市鑫东方文化科技有限公司 &amp;&nbsp;</span>深圳市深港金凤凰婚姻介绍有限公司 &amp; 深圳市金凤凰婚姻信息咨询有限公司
+</p>
+<p>
+	<span style="background-color:transparent;color:#808080;font-family:Microsoft YaHei,simsun;font-size:12px;font-style:normal;font-weight:400;line-height:30px;text-decoration:none;"> </span><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备11069964号</a> 
+</p>
+			</div>
+		</div>
+		<div class="right ft">
+			<span class="text">
+				关注微信<br>
+				征婚快人一步
+			</span>
+			<img src="/data/attachment/upload/201809/20/4bb1a39856814d16.jpg">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/tpl/templets/v5/js/popwin.js"></script>
+<div id="moquu_wxin" class="moquu_wxin">
+  <a href="javascript:;" rel='nofollow'><img class="oe_moq_wei" src="/tpl/templets/v5/images/wei.png" />
+  <div class="moquu_wxinh">
+    <dl>
+      <dt><img src="/data/attachment/upload/201809/20/4bb1a39856814d16.jpg" width="200px" /></dt>
+      <dd>
+        <p><img src="/tpl/templets/v5/images/wei_ico.jpg" />微信</p>
+        <span>扫描二维码访问微信服务</span> </dd>
+    </dl>
+  </div>
+  </a>
+</div>
+
+<div id="moquu_wshare" class="moquu_wshare">
+  <a href="javascript:;"  rel='nofollow'><img class="oe_moq_wei" src="/tpl/templets/v5/images/wei.png" />
+  <div class="moquu_wshareh">
+    <dl>
+      <dt><img src="/data/attachment/upload/201809/20/f8c10e25f10459d4.jpg" width="200px" /></dt>
+      <dd>
+        <p><img src="/tpl/templets/v5/images/w_mobile.png" /> 手机端</p>
+        <span>扫描二维码访问手机端</span>
+	  </dd>
+    </dl>
+  </div>
+  </a>
+</div>
+<a id="moquu_top" href="javascript:;"></a> 
+
+
+
+
+
+
+<style>
+#newBridge .icon-right-center {
+    top: 33% !important;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+    jQuery(".drop").slide({ type:"menu", titCell:".down", targetCell:".sub",effect:"slideDown",delayTime:300,triggerTime:0,defaultPlay:false,returnDefault:true});
+    $('.addcurrent').hover(
+      function(){
+       $(this).addClass('current')
+      },
+      function(){
+       $(this).removeClass('current')
+      }
+    );
+});
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ff6a5cc50374928b1ca78bfafef904da";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    ;(function (W, D) {
+        W.ec_corpid = '321438';
+        W.ec_cskey = 'TkAjEiGEZgOqYdllCA';
+        W.ec_scheme = '0';
+        var s = D.createElement('script');
+        s.charset = 'utf-8';
+        s.src = '//1.staticec.com/kf/sdk/js/ec_cs.js';
+        D.getElementsByTagName('head')[0].appendChild(s);
+    })(window, document);
+</script>
+<script type="text/javascript" src="//js.users.51.la/19982503.js"></script> 
+<script src="/tpl/templets/v5/js/party.js"></script>
+</body>
+</html>

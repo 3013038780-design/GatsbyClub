@@ -1,0 +1,24 @@
+# Local secrets and account state
+.research-private/
+.env
+.env.*
+!.env.example
+**/browser_data/
+**/storage_state*.json
+**/cookies*.json
+**/.openai/
+# Dependencies and generated interpreter caches
+.venv/
+.venv-research/
+node_modules/
+**/chart-deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# OS and Office temporary state
+.DS_Store
+Thumbs.db
+.~*
+~$*

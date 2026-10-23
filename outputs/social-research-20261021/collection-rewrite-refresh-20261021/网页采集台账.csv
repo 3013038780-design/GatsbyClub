@@ -1,0 +1,27 @@
+﻿机构,网址,状态,HTTP状态,正文字数,采集时间,原文文件,错误
+北京香港马会会所,https://members.hkjc.com/about-membership/en-US/Membership,已采集,200,26359,2026-10-21T20:19:23+08:00,raw/3580dda2e3bdcf.md,
+长江商学院,https://www.ckgsb.com/emba/,已采集,200,12093,2026-10-21T20:19:23+08:00,raw/14b3316b7202f8.md,
+长江商学院,https://www.ckgsb.com/emba/common_problems/,已采集,200,12130,2026-10-21T20:19:23+08:00,raw/e8dea548935061.md,
+EO华东与区域,https://member.eonetwork.org/chinaeast/membership-qualification/,已采集,200,10390,2026-10-21T20:19:23+08:00,raw/c4fe4ec7d67a84.md,
+EO华东与区域,https://member.eonetwork.org/chinaeast/about-our-chapter/,已采集,200,9154,2026-10-21T20:19:23+08:00,raw/41633850ebc50e.md,
+EO华东与区域,https://eonetwork.org/newsroom/events/eo-members-in-north-asia-celebrate-the-second-entrepreneurs-festival-in-beijing/,已采集,200,11729,2026-10-21T20:19:23+08:00,raw/67861494f21447.md,
+EO华东与区域,https://eonetwork.org/membership/forum/,已采集,200,14099,2026-10-21T20:19:23+08:00,raw/107ba0c64e149e.md,
+EO华东与区域,https://www.eobeijingmetropolitan.com/col.jsp?id=103,失败或正文不足,,0,2026-10-21T20:19:23+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+长江商学院,https://www.ckgsb.com/ckedf/news/index/1160,失败或正文不足,,0,2026-10-21T20:19:23+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+木兰汇,https://www.iceo.com.cn/zt/2026_mulannh/,已采集,200,5766,2026-10-21T20:19:23+08:00,raw/29a08bdbe384d7.md,
+木兰汇,https://swapp.iceo.com.cn/mulan2026/reg.html,已采集,200,2122,2026-10-21T20:19:23+08:00,raw/78bc524759c103.md,
+优家荟,https://www.modernmedia.com.cn/club,已采集,200,2913,2026-10-21T20:19:23+08:00,raw/53ef8e75f1ef82.md,
+优家荟,https://www.ilady.com.cn/wap/event/detail/?eid=2035,已采集,200,5292,2026-10-21T20:19:23+08:00,raw/01c340bb3697bb.md,
+木兰汇,https://www.pingpongx.com/zh/news/articles/2608040952041,已采集,200,6394,2026-10-21T20:19:23+08:00,raw/ae041d3f835c41.md,
+优家荟,https://www.imlady.cn/html/join-0929/check.html,已采集,200,405,2026-10-21T20:19:23+08:00,raw/18dd6a7363844d.md,
+优家荟,https://www.sohu.com/a/139198125_170023,已采集,200,4684,2026-10-21T20:19:23+08:00,raw/a3871160ea234b.md,
+优家荟,https://www.sohu.com/a/197998790_170023,已采集,200,8994,2026-10-21T20:19:23+08:00,raw/d8bf2264853883.md,
+优家荟,https://shenzhen.sina.cn/news/2026-09-18/detail-inisftxc0303360.d.html,已采集,200,4477,2026-10-21T20:19:23+08:00,raw/5b130ab109c8bf.md,
+正和岛,https://www.zhisland.com/,已采集,200,1075,2026-10-21T20:19:23+08:00,raw/bed39d9480280e.md,
+正和岛,https://www.zhisland.com/newmedia/guangxi2015/about.html,已采集,200,2231,2026-10-21T20:19:23+08:00,raw/8e01751e80520b.md,
+正和岛,https://www.yckjgf.com/news/14/2277,已采集,200,4922,2026-10-21T20:19:23+08:00,raw/74e3ec8fadc07f.md,
+正和岛,https://finance.sina.com.cn/wm/2026-07-07/doc-inifyquv1597077.shtml,已采集,200,30847,2026-10-21T20:19:23+08:00,raw/17f32022281660.md,

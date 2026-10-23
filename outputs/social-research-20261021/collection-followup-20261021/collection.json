@@ -1,0 +1,2918 @@
+{
+  "collected_at": "2026-10-21T17:06:35+08:00",
+  "pages": [
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://cn.ceibs.edu/hemba/faq",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 39130,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/08a30b638db14e.md",
+      "错误": ""
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 36221,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/9865127cc27d73.md",
+      "错误": ""
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://cn.ceibs.edu.cn/execed/amp",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 47314,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/699b8fb216f028.md",
+      "错误": ""
+    },
+    {
+      "机构": "领教工坊",
+      "网址": "https://www.clec.com.cn/jiaruwomen.html",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 10593,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/88621ddcaa4efa.md",
+      "错误": ""
+    },
+    {
+      "机构": "领教工坊",
+      "网址": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 7461,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/534f2351628f4f.md",
+      "错误": ""
+    },
+    {
+      "机构": "领教工坊",
+      "网址": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 7271,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/045da9fa63b98b.md",
+      "错误": ""
+    },
+    {
+      "机构": "观澜湖",
+      "网址": "https://mp.weixin.qq.com/s/MVEK0BX4SrxyUzyCQ52z3g",
+      "状态": "失败或正文不足",
+      "HTTP状态": 302,
+      "正文字数": 69,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "",
+      "错误": ""
+    },
+    {
+      "机构": "观澜湖",
+      "网址": "https://mp.weixin.qq.com/s/P7XfqLyzvEELXZqBmMfGOg",
+      "状态": "失败或正文不足",
+      "HTTP状态": 302,
+      "正文字数": 69,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "",
+      "错误": ""
+    },
+    {
+      "机构": "观澜湖",
+      "网址": "https://mp.weixin.qq.com/s/qbAZ3sUnmT7lAAS0BQtwPg",
+      "状态": "失败或正文不足",
+      "HTTP状态": 302,
+      "正文字数": 69,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "",
+      "错误": ""
+    },
+    {
+      "机构": "北京香港马会会所",
+      "网址": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 12185,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/3e159f7d80cbee.md",
+      "错误": ""
+    },
+    {
+      "机构": "EO中国",
+      "网址": "https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh/",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "网址": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 65397,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/501e1016306da4.pdf",
+      "错误": ""
+    },
+    {
+      "机构": "长江商学院",
+      "网址": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 3804,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "原文文件": "raw/42192d33398b5e.pdf",
+      "错误": ""
+    }
+  ],
+  "evidence": [
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [申请流程](https://cn.ceibs.edu/mim/application-process) * [学费及奖学金](https://cn.ceibs.edu/mim/fee) * [全球四大校区](https://cn.ceibs.edu/mim/shanghai-campus) * [中欧中国上海校区](https://cn.ceibs.edu/mim/shanghai-campus) * [ESCP法国巴黎校区](https://cn.ce",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [评估程序](https://cn.ceibs.edu/emba/evaluation) * [学费信息](https://cn.ceibs.edu/emba/tuition-fees) * [招生活动](https://cn.ceibs.edu/emba/events) * [同窗学友](https://cn.ceibs.edu/emba/class-profile) * [同学画像](https://cn.ceibs.edu/emba/cl",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [评估程序](https://cn.ceibs.edu/gemba/evaluation-process) * [学费信息](https://cn.ceibs.edu/gemba/tuition-fees) * [招生活动](https://cn.ceibs.edu/gemba/events) * [同窗学友](https://cn.ceibs.edu/gemba/class-profile) * [学员概况](https://cn.ceibs.edu/gemb",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[评估程序](https://cn.ceibs.edu/hemba/admissions/evaluation) * [学费信息](https://cn.ceibs.edu/hemba/admissions/tuition) * [奖学金](https://cn.ceibs.edu/hemba/scholarships) * [常见问题](https://cn.ceibs.edu/hemba/faq) * [新闻活动](https://cn.ceibs.edu/hem",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[申请流程](https://cn.ceibs.edu/fmba/application-procedure) * [学费信息](https://cn.ceibs.edu/fmba/tuition-fees) * [奖学金](https://cn.ceibs.edu/fmba/scholarships) * [FMBA十五周年](https://cn.ceibs.edu/fmba/15th) * [资讯](https://cn.ceibs.edu/fmba/f-ar",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[申请流程](https://cn.ceibs.edu/ptmba/application-procedure) * [学费及奖学金](https://cn.ceibs.edu/ptmba/fees-and-scholarships) * [招生活动](https://cn.ceibs.edu/ptmba/events) * [同窗学友](https://cn.ceibs.edu/ptmba/class-profile) * [学生概况](https://cn.cei",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [ 评估程序 ](https://cn.ceibs.edu/hemba/admissions/evaluation) * [ 学费信息 ](https://cn.ceibs.edu/hemba/admissions/tuition) * [ 奖学金 ](https://cn.ceibs.edu/hemba/scholarships) * [ 常见问题 ](https://cn.ceibs.edu/hemba/faq) * [ 新闻活动 ](https://cn.ceibs.edu/hemba/news-eve",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "问题，欢迎直接联系HEMBA课程招生办公室（021-28905556 | hemba@ceibs.edu ）。 * 4. 中欧HEMBA学费多少？涵盖哪些费用？ HEMBA 2026级学费为人民币82.8万元。 报名费为人民币1,800元。 学费包含： * 所有课程及讲座的听课费、讲义费、双方学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 所有海外模块的学费及部分地面费用，包括午餐和地面交通等 学生海外模块住宿和机票费用自理。 * 5. 报考中欧HEMBA，有奖学金吗？ 课程部",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "-28905556 | hemba@ceibs.edu ）。 * 4. 中欧HEMBA学费多少？涵盖哪些费用？ HEMBA 2026级学费为人民币82.8万元。 报名费为人民币1,800元。 学费包含： * 所有课程及讲座的听课费、讲义费、双方学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 所有海外模块的学费及部分地面费用，包括午餐和地面交通等 学生海外模块住宿和机票费用自理。 * 5. 报考中欧HEMBA，有奖学金吗？ 课程部特别为有计划报考HEMBA的同学们设立**“创业奖",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "905556 | hemba@ceibs.edu ）。 * 4. 中欧HEMBA学费多少？涵盖哪些费用？ HEMBA 2026级学费为人民币82.8万元。 报名费为人民币1,800元。 学费包含： * 所有课程及讲座的听课费、讲义费、双方学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 所有海外模块的学费及部分地面费用，包括午餐和地面交通等 学生海外模块住宿和机票费用自理。 * 5. 报考中欧HEMBA，有奖学金吗？ 课程部特别为有计划报考HEMBA的同学们设立**“创业奖学金”*",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "mba@ceibs.edu ）。 * 4. 中欧HEMBA学费多少？涵盖哪些费用？ HEMBA 2026级学费为人民币82.8万元。 报名费为人民币1,800元。 学费包含： * 所有课程及讲座的听课费、讲义费、双方学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 所有海外模块的学费及部分地面费用，包括午餐和地面交通等 学生海外模块住宿和机票费用自理。 * 5. 报考中欧HEMBA，有奖学金吗？ 课程部特别为有计划报考HEMBA的同学们设立**“创业奖学金”** 与**“中西部奖学",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "ceibs.edu ）。 * 4. 中欧HEMBA学费多少？涵盖哪些费用？ HEMBA 2026级学费为人民币82.8万元。 报名费为人民币1,800元。 学费包含： * 所有课程及讲座的听课费、讲义费、双方学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 所有海外模块的学费及部分地面费用，包括午餐和地面交通等 学生海外模块住宿和机票费用自理。 * 5. 报考中欧HEMBA，有奖学金吗？ 课程部特别为有计划报考HEMBA的同学们设立**“创业奖学金”** 与**“中西部奖学金”**",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "* [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceibs.edu%2fowa%2f)",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "0分钟。您也可以参加GMAC组织的标准化 GMAT或EA考试。 为了帮助您更好准备入学笔试，您可进入HEMBA报名服务中心(https://apply.ceibs.edu/hemba)支付报名费并观看“笔试题型介绍和练习(视频)”，同时预约HEMBA课程笔试在线答疑活动。建议您尽早提交申请，留出充足的备考时间，提高申请成功率。 * 8. 中欧HEMBA课程的面试是怎样的？会问哪些问题？ 招生委员会对申请人报名材料进行综合评估后决定申请人的面试资格。 面试由办学双方联合举行，通常由两位面试官与您进行交谈，考察申请者的行业经验、学习动机、战略",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=nmDlnqqd) 中欧官方小程序 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok=06Ucs",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "s/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok=06UcshB6) 中欧视频号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-donation.png?itok=OUJY",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=oDc_IU8R) 中欧官方小程序 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S) 中欧视频号",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S) 中欧视频号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-donation.png?itok=Ea7ciNK2) 基金会服",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "ence) * [招生活动](https://cn.ceibs.edu/fmba/events) * [申请报名](https://cn.ceibs.edu/fmba/admission-announcement) * [招生公告](https://cn.ceibs.edu/fmba/admission-announcement) * [申请条件](https://cn.ceibs.edu/fmba/application-requirements)",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s/bidding) * [支持中欧](https://cn.ceibs.edu/foundation) * [创始及永续会员](https://cn.ceibs.edu/foundation/members) * [我要捐赠](https://giving.ceibs.edu) * [捐赠项目](https://cn.ceibs.edu/foundation/our-giving-projects) * [基金会年报](https://cn.ceibs.edu/foundation",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "ceibs) [ ](https://cn.ceibs.edu/) [English](https://www.ceibs.edu/) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https:/",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "ttps://cn.ceibs.edu/) [English](https://www.ceibs.edu/) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.ed",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "www.ceibs.edu/) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.c",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "//mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ce",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/d",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "mim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "a.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](http",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.as",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceib",
+      "来源": "https://cn.ceibs.edu/hemba/faq",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [申请流程](https://cn.ceibs.edu/mim/application-process) * [学费及奖学金](https://cn.ceibs.edu/mim/fee) * [全球四大校区](https://cn.ceibs.edu/mim/shanghai-campus) * [中欧中国上海校区](https://cn.ceibs.edu/mim/shanghai-campus) * [ESCP法国巴黎校区](https://cn.ce",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [评估程序](https://cn.ceibs.edu/emba/evaluation) * [学费信息](https://cn.ceibs.edu/emba/tuition-fees) * [招生活动](https://cn.ceibs.edu/emba/events) * [同窗学友](https://cn.ceibs.edu/emba/class-profile) * [同学画像](https://cn.ceibs.edu/emba/cl",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [评估程序](https://cn.ceibs.edu/gemba/evaluation-process) * [学费信息](https://cn.ceibs.edu/gemba/tuition-fees) * [招生活动](https://cn.ceibs.edu/gemba/events) * [同窗学友](https://cn.ceibs.edu/gemba/class-profile) * [学员概况](https://cn.ceibs.edu/gemb",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[评估程序](https://cn.ceibs.edu/hemba/admissions/evaluation) * [学费信息](https://cn.ceibs.edu/hemba/admissions/tuition) * [奖学金](https://cn.ceibs.edu/hemba/scholarships) * [常见问题](https://cn.ceibs.edu/hemba/faq) * [新闻活动](https://cn.ceibs.edu/hem",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[申请流程](https://cn.ceibs.edu/fmba/application-procedure) * [学费信息](https://cn.ceibs.edu/fmba/tuition-fees) * [奖学金](https://cn.ceibs.edu/fmba/scholarships) * [FMBA十五周年](https://cn.ceibs.edu/fmba/15th) * [资讯](https://cn.ceibs.edu/fmba/f-ar",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[申请流程](https://cn.ceibs.edu/ptmba/application-procedure) * [学费及奖学金](https://cn.ceibs.edu/ptmba/fees-and-scholarships) * [招生活动](https://cn.ceibs.edu/ptmba/events) * [同窗学友](https://cn.ceibs.edu/ptmba/class-profile) * [学生概况](https://cn.cei",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [ 评估程序 ](https://cn.ceibs.edu/gemba/evaluation-process) * [ 学费信息 ](https://cn.ceibs.edu/gemba/tuition-fees) * [ 招生活动 ](https://cn.ceibs.edu/gemba/events) * [ 同窗学友 ](https://cn.ceibs.edu/gemba/class-profile) * [ 学员概况 ](https://cn.ceibs.edu/gemba/class-pro",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "bs.edu/gemba) * [申请指南](https://cn.ceibs.edu/gemba/application) ## 学费信息 学费 奖学金 贷款 2026级Global EMBA课程的学费为118,000美元或848,000人民币。 课程的报名费为150美元或1000元人民币。参加Executive Assessment考试的申请人可以获得报名费豁免资格。 #### **学费包括** * 所有Global EMBA课程及讲座的听课费、讲义费、学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "u/gemba) * [申请指南](https://cn.ceibs.edu/gemba/application) ## 学费信息 学费 奖学金 贷款 2026级Global EMBA课程的学费为118,000美元或848,000人民币。 课程的报名费为150美元或1000元人民币。参加Executive Assessment考试的申请人可以获得报名费豁免资格。 #### **学费包括** * 所有Global EMBA课程及讲座的听课费、讲义费、学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 *",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "n.ceibs.edu/gemba/application) ## 学费信息 学费 奖学金 贷款 2026级Global EMBA课程的学费为118,000美元或848,000人民币。 课程的报名费为150美元或1000元人民币。参加Executive Assessment考试的申请人可以获得报名费豁免资格。 #### **学费包括** * 所有Global EMBA课程及讲座的听课费、讲义费、学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 开学、中期及毕业共三次领导力住读模块的食宿费用 ##",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "plication) ## 学费信息 学费 奖学金 贷款 2026级Global EMBA课程的学费为118,000美元或848,000人民币。 课程的报名费为150美元或1000元人民币。参加Executive Assessment考试的申请人可以获得报名费豁免资格。 #### **学费包括** * 所有Global EMBA课程及讲座的听课费、讲义费、学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 开学、中期及毕业共三次领导力住读模块的食宿费用 #### **学费支付方式** 学费可分期支付",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "n) ## 学费信息 学费 奖学金 贷款 2026级Global EMBA课程的学费为118,000美元或848,000人民币。 课程的报名费为150美元或1000元人民币。参加Executive Assessment考试的申请人可以获得报名费豁免资格。 #### **学费包括** * 所有Global EMBA课程及讲座的听课费、讲义费、学院资源（图书馆，信息中心等）使用费用 * 所有模块的茶歇与午餐费用 * 开学、中期及毕业共三次领导力住读模块的食宿费用 #### **学费支付方式** 学费可分期支付： * 第一",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "* [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceibs.edu%2fowa%2f)",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=nmDlnqqd) 中欧官方小程序 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok=06Ucs",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "s/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok=06UcshB6) 中欧视频号 ![](https://cn.ceibs.edu/sites/default/files/styles/thumbnail/public/qr-donation.png?itok=OUJY",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=oDc_IU8R) 中欧官方小程序 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S) 中欧视频号",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S) 中欧视频号 ![](https://cn.ceibs.edu/sites/default/files/styles/w200/public/qr-donation.png?itok=Ea7ciNK2) 基金会服",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "ence) * [招生活动](https://cn.ceibs.edu/fmba/events) * [申请报名](https://cn.ceibs.edu/fmba/admission-announcement) * [招生公告](https://cn.ceibs.edu/fmba/admission-announcement) * [申请条件](https://cn.ceibs.edu/fmba/application-requirements)",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s/bidding) * [支持中欧](https://cn.ceibs.edu/foundation) * [创始及永续会员](https://cn.ceibs.edu/foundation/members) * [我要捐赠](https://giving.ceibs.edu) * [捐赠项目](https://cn.ceibs.edu/foundation/our-giving-projects) * [基金会年报](https://cn.ceibs.edu/foundation",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "://cn.ceibs.edu/) [English](https://www.ceibs.edu/gemba/tuition-fees) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https:/",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "u/) [English](https://www.ceibs.edu/gemba/tuition-fees) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.ed",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "a/tuition-fees) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.c",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "//mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ce",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/d",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "mim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "a.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](http",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.as",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceib",
+      "来源": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[申请流程](https://cn.ceibs.edu.cn/mim/application-process) * [学费及奖学金](https://cn.ceibs.edu.cn/mim/fee) * [全球四大校区](https://cn.ceibs.edu.cn/mim/shanghai-campus) * [中欧中国上海校区](https://cn.ceibs.edu.cn/mim/shanghai-campus) * [ESCP法国巴黎校区](http",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "* [评估程序](https://cn.ceibs.edu.cn/emba/evaluation) * [学费信息](https://cn.ceibs.edu.cn/emba/tuition-fees) * [招生活动](https://cn.ceibs.edu.cn/emba/events) * [同窗学友](https://cn.ceibs.edu.cn/emba/class-profile) * [同学画像](https://cn.ceibs.ed",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "[评估程序](https://cn.ceibs.edu.cn/gemba/evaluation-process) * [学费信息](https://cn.ceibs.edu.cn/gemba/tuition-fees) * [招生活动](https://cn.ceibs.edu.cn/gemba/events) * [同窗学友](https://cn.ceibs.edu.cn/gemba/class-profile) * [学员概况](https://cn.ceibs",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "程序](https://cn.ceibs.edu.cn/hemba/admissions/evaluation) * [学费信息](https://cn.ceibs.edu.cn/hemba/admissions/tuition) * [奖学金](https://cn.ceibs.edu.cn/hemba/scholarships) * [常见问题](https://cn.ceibs.edu.cn/hemba/faq) * [新闻活动](https://cn.ceib",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "请流程](https://cn.ceibs.edu.cn/fmba/application-procedure) * [学费信息](https://cn.ceibs.edu.cn/fmba/tuition-fees) * [奖学金](https://cn.ceibs.edu.cn/fmba/scholarships) * [FMBA十五周年](https://cn.ceibs.edu.cn/fmba/15th) * [资讯](https://cn.ceibs.edu.",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "流程](https://cn.ceibs.edu.cn/ptmba/application-procedure) * [学费及奖学金](https://cn.ceibs.edu.cn/ptmba/fees-and-scholarships) * [招生活动](https://cn.ceibs.edu.cn/ptmba/events) * [同窗学友](https://cn.ceibs.edu.cn/ptmba/class-profile) * [学生概况](https",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "咨询详情，请联络我院设于上海、北京和深圳的客户服务小组。 * * * #### 撤销席位 开课前30日（含第30日）之前取消课程，将退还全部学费，因为退款所发生的费用由学员/学员企业承担。在开课前30日之内取消课程，将收取应付学费总额的20%。**开课后，学员因任何原因自行退出学习，学费概不退还。** * * * #### 敬请留意 为确保学习的连贯性与完整性，在您收到课程录取通知书后，请即根据学院公布的课程时间提前做好工作安排。如因个人原因无法完成全部课时，我们将不提供补课机会，亦不颁发结业证书。我院保留对课程信息（包括价格、优惠条件、",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "位 开课前30日（含第30日）之前取消课程，将退还全部学费，因为退款所发生的费用由学员/学员企业承担。在开课前30日之内取消课程，将收取应付学费总额的20%。**开课后，学员因任何原因自行退出学习，学费概不退还。** * * * #### 敬请留意 为确保学习的连贯性与完整性，在您收到课程录取通知书后，请即根据学院公布的课程时间提前做好工作安排。如因个人原因无法完成全部课时，我们将不提供补课机会，亦不颁发结业证书。我院保留对课程信息（包括价格、优惠条件、日期、地点、师资、课程安排等其他细节）进行调整的权利。 TOP 查看全部菜单 *",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "价格收费",
+      "原文片段": "，因为退款所发生的费用由学员/学员企业承担。在开课前30日之内取消课程，将收取应付学费总额的20%。**开课后，学员因任何原因自行退出学习，学费概不退还。** * * * #### 敬请留意 为确保学习的连贯性与完整性，在您收到课程录取通知书后，请即根据学院公布的课程时间提前做好工作安排。如因个人原因无法完成全部课时，我们将不提供补课机会，亦不颁发结业证书。我院保留对课程信息（包括价格、优惠条件、日期、地点、师资、课程安排等其他细节）进行调整的权利。 TOP 查看全部菜单 * [ 课程 ](https://cn.ceibs.edu.c",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "产品权益",
+      "原文片段": "学，你们在这些场景中相识、相知、相互结伴，半年的时光很短，但半年的阶梯教室又很大，足以容下你们未来梦想，这些场景就在中欧国际工商学院AMP大家庭中！一个经历过的老同学的心里话！” 庞勇 董事长 上海瀛之杰企业管理顾问有限公司 “作为2025届中欧课程班学员兼班长，于我而言意义非凡。课堂中，教授们将全球前沿理论与本土实践深度融合，每一次案例研讨和企业参访都让我们在思维碰撞中拓宽认知边界。作为班长，我更有幸见证了班级的成长——组织学习沙龙、促膝夜话、企业互访，这群来自五湖四海的优秀同窗，从彼此欣赏到相互成就，形成了比学赶超的温暖氛围。",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "产品权益",
+      "原文片段": "比学赶超的温暖氛围。这段经历不仅刷新了我的管理理念，更让我在服务集体的过程中收获了深厚的战友情。期待更多同行者加入这个探求智慧、彼此照耀的大家庭，让我们在各自攀登的路上顶峰相见。” 许世俊 董事长 江苏海力风电设备科技股份有限公司 “中欧总经理课程的精髓在于其极强的系统性。它并非知识的简单堆叠，而是通过严谨的课程体系，将战略、财务、营销、领导力等模块有机串联，构建了一个完整的商业认知框架。这套系统如同为我们装备了一幅“商业地图”的通关宝典，让我们能清晰地认识自己，俯瞰全局，洞察本质。这一学习过程带来了深刻的个人转变，我的思维模式从",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "* [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceibs.edu%2fowa%2f)",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "录 ](http://application.ceibs.edu/EEDInquiry/ssologin) [ 在线申请 ](http://apply.ceibs.edu/eed/login.do) 全部课程 * [课程概览](https://cn.ceibs.edu.cn/programmes) * [MBA](https://cn.ceibs.edu.cn/mba) * [Finance MBA](https://cn.ceibs.edu.cn/fmba) * [EMBA](https://cn.ceibs.edu.cn/",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "](https://cn.ceibs.edu.cn/sites/default/files/inline-images/button-ee-apply.gif)](http://apply.ceibs.edu/eed/login.do) [报名指南](https://cn.ceibs.edu/execed/open-enrolment-programmes-application-video) ![关注中欧EE服务号](https://cn.ceibs.edu.cn/sites/default/files/inline-images/20261",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "edu.cn/sites/default/files/inline-images/button-ee-apply.gif)](http://apply.ceibs.edu/eed/login.do) [报名指南](https://cn.ceibs.edu/execed/open-enrolment-programmes-application-video) ![关注中欧EE服务号](https://cn.ceibs.edu.cn/sites/default/files/inline-images/20261020eesidebar.jpg) #",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "](https://application.ceibs.edu/EEDInquiry/ssologin) [ 在线报名 ](https://apply.ceibs.edu/eed/login.do) 课程介绍 师资阵容 课程详情 学员分享 其它 视频 #### 招生对象 实际、实践、实战是本课程的特点，我们招生对象为高速成长的企业的总裁、总经理和集团公司事业部的总经理，以及极具潜质的高层管理人员，他们应拥有八年以上的管理实践经验。 * * * #### 课程简介 作为转型经济和新兴市场的中国，市场环境的复杂程度是世界商业史上罕见的，这给中国企业",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=nmDlnqqd) 中欧官方小程序 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "s/default/files/styles/thumbnail/public/ceibs_code.jpg?itok=0d6YSnew) 微信公众号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/thumbnail/public/qr-channel.jpg?itok=06UcshB6) 中欧视频号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/thumbnail/public/qr-donation.png?ito",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20%281%29.jpg?itok=oDc_IU8R) 中欧官方小程序 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S)",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "获客与推荐",
+      "原文片段": "/sites/default/files/styles/w200/public/ceibs_code.jpg?itok=vjqaca1K) 微信公众号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/w200/public/qr-channel.jpg?itok=x-XjtQ_S) 中欧视频号 ![](https://cn.ceibs.edu.cn/sites/default/files/styles/w200/public/qr-donation.png?itok=Ea7ciNK2",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "e) * [招生活动](https://cn.ceibs.edu.cn/fmba/events) * [申请报名](https://cn.ceibs.edu.cn/fmba/admission-announcement) * [招生公告](https://cn.ceibs.edu.cn/fmba/admission-announcement) * [申请条件](https://cn.ceibs.edu.cn/fmba/application-requirements)",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s/bidding) * [支持中欧](https://cn.ceibs.edu/foundation) * [创始及永续会员](https://cn.ceibs.edu.cn/foundation/members) * [我要捐赠](https://giving.ceibs.edu) * [捐赠项目](https://cn.ceibs.edu.cn/foundation/our-giving-projects) * [基金会年报](https://cn.ceibs.edu.cn/f",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "(https://cn.ceibs.edu.cn/) [English](https://www.ceibs.cn/execed/amp) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https:/",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "ibs.edu.cn/) [English](https://www.ceibs.cn/execed/amp) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.ed",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".cn/execed/amp) 报名中心 * [MBA报名中心](https://mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.c",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "//mba.ceibs.edu/) * [在职MBA报名中心](https://ptmba.ceibs.edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ce",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "edu/) * [金融MBA报名中心](https://admission.ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/d",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu/fmba) * [全球管理硕士MiM报名中心](https://gmim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "mim.ceibs.edu) * [EMBA报名中心](https://emba.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "a.ceibs.edu) * [Global EMBA报名中心](https://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](http",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": "s://gemba.ceibs.edu) * [HEMBA报名中心](https://hemba.ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.as",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "字段": "活动与流程",
+      "原文片段": ".ceibs.edu) * [DBA报名中心](https://application.ceibs.edu/dba) * [高管教育报名中心](https://apply.ceibs.edu/eed/login.do) 服务大厅 * [中欧一站式服务大厅](https://icampus.ceibs.edu/) * [Webmail](https://webmail.ceibs.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.ceib",
+      "来源": "https://cn.ceibs.edu.cn/execed/amp",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "本质、聚焦问题根因。 * 营造安全私密的讨论氛围： 结合领教及小组特点，建立并维护高度信任、绝对保密、相互尊重坦诚开放的会议氛围，鼓励成员分享并探讨决策中遇到的真实挑战。有效管理会议流程：引导会议高效、有序进行，确保每位成员充分参与发言。掌握核心议题讨论节奏，适时打断跑题，鼓励深入探讨，激发企业家间建设性冲突与高质量讨论。 **4、私董会小组日常运营：（工作占比5%）** * 日常运营与互动：与企业家定期保持互动沟通，建立信任链接，结合企业家需求及活动设计亮点，确保每次学习活动的出席率。 * 小组活力与氛围建设：",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "护高度信任、绝对保密、相互尊重坦诚开放的会议氛围，鼓励成员分享并探讨决策中遇到的真实挑战。有效管理会议流程：引导会议高效、有序进行，确保每位成员充分参与发言。掌握核心议题讨论节奏，适时打断跑题，鼓励深入探讨，激发企业家间建设性冲突与高质量讨论。 **4、私董会小组日常运营：（工作占比5%）** * 日常运营与互动：与企业家定期保持互动沟通，建立信任链接，结合企业家需求及活动设计亮点，确保每次学习活动的出席率。 * 小组活力与氛围建设： 持续关注小组整体氛围、活力和凝聚力，主动采取行动（如组织非正式学习活动、企业动态分享",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "（如场地费、差旅、餐饮、活动费等）。 **5、企业家社群运营：** * 促进深度连接建立： 在会议内外主动采取行动，积极促进成员之间建立真诚、信任的深度关系，及时识别并妥善处理成员间可能出现的潜在冲突； * 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** *",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "*5、企业家社群运营：** * 促进深度连接建立： 在会议内外主动采取行动，积极促进成员之间建立真诚、信任的深度关系，及时识别并妥善处理成员间可能出现的潜在冲突； * 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "促进深度连接建立： 在会议内外主动采取行动，积极促进成员之间建立真诚、信任的深度关系，及时识别并妥善处理成员间可能出现的潜在冲突； * 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； *",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "动采取行动，积极促进成员之间建立真诚、信任的深度关系，及时识别并妥善处理成员间可能出现的潜在冲突； * 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "的深度关系，及时识别并妥善处理成员间可能出现的潜在冲突； * 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：** 有大客户销售经验，负责过独立部门\\事",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "* 成员融入与参与度管理： 关注每位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：** 有大客户销售经验，负责过独立部门\\事业部\\地区的损益平衡或有独立创业经验者优先； **3、综",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "位成员的参与状态和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：** 有大客户销售经验，负责过独立部门\\事业部\\地区的损益平衡或有独立创业经验者优先； **3、综合素质要求：** * 对商业模",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "和融入程度，主动与参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：** 有大客户销售经验，负责过独立部门\\事业部\\地区的损益平衡或有独立创业经验者优先； **3、综合素质要求：** * 对商业模式、企业经营 、",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "参与度低的成员沟通， 了解原因并采取行动帮助对方更深入参与。 * 新成员吸引与评估：结合小组亮点吸引新成员，同时负责新成员的评估，确保新成员在行业、 规模、发展阶段、价值观、投入度等方面与现有小组匹配，并能贡献独特视角。 **任职要求：** **1、学历要求：** 985院校或QS500院校毕业， 本科及以上学历， 专业不限； ** ** **2、背景要求：** 有大客户销售经验，负责过独立部门\\事业部\\地区的损益平衡或有独立创业经验者优先； **3、综合素质要求：** * 对商业模式、企业经营 、团队管理 、组织建",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "换位思考， 具备良好的服务意识； 4、抗压能力强， 能够根据工作要求适当出差； 5、善于横向联结， 能对接企业家和高管团队的需求， 推进团队成员深入学习、分享和成长； 简历投递邮箱： _hui.he@clec.com.cn_ 联系人：贺女士 微信号：13817604101 # 私董会报名 Join as Members 私董会学习/咨询/报名： ![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/code_03.png) ![](https://www.clec.c",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "获客与推荐",
+      "原文片段": "ww.clec.com.cn/uploads/20220707/a18a74db0c2d354539db66a4eed202c4.jpg) 微信公众号 [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/fico2_03.png)](https://www.clec.com.cn/jiaruwomen.html) ![](https://www.clec.com.cn/uploads/20220707/f05aee0beb8393489509a64868dad3c0.jp",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * [加入我们](https://www.clec.com.cn/jiaruwomen.html) [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.h",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/logo_03.png)](https://www.clec.com.c",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * 加入我们 [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.html#jo2) [招聘信息](https://www.clec.com.cn/jia",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) ![](https://www.clec.com.cn/uploads/20220725/6a84902fd63a22829a3779afb8ec8710.png) [人力资源](javascrip",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".png) [人力资源](javascript:) [伙伴风采](javascript:) [招聘信息](javascript:) [私董会报名](javascript:) [品牌合作](javascript:) 私董会是想让钻石互相打磨，因为只有钻石才能够切割钻石，才能够推动彼此成为更优秀的企业。而我们私董会最大的价值，是给员工提供的成长环境。 我们一直坚信：在什么样的环境中工作，与什么样的人一起成长，将决定你自身的成长速度与高度。 加入领教工坊，您将有机会与中国最优秀的民营企业家及企业一把手们近距离接触，拓宽认知的眼界",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "欢迎加入工坊，期待与您同行！ # 人力资源 Human Resources ### 你将收获什么？ · 体面的工资，游学式的出差环境； · 鼓励持续学习的企业文化，一流的成长环境； · 定期的寒暑假与春秋游，鼓励员工在努力工作的同时享受生活； · 充满想象力的发展空间，我们提供平台，但你的上限由你自己决定。 ### 为什么加入我们？ 在什么样的环境中工作，与什么样的人一起成长，将决定你自身的成长速度与高度。 在这里，你将有机会与中国最优秀的民营企业家及企业一把手们近距离接触，拓宽认知的眼界，提升思维的格局。 # 伙",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "w.clec.com.cn/uploads/20220728/93c8c3d54c9a30fb75b2694642647301.jpg) 【年会】团聚2021，展望2022 一张张照片记录着年会的精彩与欢乐…… more +_2022-01-25_ ](https://www.clec.com.cn/yuangongfengcai/250.html) [ ![](https://www.clec.com.cn/uploads/20220728/0b7692a5d281209c0a2b8d317a40ad36.jpg) 【活动】领教工坊十周",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "20728/93c8c3d54c9a30fb75b2694642647301.jpg) 【年会】团聚2021，展望2022 一张张照片记录着年会的精彩与欢乐…… more +_2022-01-25_ ](https://www.clec.com.cn/yuangongfengcai/250.html) [ ![](https://www.clec.com.cn/uploads/20220728/0b7692a5d281209c0a2b8d317a40ad36.jpg) 【活动】领教工坊十周年秋游 伙伴们抵达三亚，开启快乐时光…… more",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "会小组的企业家经营需求痛点挖掘，从而设计相应的私董会活动主题、以保证企业家在私董会活动上持续收获企业经营问题的解决思路，确保企业家每次活动的出席率，达成小组年度续费率目标。**** **1、需求挖掘及价值设计（偏大客户咨询，工作占比80%）** * 企业调研及需求挖掘：通过行业分析、竞争分析、高管调研、企业家访谈等方式，深入研究每家企业情况及发展过程中的挑战，持续挖掘企业家学习需求。 * 价值设计及需求交付：结合企业家需求及信任关系，通过活动内容及及价值设计，借助领教、 其他企业家及外部嘉宾的智慧共同完成定制化需求交付。 *",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "求痛点挖掘，从而设计相应的私董会活动主题、以保证企业家在私董会活动上持续收获企业经营问题的解决思路，确保企业家每次活动的出席率，达成小组年度续费率目标。**** **1、需求挖掘及价值设计（偏大客户咨询，工作占比80%）** * 企业调研及需求挖掘：通过行业分析、竞争分析、高管调研、企业家访谈等方式，深入研究每家企业情况及发展过程中的挑战，持续挖掘企业家学习需求。 * 价值设计及需求交付：结合企业家需求及信任关系，通过活动内容及及价值设计，借助领教、 其他企业家及外部嘉宾的智慧共同完成定制化需求交付。 * 陪伴促进成长改变：",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "鼓励当事人明确后续行动计划，并在后续学习过程中借 助领教及其他企业家的影响力，建立温和的跟进机制，促进学习的转化。 **2、活动议程设计及统筹（工作占比10%）** * 定制化设计学习议程：每个私董会小组需完成全年六次，每次两天的学习议程设计。根据企业家需求及反馈，持续评估学习活动质量和价值输出，紧扣共性需求，不断优化会议内容，定制化设计私董会的学习议程。 * 确保活动流程顺畅：如环节流程、时间安排、场地选择、分享嘉宾邀请等，负责现场组织及协调，确保活动的顺利进行，为企业家提供一个良好的交流和学习环境。 *",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "他企业家的影响力，建立温和的跟进机制，促进学习的转化。 **2、活动议程设计及统筹（工作占比10%）** * 定制化设计学习议程：每个私董会小组需完成全年六次，每次两天的学习议程设计。根据企业家需求及反馈，持续评估学习活动质量和价值输出，紧扣共性需求，不断优化会议内容，定制化设计私董会的学习议程。 * 确保活动流程顺畅：如环节流程、时间安排、场地选择、分享嘉宾邀请等，负责现场组织及协调，确保活动的顺利进行，为企业家提供一个良好的交流和学习环境。 **3、私董会现场主持引导（工作占比5%）** * 学习掌",
+      "来源": "https://www.clec.com.cn/jiaruwomen.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "产品权益",
+      "原文片段": "每个小组由一名领教工坊“领教”（领导力教练）主持，通过建立坦诚的、充分信任的、可表达真实想法的私密交流环境，使组员能开放地倾诉企业、个人和家庭面临的各种问题和压力。 通过“出于关心目的的交锋”，建立自我反思的意识，提高决策的科学性；通过不同行业和背景的观点碰撞，丰富看问题的角度，获得思维的启迪；通过人生经历和感悟的分享，舒缓压力，明确方向，持续获得前进的能量。 自2011年9月第一个私人董事会小组成立以来，领教工坊已经先后成立了近30个小组，有五百多位民营企业家成为组员。同时有数十名领教深度参与到这个学习平台中来。",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "获客与推荐",
+      "原文片段": "ww.clec.com.cn/uploads/20220707/a18a74db0c2d354539db66a4eed202c4.jpg) 微信公众号 [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/fico2_03.png)](https://www.clec.com.cn/p/sirendongshihui.html) ![](https://www.clec.com.cn/uploads/20220707/f05aee0beb8393489509a64868da",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * [加入我们](https://www.clec.com.cn/jiaruwomen.html) [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.h",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/logo_03.png)](https://www.clec.com.c",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * 加入我们 [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.html#jo2) [招聘信息](https://www.clec.com.cn/jia",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) ![](https://www.clec.com.cn/uploads/20220620/ff6d61fc0f2473e8a92dac9e564ec22c.jpg) [私董会介绍](javascri",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "73e8a92dac9e564ec22c.jpg) [私董会介绍](javascript:) [学习形式](javascript:) [在线报名](javascript:) # 私董会介绍 Peer Advisory Groups 每个私人董事会小组由10到20位非竞争关系的企业一把手组成，每两个月举行一次为期两天的会议。 每个小组由一名领教工坊“领教”（领导力教练）主持，通过建立坦诚的、充分信任的、可表达真实想法的私密交流环境，使组员能开放地倾诉企业、个人和家庭面临的各种问题和压力。 通过“出于关心目的的交锋”，建立自我",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "ww.clec.com.cn/fuwuyujiazhi.html#sv6) ## 致力于成为中国领先民营企业 突破性成长的可信赖伙伴 私董会报名 ![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/tctitle_03.png) _![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/tct1_03.png)__![](https://www.clec.com.cn/assets/addons/cm",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) ### 加入我们 [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.html#jo2) [招聘信息](https://www.clec.com.cn/jia",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) ### 联系我们 电话：021-55097968 邮编：200433 邮箱：clec@clec.com.cn 地址：上海市长宁区虹桥路2419号龙柏饭店附3楼 ©2011-2015领教工坊版权所有 [",
+      "来源": "https://www.clec.com.cn/p/sirendongshihui.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "客户与规模",
+      "原文片段": "es 根据不同区域组员的需求，邀请实战专家和企业家深度对话，为企业实时决策需要打开视野和思维，链接专业资源;同时，同一区域不同小组的成员也得以形成区域的互助成长网络。 ![](https://www.clec.com.cn/uploads/20220804/cffd3fd0a6b8c02ecf062db0969c6761.jpg) # 活动资讯 Activities Information [更多](https://www.clec.com.cn/news.html) ### [【重磅实录】生生不息·第十四届“中国",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "获客与推荐",
+      "原文片段": "ww.clec.com.cn/uploads/20220707/a18a74db0c2d354539db66a4eed202c4.jpg) 微信公众号 [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/fico2_03.png)](https://www.clec.com.cn/fuwuyujiazhi.html) ![](https://www.clec.com.cn/uploads/20220707/f05aee0beb8393489509a64868dad3c0.",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * [加入我们](https://www.clec.com.cn/jiaruwomen.html) [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.h",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) [![](https://www.clec.com.cn/assets/addons/cms/lingjiao/images/logo_03.png)](https://www.clec.com.c",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) * 加入我们 [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.html#jo2) [招聘信息](https://www.clec.com.cn/jia",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "men.html#jo2) [招聘信息](https://www.clec.com.cn/jiaruwomen.html#jo3) [私董会报名](https://www.clec.com.cn/jiaruwomen.html#jo4) [品牌合作](https://www.clec.com.cn/jiaruwomen.html#jo5) ![](https://www.clec.com.cn/uploads/20220725/f7951a86c3a6c123a5ef3c56a34d95d1.png) [圆桌会议](javascrip",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "更多](https://www.clec.com.cn/news.html) ### [【重磅实录】生生不息·第十四届“中国企业家私人董事会年会”圆满举办 2025年10月24日-25日，领教工坊第十四届“中国企业家私人董事会年会”在苏州隆重开幕，本届年会以“生生不息：领导力的传承与创新”为主题，携手数百位致力于企业永续经营的企业家与核心决者...... 2025-11-03 ](https://www.clec.com.cn/news/372.html) ### [【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办 2",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "[【重磅实录】生生不息·第十四届“中国企业家私人董事会年会”圆满举办 2025年10月24日-25日，领教工坊第十四届“中国企业家私人董事会年会”在苏州隆重开幕，本届年会以“生生不息：领导力的传承与创新”为主题，携手数百位致力于企业永续经营的企业家与核心决者...... 2025-11-03 ](https://www.clec.com.cn/news/372.html) ### [【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办 2024年10月26日，第十三届“大道无垠·中国企业家私人董事会年会”在上海开幕。300",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "十四届“中国企业家私人董事会年会”圆满举办 2025年10月24日-25日，领教工坊第十四届“中国企业家私人董事会年会”在苏州隆重开幕，本届年会以“生生不息：领导力的传承与创新”为主题，携手数百位致力于企业永续经营的企业家与核心决者...... 2025-11-03 ](https://www.clec.com.cn/news/372.html) ### [【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办 2024年10月26日，第十三届“大道无垠·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "ttps://www.clec.com.cn/news/372.html) ### [【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办 2024年10月26日，第十三届“大道无垠·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。 2024-10-26 ](https://www.clec.com.cn/news/371.html) ### [【重磅实录】 中流·第十二届“中国企业家私人董事会年会”圆满举办 2023年",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "# [【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办 2024年10月26日，第十三届“大道无垠·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。 2024-10-26 ](https://www.clec.com.cn/news/371.html) ### [【重磅实录】 中流·第十二届“中国企业家私人董事会年会”圆满举办 2023年10月28日，第十二届“中流·中国企业家私人董事会年会”在上海开幕。300多名中",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": "(https://www.clec.com.cn/news/371.html) ### [【重磅实录】 中流·第十二届“中国企业家私人董事会年会”圆满举办 2023年10月28日，第十二届“中流·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。 2023-10-28 ](https://www.clec.com.cn/news/354.html) ### [“实践中的管理研讨会暨德鲁克纪念图书馆开馆礼”圆满举办 5月8日，领教工坊联合机",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ") ### [【重磅实录】 中流·第十二届“中国企业家私人董事会年会”圆满举办 2023年10月28日，第十二届“中流·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。 2023-10-28 ](https://www.clec.com.cn/news/354.html) ### [“实践中的管理研讨会暨德鲁克纪念图书馆开馆礼”圆满举办 5月8日，领教工坊联合机械工业出版社华章分社、德鲁克纪念图书馆的线上活动——“实践中的管理研讨会暨德",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "领教工坊",
+      "字段": "活动与流程",
+      "原文片段": ".html#zy3) [组员企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy4) [标杆游学企业](https://www.clec.com.cn/ziyuanzhongxin.html#zy5) ### 加入我们 [人力资源](https://www.clec.com.cn/jiaruwomen.html#jo1) [伙伴风采](https://www.clec.com.cn/jiaruwomen.html#jo2) [招聘信息](https://www.clec.com.cn/jia",
+      "来源": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "1959e3b62a6c26&sc_lang=zh-CN)](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index)[![bj-logo-cn](https://consvc.hkjc.com/-/media/Sites/JCEW/member/Beijing-Club/home/bj-logo-cn.jpg?rev=df22d2b4bdb5444fa88c27ec2a194f74&sc_lang=zh-CN)](https://www.beijingc",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "=zh-CN)](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index)[![bj-logo-cn](https://consvc.hkjc.com/-/media/Sites/JCEW/member/Beijing-Club/home/bj-logo-cn.jpg?rev=df22d2b4bdb5444fa88c27ec2a194f74&sc_lang=zh-CN)](https://www.beijingclubhouse.com/zh-CN/ind",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "use.com/zh-CN/index) * [ENG](https://www.beijingclubhouse.com/en-US/membership-applyingformembership/index) * [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "* [ENG](https://www.beijingclubhouse.com/en-US/membership-applyingformembership/index) * [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH)",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "gformembership/index) * [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyi",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "* [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ormembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.co",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "* [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-app",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.b",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "* [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.beijingclubhouse.com/zh",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "av-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-reservation#Top-Nav-BJCH) * 餐饮体验 *",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "* [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-reservation#Top-Nav-BJCH) * 餐饮体验 * [餐饮推介](https://www.bei",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "c26&sc_lang=zh-CN)](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index)[![bj-logo-cn](https://consvc.hkjc.com/-/media/Sites/JCEW/member/Beijing-Club/home/bj-logo-cn.jpg?rev=df22d2b4bdb5444fa88c27ec2a194f74&sc_lang=zh-CN)](https://www.beijingclubhou",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "CN/index) * [ENG](https://www.beijingclubhouse.com/en-US/membership-applyingformembership/index) * [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "hip/index) * [繁體](https://www.beijingclubhouse.com/zh-HK/membership-applyingformembership/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingform",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "p/index) * [主页](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index#Top-Nav-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-C",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "av-BJCH) * [精选优惠](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/offers#Top-Nav-BJCH) * 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.beijing",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "* 尊贵住宿 * [住宿套票](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-packages#Top-Nav-BJCH) * [住宿](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-reservation#Top-Nav-BJCH) * 餐饮体验 * [餐饮推介]",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "av-BJCH) * [住宿](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/roomsandsuites-reservation#Top-Nav-BJCH) * 餐饮体验 * [餐饮推介](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-diningattheclub#Top-Nav-BJCH) * [京华阁]",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "* 餐饮体验 * [餐饮推介](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-diningattheclub#Top-Nav-BJCH) * [京华阁](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-thecapital#Top-Nav-BJCH) * [幸运阁](https://www.beijin",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "v-BJCH) * [京华阁](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-thecapital#Top-Nav-BJCH) * [幸运阁](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-fortuneroom#Top-Nav-BJCH) * [北京凯旋](https://www.beijingcl",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "v-BJCH) * [幸运阁](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-fortuneroom#Top-Nav-BJCH) * [北京凯旋](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-beijingoisuen#Top-Nav-BJCH) * [打吡](https://www.beijing",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "-BJCH) * [北京凯旋](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-beijingoisuen#Top-Nav-BJCH) * [打吡](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-thederby#Top-Nav-BJCH) * [打吡 - 多功能厅](https://www.beiji",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "av-BJCH) * [打吡](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-thederby#Top-Nav-BJCH) * [打吡 - 多功能厅](https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/dining-thederbymultifunctionrooms#Top-Nav-BJCH) * [阅览室](htt",
+      "来源": "https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "价格收费",
+      "原文片段": "r or Spouse Supplementary Cardholder. 多用途运动室。 2. 八至二十一周岁的会员子女可申办子女附属卡（人民币120 元/ 年），同时阁下可为十二至二十一周岁的子女 开通下列北京香港马会会所有限公司设施的签账权。 Beijing Hong Kong Jockey Club Clubhouse Limited. *子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Childre",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "*子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用以上设施并签账， 主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Clu",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "*子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用以上设施并签账， 主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Club Clubhouse Limited. Children Supplem",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用以上设施并签账， 主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Club Clubhouse Limited. Children Supplementary Cardholder with signing righ",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ember or Spouse Supplementary Cardholder. 多用途运动室。 2. 八至二十一周岁的会员子女可申办子女附属卡（人民币120 元/ 年），同时阁下可为十二至二十一周岁的子女 开通下列北京香港马会会所有限公司设施的签账权。 Beijing Hong Kong Jockey Club Clubhouse Limited. *子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Chi",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "香港马会会所有限公司设施的签账权。 Beijing Hong Kong Jockey Club Clubhouse Limited. *子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Clu",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ckey Club Clubhouse Limited. *子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Club Clubhouse Limited. Children Supplem",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Club Clubhouse Limited. Children Supplementary Cardholder with signing righ",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "dren holding Children Supplementary Card with signing rights. *会员须对其子女附属卡持有人之行为负责，并为此承担连带法律责任。 Members are responsible for the conduct of their Children Supplementary Cardholders, and undertake joint and several liabilities for such conduct. *子女附属卡不可转让，仅供卡上所示名字及照片的持有人本人使用",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "rs, and undertake joint and several liabilities for such conduct. *子女附属卡不可转让，仅供卡上所示名字及照片的持有人本人使用并需遵守会员设施规则。 Children Supplementary Card is non-transferrable and shall only be used by the person whose name and photo appear(s) on the card and who must observe the rules of",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "times in the same manner as a Supplementary Cardholder. *使用本会设施时必须出示子女附属卡。 Children Supplementary Card must be presented when using Club’s facilities. *仅适用于子女附属卡持有人使用指定设施。不可携带来宾。 Access to eligible facilities is for Children Supplementary Cardholder only. No guests are all",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "lementary Card must be presented when using Club’s facilities. *仅适用于子女附属卡持有人使用指定设施。不可携带来宾。 Access to eligible facilities is for Children Supplementary Cardholder only. No guests are allowed. *不接受餐厅预订。Access to eligible restaurants is on walk-in basis only. *只有父母为主卡会员或配偶附属卡",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "订。Access to eligible restaurants is on walk-in basis only. *只有父母为主卡会员或配偶附属卡持有人方可报名参加康体活动、教练课程及多用途运动室。 Enrollment for recreational programmes, coaching services and booking of multi-purpose studio can only be done through the parent who is the Principal Member or Spouse S",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "客户与规模",
+      "原文片段": "incipal Member or Spouse Supplementary Cardholder. 多用途运动室。 2. 八至二十一周岁的会员子女可申办子女附属卡（人民币120 元/ 年），同时阁下可为十二至二十一周岁的子女 开通下列北京香港马会会所有限公司设施的签账权。 Beijing Hong Kong Jockey Club Clubhouse Limited. *子女附属卡持有人签账权只适用于北京香港马会会所有限公司指定场所。享有签账权的子女附属卡持有人可单独使用 以上设施并签账，主卡会员须为其享有签账权之子女附属卡持有人在本会的消费负责。 Children S",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "卡持有人在本会的消费负责。 Children Supplementary Cardholders’ signing rights only apply to designated venues of Beijing Hong Kong Jockey Club Clubhouse Limited. Children Supplementary Cardholder with signing rights is able to use the above facilities and sign bill on his/her own. Princ",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "施之年龄政策。 Age policy of respective dining venues and leisure facilities apply. * 子女附属卡的申请仅适用于已签署并同意《个人信息处理规则》及《儿童个人信息处理规则及监护人须知同意函》 （如适用）的会员及/ 或会员子女。 Application for Children Supplementary Card only applies to Members and/or the Members’ children who have signed and consented",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "活动与流程",
+      "原文片段": "o eligible restaurants is on walk-in basis only. *只有父母为主卡会员或配偶附属卡持有人方可报名参加康体活动、教练课程及多用途运动室。 Enrollment for recreational programmes, coaching services and booking of multi-purpose studio can only be done through the parent who is the Principal Member or Spouse Supplementa",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 1,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "了解及同意后附的《个人信息处理规则》之内容。本人知悉各项设施之使用皆受《北京会所则例》 及《会员设施指南》内订明的规例所管辖，本人将承担子女附属卡产生的所有费用及责任。 By submitting this form, you are deemed to have understood and agreed to the details of Personal Information Processing Rules. I understand that the use of Beijing Clubhouse facilities is",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "rm of Personal Information Processing Rules 主卡持卡人代14 周岁以上但不满18 周岁的 子女附属卡持卡人签名 Signature of Principal Cardholder (on behalf of Dependant Cardholder aged 14 or above but under 18) 日期 Date 日期 Date 子女附属卡持卡人签名（18 周岁以上） Signature of Dependant Cardholder (Aged 18 or above) 本人已阅读",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 4,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "Dependant Cardholder aged 14 or above but under 18) 日期 Date 日期 Date 子女附属卡持卡人签名（18 周岁以上） Signature of Dependant Cardholder (Aged 18 or above) 本人已阅读并充分理解《个人信息处理规则》(“处理 规则”）的全部内容与条款。本人在下方勾选及签署， 表明本人同意北京香港马会会所有限公司为处理规 则中所载明之目的、用途及方式等处理本人的个人 信息，包括： □ 北京香港马会会所有限公司按照处理规则的规定 将本人的个",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 4,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "包括敏感个 人信息）是必要的，如果这些个人信息无法 提供或不准确，马会可能无法提供相应的产 品或服务： 处理目的 马会可能收集的个人信息 （附属卡）会籍申请及 （附属卡）会籍管理 姓名、性别、出生日期、国籍、 电邮地址、邮寄地址、住宅地址、 电话号码、国内居住年限、身份 证件类型、身份证件（例如护照、 身份证、回乡证、台胞证、港澳 台身份证）、照片 参加线上/ 线下（会员） 活动 姓名、年龄、身份证号、护照、 饮食要求或喜好、紧急联系人信 息、个人作品、相片或录影等 处理保险理赔和付款 身份证明文件、银行账号、医疗 记录、支付凭证、账单信息",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "个 人信息）是必要的，如果这些个人信息无法 提供或不准确，马会可能无法提供相应的产 品或服务： 处理目的 马会可能收集的个人信息 （附属卡）会籍申请及 （附属卡）会籍管理 姓名、性别、出生日期、国籍、 电邮地址、邮寄地址、住宅地址、 电话号码、国内居住年限、身份 证件类型、身份证件（例如护照、 身份证、回乡证、台胞证、港澳 台身份证）、照片 参加线上/ 线下（会员） 活动 姓名、年龄、身份证号、护照、 饮食要求或喜好、紧急联系人信 息、个人作品、相片或录影等 处理保险理赔和付款 身份证明文件、银行账号、医疗 记录、支付凭证、账单信息 数据",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "必要的，如果这些个人信息无法 提供或不准确，马会可能无法提供相应的产 品或服务： 处理目的 马会可能收集的个人信息 （附属卡）会籍申请及 （附属卡）会籍管理 姓名、性别、出生日期、国籍、 电邮地址、邮寄地址、住宅地址、 电话号码、国内居住年限、身份 证件类型、身份证件（例如护照、 身份证、回乡证、台胞证、港澳 台身份证）、照片 参加线上/ 线下（会员） 活动 姓名、年龄、身份证号、护照、 饮食要求或喜好、紧急联系人信 息、个人作品、相片或录影等 处理保险理赔和付款 身份证明文件、银行账号、医疗 记录、支付凭证、账单信息 数据分析 国籍、出生",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "如果这些个人信息无法 提供或不准确，马会可能无法提供相应的产 品或服务： 处理目的 马会可能收集的个人信息 （附属卡）会籍申请及 （附属卡）会籍管理 姓名、性别、出生日期、国籍、 电邮地址、邮寄地址、住宅地址、 电话号码、国内居住年限、身份 证件类型、身份证件（例如护照、 身份证、回乡证、台胞证、港澳 台身份证）、照片 参加线上/ 线下（会员） 活动 姓名、年龄、身份证号、护照、 饮食要求或喜好、紧急联系人信 息、个人作品、相片或录影等 处理保险理赔和付款 身份证明文件、银行账号、医疗 记录、支付凭证、账单信息 数据分析 国籍、出生日期、",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "processing Personal information we may collect (Supplementary card) membership application and (Supplementary card) membership management Name, gender, date of birth, nationality, email address, mailing address, residential address, telephone number, lengths of residence",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "pplementary card) membership application and (Supplementary card) membership management Name, gender, date of birth, nationality, email address, mailing address, residential address, telephone number, lengths of residence in the PRC, types of identity, ID certificates (",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "Macau and Taiwan ID card), photo To participate in online/offline (membership) activities Name, age, ID number, passport, dietary requirements or preferences, emergency contact information, personal artwork, photos or videos, etc. To process insurance claims and payments",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "formation rights” in the Personal Information Processing Rules shall apply to circumstances where you, as the children’s parent or guardian, may exercise the corresponding personal information rights set forth therein on behalf of the children. 6. Updates to the Processi",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 8,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "ar attention to the scope of application of the Rules: (1) The Rules apply to all products and services provided by the Club to you, including (a) products and services provided by the Club to you through online channels such as social media and online communications; an",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 9,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "tilised products and services provided by the Club, the Rules shall apply equally to such portion of the products and services. If affiliates of the Club have developed independent personal information protection rules, the independent rules shall prevail. However, for",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 9,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "independent rules but are agreed upon in the Rules, the Rules shall apply. (3) The Rules shall not apply to the products and services provided by third parties that are included in the products and services provided by the Club. Such products and services are operated o",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 9,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "ed upon in the Rules, the Rules shall apply. (3) The Rules shall not apply to the products and services provided by third parties that are included in the products and services provided by the Club. Such products and services are operated or provided by third parties. Th",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 9,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "个 人信息。马会将要求第三方提供其个人信息来 源合法的确认，并在阁下授权的范围内使用相 关信息。 在向马会提供阁下以外的任何人（例如阁下的 家庭成员）的任何个人信息前，阁下应确保并 保证该人士（或该人士的父母或法定监护人( 视 情况而定)）已仔细阅读、理解并同意本处理 规则，尤其应告知该人士（或该人士的父母或 法定监护人( 视情况而定)）马会如何收集和 处理该人士的个人信息并征得该人士（或该人 士的父母或法定监护人( 视情况而定)）所有 必要的同意。如经马会要求，阁下应向马会提 供任何必要的支持文件以证明该等行动。 马会将基于以下目的处理",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 10,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "客户与规模",
+      "原文片段": "人信息。马会将要求第三方提供其个人信息来 源合法的确认，并在阁下授权的范围内使用相 关信息。 在向马会提供阁下以外的任何人（例如阁下的 家庭成员）的任何个人信息前，阁下应确保并 保证该人士（或该人士的父母或法定监护人( 视 情况而定)）已仔细阅读、理解并同意本处理 规则，尤其应告知该人士（或该人士的父母或 法定监护人( 视情况而定)）马会如何收集和 处理该人士的个人信息并征得该人士（或该人 士的父母或法定监护人( 视情况而定)）所有 必要的同意。如经马会要求，阁下应向马会提 供任何必要的支持文件以证明该等行动。 马会将基于以下目的处理阁下",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 10,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "会籍申请及 会籍管理 • 身份信息，包括姓名、性别、出生日 期、国籍、国内居住年限、婚姻状况、 结婚证书、身份证件类型、身份证件 （例如护照、身份证、回乡证、台胞证、 港澳台身份证）、照片、会员编号 • 联系信息，包括电邮地址、邮寄地址、 住宅地址、电话号码、传真号码 • 教育及职业背景，包括教育背景、公 司地址、公司电话、在职证明、任职 机构、任职年限、专业资格、相关就 业背景信息、工作签证及",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "会籍申请及 会籍管理 • 身份信息，包括姓名、性别、出生日 期、国籍、国内居住年限、婚姻状况、 结婚证书、身份证件类型、身份证件 （例如护照、身份证、回乡证、台胞证、 港澳台身份证）、照片、会员编号 • 联系信息，包括电邮地址、邮寄地址、 住宅地址、电话号码、传真号码 • 教育及职业背景，包括教育背景、公 司地址、公司电话、在职证明、任职 机构、任职年限、专业资格、相关就 业背景信息、工作签证及其他相关资料",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "包括收入、个人信用报告、 收入或纳税证明 • 其他信息，包括与马会会员的关系、 社会服务信息、个人过往不良记录信息 • 第三方信息，包括配偶及子女的姓名、 性别、出生日期、国籍、公司地址、 公司电话、电邮地址、邮寄地址、住 宅地址、电话号码、传真号码、照片、 结婚证书、婚姻状况、国内居住年限、 在职证明、任职机构、收入、任职年 限、专业资格、相关就业背景信息、 身份证件类型、身份证件、工作签证 及其他相关资料 参加线上/ 线下 会员活动 • 身份信息，包括姓名、性别、出生日 期、照片、国籍、联络方式（例如电 邮地址、邮寄地址及住宅地",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "、 在职证明、任职机构、收入、任职年 限、专业资格、相关就业背景信息、 身份证件类型、身份证件、工作签证 及其他相关资料 参加线上/ 线下 会员活动 • 身份信息，包括姓名、性别、出生日 期、照片、国籍、联络方式（例如电 邮地址、邮寄地址及住宅地址、电话 号码及传真号码）、会员编号、身份 信息（例如身份证、护照、港澳通行 证、回乡证及其他相关资料）、社交 网络ID • 教育背景/ 工作信息，包括单位名称、 职位、公司地址、公司电话等 • 车辆信息，包括车牌号、行驶证、驾 驶证 • 财务信息，包括银行账户或银行卡信 息、账单资料、发票信",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "• 电子邮件地址 Purpose of processing Personal information we may collect Membership application and membership administration • Identification information, including name, gender, date of birth, nationality, lengths of residence in the PRC, marital status, marriage certificate",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "essing Personal information we may collect Membership application and membership administration • Identification information, including name, gender, date of birth, nationality, lengths of residence in the PRC, marital status, marriage certificate, types of identity, identi",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "iwan Compatriot Pass, Hong Kong, Macau and Taiwan ID card), photo, membership number • Contact information, including email address, mailing address, residential address, telephone number, fax number • Education and employment background, including education background,",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "k visa and other related documents To participate in online/offline membership activities • Identification information, including name, gender, date of birth, photo, nationality, contact information (e.g. email address, mailing and home address, phone number and fax numbe",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "il address, mailing and home address, phone number and fax number), membership number, identification information (e.g. ID card, passport, mainland travel permit for Hong Kong and Macau residents, home return permits and other related information), social media IDs • Edu",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 11,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "iday gifts and to provide repair services for the goods • Name • Membership number • Mailing address • Contact number • E-mail address • Details of purchases • Hobbies Daily operation and maintenance of facilities/systems • Name • Membership number • Contact Informa",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ies Daily operation and maintenance of facilities/systems • Name • Membership number • Contact Information • Record of using the Club’s facilities On-site connectivity services, such as WiFi, television, library amenities and entertainment systems • Room number • Membe",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "sion, library amenities and entertainment systems • Room number • Membership number • Device MAC address • URL • Website address • IP address To reserve, book, register, and use the dining, accommodation, conferencing, shopping and entertainment facilities or other",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "phone number, company address, company phone number, fax number • Membership information, including membership number, membership effective/expiration date, membership account transaction/use record/ purchase record, etc., member feedback information • Reservation inform",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ompany phone number, fax number • Membership information, including membership number, membership effective/expiration date, membership account transaction/use record/ purchase record, etc., member feedback information • Reservation information, including check-in/check-ou",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": ", fax number • Membership information, including membership number, membership effective/expiration date, membership account transaction/use record/ purchase record, etc., member feedback information • Reservation information, including check-in/check-out dates, room numb",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "including membership number, membership effective/expiration date, membership account transaction/use record/ purchase record, etc., member feedback information • Reservation information, including check-in/check-out dates, room number, reservation code, reservation numb",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "sing the Club's facilities, details of purchases Payment services • Membership number • Financial information, including bank account or credit card information, billing information, invoice information payment records and payment information, etc. To submit requests, inq",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "n, including name, phone number, email address, social media IDs • Membership number • Booking number • Invoice information • Message and inquiry content To process insurance claims and payments • ID certificates • Bank account • Medical records • Payment vouchers • B",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 12,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "业资格 • 会员账户信息，包括会员账户交易信 息、账单资料、消费记录、购物记录、 住房/ 餐饮/ 购物/ 休闲消费情况、 支付方式 • 会员活动信息，包括订餐信息、预定 信息、订座信息、购买商品的详细情 况、使用会所设施的详细情况、参加 活动情况、住房使用设施情况 • 偏好信息，包括爱好、喜爱商品的类 别、服务的偏好、爱好（餐饮/ 休闲/ 购买习惯） • 其他信息，包括回复情况/ 特殊事件/ 不良行为历史、问卷答复 财务数据分析并 编制合并报表 • 身份信息，包括姓名、出生日期、性别、 婚姻状况、身份证件号码 • 联系信息，包括住",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "/facility experience • Identification information, including name, membership number • Preference information, including records/details of using the Club's facilities, records/details of purchases, favourite categories of products, preferences for services, hobbies, lan",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ig data applications • Identification information, including name, membership number, membership application form number, referrer's name, nationality, date of birth, gender, marital status, wedding anniversary • Education and employment information, including education",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "s • Identification information, including name, membership number, membership application form number, referrer's name, nationality, date of birth, gender, marital status, wedding anniversary • Education and employment information, including education degree, employment",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "degree, employment status, employer, professional qualifications • Membership account information, including membership account transaction information, billing information, consumption records, shopping records, housing/dining/ shopping/leisure consumption, payment metho",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "essional qualifications • Membership account information, including membership account transaction information, billing information, consumption records, shopping records, housing/dining/ shopping/leisure consumption, payment methods • Member activity information, includi",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "dress, contact phone number, company phone number, email address • Membership information, including membership number, membership effective/expiration date, membership account transactionrecord, membership privilege expiration date To send marketing messages for the pur",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ny phone number, email address • Membership information, including membership number, membership effective/expiration date, membership account transactionrecord, membership privilege expiration date To send marketing messages for the purpose of providing personalized ser",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ail address • Membership information, including membership number, membership effective/expiration date, membership account transactionrecord, membership privilege expiration date To send marketing messages for the purpose of providing personalized services or conductin",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "including membership number, membership effective/expiration date, membership account transactionrecord, membership privilege expiration date To send marketing messages for the purpose of providing personalized services or conducting research and analysis • Member name",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "p effective/expiration date, membership account transactionrecord, membership privilege expiration date To send marketing messages for the purpose of providing personalized services or conducting research and analysis • Member name • Social media IDs • Membership numbe",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "nducting research and analysis • Member name • Social media IDs • Membership number • Email address • Contact phone number • Instant messaging number • Mailing address • Details and records of using the Club’s facilities • Details and records of purchases • Hobbies Pu",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "分 析、数据分析（例 如分析趋势、使 用和其他用户行 为）以及大数据 应用的商业开发 • 身份信息，包括姓名、会员编号、会 籍申请表编号、推荐人姓名、国籍、 出生日期、性别、婚姻状况、结婚纪 念日 • 教育及职业信息，包括教育程度、任 职情况、任职机构、专业资格 • 会员账户信息，包括会员账户交易信 息、账单资料、消费记录、购物记录、 住房/ 餐饮/ 购物/ 休闲消费情况、 支付方式 • 会员活动信息，包括订餐信息、预定 信息、订座信息、购买商品的详细情 况、使用会所设施的详细情况、参加 活动情况、住房使用设施情况 • 偏好信息",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 13,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "order fulfilment, information technology and related infrastructure, membership services, email transmission, marketing, technical services and consulting services, companies that send newsletters, marketing materials and promotional information, consulting firms that send s",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 15,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "获客与推荐",
+      "原文片段": "d by the Club and partners. For example, when you make a payment or apply for a refund, the Club needs to share your order information with financial institutions or third-party payment institutions (including payment channels such as WeChat Pay and UnionPay) to fulfil",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 15,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "ersonal information, refrain from using the services, facilities and membership of the Club and/or cease in purchasing any goods from the Club, and notify us of such withdrawal without delay so as to allow us to take appropriate actions. 5.3 The Club does not intend to proces",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 18,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "tion and use of the information you provide. 6.3 De-registrate your membership account (1) You may contact us via the contact information set out in Article 8 of the Rules at any time to de-registrate your membership account, and we will respond to your deregistration reques",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 18,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "set out in Article 8 of the Rules at any time to de-registrate your membership account, and we will respond to your deregistration request within 15 working days. (2) Upon the de-registration of your membership account, the Club will cease to provide you with goods or 18",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 18,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "产品权益",
+      "原文片段": "request within 15 working days. (2) Upon the de-registration of your membership account, the Club will cease to provide you with goods or 18",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 18,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "北京香港马会会所",
+      "字段": "客户与规模",
+      "原文片段": "6.3. 注销阁下的会员账户 (1) 阁下可以随时通过本规则第8 条所载的联 系方式联系马会进行操作以注销阁下的会 员账户，马会将在15 个工作日内回复阁 下的注销请求。 (2) 在注销账户之后，马会将停止为阁下提供 基于该账户的商品或服务，并依据阁下的 要求，删除或匿名化阁下的个人信息，但 法律法规另有规定的除外。 7. 本处理规则的修订和通知 阁下知悉并同意，马会将不时在网站https://www. beijingc",
+      "来源": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "PDF页码": 19,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "获客与推荐",
+      "原文片段": "交完整报名表( 网址： https://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行资料初审。初审合格后，将邀请参加港澳台研究生招生统一考试。 2、考试科目及时间地点 考试科目：初试统考科目综合能力（一）。 考试内容：",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "获客与推荐",
+      "原文片段": "ttps://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行资料初审。初审合格后，将邀请参加港澳台研究生招生统一考试。 2、考试科目及时间地点 考试科目：初试统考科目综合能力（一）。 考试内容：中华文化、英语运用和逻辑推",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "获客与推荐",
+      "原文片段": ".ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行资料初审。初审合格后，将邀请参加港澳台研究生招生统一考试。 2、考试科目及时间地点 考试科目：初试统考科目综合能力（一）。 考试内容：中华文化、英语运用和逻辑推理。 考试时间：20",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "上工作经验的人员（考生录取当年入学前）。 5、取得长江商学院EMBA 项目初审合格资格（具体解释权归长江商学院所有）。 二、入学考试 1、预报名与初审 （1 ）在长江商学院EMBA 报名系统中完成注册并提交完整报名表( 网址： https://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "5、取得长江商学院EMBA 项目初审合格资格（具体解释权归长江商学院所有）。 二、入学考试 1、预报名与初审 （1 ）在长江商学院EMBA 报名系统中完成注册并提交完整报名表( 网址： https://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "项目初审合格资格（具体解释权归长江商学院所有）。 二、入学考试 1、预报名与初审 （1 ）在长江商学院EMBA 报名系统中完成注册并提交完整报名表( 网址： https://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "学院EMBA 报名系统中完成注册并提交完整报名表( 网址： https://oas.ckgsb.com/embazs/login)； （2）报名同时需要提供以下资料： i.两封推荐信（要求：一封行业专家推荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行资料初审。初审合格后，将邀请参加港澳台研究生招生统一考试。 2、考试科目及时间地点 考试科目：初试",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "荐，一封企业一把手推荐）； ii.学历、学位证书复印件； iii.身份证复印件； iv.证件照；名片； v. 企业营业执照及在职证明； 全部报名资料须于2025 年12 月30 日18:00 前提交，随后长江商学院EMBA 招生委员会 将进行资料初审。初审合格后，将邀请参加港澳台研究生招生统一考试。 2、考试科目及时间地点 考试科目：初试统考科目综合能力（一）。 考试内容：中华文化、英语运用和逻辑推理。 考试时间：2026 年4 月11 日，上午8:45—12:00，考试时间以北京时间为准。 考试地点：初试地点请关注报考点相关信息及安排。",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 2,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "方式。笔试和机考系统的试题均使 用国家通用语言文字。考生可根据自身实际选择报考点，并结合报考点支持的考试方式和考 位情况选择考试方式。 3、报名方式及程序 （1）网上报名 1.1 报名时间：2026 年1 月4 日至1 月11 日。考生应在规定报名时间登录“内地（祖国 大陆）普通高校面向港澳台地区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "均使 用国家通用语言文字。考生可根据自身实际选择报考点，并结合报考点支持的考试方式和考 位情况选择考试方式。 3、报名方式及程序 （1）网上报名 1.1 报名时间：2026 年1 月4 日至1 月11 日。考生应在规定报名时间登录“内地（祖国 大陆）普通高校面向港澳台地区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "用语言文字。考生可根据自身实际选择报考点，并结合报考点支持的考试方式和考 位情况选择考试方式。 3、报名方式及程序 （1）网上报名 1.1 报名时间：2026 年1 月4 日至1 月11 日。考生应在规定报名时间登录“内地（祖国 大陆）普通高校面向港澳台地区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "方式和考 位情况选择考试方式。 3、报名方式及程序 （1）网上报名 1.1 报名时间：2026 年1 月4 日至1 月11 日。考生应在规定报名时间登录“内地（祖国 大陆）普通高校面向港澳台地区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息而造成不能考试或录取的，后果由考生本人承担。 1.3 考生报名时",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "普通高校面向港澳台地区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息而造成不能考试或录取的，后果由考生本人承担。 1.3 考生报名时只填报一个招生单位的一个专业（方向）。 （2）网上确认 网上确认工作由报考点组织进行。所有考生均应按报考点要求进行网上确认报名信息及缴纳 报考费。网上确认具体时间由各报考点",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "区招生信息网”https://www.gatzs.com.cn/浏览报考须知， 并按教育部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息而造成不能考试或录取的，后果由考生本人承担。 1.3 考生报名时只填报一个招生单位的一个专业（方向）。 （2）网上确认 网上确认工作由报考点组织进行。所有考生均应按报考点要求进行网上确认报名信息及缴纳 报考费。网上确认具体时间由各报考点自行确认和公布，逾期",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "部、报考点以及报考招生单位的要求报名并上传电子照片。报名期间，考生可自行 修改网报信息。逾期不再补报。 1.2 考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息而造成不能考试或录取的，后果由考生本人承担。 1.3 考生报名时只填报一个招生单位的一个专业（方向）。 （2）网上确认 网上确认工作由报考点组织进行。所有考生均应按报考点要求进行网上确认报名信息及缴纳 报考费。网上确认具体时间由各报考点自行确认和公布，逾期不再补办。 （3）打印准考证 考生应当在规定期间内（2026 年4 月1 日至4 月11",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、 报虚假信息而造成不能考试或录取的，后果由考生本人承担。 1.3 考生报名时只填报一个招生单位的一个专业（方向）。 （2）网上确认 网上确认工作由报考点组织进行。所有考生均应按报考点要求进行网上确认报名信息及缴纳 报考费。网上确认具体时间由各报考点自行确认和公布，逾期不再补办。 （3）打印准考证 考生应当在规定期间内（2026 年4 月1 日至4 月11 日），凭网报用户名和密码登录“面向 港澳台招生信息网”下载打印《准考证》。考生凭下载打印的《准考证》及个人有效身份证",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "1.3 考生报名时只填报一个招生单位的一个专业（方向）。 （2）网上确认 网上确认工作由报考点组织进行。所有考生均应按报考点要求进行网上确认报名信息及缴纳 报考费。网上确认具体时间由各报考点自行确认和公布，逾期不再补办。 （3）打印准考证 考生应当在规定期间内（2026 年4 月1 日至4 月11 日），凭网报用户名和密码登录“面向 港澳台招生信息网”下载打印《准考证》。考生凭下载打印的《准考证》及个人有效身份证 件参加初试和复试。 （4）报考点所在单位、地址及联系方式如下: 北京：北京理工大学（研究生院）联系人：秦彦超 地址：北京海淀区",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 3,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "价格收费",
+      "原文片段": "010〕2 号）规定，结 合招生专业实际情况开展实施。 （3）体检报告逾期不交、体检结果不符合入学条件者，取消拟录取或学习资格。 三、学制、学费 1、学制：2 年（不脱产在职学习），每月利用一个周末集中四天学习（周四至周日）； 2、学费：2026 年长江商学院EMBA 学费为99.8 万元人民币。包括所有EMBA 课程及讲 座的听课费、教材和讲义费、翻译费、学院资源（图书馆、网络设施）使用费、论文答辩费、 上课期间课间茶点费、开学集中住读模块相关费用等； 3、缴费方式：具体付费时间和细则请参考录取通知书。 四、学习方式 非全日制（兼读制）",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 5,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "价格收费",
+      "原文片段": "合入学条件者，取消拟录取或学习资格。 三、学制、学费 1、学制：2 年（不脱产在职学习），每月利用一个周末集中四天学习（周四至周日）； 2、学费：2026 年长江商学院EMBA 学费为99.8 万元人民币。包括所有EMBA 课程及讲 座的听课费、教材和讲义费、翻译费、学院资源（图书馆、网络设施）使用费、论文答辩费、 上课期间课间茶点费、开学集中住读模块相关费用等； 3、缴费方式：具体付费时间和细则请参考录取通知书。 四、学习方式 非全日制（兼读制） 五、课程体系 长江EMBA 课程立足中国、面向亚洲、放眼全球，开设大量新兴市场、全球化、行",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 5,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "价格收费",
+      "原文片段": "三、学制、学费 1、学制：2 年（不脱产在职学习），每月利用一个周末集中四天学习（周四至周日）； 2、学费：2026 年长江商学院EMBA 学费为99.8 万元人民币。包括所有EMBA 课程及讲 座的听课费、教材和讲义费、翻译费、学院资源（图书馆、网络设施）使用费、论文答辩费、 上课期间课间茶点费、开学集中住读模块相关费用等； 3、缴费方式：具体付费时间和细则请参考录取通知书。 四、学习方式 非全日制（兼读制） 五、课程体系 长江EMBA 课程立足中国、面向亚洲、放眼全球，开设大量新兴市场、全球化、行业聚焦 等特色课程，已经形成了独具长江",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 5,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "价格收费",
+      "原文片段": "学制：2 年（不脱产在职学习），每月利用一个周末集中四天学习（周四至周日）； 2、学费：2026 年长江商学院EMBA 学费为99.8 万元人民币。包括所有EMBA 课程及讲 座的听课费、教材和讲义费、翻译费、学院资源（图书馆、网络设施）使用费、论文答辩费、 上课期间课间茶点费、开学集中住读模块相关费用等； 3、缴费方式：具体付费时间和细则请参考录取通知书。 四、学习方式 非全日制（兼读制） 五、课程体系 长江EMBA 课程立足中国、面向亚洲、放眼全球，开设大量新兴市场、全球化、行业聚焦 等特色课程，已经形成了独具长江特色的教育体系。课程分",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 5,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "获客与推荐",
+      "原文片段": "BA 项目网址：https://www.ckgsb.edu.cn/emba 全国统一招生与课程咨询热线：400-700-8558 电子邮箱：applyemba@ckgsb.edu.cn",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "长江商学院",
+      "字段": "活动与流程",
+      "原文片段": "运用这些原则。从全局的角度分析一个企业，学员可以培养超越日常经营活动，把 握企业未来发展的思考和决策能力。 七、录取 1、招生单位根据考生的报名资料、初试和复试成绩、专业素质、体检结果等，综合审查后 择优确定录取名单。录取标准原则上与内地（祖国大陆）考生相同。 2、参照内地（祖国大陆）考生一志愿录取办法实行。考生因报考硕士研究生与所在单位产 生的问题由考生自行处理。若因此造成考生不能复试或无法录取，招生单位不承担责任。 3、在规定年限内修满规定学分，完成培养计划规定的各项要求，成绩合格，学位论文答辩 通过，准予毕业；经学院学位评定委员会审",
+      "来源": "https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf",
+      "PDF页码": 6,
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    }
+  ],
+  "activity_links": [
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友分享",
+      "详情网址": "https://cn.ceibs.edu/mba/alumni-stories",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友职业发展支持",
+      "详情网址": "https://cn.ceibs.edu/mba/alumni-career-support",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "InnoLab活动",
+      "详情网址": "https://cn.ceibs.edu/mba/innolab/event",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "费用和资助",
+      "详情网址": "https://cn.ceibs.edu/mba/fees-financial-aid",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "活动与资讯",
+      "详情网址": "https://cn.ceibs.edu/mba/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "近期活动",
+      "详情网址": "https://cn.ceibs.edu/mim/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu/emba/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友代表",
+      "详情网址": "https://cn.ceibs.edu/emba/class-profile/range",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu/gemba/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友故事",
+      "详情网址": "https://cn.ceibs.edu/gemba/alumni-story",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "新闻活动",
+      "详情网址": "https://cn.ceibs.edu/hemba/news-events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "课外活动",
+      "详情网址": "https://cn.ceibs.edu/fmba/f4",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu/fmba/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu/ptmba/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "新闻活动",
+      "详情网址": "https://cn.ceibs.edu/events",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友",
+      "详情网址": "https://cn.ceibs.edu/alumni",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友会分会",
+      "详情网址": "https://cn.ceibs.edu/chapters",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友会协会/俱乐部",
+      "详情网址": "https://cn.ceibs.edu/alumni-club",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友资讯",
+      "详情网址": "https://cn.ceibs.edu/alumni-briefing",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友服务",
+      "详情网址": "https://cn.ceibs.edu/alumni/faq",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友一站式服务大厅指南",
+      "详情网址": "https://cn.ceibs.edu/alumni/alumni-card",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友捐赠",
+      "详情网址": "https://cn.ceibs.edu/foundation",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "活动展览",
+      "详情网址": "https://library.ceibs.edu/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "创始及永续会员",
+      "详情网址": "https://cn.ceibs.edu/foundation/members",
+      "发现页": "https://cn.ceibs.edu/gemba/tuition-fees",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友分享",
+      "详情网址": "https://cn.ceibs.edu.cn/mba/alumni-stories",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友职业发展支持",
+      "详情网址": "https://cn.ceibs.edu.cn/mba/alumni-career-support",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "InnoLab活动",
+      "详情网址": "https://cn.ceibs.edu.cn/mba/innolab/event",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "费用和资助",
+      "详情网址": "https://cn.ceibs.edu.cn/mba/fees-financial-aid",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "活动与资讯",
+      "详情网址": "https://cn.ceibs.edu.cn/mba/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "近期活动",
+      "详情网址": "https://cn.ceibs.edu.cn/mim/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu.cn/emba/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友代表",
+      "详情网址": "https://cn.ceibs.edu.cn/emba/class-profile/range",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu.cn/gemba/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友故事",
+      "详情网址": "https://cn.ceibs.edu.cn/gemba/alumni-story",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "新闻活动",
+      "详情网址": "https://cn.ceibs.edu.cn/hemba/news-events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "课外活动",
+      "详情网址": "https://cn.ceibs.edu.cn/fmba/f4",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu.cn/fmba/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "招生活动",
+      "详情网址": "https://cn.ceibs.edu.cn/ptmba/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "新闻活动",
+      "详情网址": "https://cn.ceibs.edu.cn/events",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友",
+      "详情网址": "https://cn.ceibs.edu.cn/alumni",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友会分会",
+      "详情网址": "https://cn.ceibs.edu.cn/chapters",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友会协会/俱乐部",
+      "详情网址": "https://cn.ceibs.edu.cn/alumni-club",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友资讯",
+      "详情网址": "https://cn.ceibs.edu.cn/alumni-briefing",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友服务",
+      "详情网址": "https://cn.ceibs.edu.cn/alumni/faq",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友一站式服务大厅指南",
+      "详情网址": "https://cn.ceibs.edu.cn/alumni/alumni-card",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "校友捐赠",
+      "详情网址": "https://cn.ceibs.edu.cn/foundation",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "创始及永续会员",
+      "详情网址": "https://cn.ceibs.edu.cn/foundation/members",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "可获校友资格课程",
+      "详情网址": "https://cn.ceibs.edu.cn/open-enrolment-programmes?category=50",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "链接标题": "EE活动",
+      "详情网址": "https://cn.ceibs.edu.cn/execed/events?category=1976&category1=1976",
+      "发现页": "https://cn.ceibs.edu.cn/execed/amp",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "【年会】团聚2021，展望2022\n\t\t\t\t\t\t\t\t一张张照片记录着年会的精彩与欢乐……\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tmore +2022-01-25",
+      "详情网址": "https://www.clec.com.cn/yuangongfengcai/250.html",
+      "发现页": "https://www.clec.com.cn/jiaruwomen.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "【活动】领教工坊十周年秋游\n\t\t\t\t\t\t\t\t伙伴们抵达三亚，开启快乐时光……\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tmore +2021-11-06",
+      "详情网址": "https://www.clec.com.cn/yuangongfengcai/1.html",
+      "发现页": "https://www.clec.com.cn/jiaruwomen.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "社区活动",
+      "详情网址": "https://www.clec.com.cn/shequhuodong.html",
+      "发现页": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "【重磅实录】生生不息·第十四届“中国企业家私人董事会年会”圆满举办\n\t\t\t\t\t2025年10月24日-25日，领教工坊第十四届“中国企业家私人董事会年会”在苏州隆重开幕，本届年会以“生生不息：领导力的传承与创新”为主题，携手数百位致力于企业永续经营的企业家与核心决者......\n\t\t\t\t\t2025-11-03",
+      "详情网址": "https://www.clec.com.cn/news/372.html",
+      "发现页": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "【重磅实录】 大道无垠·第十三届“中国企业家私人董事会年会”圆满举办\n\t\t\t\t\t2024年10月26日，第十三届“大道无垠·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。\n\t\t\t\t\t2024-10-26",
+      "详情网址": "https://www.clec.com.cn/news/371.html",
+      "发现页": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "【重磅实录】 中流·第十二届“中国企业家私人董事会年会”圆满举办\n\t\t\t\t\t2023年10月28日，第十二届“中流·中国企业家私人董事会年会”在上海开幕。300多名中国民营企业家、商界领袖、经济学家、知名学者齐聚一堂，共同探讨巨变时代下，商业和企业发展的诸多热点问题。\n\t\t\t\t\t2023-10-28",
+      "详情网址": "https://www.clec.com.cn/news/354.html",
+      "发现页": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "领教工坊",
+      "链接标题": "“实践中的管理研讨会暨德鲁克纪念图书馆开馆礼”圆满举办\n\t\t\t\t\t5月8日，领教工坊联合机械工业出版社华章分社、德鲁克纪念图书馆的线上活动——“实践中的管理研讨会暨德鲁克纪念图书馆开馆礼”圆满举办，本次活动有45家媒体进行了联合直播，近100万用户参与。\n\t\t\t\t\t2022-05-11",
+      "详情网址": "https://www.clec.com.cn/news/64.html",
+      "发现页": "https://www.clec.com.cn/fuwuyujiazhi.html",
+      "采集时间": "2026-10-21T17:06:35+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    }
+  ]
+}

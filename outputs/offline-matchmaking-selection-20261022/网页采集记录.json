@@ -1,0 +1,422 @@
+[
+  {
+    "brand": "行业入口",
+    "url": "https://shshjxh.com/m_channel_org",
+    "success": true,
+    "status": 200,
+    "chars": 3595,
+    "file": "c5d8ad42a2ee.md",
+    "collected": "2026-10-22T14:10:09+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "行业入口",
+    "url": "https://www.bjhqxh.com/nd.jsp?id=562",
+    "success": true,
+    "status": 200,
+    "chars": 3075,
+    "file": "d812d552875a.md",
+    "collected": "2026-10-22T14:10:21+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "钻石婚恋",
+    "url": "https://www.zuanshi.com/webActivity/activityList",
+    "success": false,
+    "status": null,
+    "chars": 0,
+    "file": "baef42260a00.md",
+    "collected": "2026-10-22T14:10:30+08:00",
+    "links": [],
+    "内容核验": "未取得正文"
+  },
+  {
+    "brand": "钻石婚恋",
+    "url": "https://www.zuanshi.com/webindex/zuanshijiyin",
+    "success": true,
+    "status": 200,
+    "chars": 5071,
+    "file": "93d586482974.md",
+    "collected": "2026-10-22T14:10:48+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "HIMMR",
+    "url": "https://www.himmr.tech/",
+    "success": false,
+    "status": null,
+    "chars": 0,
+    "file": "5da5a61781c7.md",
+    "collected": "2026-10-22T14:10:56+08:00",
+    "links": [],
+    "内容核验": "未取得正文"
+  },
+  {
+    "brand": "我主良缘",
+    "url": "https://www.7799520.com/",
+    "success": true,
+    "status": 200,
+    "chars": 9159,
+    "file": "ee3ce8782860.md",
+    "collected": "2026-10-22T14:11:14+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "我主良缘",
+    "url": "https://www.7799520.com/party",
+    "success": true,
+    "status": 200,
+    "chars": 3609,
+    "file": "3ddd6e2ecb0a.md",
+    "collected": "2026-10-22T14:11:29+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "金凤凰",
+    "url": "https://www.jfh999.com/party/",
+    "success": true,
+    "status": 200,
+    "chars": 16262,
+    "file": "49af952cb5e0.md",
+    "collected": "2026-10-22T14:11:34+08:00",
+    "links": [
+      [
+        "",
+        "https://www.jfh999.com/party/311.html"
+      ],
+      [
+        "",
+        "https://www.jfh999.com/party/310.html"
+      ],
+      [
+        "",
+        "https://www.jfh999.com/party/309.html"
+      ]
+    ],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "金凤凰",
+    "url": "https://www.jfh999.com/party/311.html",
+    "success": true,
+    "status": 200,
+    "chars": 4165,
+    "file": "e7638a1a7d77.md",
+    "collected": "2026-10-22T14:11:46+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "珍爱网",
+    "url": "https://www.zhenai.com/",
+    "success": true,
+    "status": 200,
+    "chars": 8208,
+    "file": "b324d5bb2f61.md",
+    "collected": "2026-10-22T14:11:50+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "珍爱网",
+    "url": "https://www.zhenai.com/n/directStore",
+    "success": true,
+    "status": 200,
+    "chars": 3012,
+    "file": "4d60a99c0d6e.md",
+    "collected": "2026-10-22T14:12:03+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "百合佳缘线下VIP",
+    "url": "https://vip.jiayuan.com/index.html",
+    "success": false,
+    "status": null,
+    "chars": 0,
+    "file": "ab000b1a1ac7.md",
+    "collected": "2026-10-22T14:12:09+08:00",
+    "links": [],
+    "内容核验": "未取得正文"
+  },
+  {
+    "brand": "Seekr",
+    "url": "https://www.huodongxing.com/event/8873852954600",
+    "success": true,
+    "status": 200,
+    "chars": 11227,
+    "file": "b2a6e43e1b09.md",
+    "collected": "2026-10-22T14:12:27+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "MeetKnow",
+    "url": "https://meetknow.com/activities",
+    "success": true,
+    "status": 200,
+    "chars": 26387,
+    "file": "96bf0ddd05e5.md",
+    "collected": "2026-10-22T14:12:47+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "MarryU",
+    "url": "https://apps.apple.com/cn/app/id1121909088",
+    "success": true,
+    "status": 404,
+    "chars": 11272,
+    "file": "f12cc656fa50.md",
+    "collected": "2026-10-22T14:12:53+08:00",
+    "links": [],
+    "内容核验": "仅AppStore地区导航 不可用"
+  },
+  {
+    "brand": "旅行产品囍上媒捎",
+    "url": "https://jinrishangye.com/8357/",
+    "success": true,
+    "status": 200,
+    "chars": 21210,
+    "file": "67f3100be33f.md",
+    "collected": "2026-10-22T14:12:58+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "旅行产品玉渡山",
+    "url": "https://www.sohu.com/a/1055933312_121626427",
+    "success": true,
+    "status": 200,
+    "chars": 10553,
+    "file": "46e2bc38200a.md",
+    "collected": "2026-10-22T14:13:08+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "金凤凰",
+    "url": "https://www.jfh999.com/party/310.html",
+    "success": true,
+    "status": 200,
+    "chars": 5120,
+    "file": "3140c13ff94c.md",
+    "collected": "2026-10-22T14:13:16+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "金凤凰",
+    "url": "https://www.jfh999.com/party/309.html",
+    "success": true,
+    "status": 200,
+    "chars": 4952,
+    "file": "e81640b49939.md",
+    "collected": "2026-10-22T14:13:19+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "钻石婚恋",
+    "url": "https://www.zuanshi.com/new/loveCustomization",
+    "success": false,
+    "status": null,
+    "chars": 0,
+    "file": "7f9a1a130c6b.md",
+    "collected": "2026-10-22T14:15:50+08:00",
+    "links": [],
+    "内容核验": "未取得正文"
+  },
+  {
+    "brand": "钻石婚恋",
+    "url": "https://www.zuanshi.com/webActivity/newActivityList",
+    "success": true,
+    "status": 200,
+    "chars": 5848,
+    "file": "3099eac4791c.md",
+    "collected": "2026-10-22T14:16:08+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "MarryU",
+    "url": "https://m.51marryyou.com/",
+    "success": true,
+    "status": 200,
+    "chars": 2602,
+    "file": "9ef6f08843b7.md",
+    "collected": "2026-10-22T14:16:19+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海爱之都",
+    "url": "https://shshjxh.com/org_41",
+    "success": true,
+    "status": 200,
+    "chars": 6019,
+    "file": "130edad76b22.md",
+    "collected": "2026-10-22T14:16:27+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海都市白领",
+    "url": "https://shshjxh.com/m_org_11",
+    "success": true,
+    "status": 200,
+    "chars": 3319,
+    "file": "4ac61d04ffad.md",
+    "collected": "2026-10-22T14:16:45+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海才子佳人",
+    "url": "https://shshjxh.com/m_org_52",
+    "success": true,
+    "status": 200,
+    "chars": 2777,
+    "file": "61c5aac7cde3.md",
+    "collected": "2026-10-22T14:16:48+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海圣爱",
+    "url": "https://shshjxh.com/m_org_8",
+    "success": true,
+    "status": 200,
+    "chars": 4065,
+    "file": "003c6a0fff04.md",
+    "collected": "2026-10-22T14:16:51+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海爱缘",
+    "url": "https://shshjxh.com/m_org_53",
+    "success": true,
+    "status": 200,
+    "chars": 4210,
+    "file": "06fab453c8d6.md",
+    "collected": "2026-10-22T14:16:53+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "上海巾帼园",
+    "url": "https://shshjxh.com/m_org_2",
+    "success": true,
+    "status": 200,
+    "chars": 3461,
+    "file": "06a58f9108d8.md",
+    "collected": "2026-10-22T14:16:57+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "如爱单身俱乐部",
+    "url": "https://www.ruailove.com/",
+    "success": true,
+    "status": 200,
+    "chars": 8369,
+    "file": "b9b8df446344.md",
+    "collected": "2026-10-22T14:17:02+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "爱重奏",
+    "url": "https://www.aichongzou.com/",
+    "success": true,
+    "status": 200,
+    "chars": 5920,
+    "file": "c3e0645da9c7.md",
+    "collected": "2026-10-22T14:17:13+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "爱重奏",
+    "url": "https://www.aichongzou.com/chanpinyufuwu/38",
+    "success": true,
+    "status": 200,
+    "chars": 3074,
+    "file": "3e17447c9d87.md",
+    "collected": "2026-10-22T14:17:23+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "爱重奏",
+    "url": "https://www.aichongzou.com/chanpinyufuwu/39",
+    "success": true,
+    "status": 200,
+    "chars": 3065,
+    "file": "2ba669863325.md",
+    "collected": "2026-10-22T14:17:36+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "爱重奏",
+    "url": "https://www.aichongzou.com/chanpinyufuwu/40",
+    "success": true,
+    "status": 200,
+    "chars": 3208,
+    "file": "f4ea24aae798.md",
+    "collected": "2026-10-22T14:17:38+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "爱重奏",
+    "url": "https://www.aichongzou.com/chanpinyufuwu/41",
+    "success": true,
+    "status": 200,
+    "chars": 3545,
+    "file": "a4774bd18b5d.md",
+    "collected": "2026-10-22T14:17:40+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "MeetKnow",
+    "url": "https://meetknow.com/activities/history",
+    "success": true,
+    "status": 200,
+    "chars": 4519,
+    "file": "6c59a84f544e.md",
+    "collected": "2026-10-22T14:17:42+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "MeetKnow",
+    "url": "https://meetknow.com/activities/beijing/high-asset",
+    "success": true,
+    "status": 200,
+    "chars": 3901,
+    "file": "6626c79bcba1.md",
+    "collected": "2026-10-22T14:17:48+08:00",
+    "links": [],
+    "内容核验": "取得相关正文，事实仍逐项核对"
+  },
+  {
+    "brand": "百合佳缘线下VIP",
+    "url": "https://vip.jiayuan.com/index.html",
+    "success": false,
+    "status": null,
+    "chars": 0,
+    "file": "ab000b1a1ac7.md",
+    "collected": "2026-10-22T14:17:50+08:00",
+    "links": [],
+    "内容核验": "未取得正文"
+  }
+]

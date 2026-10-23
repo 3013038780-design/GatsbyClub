@@ -1,0 +1,48 @@
+﻿机构,网址,状态,HTTP状态,正文字数,采集时间,原文文件,错误
+京城俱乐部,https://thecapitalclub.com/clubactiveties/,已采集,200,1482,2026-10-21T22:11:49+08:00,raw/aba3dc6f5b255b.md,
+京城俱乐部,https://thecapitalclub.com/membership/,已采集,200,2776,2026-10-21T22:11:49+08:00,raw/7c26aa9f1624a0.md,
+京城俱乐部,https://thecapitalclub.com/zh-hans/julebulishi/,已采集,200,4719,2026-10-21T22:11:49+08:00,raw/4377dc46f0a231.md,
+HIGHER CLUB,https://www.higherclub.cn/,已采集,200,4984,2026-10-21T22:11:49+08:00,raw/b0d31d50bc6a51.md,
+黑骑士球员俱乐部,https://www.tpc.com.cn/membership,已采集,200,3546,2026-10-21T22:11:49+08:00,raw/2c21ff17b8345c.md,
+黑骑士球员俱乐部,https://www.tpc.com.cn/abouttheplayersclub,已采集,200,4761,2026-10-21T22:11:49+08:00,raw/58cd52574a085e.md,
+南沙游艇会,https://www.nanshamarina.com/,已采集,200,12805,2026-10-21T22:11:49+08:00,raw/341eb62e01678f.md,
+南沙游艇会,https://www.nanshamarina.com/membership/128.html,已采集,200,10353,2026-10-21T22:11:49+08:00,raw/40cfb1e17ccd21.md,
+南沙游艇会,https://www.nanshamarina.com/membership/132.html,已采集,200,8835,2026-10-21T22:11:49+08:00,raw/457d295b0b1647.md,
+南沙游艇会,https://www.nanshamarina.com/news/show-302.html,已采集,200,13455,2026-10-21T22:11:49+08:00,raw/2a61f4421d904e.md,
+上海罗斯福会所,https://cn.rooseveltclub.cn/,已采集,200,9297,2026-10-21T22:11:49+08:00,raw/1ec8de51c8b699.md,
+上海罗斯福会所,https://www.rbsc.org/member-benefits/roosevelt-club-shanghai/,已采集,200,7861,2026-10-21T22:11:49+08:00,raw/30f5a603191480.md,
+观澜湖,https://www.missionhillschina.com/golfathon/,失败或正文不足,,0,2026-10-21T22:11:49+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+伟事达中国,https://www.oldchair.cn/wsdhy_jiage,已采集,200,8764,2026-10-21T22:11:49+08:00,raw/a4612c97eafd73.md,
+领教工坊,https://www.clec.com.cn/p/sirendongshihui.html,已采集,200,7461,2026-10-21T22:11:49+08:00,raw/534f2351628f4f.md,
+领教工坊,https://www.clec.com.cn/jiaruwomen.html,已采集,200,10593,2026-10-21T22:11:49+08:00,raw/88621ddcaa4efa.md,
+中国企业家俱乐部,https://www.daonong.com/about,失败或正文不足,,0,2026-10-21T22:11:49+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+YPO,https://www.ypo.org/membership-requirements/,失败或正文不足,,0,2026-10-21T22:11:49+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+YPO,https://www.ypo.org/membership-benefits/,已采集,404,7953,2026-10-21T22:11:49+08:00,raw/2c65c2f03a4e44.md,
+创合汇,https://www.chuanghehui.com/view/club,已采集,200,3841,2026-10-21T22:11:49+08:00,raw/1b0a7f8867a63a.md,
+创合汇,https://www.chuanghehui.com/view/zlyzx,已采集,200,2652,2026-10-21T22:11:49+08:00,raw/19394d8c28ba0d.md,
+亚布力中国企业家论坛,https://www.cefco.cn/about/index.html,已采集,200,3399,2026-10-21T22:11:49+08:00,raw/3ed67ce41bef62.md,
+德申汇,https://www.detion.com/about,已采集,200,1857,2026-10-21T22:11:49+08:00,raw/4084d3f2bf0b4c.md,
+德申汇,https://detion.com/news/3527,已采集,200,6793,2026-10-21T22:11:49+08:00,raw/342e1e11007b2b.md,
+中欧国际工商学院,https://cn.ceibs.edu/gemba/tuition-fees,已采集,200,36221,2026-10-21T22:11:49+08:00,raw/9865127cc27d73.md,
+中欧国际工商学院,https://cn.ceibs.edu/hemba/faq,已采集,200,39133,2026-10-21T22:11:49+08:00,raw/08a30b638db14e.md,
+北大汇丰EDP,https://edp.phbs.pku.edu.cn/,已采集,200,13437,2026-10-21T22:11:49+08:00,raw/0ec0cf5fcdb570.md,
+北大汇丰EDP,https://edp.phbs.pku.edu.cn/info/1271/13221.htm,已采集,200,7378,2026-10-21T22:11:49+08:00,raw/3c9d0523c6f5d8.md,
+清华五道口,https://emba.pbcsf.tsinghua.edu.cn/index.htm,已采集,200,14212,2026-10-21T22:11:49+08:00,raw/c53778099cca9e.md,
+上海财经大学商学院,https://cob.sufe.edu.cn/websites/MBA/Admissions/EMBA-Financial-2026/index.html,已采集,200,19987,2026-10-21T22:11:49+08:00,raw/0e72a0882c82c0.md,
+深商联,https://www.shenshang.org/sgcc/about-sgcc,已采集,200,5054,2026-10-21T22:11:49+08:00,raw/69773a91fe774e.md,
+深商联,https://www.shenshang.org/understand/entrepreneur/club,已采集,200,3603,2026-10-21T22:11:49+08:00,raw/0fad190e10b5a1.md,
+交大高金,https://emba.saif.sjtu.edu.cn/emba_mobile/content/show/236-887.html,已采集,200,10724,2026-10-21T22:11:49+08:00,raw/0454dd7df35a65.md,
+中国美国商会,https://www.amchamchina.org/membership/,失败或正文不足,468,73,2026-10-21T22:11:49+08:00,,
+上海美国商会,https://www.amcham-shanghai.org/en/membership,已采集,200,10409,2026-10-21T22:11:49+08:00,raw/f19972722485eb.md,
+深圳市侨商国际联合会,https://www.socia.org/Member/user/Chamber.html,已采集,200,4517,2026-10-21T22:11:49+08:00,raw/a7bdcfedd434ea.md,
+阿拉善SEE生态协会,https://conservation.see.org.cn/Admission/,已采集,200,3362,2026-10-21T22:11:49+08:00,raw/bd336e1e19b19f.md,
+阿拉善SEE生态协会,https://conservation.see.org.cn/news/dynamic/2025/1203/12953.html,已采集,200,12471,2026-10-21T22:11:49+08:00,raw/165a48b72633bb.md,
+上海新沪商联合会,https://mzj.sh.gov.cn/MZ_shetuan748_0-2-3-357-732/20200520/MZ_shetuan748_141531.html,失败或正文不足,,0,2026-10-21T22:11:49+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"

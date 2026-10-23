@@ -1,0 +1,56 @@
+[
+  {
+    "brand": "陌上花开",
+    "url": "https://www.himmr.tech/",
+    "success": true,
+    "status": 200,
+    "chars": 6042,
+    "file": "5da5a61781c7.md",
+    "time": "2026-10-22T12:56:13+08:00"
+  },
+  {
+    "brand": "青藤之恋",
+    "url": "https://qingtenglove.com/",
+    "success": true,
+    "status": 200,
+    "chars": 3659,
+    "file": "b0746d9313a4.md",
+    "time": "2026-10-22T12:56:21+08:00"
+  },
+  {
+    "brand": "青藤之恋规则",
+    "url": "https://h5.huiyou027.com/lvy-user-agreement",
+    "success": false,
+    "status": 200,
+    "chars": 1,
+    "file": "e269e8c953a3.md",
+    "time": "2026-10-22T12:56:29+08:00"
+  },
+  {
+    "brand": "恋爱主理人",
+    "url": "https://apps.apple.com/cn/app/id6762596550",
+    "success": true,
+    "status": 301,
+    "chars": 20071,
+    "file": "ef0f66790a42.md",
+    "time": "2026-10-22T12:56:36+08:00"
+  },
+  {
+    "brand": "青藤之恋价格",
+    "url": "https://apps.apple.com/cn/app/id1472343551",
+    "success": true,
+    "status": 301,
+    "chars": 22941,
+    "file": "a4dc6e4c5af9.md",
+    "time": "2026-10-22T12:56:39+08:00"
+  },
+  {
+    "brand": "牵手价格",
+    "url": "https://apps.apple.com/cn/app/id1475216610",
+    "success": true,
+    "status": 301,
+    "chars": 22202,
+    "file": "7dd52cc08622.md",
+    "time": "2026-10-22T12:56:42+08:00"
+  }
+]

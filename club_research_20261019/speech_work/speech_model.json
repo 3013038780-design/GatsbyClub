@@ -1,0 +1,758 @@
+{
+  "careful": {
+    "revenue": 3465050.2933333335,
+    "profit": 142970.29333333345,
+    "gross": 3118976,
+    "eventNet": 2994216.96,
+    "fees": 1130000,
+    "recognized": 470833.3333333333,
+    "deferred": 659166.6666666667,
+    "member": 63000,
+    "eventcost": 2239080,
+    "direct": 2302080,
+    "receipts": 4124216.96,
+    "adults": 60,
+    "count": 53,
+    "attendance": 705,
+    "unique": 294,
+    "cashIncrement": 802136.9600000002,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 13,
+        "n": 17,
+        "revenue": 556707.84,
+        "cost": 374680,
+        "contribution": 182027.83999999997
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 16,
+        "n": 8,
+        "revenue": 263454.72,
+        "cost": 169600,
+        "contribution": 93854.71999999997
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 16,
+        "n": 4,
+        "revenue": 146472.96,
+        "cost": 113600,
+        "contribution": 32872.95999999999
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 5,
+        "n": 7,
+        "revenue": 263424,
+        "cost": 210000,
+        "contribution": 53424
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 9,
+        "n": 4,
+        "revenue": 823910.4,
+        "cost": 684800,
+        "contribution": 139110.40000000002
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 49,
+        "n": 3,
+        "revenue": 449326.07999999996,
+        "cost": 370500,
+        "contribution": 78826.07999999996
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 13,
+        "n": 3,
+        "revenue": 179112.96,
+        "cost": 147900,
+        "contribution": 31212.959999999992
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 7,
+        "revenue": 311808,
+        "cost": 168000,
+        "contribution": 143808
+      }
+    ]
+  },
+  "bold": {
+    "revenue": 7872051.733333332,
+    "profit": 2616131.7333333325,
+    "gross": 6733040,
+    "eventNet": 6463718.399999999,
+    "fees": 3380000,
+    "recognized": 1408333.3333333333,
+    "deferred": 1971666.6666666667,
+    "member": 126000,
+    "eventcost": 3649920,
+    "direct": 3775920,
+    "receipts": 9843718.399999999,
+    "adults": 120,
+    "count": 76,
+    "attendance": 1234,
+    "unique": 515,
+    "cashIncrement": 4587798.399999999,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 16,
+        "n": 24,
+        "revenue": 1209139.2,
+        "cost": 606720,
+        "contribution": 602419.2
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 20,
+        "n": 12,
+        "revenue": 617472,
+        "cost": 288000,
+        "contribution": 329472
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 20,
+        "n": 6,
+        "revenue": 343296,
+        "cost": 192000,
+        "contribution": 151296
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 6,
+        "n": 10,
+        "revenue": 564480,
+        "cost": 336000,
+        "contribution": 228480
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 11,
+        "n": 6,
+        "revenue": 1888128,
+        "cost": 1204800,
+        "contribution": 683328
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 60,
+        "n": 4,
+        "revenue": 916992,
+        "cost": 560000,
+        "contribution": 356992
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 16,
+        "n": 4,
+        "revenue": 367411.2,
+        "cost": 222400,
+        "contribution": 145011.2
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 556800,
+        "cost": 240000,
+        "contribution": 316800
+      }
+    ]
+  },
+  "upside": {
+    "revenue": 13092100.533333333,
+    "profit": 5310460.533333333,
+    "gross": 11001320,
+    "eventNet": 10561267.2,
+    "fees": 6074000,
+    "recognized": 2530833.3333333335,
+    "deferred": 3543166.6666666665,
+    "member": 168000,
+    "eventcost": 5243640,
+    "direct": 5411640,
+    "receipts": 16635267.2,
+    "adults": 160,
+    "count": 99,
+    "attendance": 1826,
+    "unique": 761,
+    "cashIncrement": 8853627.2,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 18,
+        "n": 31,
+        "revenue": 1932733.44,
+        "cost": 850640,
+        "contribution": 1082093.44
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 23,
+        "n": 16,
+        "revenue": 1041469.44,
+        "cost": 417600,
+        "contribution": 623869.44
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 23,
+        "n": 8,
+        "revenue": 579025.9199999999,
+        "cost": 277600,
+        "contribution": 301425.9199999999
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 7,
+        "n": 13,
+        "revenue": 941740.7999999999,
+        "cost": 483600,
+        "contribution": 458140.79999999993
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 13,
+        "n": 8,
+        "revenue": 3272755.1999999997,
+        "cost": 1843200,
+        "contribution": 1429555.1999999997
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 68,
+        "n": 5,
+        "revenue": 1428979.2,
+        "cost": 760000,
+        "contribution": 668979.2
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 18,
+        "n": 5,
+        "revenue": 568339.2,
+        "cost": 299000,
+        "contribution": 269339.19999999995
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 13,
+        "revenue": 796224,
+        "cost": 312000,
+        "contribution": 484224
+      }
+    ]
+  },
+  "occupancy60": {
+    "revenue": 6399450.133333333,
+    "profit": 1742210.1333333328,
+    "gross": 5199080,
+    "eventNet": 4991116.8,
+    "fees": 3380000,
+    "recognized": 1408333.3333333333,
+    "deferred": 1971666.6666666667,
+    "member": 126000,
+    "eventcost": 3051240,
+    "direct": 3177240,
+    "receipts": 8371116.8,
+    "adults": 120,
+    "count": 76,
+    "attendance": 934,
+    "unique": 390,
+    "cashIncrement": 3713876.8,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 12,
+        "n": 24,
+        "revenue": 906854.4,
+        "cost": 503040,
+        "contribution": 403814.4
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 15,
+        "n": 12,
+        "revenue": 463104,
+        "cost": 246000,
+        "contribution": 217104
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 15,
+        "n": 6,
+        "revenue": 257472,
+        "cost": 165000,
+        "contribution": 92472
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 5,
+        "n": 10,
+        "revenue": 470400,
+        "cost": 300000,
+        "contribution": 170400
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 8,
+        "n": 6,
+        "revenue": 1373184,
+        "cost": 938400,
+        "contribution": 434784
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 45,
+        "n": 4,
+        "revenue": 687744,
+        "cost": 470000,
+        "contribution": 217744
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 12,
+        "n": 4,
+        "revenue": 275558.39999999997,
+        "cost": 188800,
+        "contribution": 86758.39999999997
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 556800,
+        "cost": 240000,
+        "contribution": 316800
+      }
+    ]
+  },
+  "price80": {
+    "revenue": 6579308.053333333,
+    "profit": 1323388.0533333328,
+    "gross": 5386432,
+    "eventNet": 5170974.72,
+    "fees": 3380000,
+    "recognized": 1408333.3333333333,
+    "deferred": 1971666.6666666667,
+    "member": 126000,
+    "eventcost": 3649920,
+    "direct": 3775920,
+    "receipts": 8550974.719999999,
+    "adults": 120,
+    "count": 76,
+    "attendance": 1234,
+    "unique": 515,
+    "cashIncrement": 3295054.7199999997,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 16,
+        "n": 24,
+        "revenue": 967311.36,
+        "cost": 606720,
+        "contribution": 360591.36
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 20,
+        "n": 12,
+        "revenue": 493977.6,
+        "cost": 288000,
+        "contribution": 205977.59999999998
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 20,
+        "n": 6,
+        "revenue": 274636.8,
+        "cost": 192000,
+        "contribution": 82636.79999999999
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 6,
+        "n": 10,
+        "revenue": 451584,
+        "cost": 336000,
+        "contribution": 115584
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 11,
+        "n": 6,
+        "revenue": 1510502.4,
+        "cost": 1204800,
+        "contribution": 305702.3999999999
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 60,
+        "n": 4,
+        "revenue": 733593.6,
+        "cost": 560000,
+        "contribution": 173593.59999999998
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 16,
+        "n": 4,
+        "revenue": 293928.95999999996,
+        "cost": 222400,
+        "contribution": 71528.95999999996
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 445440,
+        "cost": 240000,
+        "contribution": 205440
+      }
+    ]
+  },
+  "both": {
+    "revenue": 5401226.773333333,
+    "profit": 743986.7733333334,
+    "gross": 4159264,
+    "eventNet": 3992893.44,
+    "fees": 3380000,
+    "recognized": 1408333.3333333333,
+    "deferred": 1971666.6666666667,
+    "member": 126000,
+    "eventcost": 3051240,
+    "direct": 3177240,
+    "receipts": 7372893.4399999995,
+    "adults": 120,
+    "count": 76,
+    "attendance": 934,
+    "unique": 390,
+    "cashIncrement": 2715653.4400000004,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 12,
+        "n": 24,
+        "revenue": 725483.52,
+        "cost": 503040,
+        "contribution": 222443.52000000002
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 15,
+        "n": 12,
+        "revenue": 370483.2,
+        "cost": 246000,
+        "contribution": 124483.20000000001
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 15,
+        "n": 6,
+        "revenue": 205977.6,
+        "cost": 165000,
+        "contribution": 40977.600000000006
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 5,
+        "n": 10,
+        "revenue": 376320,
+        "cost": 300000,
+        "contribution": 76320
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 8,
+        "n": 6,
+        "revenue": 1098547.2,
+        "cost": 938400,
+        "contribution": 160147.19999999995
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 45,
+        "n": 4,
+        "revenue": 550195.2,
+        "cost": 470000,
+        "contribution": 80195.19999999995
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 12,
+        "n": 4,
+        "revenue": 220446.72,
+        "cost": 188800,
+        "contribution": 31646.72
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 445440,
+        "cost": 240000,
+        "contribution": 205440
+      }
+    ]
+  },
+  "membersHalf": {
+    "revenue": 7167885.066666666,
+    "profit": 1974965.0666666664,
+    "gross": 6733040,
+    "eventNet": 6463718.399999999,
+    "fees": 1690000,
+    "recognized": 704166.6666666666,
+    "deferred": 985833.3333333334,
+    "member": 63000,
+    "eventcost": 3649920,
+    "direct": 3712920,
+    "receipts": 8153718.399999999,
+    "adults": 60,
+    "count": 76,
+    "attendance": 1234,
+    "unique": 515,
+    "cashIncrement": 2960798.4,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 16,
+        "n": 24,
+        "revenue": 1209139.2,
+        "cost": 606720,
+        "contribution": 602419.2
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 20,
+        "n": 12,
+        "revenue": 617472,
+        "cost": 288000,
+        "contribution": 329472
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 20,
+        "n": 6,
+        "revenue": 343296,
+        "cost": 192000,
+        "contribution": 151296
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 6,
+        "n": 10,
+        "revenue": 564480,
+        "cost": 336000,
+        "contribution": 228480
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 11,
+        "n": 6,
+        "revenue": 1888128,
+        "cost": 1204800,
+        "contribution": 683328
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 60,
+        "n": 4,
+        "revenue": 916992,
+        "cost": 560000,
+        "contribution": 356992
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 16,
+        "n": 4,
+        "revenue": 367411.2,
+        "cost": 222400,
+        "contribution": 145011.2
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 556800,
+        "cost": 240000,
+        "contribution": 316800
+      }
+    ]
+  },
+  "combined": {
+    "revenue": 4697060.106666666,
+    "profit": 102820.10666666646,
+    "gross": 4159264,
+    "eventNet": 3992893.44,
+    "fees": 1690000,
+    "recognized": 704166.6666666666,
+    "deferred": 985833.3333333334,
+    "member": 63000,
+    "eventcost": 3051240,
+    "direct": 3114240,
+    "receipts": 5682893.4399999995,
+    "adults": 60,
+    "count": 76,
+    "attendance": 934,
+    "unique": 390,
+    "cashIncrement": 1088653.44,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 12,
+        "n": 24,
+        "revenue": 725483.52,
+        "cost": 503040,
+        "contribution": 222443.52000000002
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 15,
+        "n": 12,
+        "revenue": 370483.2,
+        "cost": 246000,
+        "contribution": 124483.20000000001
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 15,
+        "n": 6,
+        "revenue": 205977.6,
+        "cost": 165000,
+        "contribution": 40977.600000000006
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 5,
+        "n": 10,
+        "revenue": 376320,
+        "cost": 300000,
+        "contribution": 76320
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 8,
+        "n": 6,
+        "revenue": 1098547.2,
+        "cost": 938400,
+        "contribution": 160147.19999999995
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 45,
+        "n": 4,
+        "revenue": 550195.2,
+        "cost": 470000,
+        "contribution": 80195.19999999995
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 12,
+        "n": 4,
+        "revenue": 220446.72,
+        "cost": 188800,
+        "contribution": 31646.72
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 445440,
+        "cost": 240000,
+        "contribution": 205440
+      }
+    ]
+  },
+  "fixed15": {
+    "revenue": 7872051.733333332,
+    "profit": 2016131.7333333325,
+    "gross": 6733040,
+    "eventNet": 6463718.399999999,
+    "fees": 3380000,
+    "recognized": 1408333.3333333333,
+    "deferred": 1971666.6666666667,
+    "member": 126000,
+    "eventcost": 3649920,
+    "direct": 3775920,
+    "receipts": 9843718.399999999,
+    "adults": 120,
+    "count": 76,
+    "attendance": 1234,
+    "unique": 515,
+    "cashIncrement": 3987798.3999999994,
+    "detail": [
+      {
+        "name": "精选主题私宴",
+        "paid": 16,
+        "n": 24,
+        "revenue": 1209139.2,
+        "cost": 606720,
+        "contribution": 602419.2
+      },
+      {
+        "name": "今晚规则会变",
+        "paid": 20,
+        "n": 12,
+        "revenue": 617472,
+        "cost": 288000,
+        "contribution": 329472
+      },
+      {
+        "name": "城市密码协作日",
+        "paid": 20,
+        "n": 6,
+        "revenue": 343296,
+        "cost": 192000,
+        "contribution": 151296
+      },
+      {
+        "name": "伴侣共创工作坊",
+        "paid": 6,
+        "n": 10,
+        "revenue": 564480,
+        "cost": 336000,
+        "contribution": 228480
+      },
+      {
+        "name": "秘密行李箱周末",
+        "paid": 11,
+        "n": 6,
+        "revenue": 1888128,
+        "cost": 1204800,
+        "contribution": 683328
+      },
+      {
+        "name": "季末主题盛宴",
+        "paid": 60,
+        "n": 4,
+        "revenue": 916992,
+        "cost": 560000,
+        "contribution": 356992
+      },
+      {
+        "name": "香港私享联动",
+        "paid": 16,
+        "n": 4,
+        "revenue": 367411.2,
+        "cost": 222400,
+        "contribution": 145011.2
+      },
+      {
+        "name": "私人组局策划",
+        "paid": 1,
+        "n": 10,
+        "revenue": 556800,
+        "cost": 240000,
+        "contribution": 316800
+      }
+    ]
+  }
+}

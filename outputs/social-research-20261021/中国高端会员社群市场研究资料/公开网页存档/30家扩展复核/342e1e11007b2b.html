@@ -1,0 +1,334 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>德申汇 - 新闻活动</title>
+    <link href="https://detion.com/assets/index/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://detion.com/assets/index/css/style.css" rel="stylesheet">
+    <link href="https://detion.com/assets/index/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://detion.com/assets/admin/css/plugins/sweetalert/sweetalert.css">
+
+        <!-- [if lt IE 9]>
+<script src="https://detion.com/assets/index/js/html5shiv.min.js"></script>
+<script src="https://detion.com/assets/index/js/respond.min.js"></script>
+<![endif] -->
+</head>
+<body>
+        <!-- nav -->
+    <div class="pageNav">
+        <div class="container">
+            <div class="pull-left pageNav-logo">
+                <a href="/"><img src="https://detion.com/assets/index/img/page_logo.jpg" alt="" width="116" height="51"></a>
+            </div>
+            <ul class="pull-left pageNav-list">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                
+                <li>
+                    <a href="https://detion.com/company">企业展示</a>
+                </li>
+                
+                <li>
+                    <a href="https://detion.com/center">个人中心</a>
+                </li>
+                <li>
+                    <a href="https://detion.com/publish/company"> 企业认证</a>
+                </li>
+            </ul>
+            <div class="pull-right pageNav-btn">
+                <!-- 用户未登录状态 -->
+                                <!-- 用户未登录状态 -->
+                <div class="Identity">
+                    <a href="https://detion.com/login">登录</a>
+                    
+                </div>
+                
+                <!-- 用户登录状态 -->
+            <!--<div class="index-user">
+                    <div class="pull-left index-user-portrait">
+                        <span class="ce-portrait" style="background-image:url(https://detion.com/assets/index/img/club_01.jpg)"></span>
+                    </div>
+                    <div class="pull-right dropdown">
+                        <div class="index-user-name" data-toggle="dropdown">许武顺 <span class="caret"></span></div>
+                        <ul class="dropdown-menu index-user-menu">
+                            <li><a href="user.html">发布需求</a></li>
+                            <li><a href="user.html">发布供应</a></li>
+                            <li><a href="user.html">发布产品</a></li>
+                            <li><a href="user.html">发布服务</a></li>
+                            <li class="divider"></li>
+                            <li><a href="user.html">发布管理</a></li>
+                            <li><a href="user.html">修改密码</a></li>
+                            <li class="divider"></li>
+                            <li><a href="login.html">退出登录</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+                <!-- 选择语言 -->
+                <div class="pageNav-language" style="margin-left:20px">
+                    <i class="glyphicon glyphicon-globe"></i>
+                    <div class="dropdown">
+                        <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            语言
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="drop2">
+                            <li><a href="https://detion.com/english">English</a></li>
+                            <li><a href="https://detion.com/russia">русский язык</a></li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="/">中文(简体)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end nav -->
+
+    <!-- 当屏幕为手机的时候显示菜单 -->
+    <div class="pageNav pageNav-hidden">
+        <div class="container">
+            <div class="pull-left pageNav-logo">
+                <a href="/"><img src="https://detion.com/assets/index/img/page_logo.jpg" alt=""></a>
+            </div>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <i class="glyphicon glyphicon-align-justify"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                    <!-- 用户未登录状态 -->
+                                        <!-- 用户未登录状态 -->
+                    <div class="AppOperation">
+                        <a href="https://detion.com/login">登录</a>
+                        
+                    </div>
+                    
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/">首页</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/clubs">俱乐部</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/company">企业展示</a>
+                        </li>
+                        <li class="active">
+                            <a href="https://detion.com/news">新闻活动</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/center">个人中心</a>
+                        </li>
+                        <li>
+                            <a href="https://detion.com/publish/company"> 企业认证</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                 语言 <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="drop2">
+                                <li><a href="https://detion.com/english">English</a></li>
+                                <li><a href="https://detion.com/russia">русский язык</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/">中文(简体)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="AppCn">
+    <!-- banner -->
+    <div class="container">
+        <div class="pageBanner" style="background-image:url(https://detion.com/assets/index/img/page_img.jpg)">
+            <span>新闻活动</span>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- 企业展示 -->
+    <div class="container">
+        <div class="Details">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                    <div class="DetailsLeft">
+                        <div class="DetailsLeft-title">
+                            德申友约丨热辣八月 相约德申
+                        </div>
+                        <div class="DetailsLeft-icon">
+                            <p><i class="glyphicon glyphicon-eye-open"></i>26653</p>
+                            <span>2024-08-20 18:25:23</span>
+                        </div>
+                        <div class="DetailsLeft-text">
+                            <section><section><section><section><section><section><section>DETION</section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">102A德申友约<br></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">第二期活动</p></section></section><section><section><section><section><section><section><strong style="box-sizing: border-box;">102A</strong></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section></section></section></section></section></section></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/7f849de1c4dae808b11220135137938f-sz_280811.png"></section></section></section><section><section><section><p style="text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">在这个炽热如火的八月，一场活力四溢且机遇满溢的盛会——2024-2025年度102A德申友约第二期活动，于8月15日下午在上海徐汇绚丽登场。众多德申翘楚以及来自四面八方的嘉宾欢聚一堂，共同度过了一段充实且难以忘怀的时光。</p></section></section></section><section><section><section><section><section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">一</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">嘉宾纷至，共襄盛举</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><p style="text-align: left; text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">本次活动吸引了102A执委、新老会友们踊跃参与，更有用户发展团队（亚太区）总监林虹、102A总监周伟、用户发展团队副总监徐耀函、行业兴趣团队副总监王颖、公益互助委团队副总监王金、用户发展委员会执行长王菊英、秘书长刘晓春等莅临。此外，还有来自迪拜、珠海、中国香港、北京以及杭州等地的嘉宾会友亲临现场，为活动增添了浓郁的国际化氛围和跨地区交流的蓬勃活力。</p></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">二</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">暖场破冰，绚丽多彩</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/9fd072eb7c1b6dcf0399107d359b19b9-sz_604451.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">活动在王菊英执行长主持的暖场破冰互动环节中激情拉开序幕。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/e8f4b2c6923ae4bb4e71f5e9cce368c9-sz_650501.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">各俱乐部分队入场仪式别具匠心，每支队伍都散发着蓬勃朝气与无限活力，代表们在短短1分钟内对俱乐部的特色优势定位进行了精彩阐述，充分彰显了各自俱乐部的独特魅力。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/6be37cb9d09006a01ebe2be5f7670f84-sz_186986.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">现场第一次来参加德申活动的新会友们认真聆听，仔细评判，最终评选出青竹俱乐部和量子俱乐部为印象最深刻的俱乐部。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/c240993e69ca960357731b437051da88-sz_527479.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">王菊英执行长亲自为获奖俱乐部颁发了其个人赞助的奖品2份，这不仅是对获奖俱乐部的激励，更是对他们出色表现的高度认可。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/4f054a3b67b945b2d975c65f6ca50a1c-sz_451752.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">随后，王菊英执行长精心筹备的水果party将活动氛围推向了一个新的高潮。每一桌都摆放了种类繁多的水果，苹果、西瓜、红枣、黄瓜、葡萄等琳琅满目。</p></section></section></section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/b20b9d197f58497a525748b3de867897-sz_178071.png"></section></section></section></section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/436e4cbd9cbdf01b36ec01a76704656c-sz_315049.png"></section></section></section></section></section></section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/9a3fdbaf4a027decc5fdfdfae969aba3-sz_288371.png"></section></section></section></section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/8045937443edb9bde37c3357a1f1593d-sz_242063.png"></section></section></section></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">现场参加活动的所有会友根据自己的喜好选择水果并入座，相同爱好的会友们汇聚在一起，选出代表上台进行1分钟的水果营销推介。代表们各展其能，有的从水果的营养价值方面入手，有的着重强调水果的新鲜品质，还有的讲述了与水果相关的妙趣横生的故事。最后，由现场嘉宾评委选出了销售最佳选手，王菊英执行长再次颁发奖品，以鼓励大家的积极参与和精彩表现。</p></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">三</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">正式环节，庄重热烈</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/9188efeb18d55c318097deeda3e99ae4-sz_464552.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">刘晓春秘书长主持的正式环节在庄严的国歌声中开启，在场的每一位参会者都肃然起立致敬，心中怀着对国家的深深热爱与崇高敬意。这一刻，整个活动现场沉浸在庄重而肃穆的氛围之中。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/8d49d7bd8e7cdd79fd2c625e459b06d9-sz_321186.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">周伟总监发表了热情洋溢的致辞。他对本次活动的筹备组和工作组表示了诚挚的感恩，对活动的策划、宣传和举办给予了高度的赞扬和祝贺。周伟总监期待本次活动能够取得积极的预期效果和目标，并预祝活动圆满成功。他的致辞为活动的顺利进行注入了强劲的动力。</p></section></section></section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/8f2e3a29d58d7d74ba8471a10d90298d-sz_234361.png"></section></section></section></section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/8f88203675962b437d9eae0056bca6b0-sz_220257.png"></section></section></section></section></section></section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/7f5ef8b812b8c9f471564dfdf821c6cc-sz_241366.png"></section></section></section></section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/a2925bf29834207ddd57a85f1a828674-sz_230513.png"></section></section></section></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">外地几位嘉宾，包括迪拜、珠海、中国香港、北京以及杭州等地的会友纷纷登台发言致辞，分享了自己的宝贵经验和独特见解。他们带来了不同地区的文化特色和商业机遇，为现场的会友们拓宽了视野。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/4a605c5fe778837c1773df3d2b1cf57c-sz_292115.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">林虹总监分享了自己走进德申汇的历程，让更多现场的新会友深度了解了德申的迷人魅力和巨大价值。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/a36179d91f0d56a5213d934a9d373d62-sz_346615.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">王颖副总监则以“信任中成就商机”为主题，讲述了如何在兴趣爱好中结交志同道合的朋友，并从中获取信任，实现友谊和商业合作的双赢局面。她的分享让大家深刻认识到德申不仅是一个商业平台，更是一个充满温情和机遇的社交圈子。</p></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">四</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">新会员加入，活力注入</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/159c30657b71902b3b05a55062156649-sz_768602.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">现场会友通过本次活动，对德申产生了浓厚的兴趣和强烈的认同。在场的新朋友中，90%的会友经过了解和感召加入了德申的大家庭。这是对德申的高度认可，也是德申不断发展壮大的重要体现。徐耀函副总监分别为新会友颁发了德申徽章和证书，这标志着他们正式成为德申大家庭的一员。王菊英执行长也为新会友颁发了其赞助的奖品，表达了对新会友的热烈欢迎和美好祝福。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/35e7818fd87a291f723c1f99e1d5ba8d-sz_348326.png"></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">五</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">高潮迭起，手语舞与商务交流</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><section><section><section><section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/7ef8e2f125da34f67a5ad754b3c2d3a6-sz_636991.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">德申活动惯例的手语舞环节再次点燃了现场的澎湃热情。第一俱乐部72岁的高京生老师现场带领大家学习表演手语舞《歌唱祖国》。会友们在高老师的带领下，用手语表达着对祖国的深深热爱和美好祝福，将活动再次推向高潮。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/b8a09f3dc2eb4e4de82410255354ffa3-sz_377057.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">活动结束前，组委会发起了一个与外地嘉宾会友的友好俱乐部签约仪式，并组织了20人的跨区深度商务交流。迪拜地区、珠海地区、中国香港、北京地区的会友也莅临现场，其中迪拜地区、珠海地区、中国香港地区的会友们分别进行了8分钟的项目路演，展示了各自的优质项目和商业机会。这一环节为新老会友和各地区之间建立了高效的商务链接，为未来的合作奠定了坚实的基础。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/b374c3feb80807bd31131743de83cc2a-sz_495142.png"></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/a98a27e4a9577aad26244d4b77adf8fc-sz_610433.png"></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/29faf6d2f1469c8bd203c44647aa0c06-sz_841995.png"></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">六</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">活动总结与展望</strong></p></section></section></section></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">本次活动取得了圆满成功。暖场破冰互动、正式环节的分享交流以及手语舞和商务交流等环节，不仅增进了会友之间的深厚友谊和相互了解，还为大家提供了一个学习、交流和合作的优质平台。活动中，新会友的加入为德申注入了崭新的活力，各地嘉宾的分享也为大家带来了丰富的经验和宝贵资源。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/0db1c53a435037aace235fc9ba4cf969-sz_694587.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">展望未来，德申友约活动将继续秉持“助力个人成长，推动企业发展”的宗旨，不断创新活动形式和丰富内容，为会友们提供更多的价值和机遇。我们将加强与各地俱乐部的紧密合作与广泛交流，拓展国际视野，打造一个更加开放、包容且富有活力的商业社交平台。同时，我们将持续关注会友的需求和发展，提供更加优质的服务和有力支持，帮助会友们在德申这个大家庭中实现自己的梦想和目标。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/5f13d65fb4fdb071d4ace11bc11cf69b-sz_453288.png"></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/4432e95c0feab745b37c05b77dee5b7f-sz_542845.png"></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/4872370d16a045fbef8636210948a066-sz_424455.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">相信在大家的共同努力下，德申友约活动将越办越精彩，德申也将在未来的发展中取得更加耀眼的成就。让我们携手并肩，在这个充满机遇和挑战的时代，共同谱写属于德申的绚丽篇章。</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/54724f6b46db774ccd46c87979074bb9-sz_700992.png"></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/1d630339fa281ebaa04d004db4ddac88-sz_445928.png"></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">燃情八月，我们邂逅德申，共同创造美好的未来！期待下一次的相聚，我们将再次绽放璀璨光彩！</p></section></section></section><section><section><section><img class="raw-image" src="https://img.xiumi.us/xmi/ua/4Xg13/i/c20456b13e74e23d6fa70f2db7098ece-sz_843630.png"></section></section></section><section><section><section><section><p style="text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section></section></section><section><section><section><section><section><section><section><section><p style="text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">感谢会务组的奉献付出</strong></p></section></section></section></section><section><section><section><section></section></section></section></section><section><section><section><section></section></section></section></section></section></section><section><section><section><section>主持人：王菊英 刘晓春</section></section></section></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">签到：周子云 普润</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">物资物料：范加伟</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">茶歇：林祈汐</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">摄影摄像：曾强</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">音控/新闻稿：刘玲&nbsp;</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">时间官：范加伟 李青</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">接待：田中伟 杨娟</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">场控：王建华 佛烔</p></section></section></section><section><section><section><section><section><section><section><section><p style="text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">感谢奖品赞助商</strong></p></section></section></section></section><section><section><section><section></section></section></section></section><section><section><section><section></section></section></section></section></section></section><section><section><section><section>用户发展团队（亚太区）总监、102A创区总监林虹</section></section></section></section></section></section><section><section><p style="text-align: left; text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">用户发展团队执行长、青竹俱乐部创会总监王菊英</p></section></section></section></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section><section><section><p style="text-align: right; text-wrap: wrap; margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;">撰稿：刘玲</p></section></section></section></section></section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box;"><br></p></section></section></section><p><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="DetailsRight">
+                        <div class="DetailsRight-title">
+                            推荐
+                        </div>
+                        <ul class="DetailsRight-list">
+                                                        <li>
+                                <a href="https://detion.com/news/3641">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-09/09/b0a64b74f88892807e3bb9e3c47dc61a.jpg)"></span>
+                                    </div>
+                                    <p class="text-overflow">活动 | 丹青共赏 情谊同增</p>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://detion.com/news/3640">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-09/09/80b0452ceb27e1a13e5864718c859cb4.png)"></span>
+                                    </div>
+                                    <p class="text-overflow">德申公益日——九月九日 善久成光</p>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://detion.com/news/3638">
+                                    <div class="DetailsRight-img">
+                                        <span class="ce-portrait" style="background-image:url(https://storages.detion.com/images/2026-08/27/a2dd2a5681e74ff82d3997f3cbbca9a6.jpg)"></span>
+                                    </div>
+                                    <p class="text-overflow">传承 | 京城团结 共筑辉煌</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end 企业展示 -->
+</div>
+        <!-- 搜索俱乐部 -->
+    <div class="searchClub">
+        <div class="container">
+            <div class="col-xs-4 col-md-8 pull-left searchClub-left">
+                <p>查找俱乐部</p>
+                <span>查找德申汇平台创建俱乐部</span>
+            </div>
+            <div class="col-xs-8 col-md-4 pull-right searchClub-right">
+                <form action="https://detion.com/clubs" method="get" accept-charset="utf-8">
+                    <input type="text" name="name" value="" placeholder="请输入查找的内容">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end 搜索俱乐部 -->
+
+    <!-- 底部 -->
+    <div class="indexFotter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        关于德申
+                    </div>
+                    <p>
+                        本会的中文名称为德申国际俱乐部，简称为“德申汇”；英文译名为“Detion Clubs International”简称为“DCI”本会由北京德申科技股份有限公司创建、运营和管理。
+                    </p>
+                    <a href="https://detion.com/about">了解更多</a>
+                </div>
+                <div class="col-xs-6 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        企业认证
+                    </div>
+                    <p>
+                        德申汇本着每个用户“诚信”的善意出发，建立自身“可信可靠”的社交公信，要求用户对自己的行为负责，诚信真实地填写公司认证信息。
+                    </p>
+                    <a href="https://detion.com/publish/company">立即认证</a>
+                </div>
+                <div class="col-xs-12 col-md-4 indexFotter-list">
+                    <div class="indexFotter-title">
+                        联系我们
+                    </div>
+                    <br>
+                    <div class="indexFotter-way">
+                        <span>电话：010-52474199</span>
+                        <span>地址：北京市朝阳区洒仙桥北路9号（厂区）7幢1层-430号</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 indexFotter-prompt">
+                Copyright © 2018 北京德申科技股份有限公司 版权所有  <a href="http://www.miitbeian.gov.cn" target="_blank">京ICP备18029635号-1</a>
+            </div>
+        </div>
+    </div>
+    <!-- end 底部 -->
+
+    <!-- footer -->
+    <footer class="container-fluid">
+    </footer>
+    <!-- end footer -->
+    
+    <!-- JS -->
+    <script src="https://detion.com/assets/index/js/jquery.min.js"></script>
+    <script src="https://detion.com/assets/index/js/bootstrap.min.js"></script>
+    <script src="https://detion.com/assets/index/js/swiper.min.js"></script>
+    <script src="https://detion.com/assets/admin/js/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="https://detion.com/assets/index/js/cjango.js"></script>
+    <script type="text/javascript">
+        $("#mobile-nav-taggle").click(function () {
+            var mobileMenu = $("#mobile-menu");
+            if (mobileMenu.hasClass("show-nav")) {
+                setTimeout(function () {
+                    mobileMenu.addClass("hide-nav").removeClass("show-nav");
+                }, 100)
+            }
+            else {
+                setTimeout(function (){
+                    mobileMenu.addClass("show-nav").removeClass("hide-nav");
+                }, 100)
+            }
+        })
+    </script>
+
+    <script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 5000
+    })
+
+    window.onscroll = function() {
+        if(document.body.scrollTop==0&&document.documentElement.scrollTop==0){
+            $(".fixedstyle").css("background"," none");
+        }
+        else{
+            $(".fixedstyle").css("background","rgb(55, 61, 65)");
+        }
+    }
+</script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.indexCompany-page> .indexCompany-next',
+        prevButton: '.indexCompany-page> .indexCompany-prev',
+    });
+</script>
+
+
+
+</body></html>

@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": 1,
+    "operating": -183600,
+    "breakEven": 81,
+    "seats": 288
+  },
+  {
+    "scenario": 2,
+    "operating": 356800,
+    "breakEven": 75,
+    "seats": 576
+  },
+  {
+    "scenario": 3,
+    "operating": 1457600,
+    "breakEven": 86,
+    "seats": 960
+  }
+]

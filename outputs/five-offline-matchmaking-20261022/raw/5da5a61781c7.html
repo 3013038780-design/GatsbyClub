@@ -1,0 +1,2214 @@
+<!DOCTYPE html><html lang="en-US" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" xmlns="http://www.w3.org/1999/html" style=""><head>
+
+    <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
+    <meta charset="utf-8">
+    <title>陌上花开HIMMR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ==============================================
+    Favicons
+    =============================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- ==============================================
+    CSS
+    =============================================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/jquery.zySlide.css">
+
+    <link rel="stylesheet/less" type="text/css" href="assets/css/home.less"><style type="text/css" id="less:assets-css-home">/*-------------------
+---- Main Styles ----
+---------------------*/
+html,
+body {
+  height: 100%;
+}
+body {
+  /*font-family:'Source Sans Pro',Arial,sans-serif;*/
+  font-family: "微软雅黑", Microsoft YaHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #89949C;
+  letter-spacing: 0.01em;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #39444C;
+}
+#main-content {
+  position: relative;
+  background: #fff;
+  z-index: 10;
+}
+a:focus,
+button:focus {
+  outline: none !important;
+}
+a {
+  color: #000000;
+  -webkit-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+}
+a:hover,
+a:focus {
+  color: #89949C;
+  text-decoration: none;
+}
+.lead {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #39444C;
+}
+.big-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.small-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.margin-top {
+  margin-top: 60px !important;
+}
+.row-title {
+  color: #39444C;
+  font-weight: 400;
+}
+.push-down {
+  margin-top: 120px;
+}
+.img-center {
+  margin: 0 auto;
+}
+.margin-grid {
+  margin-bottom: 30px;
+}
+hr {
+  border-color: #b9c4cC;
+  margin: 80px 0 80px;
+}
+.flexslider {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+/* 改变工具提示背景颜色 */
+.tooltip-inner {
+  background-color: white;
+}
+/* 改变工具提示文本颜色 */
+.tooltip-inner {
+  color: black;
+}
+/* 改变工具提示箭头颜色 */
+.tooltip.top .tooltip-arrow {
+  border-top-color: white;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-top-color: white;
+}
+/*------------------
+------ Colors ------
+--------------------*/
+.main-color {
+  color: #000000 !important;
+}
+.bg-main-color {
+  background: #000000;
+  color: #fff;
+}
+.dark-bg {
+  background: #11161b;
+  color: #a9b4bC;
+}
+.gray-bg {
+  background: #fbfbfc;
+}
+.white-bg {
+  background: #fff;
+}
+.light-typo * {
+  color: #fff;
+}
+/*---------------
+---- Buttons ----
+-----------------*/
+.btn-dc {
+  position: relative;
+  padding: 10px 50px;
+  font-size: 21px;
+  border: 2px solid;
+  border-radius: 30px;
+  -webkit-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out;
+}
+.btn-dc.btn-small {
+  position: relative;
+  padding: 7px 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: 2px solid;
+  border-radius: 30px;
+  -webkit-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out;
+}
+.btn-dc:after {
+  position: absolute;
+  margin-left: 10px;
+  content: "\f061";
+  font-family: fontAwesome;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+.btn-dc:hover {
+  padding-right: 70px;
+}
+.btn-dc.btn-small:hover {
+  padding-right: 50px;
+}
+.btn-dc:hover:after {
+  margin-left: 30px;
+  opacity: 1;
+}
+.btn-dc.btn-small:hover:after {
+  margin-left: 15px;
+  opacity: 1;
+}
+.btn-white,
+.btn-white:hover,
+.btn-white:focus {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-dc.btn-main-color,
+.btn-dc.btn-main-color:hover,
+.btn-dc.btn-main-color:focus {
+  color: #000000;
+}
+/*-----------------------
+---- Preloader Styles ----
+-------------------------*/
+#page-loader {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 99999;
+}
+#page-loader .page-loader-gif {
+  display: block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -32px 0 0 -32px;
+  background: url('https://www.himmr.tech/assets/images/preloader.gif') no-repeat;
+}
+.section-title {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.section-title .front-title {
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+}
+img {
+  pointer-events: none;
+}
+.erhua-btn {
+  border: 1px solid #000000;
+  padding: 0 25px;
+  border-radius: 24px;
+  color: #000000;
+  background-color: white;
+}
+.erhua-btn:hover,
+.erhua-btn:active,
+.erhua-btn:focus {
+  color: #000000;
+  font-weight: bold;
+}
+.title {
+  font-size: 24px;
+  color: #111111;
+  margin: 36px 0 16px 0;
+  font-weight: 500;
+}
+.description-world {
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.flex-row-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.thumbnail-img {
+  display: none;
+  width: 242px;
+  height: 150px;
+}
+.thumbnail-img img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .section-title {
+    margin-top: 20px;
+  }
+  .section-title .front-title {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 24px;
+    color: #111111;
+    margin: 18px 0 10px 0;
+    font-weight: 500;
+  }
+  .description-world {
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .next-line {
+    display: block;
+  }
+}
+/*------------------
+---- Nav Styles ----
+--------------------*/
+#main-nav {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#main-nav .container {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+#main-nav .container .navbar-brand {
+  padding: 0 0 0 15px;
+  position: relative;
+}
+#main-nav .container .navbar-brand img {
+  width: 56px;
+  height: 48px;
+  position: absolute;
+  top: 10px;
+}
+#main-nav.scrolled .container {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+#main-nav.scrolled .navbar-brand:after {
+  position: absolute;
+  height: 30px;
+  right: -70px;
+  top: 50%;
+  margin-top: 0;
+  font-family: fontAwesome;
+  content: "\f062";
+  color: #d9e4eC !important;
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#main-nav.scrolled .navbar-brand:hover:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+#site-nav ul li {
+  padding-top: 20px;
+}
+#site-nav ul li a {
+  margin: 0 25px;
+  padding: 7px 5px;
+  font-size: 16px;
+  font-weight: 6400;
+  color: #333333;
+  text-align: center;
+  background: none;
+  -webkit-transition: color 0.2s ease-out, padding 0.3s ease-out;
+  transition: color 0.2s ease-out, padding 0.3s ease-out;
+}
+#site-nav ul li.active a,
+#site-nav ul li a:hover,
+#site-nav ul li a:focus {
+  background: none;
+  color: #F55A6A;
+}
+#site-nav ul li + li {
+  border-left: 1px solid transparent;
+}
+@media (max-width: 767px) {
+  .navbar {
+    min-height: 24px;
+  }
+  #main-nav {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  #main-nav .container .navbar-header {
+    padding: 5px 15px;
+    vertical-align: center;
+  }
+  #main-nav .container .navbar-header .navbar-toggle {
+    margin: 4px 0 0 0;
+    padding: 0;
+  }
+  #main-nav .container .navbar-header .navbar-toggle .icon-bar {
+    background: black;
+  }
+  #main-nav .container .navbar-header .navbar-brand {
+    height: 24px;
+  }
+  #main-nav .container .navbar-header .navbar-brand img {
+    width: 28px;
+    height: 24px;
+    top: 0;
+  }
+  #main-nav .container .navbar-header .navbar-brand:after {
+    display: none !important;
+  }
+  #main-nav .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #main-nav.scrolled {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  #main-nav.scrolled .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #main-nav .navbar > .container .navbar-brand {
+    padding: 5px 0 5px 15px;
+  }
+  #site-nav ul li {
+    padding-top: 0px;
+  }
+  #site-nav ul li a {
+    padding: 5px 30px;
+    font-size: 14px;
+  }
+  #site-nav ul li.active a,
+  #site-nav ul li a:hover,
+  #site-nav ul li a:focus {
+    background: none;
+    border-bottom: none !important;
+  }
+}
+/*---------------------
+---- Header Styles ----
+-----------------------*/
+#home {
+  background-image: url('https://www.himmr.tech/assets/images/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#home .container {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  /* 设置宽高比为1:1 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#home .lines-block {
+  color: white;
+  text-align: center;
+}
+#home .lines-block .line1 {
+  font-size: 24px;
+}
+#home .lines-block .line2 {
+  font-weight: 500;
+  font-size: 80px;
+  margin-top: 70px;
+}
+#home .lines-block .line3 {
+  margin-top: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  word-break: keep-all;
+}
+#home .qr-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+#home .qr-block .qr-button {
+  width: 180px;
+  height: 68px;
+  line-height: 68px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #home .lines-block {
+    padding: 0;
+    text-align: center;
+  }
+  #home .lines-block .line2 {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+  #home .lines-block .line3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  #home .qr-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 991px) {
+  #home .lines-block .line2 {
+    font-size: 50px;
+    margin-top: 70px;
+  }
+  #home .lines-block .line3 {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  #home .qr-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #home .qr-block .qr-button {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  #home .lines-block .line2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  #home .lines-block .line3 {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  #home .qr-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #home .qr-block .qr-button {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  #home .lines-block .line2 {
+    font-size: 35px;
+    margin-top: 35px;
+  }
+  #home .lines-block .line3 {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  #home .qr-block {
+    margin-top: 15px;
+  }
+  #home .qr-block .qr-button {
+    width: 100px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  #home .lines-block .line2 {
+    font-size: 35px;
+    margin-top: 35px;
+  }
+  #home .lines-block .line3 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+  #home .qr-block {
+    margin-top: 10px;
+  }
+  #home .qr-block .qr-button {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 400px) {
+  #home .lines-block .line2 {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  #home .lines-block .line3 {
+    font-size: 10px;
+    line-height: 18px;
+    margin-top: 0px;
+  }
+  #home .qr-block {
+    margin-top: 5px;
+  }
+  #home .qr-block .qr-button {
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 8px;
+  }
+}
+/*---------------------
+----  线上征友 ----
+-----------------------*/
+#online-dating {
+  background-image: url("https://www.himmr.tech/assets/images/guest-background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#online-dating .app {
+  margin-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#online-dating .app .app-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#online-dating .app .app-top .phone {
+  width: 325px;
+  height: 534px;
+}
+#online-dating .app .app-top .app-world {
+  padding-top: 70px;
+}
+#online-dating .app .app-top .title {
+  text-align: right;
+}
+#online-dating .app .app-top .description-world {
+  text-align: right;
+}
+#online-dating .app .app-bottom-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  margin: -10px auto 40px auto;
+}
+#online-dating .app .app-bottom .qr-block {
+  display: flex;
+  justify-content: space-around;
+}
+#online-dating .app .app-bottom .qr-block .qr-button {
+  width: 180px;
+  height: 68px;
+  line-height: 68px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 12px 12px 0px rgba(233, 206, 206, 0.12);
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#online-dating .guest-display {
+  width: 100%;
+  padding-top: 30px;
+}
+#online-dating .guest-display .swiper-container {
+  width: 100%;
+}
+#online-dating .guest-display .swiper-container .swiper-button-prev:after,
+#online-dating .guest-display .swiper-container .swiper-button-next:after {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+#online-dating .guest-display .swiper-container .guest-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#online-dating .guest-display .swiper-container .guest-area .poster img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+#online-dating .guest-display .swiper-container .guest-area .description {
+  width: 90%;
+  height: 78px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  position: absolute;
+  bottom: 8px;
+  padding: 8px;
+  line-height: 16px;
+}
+#online-dating .guest-display .swiper-container .guest-area .description .name {
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#online-dating .guest-display .swiper-container .guest-area .description .name .school {
+  margin-left: 5px;
+}
+#online-dating .guest-display .swiper-container .guest-area .description .introduce {
+  font-size: 12px;
+  color: #333333;
+  line-height: 16px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #online-dating .guest-display .guest-area .description {
+    width: 134px;
+  }
+}
+@media (max-width: 991px) {
+  #online-dating .title {
+    text-align: center;
+  }
+  #online-dating .guest-display .swiper-container .guest-area .description {
+    font-size: 11px;
+    line-height: 18px;
+    max-width: 150px;
+    width: 90%;
+  }
+  #online-dating .app .app-bottom-title {
+    margin: 30px auto 20px auto;
+  }
+  #online-dating .app .app-top .app-world {
+    padding-top: 40px;
+  }
+  #online-dating .app .app-top .phone {
+    width: 163px;
+    height: 267px;
+  }
+  #online-dating .app .app-bottom .qr-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  #online-dating .app .app-bottom .qr-block .qr-button {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+  }
+}
+/*---------------------
+----  线下活动 ----
+-----------------------*/
+#offline-activity {
+  background: linear-gradient(296deg, #FFF5C2 0%, #FFE3EA 60%, #DBFBFF 100%);
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+#offline-activity .des-block {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 20px;
+}
+#offline-activity .des-block .description {
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+}
+#offline-activity .zy-slide ul {
+  height: 292px;
+  width: 900px;
+  margin: 0 auto;
+}
+#offline-activity .zy-slide li {
+  width: 350px;
+}
+@media (max-width: 991px) {
+  #offline-activity .des-block {
+    margin-top: 20px;
+  }
+  #offline-activity .des-block .description {
+    font-size: 11px;
+    color: #333333;
+    line-height: 20px;
+  }
+  #offline-activity .zy-slide {
+    margin-top: 20px;
+  }
+  #offline-activity .zy-slide ul {
+    width: 420px;
+    height: 170px;
+  }
+  #offline-activity .zy-slide li {
+    width: 216px;
+  }
+}
+@media (max-width: 450px) {
+  #offline-activity .des-block .description {
+    font-size: 11px;
+    color: #333333;
+    line-height: 20px;
+  }
+  #offline-activity .zy-slide ul {
+    width: 350px;
+    height: 140px;
+  }
+  #offline-activity .zy-slide li {
+    width: 180px;
+  }
+}
+#one-to-one {
+  background-image: url("https://www.himmr.tech/assets/images/background-1v1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+#one-to-one .matchmaker-team .title {
+  text-align: right;
+}
+#one-to-one .matchmaker-team .description-world {
+  text-align: right;
+}
+#one-to-one .equity {
+  width: 362px;
+  height: 314px;
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  #one-to-one .container .row .title {
+    text-align: center;
+  }
+  #one-to-one .equity {
+    width: 342px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #one-to-one .matchmaker {
+    margin-top: 30px;
+  }
+  #one-to-one .matchmaker .col-xs-4 {
+    padding: 0;
+  }
+  #one-to-one .matchmaker-team .title {
+    text-align: right !important;
+  }
+  #one-to-one .matchmaker-team .description-world {
+    text-align: right;
+  }
+}
+/*---------------------
+----  真实脱单故事 ----
+-----------------------*/
+#really-story {
+  background-image: url("https://www.himmr.tech/assets/images/background-story.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+#really-story .story-block {
+  padding-top: 30px;
+}
+#really-story .story-block .guest-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#really-story .story-block .guest-area .area-block {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E7F5FF;
+  box-shadow: 0px 20px 30px 0px rgba(255, 170, 170, 0.18);
+  border-radius: 8px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+#really-story .story-block .guest-area .poster {
+  width: 100%;
+}
+#really-story .story-block .guest-area .poster img {
+  width: 100%;
+  height: 240px;
+}
+#really-story .story-block .guest-area .description {
+  width: 100%;
+  height: 110px;
+  padding: 10px 10px 0 10px;
+}
+#really-story .story-block .guest-area .description .name {
+  color: #111111;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+#really-story .story-block .guest-area .description .name .school {
+  margin-left: 5px;
+}
+#really-story .story-block .guest-area .description .introduce {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  line-height: 18px;
+  margin-top: 10px;
+}
+#really-story .story-block .slide-two {
+  background: #FFF2F3;
+}
+#really-story .story-block .slide-three {
+  background: #FFFBEA;
+}
+#really-story .story-block .swiper-button-prev:after,
+#really-story .story-block .swiper-button-next:after {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  #really-story .story-block .guest-area .description {
+    height: 90px;
+    padding: 10px 5px 0 5px;
+  }
+  #really-story .story-block .guest-area .description .name {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #really-story .story-block .guest-area .description .introduce {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  #really-story .story-block .guest-area .area-block {
+    width: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  #really-story .story-block .guest-area .poster {
+    width: 100%;
+  }
+  #really-story .story-block .guest-area .poster img {
+    width: 100%;
+    height: 120px;
+  }
+  #really-story .story-block .guest-area .description {
+    height: 50px;
+    padding: 5px 5px 0 5px;
+  }
+  #really-story .story-block .guest-area .description .name {
+    font-size: 8px;
+    line-height: 11px;
+  }
+  #really-story .story-block .guest-area .description .introduce {
+    font-size: 8px;
+    line-height: 11px;
+  }
+}
+/*---------------------
+----  创始团队 ----
+-----------------------*/
+#founding-team {
+  background-image: url("https://www.himmr.tech/assets/images/founding-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 110px;
+}
+#founding-team .section-title {
+  margin-bottom: 20px;
+}
+#founding-team .founding-people {
+  width: 464px;
+  background: linear-gradient(195deg, #CAF9FF 0%, #FFD2D2 43%, #FEFFD1 100%);
+  box-shadow: 0px 40px 60px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: 2px solid;
+  border-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0)) 2 2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 50px 20px 0 0;
+  height: 300px;
+  padding: 0 40px 0 0;
+  overflow: hidden;
+}
+#founding-team .founding-people img {
+  width: 200px;
+  height: 100%;
+}
+#founding-team .founding-people .info {
+  margin-left: 30px;
+}
+#founding-team .founding-people .info .name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 48px;
+}
+#founding-team .founding-people .info .desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  line-height: 28px;
+  margin-top: 24px;
+}
+@media (max-width: 991px) {
+  #founding-team {
+    padding: 0 10px 50px 10px;
+  }
+  #founding-team .description {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  #founding-team .founding-people {
+    margin: 30px auto 0 auto;
+    width: 348px;
+    height: 220px;
+  }
+  #founding-team .founding-people img {
+    width: 140px;
+  }
+  #founding-team .founding-people .info {
+    margin-left: 15px;
+  }
+  #founding-team .founding-people .info .name {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    padding-top: 20px;
+  }
+  #founding-team .founding-people .info .desc {
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 28px;
+    margin-top: 12px;
+  }
+}
+/*---------------------
+----  媒体报道 ----
+-----------------------*/
+#reports .media-description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#reports .media-description .media-text {
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+  text-align: center;
+}
+#reports .media-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#reports .media-block .media-img {
+  height: 124px;
+  width: 124px;
+  margin: 10px;
+}
+#reports .newspaper {
+  width: 140px;
+  height: 230px;
+  transition: transform 0.3s ease;
+  /* 动画过渡效果 */
+  margin-bottom: 46px;
+  margin-right: 16px;
+}
+#reports .newspaper:hover {
+  transform: scale(1.2);
+  /* 鼠标滑过时放大1.1倍 */
+}
+#reports .newspaper-double {
+  width: 320px;
+  height: 222px;
+}
+#reports .newspaper-last {
+  width: 294px;
+  height: 236px;
+}
+#reports .footer-area {
+  background-color: #1E1E1E;
+  padding: 60px 0 60px 0;
+  margin-top: 120px;
+}
+#reports .footer-area .qr-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#reports .footer-area .qr-block .qr-button {
+  width: 180px;
+  height: 68px;
+  line-height: 68px;
+  background: linear-gradient(305deg, #BAF7FF 0%, #FFBFBF 43%, #FEFFBF 100%);
+  border-radius: 44px;
+  border-image: linear-gradient(235deg, #20e4ff, #ff175d, #ffd80d) 1 1;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+}
+#reports .footer-area .footer-text {
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+#reports .footer-area .footer-text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+#reports .footer-area .footer-text a {
+  color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  #reports .media-description {
+    font-size: 13px;
+  }
+  #reports .media-description .media-text {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  #reports .media-block .media-img {
+    height: 85px;
+    width: 85px;
+    margin: 10px;
+  }
+  #reports .newspaper {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  #reports .newspaper-double {
+    margin-top: 10px;
+  }
+  #reports .footer-area {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin-top: 30px;
+  }
+  #reports .footer-area .footer-text {
+    padding-top: 20px;
+  }
+  #reports .footer-area .qr-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  #reports .footer-area .qr-block .qr-button {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+  }
+}
+.modal-area {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.modal-area .text-desc {
+  color: #555;
+}
+.modal-area .img-desc img {
+  max-width: 80%;
+}
+.modal-area .btn-desc {
+  margin-top: 20px;
+}
+.modal-area .btn-desc .erhua-btn {
+  padding: 10px 40px;
+}
+.contact-modal-area {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact-modal-area .text-desc {
+  color: #555;
+  padding: 0 15px;
+}
+.contact-modal-area .btn-desc {
+  margin-top: 20px;
+}
+.contact-modal-area .btn-desc .erhua-btn {
+  padding: 10px 40px;
+}
+/*----------------------
+---- Media Queries  ----
+------------------------*/
+@media (min-width: 1400px) {
+  .container {
+    width: 1170px;
+  }
+}
+</style>
+
+    <!-- ==============================================
+    Fonts
+    =============================================== -->
+    <!--<link href='assets/fonts/googleapis-css.css' rel='stylesheet' type='text/css'>-->
+
+
+    <!-- ==============================================
+    JS
+    =============================================== -->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/libs/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!--浏览器兼容性的库-->
+    <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+
+    <script src="assets/js/libs/jquery-1.9.1.min.js"></script>
+    <!--<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>-->
+
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/less.min.js"></script>
+    <!--<script src="assets/js/twitterFetcher_v10_min.js"></script>-->
+    <script src="assets/js/jquery.flexslider.min.js"></script>
+    <script src="assets/js/jquery.fitvids.js"></script>
+    <script src="assets/js/swiper-bundle.min.js?t=1"></script>
+    <script src="assets/js/jquery.zySlide.js?t=1"></script>
+    <script src="assets/js/home.js?t=1"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="400">
+
+<!--=== PAGE PRELOADER ===-->
+<div id="page-loader"><span class="page-loader-gif"></span></div>
+
+<!-- ==============================================
+MAIN NAV
+=============================================== -->
+<div id="main-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- ======= 缩略图优化 ========-->
+            <h1 class="thumbnail-img"><img src="assets/images/logo.png" alt="陌上花开HIMMR" title="陌上花开HIMMR"></h1>
+            <!-- ======= LOGO ========-->
+            <a class="navbar-brand scrollto" href="#home"><h1><img src="assets/images/logo.png" alt="陌上花开HIMMR" title="陌上花开HIMMR"></h1></a>
+
+        </div>
+
+        <div id="site-nav" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#online-dating" class="scrollto">线上交友</a>
+                </li>
+                <li>
+                    <a href="#offline-activity" class="scrollto">交友活动</a>
+                </li>
+                <li>
+                    <a href="#one-to-one" class="scrollto">王牌1V1精准匹配</a>
+                </li>
+                <li>
+                    <a href="#really-story" class="scrollto">脱单故事</a>
+                </li>
+                <li>
+                    <a href="#founding-team" class="scrollto">关于我们</a>
+                </li>
+            </ul>
+        </div><!--End navbar-collapse -->
+
+    </div><!--End container -->
+
+</div><!--End main-nav -->
+
+<!-- ==============================================
+HEADER
+=============================================== -->
+<header id="home">
+
+    <div class="container">
+
+        <div class="col-md-8 col-xs-11">
+            <div class="lines-block">
+                <div class="line2">陌上花开HIMMR</div>
+                <div class="line3">
+                    <div>被央视和多家媒体报道的相亲交友平台，<text class="next-line">由清华毕业的月亮和乐乐于2015年创立</text></div>
+                    <div>提供真实、优质、高效的脱单服务</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-8 col-xs-11">
+            <div class="qr-block">
+                <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/app.jpg' style='height:100px'&gt;">iOS/Android APP
+                </div>
+                <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/mshk-mp.jpg' style='height:100px'&gt;">微信小程序
+                </div>
+                <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/qr-code.png' style='height:100px'&gt;">微信公众号
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header><!--End header -->
+
+
+<div id="main-content">
+
+
+    <!-- ==============================================
+    线上征友
+    =============================================== -->
+    <section id="online-dating">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">交友APP及小程序</div>
+                    </div>
+
+                    <div class="title">百万级高知优质用户</div>
+                    <div class="description-world">毕业于985/211和海外QS100知名高校</div>
+                    <div class="description-world">主要分布于金融、互联网、高校等行业</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="guest-display">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="swiper-container guest-swiper swiper-container-initialized swiper-container-horizontal">
+                            <div class="swiper-wrapper" id="swiper-wrapper-72bb77533d1f6e5f" aria-live="polite" style="transition: all;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people4.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">一舟搜
+                                                <span class="school">斯坦福大学</span>
+                                            </div>
+                                            <div class="introduce">北大+斯坦福,喜欢研究事物运行规律的超级学霸</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people5.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">阿斌
+                                                <span class="school">华中科技大学</span>
+                                            </div>
+                                            <div class="introduce">初见腼腆,相处后有点搞笑,爱做工艺的电气工程师</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="5">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people6.jpg">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Jack
+                                                <span class="school">华中科技大学</span>
+                                            </div>
+                                            <div class="introduce">偏E的I人,十年摄影爱好者</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people7.jpg">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Wz
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">不爱social,但能量来自和外界交流的E人</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people8.png">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">基金写完啦
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">真诚务实的高校工科教授</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" data-swiper-slide-index="0">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people1.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Emma
+                                                <span class="school">牛津大学</span>
+                                            </div>
+                                            <div class="introduce">协和+牛津双博士,简单纯粹的医生小姐姐</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="1">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people2.jpg" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Baby
+                                                <span class="school">慕尼黑大学</span>
+                                            </div>
+                                            <div class="introduce">恬静自由，享受慢节奏带来的平和与舒适</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people3.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Jane
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">单纯善良,对世界充满好奇心</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people4.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">一舟搜
+                                                <span class="school">斯坦福大学</span>
+                                            </div>
+                                            <div class="introduce">北大+斯坦福,喜欢研究事物运行规律的超级学霸</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people5.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">阿斌
+                                                <span class="school">华中科技大学</span>
+                                            </div>
+                                            <div class="introduce">初见腼腆,相处后有点搞笑,爱做工艺的电气工程师</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" data-swiper-slide-index="5">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people6.jpg">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Jack
+                                                <span class="school">华中科技大学</span>
+                                            </div>
+                                            <div class="introduce">偏E的I人,十年摄影爱好者</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="6">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people7.jpg">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Wz
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">不爱social,但能量来自和外界交流的E人</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="7">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people8.png">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">基金写完啦
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">真诚务实的高校工科教授</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people1.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Emma
+                                                <span class="school">牛津大学</span>
+                                            </div>
+                                            <div class="introduce">协和+牛津双博士,简单纯粹的医生小姐姐</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people2.jpg" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Baby
+                                                <span class="school">慕尼黑大学</span>
+                                            </div>
+                                            <div class="introduce">恬静自由，享受慢节奏带来的平和与舒适</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people3.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">Jane
+                                                <span class="school">同济大学</span>
+                                            </div>
+                                            <div class="introduce">单纯善良,对世界充满好奇心</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people4.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">一舟搜
+                                                <span class="school">斯坦福大学</span>
+                                            </div>
+                                            <div class="introduce">北大+斯坦福,喜欢研究事物运行规律的超级学霸</div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4">
+                                    <div class="guest-area" data-toggle="modal" data-target="#myModal">
+                                        <div class="poster">
+
+                                            <img alt="guest" src="assets/images/people5.png" width="200" height="300">
+
+                                        </div>
+                                        <div class="description">
+                                            <div class="name">阿斌
+                                                <span class="school">华中科技大学</span>
+                                            </div>
+                                            <div class="introduce">初见腼腆,相处后有点搞笑,爱做工艺的电气工程师</div>
+                                        </div>
+                                    </div>
+                                </div></div>
+
+                            <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-72bb77533d1f6e5f"></div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-72bb77533d1f6e5f"></div>
+
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container app">
+            <div class="app-top">
+                <img class="phone" src="assets/images/auth.png">
+                <div class="app-world text-right">
+                    <div class="title">
+                        安全靠谱
+                    </div>
+                    <div class="description-world">实名认证/学历认证/真人认证，<text class="next-line">三大认证体系，</text><text class="next-line">严格信息审核增加信任背书</text></div>
+                    <div class="description-world">开放用户监督，认真对待每一个<text class="next-line">用户反馈的风险点，严格把关交友安全</text></div>
+                </div>
+            </div>
+
+            <div class="app-bottom-title">
+                真实&amp;优质&amp;高效
+            </div>
+
+            <div class="col-md-12 col-xs-12 app-bottom">
+                <div class="qr-block">
+                    <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/app.jpg' style='height:100px'&gt;">
+                        iOS/Android APP
+                    </div>
+                    <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/mshk-mp.jpg' style='height:100px'&gt;">微信小程序
+                    </div>
+                    <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/qr-code.png' style='height:100px'&gt;">微信公众号
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================================
+    线下活动
+    =============================================== -->
+    <section id="offline-activity">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">同城交友活动</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row des-block">
+                <div class="description-world">自2016年第一场线下活动开始，<text class="next-line">我们的活动跨越全国8大城市，</text><text class="next-line">致力于打造城市青年优质社交圈</text></div>
+                <div class="description-world">每年举办500+场活动，<text class="next-line">累计参与人数超过10w+，</text><text class="next-line">历史活动满意度率高达95%!</text></div>
+                <div class="description-world">八分钟约会、桌游、饭否、摇摆舞、飞盘等各类多彩的活动</div>
+                <div class="description-world">活动主理人均来自985/211/海归背景，提供有温度的服务，气氛超好</div>
+            </div>
+        </div>
+
+        <div class="container zy-slide">
+            <ul class="zy-slide-ul">
+                <li class="zy-slide-li" data-toggle="modal" data-target="#myModal" style="overflow: hidden; width: 245px; height: 69.9267%; bottom: 59px; left: 374.356px; z-index: 1;"><img src="assets/images/activity_one.png" alt="轮播图片" style="opacity: 0.9;"></li>
+                <li data-toggle="modal" data-target="#myModal" style="overflow: hidden; width: 259.697px; height: 74.2704%; bottom: 48.9223px; left: 72.7914px; z-index: 1;"><img src="assets/images/activity_two.png" alt="轮播图片" style="opacity: 0.9;"></li>
+                <li data-toggle="modal" data-target="#myModal" style="overflow: hidden; width: 309.393px; height: 88.3804%; bottom: 20.3034px; left: 187.986px; z-index: 2;"><img src="assets/images/activity_three.png" alt="轮播图片" style="opacity: 1;"></li>
+                <li data-toggle="modal" data-target="#myModal" style="overflow: hidden; width: 320.607px; height: 91.6732%; bottom: 14.6966px; left: 367.379px; z-index: 3;"><img src="assets/images/activity_four.png" alt="轮播图片" style="opacity: 1;"></li>
+                <li data-toggle="modal" data-target="#myModal" style="overflow: hidden; width: 265.303px; height: 75.7277%; bottom: 45.0777px; left: 547.488px; z-index: 2;"><img src="assets/images/activity_five.png" alt="轮播图片" style="opacity: 1;"></li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <!-- 王牌1v1精准匹配-->
+    <section id="one-to-one">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">王牌1V1精准匹配</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row flex-row-box flex-wrap">
+                <div class="col-md-6 col-xs-12 text-left">
+
+                    <div class="title">
+                        1V1精准匹配
+                    </div>
+                    <div class="description-world">红娘全程陪伴、深度复盘、个性化指导</div>
+                    <div class="description-world">手把手指导脱单必备技能，线上线下结合认识更多精准异性，效率更高</div>
+                    <div class="description-world">百万级嘉宾库，综合素质行业领先</div>
+                    <div class="description-world">适合注重个人隐私、希望精准、高效找到另一半</div>
+                    <div class="description-world">但同时时间少、异性圈子窄、缺乏恋爱经验的用户</div>
+                </div>
+                <img class="col-md-6 col-xs-12 equity" src="assets/images/pic-v.png">
+
+            </div>
+            <div class="row flex-row-box flex-wrap">
+                <div class="col-md-6 col-xs-6 matchmaker">
+                    <div class="row">
+                        <img class="col-md-4 col-xs-4" src="assets/images/matchmaker-one.png">
+                        <img class="col-md-4 col-xs-4 col-md-offset-4 col-xs-offset-4" src="assets/images/matchmaker-two.png">
+                    </div>
+                    <div class="row">
+                        <img class="col-md-4 col-xs-4 col-md-offset-4 col-xs-offset-4" src="assets/images/matchmaker-three.png">
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6 text-right matchmaker-team">
+                    <div class="title">
+                        红娘团队
+                    </div>
+                    <div class="description-world">超过30个有趣的小伙伴<text class="next-line">在陌上花开HIMMR工作超过3年!</text><text class="next-line">平均服务嘉宾超过300位!</text></div>
+                    <div class="description-world">她们均毕业于清北复交，<text class="next-line">国内重点985高校或海归QS100，</text><text class="next-line">专业素养高</text></div>
+                    <div class="description-world">能够根据每个客户的情况<text class="next-line">作出精准分析并进行针对性推荐，</text><text class="next-line">客户满意度极高</text></div>
+                    <div class="description-world">致力于为不愿将就的你，<text class="next-line">找到最好的爱情</text></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ==============================================
+   真实脱单故事
+   =============================================== -->
+    <section id="really-story">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">真实脱单故事</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="story-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="swiper-container story-swiper swiper-container-initialized swiper-container-horizontal">
+                            <div class="swiper-wrapper" id="swiper-wrapper-ebcd1bd1829e3618" aria-live="polite" style="transition: all;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_four.jpg">
+                                            </div>
+                                            <div class="description slide-one">
+                                                <div class="name">橙小姐
+                                                    <span class="school">浙江大学</span>
+                                                </div>
+                                                <div class="name">熊先生
+                                                    <span class="school">清华大学</span>
+                                                </div>
+                                                <div class="introduce">第一阶段的甜蜜+第二阶段的磨合=我们的爱情</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_five.jpg">
+                                            </div>
+                                            <div class="description slide-two">
+                                                <div class="name">Jenny
+                                                    <span class="school">985硕士</span>
+                                                </div>
+                                                <div class="name">John
+                                                    <span class="school">985硕士</span>
+                                                </div>
+                                                <div class="introduce">相识一个月就确认关系，ta就是对的人</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_sex.jpg">
+                                            </div>
+                                            <div class="description slide-three">
+                                                <div class="name">X小姐
+                                                    <span class="school">复旦大学</span>
+                                                </div>
+                                                <div class="name">X先生
+                                                    <span class="school">上海交通大学</span>
+                                                </div>
+                                                <div class="introduce">一封应征帖不够，那就两封！</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" data-swiper-slide-index="0">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_one.jpg">
+                                            </div>
+                                            <div class="description">
+                                                <div class="name">R小姐
+                                                    <span class="school">北京大学</span>
+                                                </div>
+                                                <div class="name">L先生
+                                                    <span class="school">香港大学</span>
+                                                </div>
+                                                <div class="introduce">线下两百人中，只有我们成功互选</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="1">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_two.jpg">
+                                            </div>
+                                            <div class="description  slide-two">
+                                                <div class="name">乖小姐
+                                                    <span class="school">北京大学</span>
+                                                </div>
+                                                <div class="name">白先生
+                                                    <span class="school">浙江大学</span>
+                                                </div>
+                                                <div class="introduce">摆烂的我遇到靠谱的红娘，收获同频共振的爱情</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_three.jpg">
+                                            </div>
+                                            <div class="description slide-three">
+                                                <div class="name">Minl酱
+                                                    <span class="school">哥伦比亚大学</span>
+                                                </div>
+                                                <div class="name">Fan桑
+                                                    <span class="school">哥伦比亚大学</span>
+                                                </div>
+                                                <div class="introduce">确立关系一个月，他就带我买了对戒</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_four.jpg">
+                                            </div>
+                                            <div class="description slide-one">
+                                                <div class="name">橙小姐
+                                                    <span class="school">浙江大学</span>
+                                                </div>
+                                                <div class="name">熊先生
+                                                    <span class="school">清华大学</span>
+                                                </div>
+                                                <div class="introduce">第一阶段的甜蜜+第二阶段的磨合=我们的爱情</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_five.jpg">
+                                            </div>
+                                            <div class="description slide-two">
+                                                <div class="name">Jenny
+                                                    <span class="school">985硕士</span>
+                                                </div>
+                                                <div class="name">John
+                                                    <span class="school">985硕士</span>
+                                                </div>
+                                                <div class="introduce">相识一个月就确认关系，ta就是对的人</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_sex.jpg">
+                                            </div>
+                                            <div class="description slide-three">
+                                                <div class="name">X小姐
+                                                    <span class="school">复旦大学</span>
+                                                </div>
+                                                <div class="name">X先生
+                                                    <span class="school">上海交通大学</span>
+                                                </div>
+                                                <div class="introduce">一封应征帖不够，那就两封！</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_one.jpg">
+                                            </div>
+                                            <div class="description">
+                                                <div class="name">R小姐
+                                                    <span class="school">北京大学</span>
+                                                </div>
+                                                <div class="name">L先生
+                                                    <span class="school">香港大学</span>
+                                                </div>
+                                                <div class="introduce">线下两百人中，只有我们成功互选</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_two.jpg">
+                                            </div>
+                                            <div class="description  slide-two">
+                                                <div class="name">乖小姐
+                                                    <span class="school">北京大学</span>
+                                                </div>
+                                                <div class="name">白先生
+                                                    <span class="school">浙江大学</span>
+                                                </div>
+                                                <div class="introduce">摆烂的我遇到靠谱的红娘，收获同频共振的爱情</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2">
+                                    <div class="guest-area">
+                                        <div class="area-block" data-toggle="modal" data-target="#myModal">
+                                            <div class="poster">
+                                                <img alt="guest" src="assets/images/story_three.jpg">
+                                            </div>
+                                            <div class="description slide-three">
+                                                <div class="name">Minl酱
+                                                    <span class="school">哥伦比亚大学</span>
+                                                </div>
+                                                <div class="name">Fan桑
+                                                    <span class="school">哥伦比亚大学</span>
+                                                </div>
+                                                <div class="introduce">确立关系一个月，他就带我买了对戒</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div></div>
+
+                            <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ebcd1bd1829e3618"></div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-ebcd1bd1829e3618"></div>
+
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ==============================================
+  创始团队
+  =============================================== -->
+    <section id="founding-team">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">创始团队</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="description-world">
+                    陌上花开HIMMR成立于2015年
+                </div>
+                <div class="description-world">
+                    由来自顶尖学府清华北大的月亮和乐乐创立
+                </div>
+                <div class="description-world">
+                    是专注于为国内985高校及海外知名高校提供婚恋服务的平台
+                </div>
+            </div>
+            <div class="row flex-row-box flex-wrap">
+                <div class="founding-people col-md-6">
+                    <img src="assets/images/lele.png">
+                    <div class="info">
+                        <div class="name">
+                            乐乐
+                        </div>
+                        <div class="desc">
+                            清华经管本科毕业，上海交通大学金融硕士。曾就职于国际投行，国际五星级酒店集团。立志于给更多人提供五星级的相亲体验
+                        </div>
+                    </div>
+                </div>
+                <div class="founding-people col-md-6">
+                    <img src="assets/images/yueliang.png">
+                    <div class="info">
+                        <div class="name">
+                            月亮
+                        </div>
+                        <div class="desc">
+                            清华经管本科毕业，北京大学金融硕士。曾就职于国际投行，跨国投资公司。用投资的眼光助你提升脱单效率
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    媒体报道
+    =============================================== -->
+    <section id="reports">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="section-title">
+                        <div class="front-title">媒体报道</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row media-description">
+                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                    <p class="media-text">
+                        陌上花开 HIMMR 由清华毕业的月亮和乐乐于 2015 年创办，2019 年被《中国日报》报道，同年成为上海共青团活动合作伙伴；2022年4月被
+                        《扬子晚报》“紫牛头条”报道，并获得学习强国App强国号推荐，《广州日报》同期发表评论，2022年9月被《婚姻与家庭》杂志报道；2024年受
+                        CCTV3邀请登上央视讲述创业故事。
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 flex-row-box flex-wrap" data-toggle="modal" data-target="#myModal">
+
+                    <img class="newspaper news-small" src="assets/images/news-1.png" onclick="javascript:void(0)">
+
+                    <img class="newspaper" src="assets/images/news-2.png" onclick="javascript:void(0)">
+
+                    <img class="newspaper newspaper-double" src="assets/images/news-3.png" onclick="javascript:void(0)">
+
+                    <img class="newspaper newspaper-double newspaper-last" src="assets/images/news-4.png" onclick="javascript:void(0)">
+
+                </div>
+
+            </div>
+
+            <div class="row media-description">
+                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                    <p class="media-text">
+                        此外，陌上花开HIMMR自2019 年起成为《非诚勿扰》《新相亲大会》《你好，另一半》等节目的特约合作伙伴。 2020 年陌上花开 HIMMR 接连被搜狐新闻、
+                        36氪、新周刊、网易浪潮工作室等媒体关注和报道，相关稿件总阅读量超过千万，同时于当年 9 月登上知乎热榜前十。2021 年陌上花开 HIMMR 陆续被一条、
+                        虎嗅网、三联生活周刊、当下视频、GQ等多家媒体专访报道。
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="media-block">
+                        <img class="media-img" alt="logo" src="assets/images/media/sohu-logo.png">
+
+                        <img class="media-img" alt="logo" src="assets/images/media/36kr-logo.png">
+
+                        <img class="media-img" alt="logo" src="assets/images/media/china-daily-logo.png">
+
+                        <img class="media-img" alt="logo" src="assets/images/media/zhihu-logo.png">
+
+                        <img class="media-img" alt="logo" src="assets/images/media/feichengwurao-logo.png">
+                        <img class="media-img" alt="logo" src="assets/images/media/xinzhoukan-logo.png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-area">
+
+            <div class="container">
+                <div class="flex-row-box">
+                    <div class="col-md-8 col-xs-12 qr-block">
+                        <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;img src='assets/images/qr-code.png' style='height:100px'&gt;">
+                            微信公众号
+                        </div>
+                        <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;div&gt;info@howimetmrright.com&lt;/div&gt;">官方邮箱
+                        </div>
+                        <div class="qr-button" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="&lt;div&gt;&lt;img src='assets/images/customer-service-qr-code.png' style='height:100px'&gt;&lt;div&gt;客服微信&lt;/div&gt;&lt;/div&gt;">
+                            联系我们
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="footer-text text-center">
+
+                            <div>
+                                <p id="copyright">© 2015-2025 北京陌花网络科技有限公司</p>
+                                <p>
+                                    <a id="beian" class="beian-link" href="https://beian.miit.gov.cn/" target="_blank">备案号：京ICP备2023005529号</a>
+                                </p>
+                                <p>
+                                    <a id="passport" class="beian-link" href="https://beian.miit.gov.cn/" target="_blank">增值电信业务经营许可证：京B2-20230773</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-area">
+
+                <div class="text-desc">
+                    详情可关注公众号
+                </div>
+                <div class="img-desc">
+                    <img alt="logo" src="assets/images/dialog.jpg">
+                </div>
+
+
+                <div class="btn-desc">
+
+                    <button type="button" class="erhua-btn" data-dismiss="modal">知道了</button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- ==============================================
+SCRIPTS
+=============================================== -->
+
+
+
+
+
+
+</body></html>

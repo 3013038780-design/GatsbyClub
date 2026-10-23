@@ -1,0 +1,182 @@
+{
+  "mandala": {
+    "file": "assets/mandala.jpg",
+    "url": "https://static.wixstatic.com/media/70c7f9_7d6ea104c985449596da5b8c3e994911~mv2.jpg",
+    "page": "https://www.mandala.club/",
+    "caption": "Mandala Club 官网空间照",
+    "size": [
+      1800,
+      1200
+    ]
+  },
+  "modernist": {
+    "file": "assets/modernist.jpg",
+    "url": "https://images.squarespace-cdn.com/content/v1/557ea5c9e4b013c140ad5d7e/1551640414425-48JEV5IUXAI5U8XK0J6V/Yuan%2BYuan%2BTan%2Bat%2Bthe%2BModernist-87.jpg",
+    "page": "https://www.modernist.club/gallery",
+    "caption": "Modernist 官方图库活动照",
+    "size": [
+      1800,
+      1026
+    ]
+  },
+  "parlor": {
+    "file": "assets/parlor.jpg",
+    "url": "https://parlor.social/parlor.jpg",
+    "page": "https://parlor.social/",
+    "caption": "Parlor 官网分享图",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "battery": {
+    "file": "assets/battery.jpg",
+    "url": "https://i.sonato.com/so/1584b851-8643-4ef3-b10f-5b896ab5b864/w=1200,fit=scale-down,q=80,f=auto",
+    "page": "https://thebatterysf.com/",
+    "caption": "The Battery 官网分享图",
+    "size": [
+      1200,
+      656
+    ]
+  },
+  "carlyle": {
+    "file": "assets/carlyle.jpg",
+    "url": "https://api.carlyleandco.com/media/ylep0l5i/1-home-page-about-us_low3.jpg",
+    "page": "https://www.carlyleandco.com/",
+    "caption": "Carlyle & Co 官网品牌插画",
+    "size": [
+      1800,
+      1260
+    ]
+  },
+  "estelle": {
+    "file": "assets/estelle.jpg",
+    "url": "https://estellecommunity.com/wp-content/themes/world-of-estelle/assets/images/properties-desktop.jpg",
+    "page": "https://estellecommunity.com/",
+    "caption": "Estelle Community 官网旗下空间品牌插画",
+    "size": [
+      1610,
+      785
+    ]
+  },
+  "arts": {
+    "file": "assets/arts.jpg",
+    "url": "https://theartsclub.co.uk/wp-content/uploads/2021/10/The-Arts-Club-first-floor.jpg",
+    "page": "https://theartsclub.co.uk/arts-culture/",
+    "caption": "The Arts Club 官网一层空间照",
+    "size": [
+      1800,
+      1105
+    ]
+  },
+  "offline": {
+    "file": "assets/offline.jpg",
+    "url": "https://cdn.prod.website-files.com/67374cd0e7404ab223351f6c/67571d995b3595ef8f5c5fb1_the_offline_club_retreat_france.avif",
+    "page": "https://www.theoffline-club.com/retreat-locations/5-day-retreat-in-france",
+    "caption": "The Offline Club 法国旅行官网图片",
+    "size": [
+      1000,
+      1000
+    ]
+  },
+  "secret": {
+    "file": "assets/secret.jpg",
+    "url": "https://cdn.prod.website-files.com/65c2438bebaaa92c6936de51/65c2438bebaaa92c6936e02b_bridgerton.avif",
+    "page": "https://www.secretcinema.com/about",
+    "caption": "Secret Cinema 官网 Bridgerton 图片",
+    "size": [
+      799,
+      277
+    ]
+  },
+  "crystal": {
+    "file": "assets/crystal.jpg",
+    "url": "https://the-crystal-maze.com/media/ljefz143/dome-3.jpg",
+    "page": "https://the-crystal-maze.com/london/the-experience/",
+    "caption": "The Crystal Maze Live 官网图片",
+    "size": [
+      786,
+      655
+    ]
+  },
+  "gamechanger": {
+    "file": "assets/gamechanger.jpg",
+    "url": "https://vhx.imgix.net/chuncensoredstaging/assets/66d93cbb-1737-4209-81ef-6317abea9bd2.jpg?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
+    "page": "https://watch.dropout.tv/game-changer-new",
+    "caption": "Game Changer 官方节目缩略图 Last Talent Standing",
+    "size": [
+      640,
+      360
+    ]
+  },
+  "jetlag": {
+    "file": "assets/jetlag.jpg",
+    "url": "https://images.nebula.tv/dbde5083-5586-4e07-9607-b3e1a3ec01fa?format=jpeg&width=1280",
+    "page": "https://nebula.tv/jetlag/season/3",
+    "caption": "Jet Lag 当前页面系列分享图 非第三季画面 本站未用于第三季研究配图",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "amazing": {
+    "file": "assets/amazing.jpg",
+    "url": "https://wwwimage-tve.cbsstatic.com/base/files/seo/56/81/12/5f7a863d-9152-41af-9edd-f5f9fd913ecb.jpg",
+    "page": "https://www.cbs.com/shows/amazing_race/about/",
+    "caption": "The Amazing Race CBS 官网分享图",
+    "size": [
+      1200,
+      627
+    ]
+  },
+  "devilsplan": {
+    "file": "assets/devilsplan.jpg",
+    "url": "https://images.ctfassets.net/4cd45et68cgf/YZtrXZMbcSKvAu3qg1oT9/65785e88520431b68300bf5115472789/The_Devil-s_Plan_Death_Room.jpg",
+    "page": "https://about.netflix.com/news/the-devils-plan-death-room-trailer",
+    "caption": "The Devil’s Plan 第二季 Netflix 官方海报",
+    "size": [
+      1013,
+      1500
+    ]
+  },
+  "fortune": {
+    "file": "assets/fortune.jpg",
+    "url": "https://www.stvstudios.com/media/kofgbk0n/photo-logo-gold.png?center=0.5%2C0.5&format=webp&height=398&mode=crop&quality=85&rnd=132945132427470000&width=693",
+    "page": "https://www.stvstudios.com/production/the-fortune-hotel/",
+    "caption": "The Fortune Hotel 制作公司 STV Studios 官方宣传图",
+    "size": [
+      693,
+      398
+    ]
+  },
+  "mandala-dining": {
+    "file": "assets/mandala-dining.jpg",
+    "url": "https://static.wixstatic.com/media/70c7f9_4314680cfee64c1a9d77c764373fbe91~mv2.jpg",
+    "page": "https://www.mandala.club/",
+    "caption": "Mandala Club Members Bar 官网空间照",
+    "size": [
+      1800,
+      1201
+    ]
+  },
+  "mandala-pitch": {
+    "file": "assets/mandala-pitch.jpg",
+    "url": "https://static.wixstatic.com/media/70c7f9_628a6c1b9d094021aa4ffcbd17056a56~mv2.webp",
+    "page": "https://www.mandala.club/",
+    "caption": "Mandala Club Proudly Pitch a Friend 官方活动图",
+    "size": [
+      1800,
+      1013
+    ]
+  },
+  "carlyle-space": {
+    "file": "assets/carlyle-space.jpg",
+    "url": "https://api.carlyleandco.com/media/2yal4mqg/group-180.jpg",
+    "page": "https://www.carlyleandco.com/",
+    "caption": "Carlyle & Co 官网灯饰插画 本站未采用",
+    "size": [
+      1438,
+      950
+    ]
+  }
+}

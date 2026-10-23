@@ -1,0 +1,329 @@
+{
+  "collected_at": "2026-10-21T17:26:51+08:00",
+  "pages": [
+    {
+      "机构": "EO全球",
+      "网址": "https://eonetwork.org/membership/forum/",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 14099,
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "原文文件": "raw/107ba0c64e149e.md",
+      "错误": ""
+    },
+    {
+      "机构": "深商联",
+      "网址": "https://www.shenshang.org/understand/entrepreneur/club",
+      "状态": "已采集",
+      "HTTP状态": 200,
+      "正文字数": 3603,
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "原文文件": "raw/0fad190e10b5a1.md",
+      "错误": ""
+    },
+    {
+      "机构": "长江商学院",
+      "网址": "https://www.ckgsb.com/emba/article/detail.html?articleid=25324",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    }
+  ],
+  "evidence": [
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "[Skip to main content](https://eonetwork.org/membership/forum/#main) [ ![Entrepreneurs' Organization](https://eonetwork.org/images/eo-logo-color.svg?v2) ](https://eonetwork.org/) * [ ![](https://eonetwork.org/images/user-icon-dark.svg) Login Off-site li",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": ".org/newsroom/) * [Podcasts](https://eonetwork.org/podcasts/) * Membership ‹ Back [Membership](https://eonetwork.org/membership/) Member Benefits Browse our suite of benefits designed to help entrepreneurs around the world grow. [See the Perks](https://eonetwork.org/members",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "* [Podcasts](https://eonetwork.org/podcasts/) * Membership ‹ Back [Membership](https://eonetwork.org/membership/) Member Benefits Browse our suite of benefits designed to help entrepreneurs around the world grow. [See the Perks](https://eonetwork.org/membership/) Connect *",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "g/podcasts/) * Membership ‹ Back [Membership](https://eonetwork.org/membership/) Member Benefits Browse our suite of benefits designed to help entrepreneurs around the world grow. [See the Perks](https://eonetwork.org/membership/) Connect * [Forum](https://eonetwork.org/mem",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "bership ‹ Back [Membership](https://eonetwork.org/membership/) Member Benefits Browse our suite of benefits designed to help entrepreneurs around the world grow. [See the Perks](https://eonetwork.org/membership/) Connect * [Forum](https://eonetwork.org/membership/forum/)",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "ttps://eonetwork.org/membership/) Member Benefits Browse our suite of benefits designed to help entrepreneurs around the world grow. [See the Perks](https://eonetwork.org/membership/) Connect * [Forum](https://eonetwork.org/membership/forum/) * [Events](https://eonetwor",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "preneurs around the world grow. [See the Perks](https://eonetwork.org/membership/) Connect * [Forum](https://eonetwork.org/membership/forum/) * [Events](https://eonetwork.org/membership/events/) * [Communities](https://eonetwork.org/membership/communities/) Learn",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "onetwork.org/membership/) Connect * [Forum](https://eonetwork.org/membership/forum/) * [Events](https://eonetwork.org/membership/events/) * [Communities](https://eonetwork.org/membership/communities/) Learn * [EO Explorations](https://eonetwork.org/membership/expl",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "eonetwork.org/membership/forum/) * [Events](https://eonetwork.org/membership/events/) * [Communities](https://eonetwork.org/membership/communities/) Learn * [EO Explorations](https://eonetwork.org/membership/explorations/) * [Executive Education](https://eonetwork",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "ork.org/membership/events/) * [Communities](https://eonetwork.org/membership/communities/) Learn * [EO Explorations](https://eonetwork.org/membership/explorations/) * [Executive Education](https://eonetwork.org/membership/executive-education/) * [Virtual Learning]",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "hip/communities/) Learn * [EO Explorations](https://eonetwork.org/membership/explorations/) * [Executive Education](https://eonetwork.org/membership/executive-education/) * [Virtual Learning](https://eonetwork.org/membership/virtual-learning/) Grow * [Path of Lead",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "产品权益",
+      "原文片段": "ship/explorations/) * [Executive Education](https://eonetwork.org/membership/executive-education/) * [Virtual Learning](https://eonetwork.org/membership/virtual-learning/) Grow * [Path of Leadership](https://eonetwork.org/membership/path-of-leadership/) * [Global",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "hapter](https://member.eonetwork.org/about/chapter-locations/) * [Apply to EO](https://member.eonetwork.org/why-join/apply-for-membership-form) [Early Stage Entrepreneurs](https://eonetwork.org/pathways/early-stage-entrepreneurs/) * [Accelerator Program](https://eone",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "locations/) * [Apply to EO](https://member.eonetwork.org/why-join/apply-for-membership-form) [Early Stage Entrepreneurs](https://eonetwork.org/pathways/early-stage-entrepreneurs/) * [Accelerator Program](https://eonetwork.org/accelerator/) * [Accelerator FAQs](ht",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "* [Accelerator FAQs](https://eonetwork.org/accelerator/faqs/) * [Apply to Accelerator](https://member.eonetwork.org/eo-accelerator/accelerator-application-form) [Student Entrepreneurs](https://eonetwork.org/pathways/student-entrepreneurs/) * [About GSEA](https://eon",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "* [GSEA Finalists](https://eonetwork.org/gsea-finalists/) * [Apply to GSEA](https://eonetwork.org/gsea/apply/) * [Stories + Resources](https://eonetwork.org/blog/) * ![](https://eonetwork.org/images/icon-search.svg) What can we help you find? Search * [ ![](",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "org/gsea-finalists/) * [Apply to GSEA](https://eonetwork.org/gsea/apply/) * [Stories + Resources](https://eonetwork.org/blog/) * ![](https://eonetwork.org/images/icon-search.svg) What can we help you find? Search * [ ![](https://eonetwork.org/images/user-icon-dar",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "etwork.org/login) * [Join EO](https://member.eonetwork.org/why-join/apply-for-membership-form) ![](https://eonetwork.org/media/kmcdeg0e/train-the-trainer-cancun_6t0a1674_03-19.png?cc=0.3808826442386253,0,0.38231003765646776,0&width=390&height=788&v=1db2a2b6926c370) # For",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "p has provided me with amazing business and life takeaways that I can apply immediately. **Greg Samuels** , _EO Richmond_ ![](https://eonetwork.org/media/1bvf31d2/greg-image.png) Joining the SLP forum was transformative. It taught me what it truly means to share from",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "EO全球",
+      "字段": "获客与推荐",
+      "原文片段": "p has provided me with amazing business and life takeaways that I can apply immediately. **Greg Samuels** , _EO Richmond_ ![](https://eonetwork.org/media/1bvf31d2/greg-image.png) ![](https://eonetwork.org/media/kyne4kqa/peter.png) Joining the SLP forum was transformative. I",
+      "来源": "https://eonetwork.org/membership/forum/",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "产品权益",
+      "原文片段": "速发展，她们在创新进取、事业获得丰收的同时，而且注重个人品味和生活质量的提升，成为深商一支魅力与风采兼具的名媛劲旅。为建立开展适合深商联女性会员活动的长效机制，联合会员企业家发起成立深商名媛汇，由丽琪服装董事长任馨出任主席，通过组织艺术沙龙、文化之旅、养生保健、美容化妆与形象设计、高端礼仪等活动，让深商名媛汇成为鹏城一张美丽的名片。 ![](https://www.shenshang.org/media/upload/club/club005.jpg) # 深商菁英会 深商菁英会成立于2016年9月，执委来自大中华、康达尔、中意、方大、朗迈、",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "客户与规模",
+      "原文片段": "成立以来，深商菁英会不断创新管理机制和服务模式，每年举办10余项各类中小型服务活动，涵盖资源链接、产业协同、主题沙龙、生日晚宴等10余类，为成员不断聚合深圳的优质资源和各专业领军企业，链接力量、集中智慧，实现资金、实业、政府、研发和高校的资源整合。 深商菁英会旨在团结年轻深商、集聚年轻深商，把菁英会打造成为交流学习、资源共享、共同实践和互利共赢平台。尤其是，在当前全面进入信息经济时代，知识更新的速度、理念变革的频率都极大加快，合理引导、培养和促成年轻的深商迅速成长和健康发展，形成年龄的合理梯队，为深商可持续发展奠定基础，这是深商菁英会企业",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "获客与推荐",
+      "原文片段": "r/login?backurl=)[注册](https://www.shenshang.org/member/reg?backurl=) [申请入会](https://www.shenshang.org/member/apply) 搜索 深商木棉会 深商菁英会 # 深商木棉会 伴随着深商联的成长壮大，女性会员也迅速发展，她们在创新进取、事业获得丰收的同时，而且注重个人品味和生活质量的提升，成为深商一支魅力与风采兼具的名媛劲旅。为建立开展适合深商联女性会员活动的长效机制，联合会员企业家发起成立深商名媛汇，由丽琪服装董事长任馨出任主席，通过组织艺",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "获客与推荐",
+      "原文片段": "hang.org/member/reg?backurl=) [申请入会](https://www.shenshang.org/member/apply) 搜索 深商木棉会 深商菁英会 # 深商木棉会 伴随着深商联的成长壮大，女性会员也迅速发展，她们在创新进取、事业获得丰收的同时，而且注重个人品味和生活质量的提升，成为深商一支魅力与风采兼具的名媛劲旅。为建立开展适合深商联女性会员活动的长效机制，联合会员企业家发起成立深商名媛汇，由丽琪服装董事长任馨出任主席，通过组织艺术沙龙、文化之旅、养生保健、美容化妆与形象设计、高端礼仪等活动，让深商名媛汇成为",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "获客与推荐",
+      "原文片段": "Tel:0755-26619919 Tel:0755-83643486 Add:深圳市南山区高新中二道生产力大楼D栋1层 * ### 微信公众号 ![qrcode](https://www.shenshang.org/themes/pc/default/upload/images/qrcode.png) 友情链接： [深圳老字号](http://szlao.com/) | [深商总会](https://www.shenshang.org/foszc/about-foszc) | [深圳市商业联合会](https://www.shens",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    },
+    {
+      "机构": "深商联",
+      "字段": "活动与流程",
+      "原文片段": "年轻的一支力量。 成立以来，深商菁英会不断创新管理机制和服务模式，每年举办10余项各类中小型服务活动，涵盖资源链接、产业协同、主题沙龙、生日晚宴等10余类，为成员不断聚合深圳的优质资源和各专业领军企业，链接力量、集中智慧，实现资金、实业、政府、研发和高校的资源整合。 深商菁英会旨在团结年轻深商、集聚年轻深商，把菁英会打造成为交流学习、资源共享、共同实践和互利共赢平台。尤其是，在当前全面进入信息经济时代，知识更新的速度、理念变革的频率都极大加快，合理引导、培养和促成年轻的深商迅速成长和健康发展，形成年龄的合理梯队，为深商可持续发展奠定基础，",
+      "来源": "https://www.shenshang.org/understand/entrepreneur/club",
+      "PDF页码": "",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "证据类型": "机构公开资料；待逐条复核"
+    }
+  ],
+  "activity_links": [
+    {
+      "机构": "EO全球",
+      "链接标题": "Membership",
+      "详情网址": "https://eonetwork.org/membership/",
+      "发现页": "https://eonetwork.org/membership/forum/",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "EO全球",
+      "链接标题": "Events",
+      "详情网址": "https://eonetwork.org/membership/events/",
+      "发现页": "https://eonetwork.org/membership/forum/",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "深商联",
+      "链接标题": "总会章程",
+      "详情网址": "https://www.shenshang.org/foszc/constitution",
+      "发现页": "https://www.shenshang.org/understand/entrepreneur/club",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "深商联",
+      "链接标题": "深商联章程",
+      "详情网址": "https://www.shenshang.org/sgcc/constitution",
+      "发现页": "https://www.shenshang.org/understand/entrepreneur/club",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "深商联",
+      "链接标题": "活动",
+      "详情网址": "https://www.shenshang.org/understand/into-shenshang/activitys",
+      "发现页": "https://www.shenshang.org/understand/entrepreneur/club",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "深商联",
+      "链接标题": "会员动态",
+      "详情网址": "https://www.shenshang.org/?label=23",
+      "发现页": "https://www.shenshang.org/understand/entrepreneur/club",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    },
+    {
+      "机构": "深商联",
+      "链接标题": "商会章程",
+      "详情网址": "https://www.shenshang.org/about/280.html",
+      "发现页": "https://www.shenshang.org/understand/entrepreneur/club",
+      "采集时间": "2026-10-21T17:26:51+08:00",
+      "状态": "链接线索，尚未判断已举办"
+    }
+  ]
+}

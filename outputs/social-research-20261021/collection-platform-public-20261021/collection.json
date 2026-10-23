@@ -1,0 +1,37 @@
+{
+  "collected_at": "2026-10-21T17:20:35+08:00",
+  "pages": [
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://jingxuan.douyin.com/m/video/7632217189461921030",
+      "状态": "失败或正文不足",
+      "HTTP状态": 302,
+      "正文字数": 1,
+      "采集时间": "2026-10-21T17:20:35+08:00",
+      "原文文件": "",
+      "错误": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (6328 bytes, 0 chars visible)"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://jingxuan.douyin.com/m/video/7681618473243462963",
+      "状态": "仅导航，未取得视频正文",
+      "HTTP状态": 302,
+      "正文字数": 2907,
+      "采集时间": "2026-10-21T17:20:35+08:00",
+      "原文文件": "raw/6777c88bb6f7af.md",
+      "错误": "页面仅展示导航及视频数据加载中，剔除有效正文"
+    },
+    {
+      "机构": "中欧国际工商学院",
+      "网址": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%AC%A7%E5%9B%BD%E9%99%85%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2",
+      "状态": "失败或正文不足",
+      "HTTP状态": null,
+      "正文字数": 0,
+      "采集时间": "2026-10-21T17:20:35+08:00",
+      "原文文件": "",
+      "错误": "Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPag"
+    }
+  ],
+  "evidence": [],
+  "activity_links": []
+}

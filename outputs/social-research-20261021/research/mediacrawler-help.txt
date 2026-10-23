@@ -1,0 +1,127 @@
+/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/jieba/__init__.py:44: SyntaxWarning: invalid escape sequence '\.'
+  re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/jieba/__init__.py:46: SyntaxWarning: invalid escape sequence '\s'
+  re_skip_default = re.compile("(\r\n|\s)", re.U)
+/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/jieba/finalseg/__init__.py:78: SyntaxWarning: invalid escape sequence '\.'
+  re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+2026-10-21 16:51:10 matplotlib.font_manager WARNING (font_manager.py:1249) - Matplotlib is building the font cache; this may take a moment.
+2026-10-21 16:51:16 matplotlib.font_manager INFO (font_manager.py:1263) - Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: Non-scalable fonts are not supported
+2026-10-21 16:51:16 matplotlib.font_manager INFO (font_manager.py:1263) - Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: Non-scalable fonts are not supported
+2026-10-21 16:51:16 matplotlib.font_manager INFO (font_manager.py:1263) - Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: FT_Open_Face (ft2font.cpp line 200) failed with error 0x02: unknown file format
+2026-10-21 16:51:16 matplotlib.font_manager INFO (font_manager.py:1263) - Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+2026-10-21 16:51:16 matplotlib.font_manager INFO (font_manager.py:1848) - generated new fontManager
+                                                                                
+ Usage: main.py [OPTIONS] COMMAND [ARGS]...                                     
+                                                                                
+ MediaCrawler 命令行入口                                                        
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --help          Show this message and exit.                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Basic Configuration ────────────────────────────────────────────────────────╮
+│ --platform                    <xhs|dy|ks|bili|wb|tie  Media platform         │
+│                               ba|zhihu>               selection              │
+│                                                       (xhs=XiaoHongShu |     │
+│                                                       dy=Douyin |            │
+│                                                       ks=Kuaishou |          │
+│                                                       bili=Bilibili |        │
+│                                                       wb=Weibo | tieba=Baidu │
+│                                                       Tieba | zhihu=Zhihu)   │
+│                                                       [default: xhs]         │
+│ --type                        <search|detail|creator  Crawler type           │
+│                               >                       (search=Search |       │
+│                                                       detail=Detail |        │
+│                                                       creator=Creator)       │
+│                                                       [default: search]      │
+│ --start                       <int>                   Starting page number   │
+│                                                       [default: 1]           │
+│ --keywords                    <str>                   Enter keywords,        │
+│                                                       multiple keywords      │
+│                                                       separated by commas    │
+│                                                       [default: 京城俱乐部]  │
+│ --specified_id                <str>                   Post/video ID list in  │
+│                                                       detail mode, multiple  │
+│                                                       IDs separated by       │
+│                                                       commas (supports full  │
+│                                                       URL or ID)             │
+│ --creator_id                  <str>                   Creator ID list in     │
+│                                                       creator mode, multiple │
+│                                                       IDs separated by       │
+│                                                       commas (supports full  │
+│                                                       URL or ID)             │
+│ --crawler_max_notes_c…        <int>                   Maximum number of      │
+│                                                       videos/posts to crawl  │
+│                                                       [default: 5]           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Account Configuration ──────────────────────────────────────────────────────╮
+│ --lt             <qrcode|phone|cookie>  Login type (qrcode=QR Code |         │
+│                                         phone=Phone | cookie=Cookie)         │
+│                                         [default: qrcode]                    │
+│ --cookies        <str>                  Cookie value used for Cookie login   │
+│                                         method                               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Comment Configuration ──────────────────────────────────────────────────────╮
+│ --get_comment                         <str>  Whether to crawl first-level    │
+│                                              comments, supports              │
+│                                              yes/true/t/y/1 or               │
+│                                              no/false/f/n/0                  │
+│                                              [default: True]                 │
+│ --get_sub_comment                     <str>  Whether to crawl second-level   │
+│                                              comments, supports              │
+│                                              yes/true/t/y/1 or               │
+│                                              no/false/f/n/0                  │
+│                                              [default: False]                │
+│ --max_comments_count_singleno…        <int>  Maximum number of first-level   │
+│                                              comments to crawl per           │
+│                                              post/video                      │
+│                                              [default: 10]                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Storage Configuration ──────────────────────────────────────────────────────╮
+│ --get_media               <str>                    Whether to download media │
+│                                                    files (cover/video/images │
+│                                                    of the post), supports    │
+│                                                    yes/true/t/y/1 or         │
+│                                                    no/false/f/n/0            │
+│                                                    (xhs/dy/ks/bili/wb)       │
+│                                                    [default: False]          │
+│ --save_data_option        <csv|db|json|jsonl|sqli  Data save option (csv=CSV │
+│                           te|mongodb|excel|postgr  file | db=MySQL database  │
+│                           es>                      | json=JSON file |        │
+│                                                    jsonl=JSONL file |        │
+│                                                    sqlite=SQLite database |  │
+│                                                    mongodb=MongoDB database  │
+│                                                    | excel=Excel file |      │
+│                                                    postgres=PostgreSQL       │
+│                                                    database)                 │
+│                                                    [default: jsonl]          │
+│ --init_db                 <sqlite|mysql|postgres>  Initialize database table │
+│                                                    structure (sqlite | mysql │
+│                                                    | postgres)               │
+│ --save_data_path          <str>                    Data save path, default   │
+│                                                    is empty and will save to │
+│                                                    data folder               │
+│                                                    [default:                 │
+│                                                    /Users/olivialee/Documen… │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Runtime Configuration ──────────────────────────────────────────────────────╮
+│ --headless        <str>  Whether to enable headless mode (applies to both    │
+│                          Playwright and CDP), supports yes/true/t/y/1 or     │
+│                          no/false/f/n/0                                      │
+│                          [default: False]                                    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Performance Configuration ──────────────────────────────────────────────────╮
+│ --max_concurrency_num        <int>  Maximum number of concurrent crawlers    │
+│                                     [default: 1]                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Proxy Configuration ────────────────────────────────────────────────────────╮
+│ --enable_ip_proxy               <str>  Whether to enable IP proxy, supports  │
+│                                        yes/true/t/y/1 or no/false/f/n/0      │
+│                                        [default: False]                      │
+│ --ip_proxy_pool_count           <int>  IP proxy pool count [default: 2]      │
+│ --ip_proxy_provider_name        <str>  IP proxy provider name (kuaidaili |   │
+│                                        wandouhttp | static)                  │
+│                                        [default: kuaidaili]                  │
+│ --static_proxy_url              <str>  Static proxy URL, for example         │
+│                                        http://user:password@host:port        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

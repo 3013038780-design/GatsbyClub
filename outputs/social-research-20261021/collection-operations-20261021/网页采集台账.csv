@@ -1,0 +1,6 @@
+﻿机构,网址,状态,HTTP状态,正文字数,采集时间,原文文件,错误
+EO全球,https://eonetwork.org/membership/forum/,已采集,200,14099,2026-10-21T17:26:51+08:00,raw/107ba0c64e149e.md,
+深商联,https://www.shenshang.org/understand/entrepreneur/club,已采集,200,3603,2026-10-21T17:26:51+08:00,raw/0fad190e10b5a1.md,
+长江商学院,https://www.ckgsb.com/emba/article/detail.html?articleid=25324,失败或正文不足,,0,2026-10-21T17:26:51+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"

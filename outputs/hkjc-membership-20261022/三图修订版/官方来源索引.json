@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01_香港个人会籍及家庭权益",
+    "title": "香港个人会籍及家庭权益",
+    "subtitle": "入会费与月费分开收；下列金额均为港元。设施使用资格、家属权限和实际消费分别列明。",
+    "sources": [
+      [
+        "会籍权益",
+        "https://members.hkjc.com/about-membership/zh-HK/Membership?b_cid=SPLDSPA_hkjc-home_Footer"
+      ],
+      [
+        "会籍收费表",
+        "https://member.hkjc.com/-/media/Sites/JCEW/member/image/common/Rate_Card.pdf"
+      ],
+      [
+        "免费配偶卡",
+        "https://www.hkjc.com/en-us/faq/membership/privileges"
+      ],
+      [
+        "家属卡权限",
+        "https://members.hkjc.com/about-membership/zh-HK/membership-cards-and-signing-rights?tags=types-of-children-card"
+      ],
+      [
+        "预约与MCID规则：F3、F5",
+        "https://member.hkjc.com/-/media/Sites/JCEW/member/common/MFD/2025_2026_MFD_Clubhouse-TC.pdf"
+      ],
+      [
+        "竞骏会专属安排",
+        "https://mem.racingclub.hkjc.com/common/pdf/TheRacingClubMembersGuideS2526.pdf"
+      ]
+    ],
+    "version": "会籍费用：2026-09-01版｜设施规则：2025—2026版"
+  },
+  {
+    "file": "02_公司及内地会籍权益",
+    "title": "公司及内地会籍权益",
+    "subtitle": "香港公司A／B按代表任期区分；内地公司甲／乙／丙按代表人数区分。两套会籍分别比较。",
+    "sources": [
+      [
+        "会籍、人数与互惠",
+        "https://members.hkjc.com/about-membership/zh-HK/Membership?b_cid=SPLDSPA_hkjc-home_Footer"
+      ],
+      [
+        "正式收费表",
+        "https://member.hkjc.com/-/media/Sites/JCEW/member/image/common/Rate_Card.pdf"
+      ],
+      [
+        "香港家庭卡",
+        "https://www.hkjc.com/en-us/faq/membership/privileges"
+      ],
+      [
+        "北京配偶卡",
+        "https://www.beijingclubhouse.com/zh-hk/images/membership/Application_Form_for_Spouse_Supplementary_Card.pdf"
+      ],
+      [
+        "北京子女卡与年费",
+        "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf"
+      ],
+      [
+        "北京设施年龄及签账规则",
+        "https://www.beijingclubhouse.com/zh-HK/rulesandregulations.aspx"
+      ]
+    ],
+    "version": "会籍费用：2026-09-01版｜内地月费：2026-01-01起"
+  },
+  {
+    "file": "03_免费赠礼额外收费及结算",
+    "title": "免费、赠礼、额外收费与结算",
+    "subtitle": "先看免费的附属权益，再看有条件赠礼；运动课程、场地租用及日常消费单独计价。",
+    "sources": [
+      [
+        "免费家庭卡",
+        "https://www.hkjc.com/en-us/faq/membership/privileges"
+      ],
+      [
+        "MCID：F5.4及运动场租规则",
+        "https://member.hkjc.com/-/media/Sites/JCEW/member/common/MFD/2025_2026_MFD_Clubhouse-TC.pdf"
+      ],
+      [
+        "2026全费生日礼遇",
+        "https://members.hkjc.com/about-membership/zh-HK/page/birthday/full-member?tags=Dining-and-Shopping-Delights"
+      ],
+      [
+        "马术收费表",
+        "https://equestrian.hkjc.com/consvc.hkjc.com/-/media/Sites/Equestrian/file/forms-useful-info/riding-schools-facilities/BREC_ServicesFees_eng.pdf?rev=dfc025d552c44fadb6f49fa799a9bd65&sc_lang=zh-HK"
+      ],
+      [
+        "卡及月结条款",
+        "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/2026_revised/hkjc_card_tnc_tc_revised.pdf"
+      ],
+      [
+        "马术记账规则5.3",
+        "https://corporate.hkjc.com/corporate/common/images/jc-news-and-activities/equestrian/BREC_Operational_Rules_Chi.pdf"
+      ]
+    ],
+    "version": "生日礼遇：2026年度｜马术价目：2025-01-01版｜其余按各来源标期"
+  }
+]

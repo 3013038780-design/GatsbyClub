@@ -1,0 +1,659 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    
+    <script src="https://hm.baidu.com/hm.js?c368b8fe55b947e24b94c99f1bf8463b"></script><script src="/libs/vue/vue.min.js"></script>
+    
+    <script src="/libs/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="/libs/swiper/swiper.min.css">
+    <script src="/libs/vue-awesome-swiper/vue-awesome-swiper.js"></script>
+    <script>
+        Vue.use(window.VueAwesomeSwiper)
+    </script>
+    
+    
+    <script src="../../../common/utils/baiduStatistics.js"></script>
+    <script src="../../../common/utils/getParamsCode.js"></script>
+    <script src="../../../common/utils/global.js"></script>
+    
+    <script src="../../../common/components/advisory-dialog.js"></script>
+    <script src="../../../components/pc/header/header.js"></script>
+    <script src="../../../components/pc/footer/footer.js"></script>
+    <script src="../../../components/pc/right-tools/right-tools.js"></script>
+
+    <script src="../../../components/pc/course/student-item.js"></script>
+    <script src="../../../components/pc/club/intro.js"></script>
+    <script src="../../../components/pc/club/admission.js"></script>
+    <script src="../../../components/pc/club/module.js"></script>
+    <script src="../../../components/pc/club/member.js"></script>
+    <script src="../../../components/pc/club/activity.js"></script>
+    <script src="../../../components/pc/club/organization.js"></script>
+    <script src="../../../components/pc/club/vision.js"></script>
+    <script src="../../../components/pc/club/core-value.js"></script>
+    
+    <link rel="shortcut icon" href="../../../static/images/favicon.ico">
+    
+    <link rel="stylesheet" href="../../../static/style/common/reset.css">
+    <link rel="stylesheet" href="../../../static/style/common/global.css">
+    <link rel="stylesheet" href="../../../static/style/common/advisory-dialog.css">
+    <link rel="stylesheet" href="../../../static/style/pc/header.css">
+    <link rel="stylesheet" href="../../../static/style/pc/footer.css">
+    <link rel="stylesheet" href="../../../static/style/pc/club.css">
+    <title>校友俱乐部 创合汇新商学</title>
+</head>
+
+<body>
+    <div id="app" class="pc"><div class="right-tools"><a class="connect-phone flexColumnCenter"><i class="icon"></i><p>400热线</p><div class="hover-phone">400-6886-238<i class="triangle"></i></div></a><a class="connect-online zhiCustomBtn"><i class="icon"></i><p>在线咨询</p></a><a class="to-top" style="display: none;"><i class="icon"></i><p>回到顶部</p></a></div> <nav class="g-header"><div class="wrapper g-width"><h1 class="logo float-left"><a href="/" title="官网首页"><img src="/static/images/pc/logo20230307.jpg" width="451" height="90"></a></h1><div class="lf-head "><a href="/" title="首页" class="item mk">首页</a><span class="item all-lesson"><a title="商学课程" class="mk">商学课程</a><div class="dropdown all-lesson-dorp" style="width: 560px;"><ul style="padding-left: 10px; width: 145px;"><li><a style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 20px;">特训营</a></li><li><a style="text-align: left;">科创家资本实战营</a></li><li><a style="text-align: left;">专精特新特训营 </a></li></ul><ul style="padding-left: 10px; width: 200px;"><li><a target="_blank" href="https://www.chuanghehui.com/custom/GGXZ" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 10px;">高管训战项目</a></li><li><a style="text-align: left;">创新增长高管训战项目</a></li><li><a style="text-align: left;">战略解码训战项目</a></li><li><a style="text-align: left;">营销增长与销售流程训战项目</a></li><li><a style="text-align: left;">研发创新管理（IPD）训战项目</a></li><li><a style="text-align: left;">数字化与运营管理训战项目</a></li><li><a style="text-align: left;">绩效管理与激励机制训战项目</a></li><li><a style="text-align: left;">干部体系训战项目</a></li></ul><ul style="padding-left: 10px; width: 170px;"><li><a title="人文领导力项目" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 10px;">人文领导力项目</a></li><li><a style="text-align: left;">哲学与东方领导力</a></li><li><a style="text-align: left;">领导智慧私塾班</a></li><li><a style="text-align: left;">易经传承私塾班</a></li></ul></div></span><span class="item all-lesson"><a href="https://www.chhconsulting.cn/index/company/index.html" title="定制项目" class="mk">定制项目</a><div class="dropdown all-lesson-dorp" style="width: 200px;"><ul style="padding-left: 10px; width: 170px;"><li><a title="定制项目" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: center;">定制项目</a></li><li><a>实战EMBA人才培养项目</a></li><li><a>训战模式人才培养项目</a></li><li><a>创新创业人才培养项目</a></li><li><a href="https://www.chhconsulting.cn/index/company/index.html" style="text-decoration: underline;">进入定制项目&gt;&gt;&gt;</a></li></ul></div></span><span class="item all-lesson"><a href="https://www.chhconsulting.cn/index/company/index.html" title="咨询辅导" class="mk">咨询辅导</a><div class="dropdown all-lesson-dorp" style="width: 200px;"><ul><li><a style="color: rgb(173, 124, 88);">咨询服务</a></li><li><a style="color: rgb(173, 124, 88);">服务案例</a></li><li><a href="https://www.chhconsulting.cn/" style="text-decoration: underline;">进入咨询中心&gt;&gt;&gt;</a></li></ul></div></span><span class="item activity-center"><a href="activity" class="mk">活动</a><!----></span><span class="item club"><a href="teacher" title="师资团队" class="mk">师资团队</a><ul class="dropdown club-dorp"><li><a>首席顾问</a></li><li><a>知名学者&amp;教授</a></li><li><a>实践专家</a></li><li><a>企业家与投资人</a></li></ul></span><span class="item about-us"><a href="http://www.chuanghehui.cn" target="_blank" class="mk">关于我们</a><ul class="dropdown about-us-dorp"><li><a href="https://www.chuanghehui.com/view/aboutedu" target="_blank">创合汇创新院</a></li><li><a href="http://www.chuanghehui.cn" target="_blank">创合汇</a></li><li><a href="contact" target="_blank">联系我们</a></li><li><a href="https://www.chuanghehui.com/custom/SYHHR" target="_blank">合伙人招募</a></li><li><a href="https://www.chuanghehui.com/view/news?type=5">知识库</a></li><li><a href="https://www.chuanghehui.com/view/news?type=1">新闻报道</a></li></ul></span></div><div class="phone-area"><ul><li class="ml20"><img src="../../../static/pc/emba/img/navi_phone.png" alt="" class="phone-icon"><span class="phone">400-6886-238</span></li></ul></div><div class="lr-head"><!----><span class="login-before"><i class="icon header-login-icon"></i><a class="mk login">登录</a><a class="mk regist">注册</a></span></div></div></nav> <div class="alumni-club g-pc-top g-width-100"><div class="banner"><div class="banner-wrapper g-width"><p class="title">全球商学院共创联盟</p> <p class="intro fs16">作为创新者、创业者的成长生态圈，设有专题社群、行业社群、区域社群3大社群模块，涵盖30+专属社群组织，链接100,000+名社群成员，致力于打造一个创新者与创业者交流分享、共创共赢的生态平台，弘扬新时代下的企业家精神与商业文明。如果你是国内外知名商学院校友、追求社会责任的企业家、创业者、富有创新精神的职场精英，来加入全球商学院共创联盟，寻找属于你的圈子！</p></div></div> <div class="nav" style="position: static;"><ul class="wrapper g-width float-clear spaceBetween"><li class="fs16 float-left club-nav-item active">
+                        创投俱乐部
+                    </li><li class="fs16 float-left club-nav-item">
+                        HR俱乐部
+                    </li><li class="fs16 float-left club-nav-item">
+                        人文与领导力俱乐部
+                    </li><li class="fs16 float-left club-nav-item">
+                        大健康产业联盟
+                    </li><li class="fs16 float-left club-nav-item">
+                        智造供应链产业联盟
+                    </li></ul></div> <section class="alumni-club-section"><div class="intro"><div class="wrapper g-width flex"><img src="https://static.chuanghehui.com/chh_bc/images/club-chuangtou-new.jpg" height="268"><div class="content"><p class="title fs38 mb20">创业与投资俱乐部</p><p class="text fs16 mb20 color57">「创合汇」全球商学院创业与投资俱乐部致力于为创业者、企业家和投资人搭建一个投融资创新与产融结合的互动交流平台，俱乐部将定期邀请顶级投资人和行业领军人物分享前沿发展趋势、行业竞争动态以及产业战略洞见，从而助力创业者、企业家和投资人在全新的产融商业背景及创新变局中，具备领先的创业与投资理念，锻造卓越的产融创新思维与决策力，捕捉全球发展新机遇。</p><div class="btn"><a>在线申请</a><a>报名咨询</a></div></div></div></div> <div class="module"><div class="wrapper g-width"><p class="module-title">6大模块</p><div class="module-swiper g-width-100"><div class="swiper-container swiper-container-horizontal"> <div class="swiper-wrapper"><div class="swiper-container-wrapper alignCenter swiper-slide swiper-slide-active" style="width: 1200px;"><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">投资学堂</p><p class="content fs14">结合国内外金融投资实例，紧握时代趋势，对当代创投界进行深度解析。</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>如何寻找独角兽</li><li class="fs14"><sub></sub>经典估值模型解读</li><li class="fs14"><sub></sub>股权投资的法律风险与防范</li><li class="fs14"><sub></sub>股权投资的退出方式</li></ul></div></div><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">投资新未来</p><p class="content fs14">瞄准BP，携手共赢！</p><p class="content fs14">做成功早期投资人，提升投资者对接优质项目的能力与获取资源</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>全年4场商学院好项目路演会</li></ul></div></div><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">创新创业高峰论坛</p><p class="content fs14">认知当下，共赢未来。</p><p class="content fs14">邀请知名媒体人、投资人筹各行各业大咖进行深度交流</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>宏观社会及热点问题解读</li><li class="fs14"><sub></sub>中国宏观社会经济形势及热点问题分析</li></ul></div></div><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">创投私董会</p><p class="content fs14">共享智慧与经验，互助成长</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>邀请创合汇平台资深私董教练带领会员开启私董会</li></ul></div></div></div><div class="swiper-container-wrapper alignCenter swiper-slide swiper-slide-next" style="width: 1200px;"><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">大咖闭门会</p><p class="content fs14">成功难以复制，失败或可避免</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>邀请知名投资人和行业领军企业家分享投资心得和经验</li></ul></div></div><div class="item pr chuangtou"><div class="item-head"><div class="bg"><p class="title fs18">标杆企业参访</p><p class="content fs14">见贤思齐，力争上游</p></div></div><div class="item-body"><ul><li class="fs14"><sub></sub>对独角兽企业及知名成功企业进行对标学习，收获商业实战经验</li></ul></div></div></div></div> <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>   </div></div></div></div> <!----> <!----> <!----> <!----> <div class="activity"><div class="wrapper g-width"><p class="activity-title">往期活动</p><div class="content"><ul class="flex"><li class="item"><img src="https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou1.jpg"><p class="item-intro">走进游族网络</p></li><li class="item"><img src="https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou2.jpg"><p class="item-intro">科创板与中国新兴产业创新发展论坛</p></li><li class="item"><img src="https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou3.jpg"><p class="item-intro">创投沙龙</p></li><li class="item"><img src="https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou4.jpg"><p class="item-intro">创投讲座</p></li></ul></div></div></div> <div class="notice"><div class="wrapper g-width"><p class="title">入会须知</p><div class="flex"><div class="qualifications item"><div class="item-title"><span class="pr fs28">入会资格</span></div><div class="content fs14"><p>1、企业年收入规模500万以上；</p><p>2、须为企业创始人、联合创始人、合伙人、公司CEO；</p><p>3、有意拓展金融与股权投资或投资管理的企业家和高层管理者；</p><p>4、年持续投资额100万以上的具有投资意识的优质投资人。</p></div></div><div class="rights item"><div class="item-title"><span class="pr fs28">会员权益</span></div><div class="content fs14 spaceAround flex"><ul><li>创合汇基金项目优先认购权</li><li>商学院好项目VIP入场券</li><li>投融资项目的零距离对接</li><li>项目路演与资源对接</li><li>投资领域专业知识分享</li></ul><ul><li>强大的投资管理团队及专家顾问团</li><li>商学院优秀校友人脉共享</li><li>荣选年度封面人物</li><li>创合汇年会优秀社群嘉奖</li><li>大咖零距离</li><li>优先参加创合汇平台组织的各项活动</li></ul></div></div></div><div class="btn"><a href="https://jinshuju.net/f/Dh1tWV" target="_blank" class="btn-item apply-online">在线申请</a><a class="btn-item sign-up">报名咨询</a></div></div></div></section> <footer class="g-footer g-width-100"><div class="wrapper g-width"><div class="sitemapcont float-clear"><dl class="float-left"><dt class="fs20">平台生态</dt><dd><a href="about" target="_blank" class="fs14">创合汇创新院</a></dd><dd><a href="http://chhcapital.cn" target="_blank" class="fs14">创合汇资本</a></dd><dd><a target="_blank" class="fs14">创合汇创服中心</a></dd></dl><dl class="float-left"></dl><dl class="float-left"></dl><dl class="float-left"><dt class="fs20">关于我们</dt><dd><a href="about" target="_blank" class="fs14">关于我们</a></dd><dd><a href="contact" target="_blank" class="fs14">联系我们</a></dd><dd><a href="usercenter?id=4" target="_blank" class="fs14">学习空间</a></dd></dl><dl class="float-clear"><dt class="fs20">关注我们</dt><p class="fs18 mb15" style="color: white;">全国免费咨询热线：400-6886-238</p><dd class="float-left"><div class="mr28 float-left"><img src="../../../static/images/cxy_wechat.jpg" alt="qrcode" class="qrcode-img"><p class="qrcode-text">微信号二维码</p></div><div class="mr28 float-left"><img src="https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/othermaterial/shipinhao.jpeg" alt="qrcode" class="qrcode-img"><p class="qrcode-text">视频号二维码</p></div></dd></dl></div><div class="connect"><p class="copyright">版权 © 上海创合汇教育科技有限公司 网站备案号：<a target="_blank" href="https://beian.miit.gov.cn/">沪ICP备18026080号-1</a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008932" style="color: rgb(255, 255, 255); display: inline-block; text-decoration: none; margin-left: 5px;"><img src="../../static/images/beian.png" style="float: left;">沪公网安备 31010402008932号</a>&nbsp;<a target="_blank"> 沪B2-20200258</a></p></div></div></footer> <div class="dialog-wrapper"><!----><div class="advisory-dialog"><div class="wrapper"><div class="dialog-header"><p class="title fs24">俱乐部报名咨询</p><i class="dialog-close"></i></div><div class="dialog-body center"><img src="https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/shenglaoshi.png" class="qrcode"><p class="fs18">微信扫码添加顾问老师</p></div></div></div></div></div></div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                navPosition: 'static',
+                currentClubIndex: getParamsCode('type') || 1,
+                clubs: [{
+                        title: '创投俱乐部',
+                        value: 1
+                    },
+                    
+                    
+                    
+                    
+                    {
+                        title: 'HR俱乐部',
+                        value: 3
+                    }, {
+                        title: '人文与领导力俱乐部',
+                        value: 4
+                    }, {
+                        title: '大健康产业联盟',
+                        value: 5
+                    }, {
+                        title: '智造供应链产业联盟',
+                        value: 6
+                    }
+                ],
+                
+                clubData: {
+                    
+                    1: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/Dh1tWV',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-chuangtou-new.jpg',
+                            title: '创业与投资俱乐部',
+                            text: ['「创合汇」全球商学院创业与投资俱乐部致力于为创业者、企业家和投资人搭建一个投融资创新与产融结合的互动交流平台，俱乐部将定期邀请顶级投资人和行业领军人物分享前沿发展趋势、行业竞争动态以及产业战略洞见，从而助力创业者、企业家和投资人在全新的产融商业背景及创新变局中，具备领先的创业与投资理念，锻造卓越的产融创新思维与决策力，捕捉全球发展新机遇。']
+                        },
+                        moduleData: [{
+                            title: '投资学堂',
+                            content: ['结合国内外金融投资实例，紧握时代趋势，对当代创投界进行深度解析。'],
+                            body: ['如何寻找独角兽', '经典估值模型解读', '股权投资的法律风险与防范', '股权投资的退出方式']
+                        }, {
+                            title: '投资新未来',
+                            content: ['瞄准BP，携手共赢！', '做成功早期投资人，提升投资者对接优质项目的能力与获取资源'],
+                            body: ['全年4场商学院好项目路演会']
+                        }, {
+                            title: '创新创业高峰论坛',
+                            content: ['认知当下，共赢未来。', '邀请知名媒体人、投资人筹各行各业大咖进行深度交流'],
+                            body: ['宏观社会及热点问题解读', '中国宏观社会经济形势及热点问题分析']
+                        }, {
+                            title: '创投私董会',
+                            content: ['共享智慧与经验，互助成长'],
+                            body: ['邀请创合汇平台资深私董教练带领会员开启私董会']
+                        }, {
+                            title: '大咖闭门会',
+                            content: ['成功难以复制，失败或可避免'],
+                            body: ['邀请知名投资人和行业领军企业家分享投资心得和经验']
+                        }, {
+                            title: '标杆企业参访',
+                            content: ['见贤思齐，力争上游'],
+                            body: ['对独角兽企业及知名成功企业进行对标学习，收获商业实战经验']
+                        }],
+                        activityData: [{
+                            title: '走进游族网络',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou1.jpg'
+                        }, {
+                            title: '科创板与中国新兴产业创新发展论坛',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou2.jpg'
+                        }, {
+                            title: '创投沙龙',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou3.jpg'
+                        }, {
+                            title: '创投讲座',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/chuangtou4.jpg'
+                        }],
+                        admissionData: {
+                            qualifications: [
+                                '1、企业年收入规模500万以上；',
+                                '2、须为企业创始人、联合创始人、合伙人、公司CEO；',
+                                '3、有意拓展金融与股权投资或投资管理的企业家和高层管理者；',
+                                '4、年持续投资额100万以上的具有投资意识的优质投资人。'
+                            ],
+                            rights: [
+                                ['创合汇基金项目优先认购权', '商学院好项目VIP入场券', '投融资项目的零距离对接', '项目路演与资源对接', '投资领域专业知识分享'],
+                                ['强大的投资管理团队及专家顾问团', '商学院优秀校友人脉共享', '荣选年度封面人物', '创合汇年会优秀社群嘉奖', '大咖零距离', '优先参加创合汇平台组织的各项活动']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/Dh1tWV'
+                        }
+                    },
+                    
+                    2: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/s5CPMV',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-dongmi.png',
+                            title: '董秘俱乐部',
+                            text: ['「创合汇」全球商学院董秘俱乐部旨在汇集商界精英，为上市公司董事会秘书提供一个资源整合和专业交流的平台，同时推进上市公司董事会工作进一步职业化、专业化、国际化，提高上市公司规范化运作，从而充分发掘企业的内在价值。创合汇将充分发挥商学院人脉资源优势，为董秘俱乐部会员搭建一个资源整合、信息共享、学习交流、共同发展的共赢平台，跨业共享与合作，最大化进行资源分享与整合。']
+                        },
+                        activityData: [{
+                            title: '董秘俱乐部参访',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/dongmi1.jpg'
+                        }, {
+                            title: '董秘俱乐部参访',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/dongmi2.jpg'
+                        }],
+                        studentData: [{
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/yaoyueqian.png',
+                            name: '姚约茜',
+                            job: '高级合伙人、执行主任',
+                            company: '北京德和衡（上海）律师事务所'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/lvning.png',
+                            name: '吕宁',
+                            job: '总经理',
+                            company: '蓉煜咨询'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/xuqiaoxu.png',
+                            name: '徐乔旭',
+                            job: '财务总监',
+                            company: '上海葡萄科技集团有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/shiminqi.png',
+                            name: '石敏琦',
+                            job: 'CFO',
+                            company: 'Joyplus秀视智能公司'
+                        }, ],
+                        coreValueData: [{
+                            body: '金牌董秘专业知识分享'
+                        }, {
+                            body: '企业上市实务知识交流'
+                        }, {
+                            body: '上市后管理经验交流'
+                        }, {
+                            body: '优秀上市企业参访'
+                        }, {
+                            body: '项目路演与资源对接'
+                        }, {
+                            body: '商学院优秀校友人脉共享'
+                        }, {
+                            body: '校友众创平台对接投融资'
+                        }],
+                        admissionData: {
+                            qualifications: [
+                                '1、企业年收入规模500万以上；',
+                                '2、须为企业创始人、联合创始人、合伙人、公司CEO；',
+                                '3、有意拓展金融与股权投资或投资管理的企业家和高层管理者；',
+                                '4、年持续投资额100万以上的具有投资意识的优质投资人。'
+                            ],
+                            rights: [
+                                ['创合汇基金项目优先认购权', '商学院好项目VIP入场券', '投融资项目的零距离对接', '项目路演与资源对接', '投资领域专业知识分享'],
+                                ['强大的投资管理团队及专家顾问团', '商学院优秀校友人脉共享', '荣选年度封面人物', '创合汇年会优秀社群嘉奖', '大咖零距离', '优先参加创合汇平台组织的各项活动']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/s5CPMV'
+                        }
+                    },
+                    
+                    3: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/Ik5cRb',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-hr-new.jpg',
+                            title: 'HR俱乐部',
+                            text: ['「创合汇」全球商学院HR俱乐部旨在为商学院校友提供一个专业交流和资源整合的平台，促进人力资源管理科学和实践的发展，为各类型企业的HR提供专业、高效、共享的资讯交流和学习成长服务。',
+                                '俱乐部将依托创合汇人脉资源优势，连接各大商学院HR校友、商学院HR教授、各行业HR精英、企业HR咨询专家、行动学习私董教练、企业家导师等资源，信息共享。'
+                            ]
+                        },
+                        activityData: [{
+                            title: '《灰度决策——人资危机应对》工作坊',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/hr1.jpg'
+                        }, {
+                            title: '主题工作坊',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/hr2.jpg'
+                        }, {
+                            title: '《心理学在管理中的应用系列沙龙》',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/hr3.jpg'
+                        }, {
+                            title: '主题沙龙',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/hr4.jpg'
+                        }, ],
+                        studentData: [{
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/chenmin.png',
+                            name: '陈敏',
+                            job: '首席人力资源官',
+                            company: '蒂森克虏伯电梯中国'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/coco.png',
+                            name: '陈可',
+                            job: '副总经理',
+                            company: '上海欧帛服饰有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/fangrangqing.png',
+                            name: '房让青',
+                            job: '亚洲区人力资源总监',
+                            company: '爱孚迪（上海）制造系统工程有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/liutao.png',
+                            name: '刘涛',
+                            job: '人力资源总经理',
+                            company: '复地集团商业事业部'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/hangyan.png',
+                            name: '杭焉',
+                            job: '亚太区HRD',
+                            company: '施坦威钢琴亚太有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/fanmin.png',
+                            name: '樊敏',
+                            job: '亚太、中东地区薪酬福利总监',
+                            company: '朗德万斯照明有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/xiongmengjie.png',
+                            name: '熊梦杰',
+                            job: '张江中心负责人',
+                            company: 'FESCO Adecco （外企德科）'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/jinghong.png',
+                            name: '景红',
+                            job: '总经理',
+                            company: '上海仲望企业管理咨询有限公司'
+                        }, ],
+                        coreValueData: [{
+                            body: '专业HR领域知识分享'
+                        }, {
+                            body: '不同行业经验交流'
+                        }, {
+                            body: 'HR私董会'
+                        }, {
+                            body: '杰出雇主企业参访'
+                        }, {
+                            body: '优秀人才资源对接'
+                        }, {
+                            body: '商学院人脉共享'
+                        }, {
+                            body: '校友众创平台对接投融资'
+                        }],
+                        admissionData: {
+                            qualifications: [
+                                '1、各商学院校友中从事HR领域工作的同学；',
+                                '2、非商学院校友中具备一定资历的HR人士。'
+                            ],
+                            rights: [
+                                ['HR俱乐部线上学习与交流及线下沙龙、私董会、企业参访等活动', '创合汇平台线上公开课及线下讲座、论坛、路演会等活动', '创合汇旗下赤兔创业咖啡VIP贵宾卡（消费享9折）', '有机会成为创合汇平台特约撰稿人、企业家导师、特聘私董会及行动学习教练等']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/Ik5cRb'
+                        }
+                    },
+                    
+                    4: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/Dq9uZp',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-renwen-new.jpg',
+                            title: '人文与领导力俱乐部',
+                            text: ['「创合汇」全球商学院人文与领导力俱乐部旨在融汇古今中外文化，传承人文精神，为全球商学院校友搭建一个撷取文学、史学、哲学、美学等东西方人文智慧的交流平台。以修身明德为宗旨，人文精神为本源，通贤达、致良知、融各家所长，与全球商学院校友一起营造一个自立立人，自达达人的共享空间。']
+                        },
+                        moduleData: [{
+                            title: '泓源',
+                            content: ['取意智慧的深潭。', '旨在为会员搭建一个聆听教诲、分享智慧、探讨人生的舞台。'],
+                            body: ['大师分享', '主题论坛、沙龙', '思辨会', '读书分享会等']
+                        }, {
+                            title: '溯源',
+                            content: ['取意追求本源，探索渊源。', '旨在为会员营造一个抚躬自问，追求自我内心升华的空间。'],
+                            body: ['禅修与冥想', '内观与正念', '清修等']
+                        }, {
+                            title: '趣源',
+                            content: ['取意生活之趣。', '旨在以八雅为中心的系列活动陶冶生活之情趣。'],
+                            body: ['八雅工作坊等']
+                        }, {
+                            title: '慕源',
+                            content: ['取意对人文智慧的向往和追求。', '旨在通过朝圣、参访等活动实现知行合一。'],
+                            body: ['朝圣之旅', '人文与领导力主题参访等']
+                        }],
+                        activityData: [{
+                                title: '太极社启动仪式成功举办',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/renwen1.jpg'
+                            }, {
+                                title: '走进恒南书院',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/renwen2.jpg'
+                            },
+                            
+                            
+                            
+                            
+                            {
+                                title: '《九型人格与团队构建》沙龙',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/renwen4.jpg'
+                            }, {
+                                title: '专题沙龙',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/renwen5.jpg'
+                            },
+                            
+                            
+                            
+                            
+                            {
+                                title: '阳明心学的自我修养',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/renwen6.jpg'
+                            },
+                        ],
+                        studentData: [{
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/linbingsheng.png',
+                            name: '林炳生',
+                            job: '董事长',
+                            company: '永和豆浆国际集团'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/huangyingming.png',
+                            name: '黄影明',
+                            job: '董事长',
+                            company: '上海元初国际物流有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/lujun.png',
+                            name: '鲁俊',
+                            job: '执行总裁',
+                            company: '游族控股集团'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/chenbingqin.png',
+                            name: '陈冰沁',
+                            job: '董事长',
+                            company: '上海九鲲文化传播有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/fengheqing.png',
+                            name: '冯河清',
+                            job: '董事长',
+                            company: '上海明邦国际股份有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/huanglixiong.png',
+                            name: '黄利雄',
+                            job: '董事长',
+                            company: '上海群之缘复兴东路宾馆有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/fengquanyu.png',
+                            name: '冯全宇',
+                            job: '总经理',
+                            company: '喜捨时光里'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/wangsuwen.png',
+                            name: '汪苏文',
+                            job: '董事长',
+                            company: '上海文捷科技有限公司'
+                        }, ],
+                        admissionData: {
+                            qualifications: [
+                                '对文学、史学、哲学、美学等东西方人文智慧具有兴趣的创合汇平台校友、各商学院校友，及企业中高层管理者。'
+                            ],
+                            rights: [
+                                ['参与俱乐部组织的各项活动。如遇收费活动，享受俱乐部会员价格', '享受每年6次以上的俱乐部活动，以及优先参与创合汇平台的其他活动', '优先参与俱乐部组织的各个兴趣社团（如太极社、茶社等）活动', '与哲学导师、文学家、艺术家的零距离交流', '跨俱乐部、跨班级、跨商学院优秀校友人脉共享', '创合汇年会优秀社群嘉奖']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/Dq9uZp'
+                        }
+                    },
+                    
+                    5: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/vbLCts',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-jiankang-new.jpg',
+                            title: '大健康俱乐部',
+                            text: ['「创合汇」全球商学院大健康产业联盟旨在荟聚商界精英，为医疗健康产业生态圈相关领域，包括但不局限于医疗产业、医药产业、生物技术、医疗服务、康养服务、产业投融资、第三方服务类的从业者、创新创业者提供一个资源整合和专业交流的平台。创合汇将充分发挥商学院人脉资源优势，为联盟的个人和企业会员搭建一个资源整合、信息共享、学习交流、共同发展的共赢平台，实现跨业共享与合作以及资源分享与整合的最大化。']
+                        },
+                        activityData: [{
+                                title: '专题沙龙',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/jiankang1.jpg'
+                            }, {
+                                title: '“博识众才”全球商学院DBA系列论坛',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/jiankang2.jpg'
+                            },
+                            
+                            
+                            
+                            
+                            {
+                                title: '微医企业参访',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/weiyi1.jpg'
+                            }, {
+                                title: '迎新晚宴',
+                                src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/yingxinwanyan.png'
+                            },
+                        ],
+                        studentData: [{
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/wangmaoting.png',
+                            name: '王茂廷',
+                            job: '董事长',
+                            company: '新丝路金控投资'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/zhenghongjie.png',
+                            name: '郑洪捷',
+                            job: '总经理',
+                            company: '东方国际集团大健康发展事业部'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/zhengdehui.png',
+                            name: '张德慧',
+                            job: '副总经理',
+                            company: '冠昊生物'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/houguoping.png',
+                            name: '侯国平',
+                            job: '副总裁',
+                            company: '美时医疗'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/lule.png',
+                            name: '逯乐',
+                            job: '董事长',
+                            company: '上海信宜金朱药业有限公司'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/sunxiaoyi.png',
+                            name: '孙晓怡',
+                            job: 'CEO',
+                            company: '博美医疗'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/xuguozhen.png',
+                            name: '许国贞',
+                            job: '常务副总裁',
+                            company: '北大未名生物经济集团'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/madu.png',
+                            name: '马笃',
+                            job: '总经理',
+                            company: '江苏费森尤斯医药用品有限公司'
+                        }, ],
+                        coreValueData: [{
+                            body: '专业领域知识洞见'
+                        }, {
+                            body: '产业内不同行业经验交流'
+                        }, {
+                            body: '私董会'
+                        }, {
+                            body: '优秀企业参访'
+                        }, {
+                            body: '优秀人才资源对接'
+                        }, {
+                            body: '商学院人脉共享'
+                        }, {
+                            body: '参与商业实践项目'
+                        }, {
+                            body: '参与联盟组织的公益活动和项目'
+                        }],
+                        admissionData: {
+                            qualifications: [
+                                '个人会员: 医疗健康产业各相关领域的商学院应届、往届优秀学员；具有丰富行业经验的非商学院校友可作为特邀会员；认同联盟理念，愿意投入时间和精力参与联盟的活动和项目；愿意分享与交流；经秘书处审核同意',
+                                '企业会员: 医疗健康产业各相关领域的优秀企事业单位、政府机关相关部门等；认同联盟理念，愿意投入时间和精力参与联盟的活动和项目；愿意分享与交流；经秘书处审核同意'
+                            ],
+                            rights: [
+                                ['专业领域知识和洞见分享', '产业内不同行业经验交流', '私董会', '优秀企业参访', '优秀人才资源对接', '商学院人脉共享（包括并不限于教授、校友、咨询专家、企业家导师、私董会教练等）', '参与商业实践项目', '参与联盟组织的公益活动和项目']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/vbLCts'
+                        }
+                    },
+                    
+                    6: {
+                        introData: {
+                            applyOnline: 'https://jinshuju.net/f/q4YoDs',
+                            img: 'https://static.chuanghehui.com/chh_bc/images/club-zhizao-new.jpg',
+                            title: '智造供应链产业联盟',
+                            text: ['联盟旨在荟聚商界精英，为智能制造和供应链生态圈相关领域，包括但不局限于智能制造、数据智能、互联网+、供应链金融的全产业链的从业者、创新创业者提供一个资源整合和专业交流的平台。创合汇将充分发挥商学院人脉资源优势，为联盟的个人和企业会员搭建一个资源整合、信息共享、学习交流、共同发展的共赢平台，实现跨业共享与合作以及资源分享与整合的最大化。']
+                        },
+                        activityData: [{
+                            title: '走进深兰',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/zoujinshenlan.png'
+                        }, {
+                            title: '走进可口可乐',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/zoujinkekoukele.png'
+                        }, {
+                            title: '走进紫竹高新区',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/zoujinzizhugaoxinqu.png'
+                        }, {
+                            title: '全球商学院DBA共创论坛',
+                            src: 'https://static.chuanghehui.com/chh_bc/images/club-activity/quanqiushangxueyuandbagongchuangluntan.png'
+                        }, ],
+                        studentData: [{
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/youshen.png',
+                            name: '尤申',
+                            job: '会长',
+                            company: '上海物流与供应链企业家协会副会长'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/wuweijuan.png',
+                            name: '吴韦娟',
+                            job: '副会长兼秘书长',
+                            company: '江苏苏申国际物流有限公司高级顾问'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/tangliang.png',
+                            name: '唐亮',
+                            job: '副会长',
+                            company: '偲节采购管理咨询创始人'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/wuyingming.png',
+                            name: '黄影明',
+                            job: '副会长',
+                            company: '上海元初供应链管理有限公司董事长'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/zhengfugui.jpg',
+                            name: '郑富贵',
+                            job: '常理事',
+                            company: '上海郑明现代物流有限公司公司常务副总裁、上海市物流协会冷链分会副会长'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/fengheqing.png',
+                            name: '冯河清',
+                            job: '常理事',
+                            company: '上海明邦国际货物运输代理有限公司董事长'
+                        }, {
+                            avatar: 'https://static.chuanghehui.com/chh_bc/images/club-member/wangxuejing.jpg',
+                            name: '王雪靖',
+                            job: '常理事',
+                            company: '伦茨（上海）传动系统有限公司战略市场总监'
+                        }, ],
+                        coreValueData: [{
+                            body: '专业领域知识和洞见分享'
+                        }, {
+                            body: '产业内不同行业经验交流'
+                        }, {
+                            body: '私董会'
+                        }, {
+                            body: '标杆企业参访'
+                        }, {
+                            body: '深度会员企业参访'
+                        }, {
+                            body: '优秀人才资源对接'
+                        }, {
+                            body: '商学院人脉共享'
+                        }, {
+                            body: '参与商业实践项目'
+                        }, {
+                            body: '参与联盟组织的公益活动和项目'
+                        }, {
+                            body: '跨俱乐部、跨班级、跨商学院优秀校友人脉共享'
+                        }],
+                        admissionData: {
+                            qualifications: [
+                                '个人会员: 智造供应链各相关领域的商学院应届、往届优秀学员；具有丰富行业经验的非商学院校友可作为特邀会员；认同联盟理念，愿意投入时间和精力参与联盟的活动和项目；愿意分享与交流',
+                                '企业会员：智造供应链各相关领域的优秀企事业单位、政府机关相关部门等；认同联盟理念，愿意投入时间和精力参与联盟的活动和项目；愿意分享与交流'
+                            ],
+                            rights: [
+                                ['参与联盟组织的各项活动。如遇收费活动，享受联盟会员价格', '享受每年4次以上的联盟活动，以及优先参与创合汇平台的其他活动', '联盟线上学习与交流及线下沙龙、私董会、企业参访等活动', '创合汇年会优秀社群嘉奖', '创合汇旗下赤兔创业咖啡VIP贵宾卡（消费享9折）']
+                            ],
+                            applyOnline: 'https://jinshuju.net/f/q4YoDs'
+                        }
+                    }
+                },
+                advisoryDialogVisible: false,
+                wechatQrcode: {
+                    1: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/shenglaoshi.png',
+                    2: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/guyifan.png',
+                    3: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/shenglaoshi.png',
+                    4: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/shenglaoshi.png',
+                    5: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/wangqin.png',
+                    6: 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/club-contact/wangqin.png'
+                }
+            }
+        },
+        computed: {
+            
+            
+            
+            
+            
+            
+        },
+        methods: {
+            sliceArr: function(array, size) {
+                var result = [];
+                for (var i = 0; i < Math.ceil(array.length / size); i++) {
+                    var start = i * size;
+                    var end = start + size;
+                    result.push(array.slice(start, end));
+                }
+                return result;
+            },
+            handleScroll: function() {
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+                var offsetTop = this.$refs['club-nav'].offsetTop;
+                if (scrollTop >= offsetTop) {
+                    this.navPosition = 'fixed';
+                } else {
+                    this.navPosition = 'static';
+                }
+            },
+            
+            changeClub: function(item) {
+                if (item.value === Number(this.currentClubIndex)) {
+                    return;
+                }
+                this.currentClubIndex = item.value;
+                
+            },
+            changeAdvisoryDialog: function() {
+                this.advisoryDialogVisible = !this.advisoryDialogVisible;
+            },
+            signUp: function() {
+                
+                this.changeAdvisoryDialog();
+            }
+        },
+        mounted: function() {
+            
+            window.addEventListener('scroll', this.handleScroll)
+        }
+    })
+</script>
+<script src="../../../common/utils/tooth.js"></script><script async="" id="zhichiScript" class="zhiCustomBtn" src="https://chat.sobot.com/chat/frame/v2/entrance.js?sysnum=126a3b647d5247f38d75f041556992c8"></script>
+
+
+</body></html>

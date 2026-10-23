@@ -1,0 +1,3729 @@
+<!DOCTYPE html><html lang="en"><head>
+	<title>上海财经大学商学院金融EMBA项目</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="上海财经大学商学院金融EMBA项目">
+	<meta name="keywords" content="上海财经大学商学院金融EMBA项目">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css?v=20210916">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/style.css?v=20250718201">
+	<link rel="stylesheet" href="./css/fonts/iconfont.css">
+
+	<!-- <link rel="stylesheet" href="./css/element-ui.css" /> -->
+	<!--[if lt IE 10]>
+      <script type="text/javascript">
+        var str = "你的浏览器版本太low了,已经和时代脱轨了 :(";
+        var str2 =
+          "为了让您获得最佳的使用体验，请升级到：<a href='https://www.microsoft.com/zh-cn/edge?form=MA13DG&ocid=SMCIEDownload10-Download' target='_blank' style='color:blue;'>最新版本IE浏览器</a><br/>" +
+          "推荐使用:<a href='https://www.google.cn/intl/zh-CN/chrome/' target='_blank' style='color:blue;'>Chrome(谷歌浏览器)</a>," +
+          "<a href='http://www.firefox.com.cn/' target='_blank' style='color:blue;'>Firefox(火狐浏览器)</a>等高级浏览器";
+        document.writeln(
+          "<pre style='text-align:center;color:#333;background-color:#fff; height:100%;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234'>" +
+            "<h3 style='padding-top:200px;margin:0'><strong>" +
+            str +
+            "<br/></strong></h3><h3>" +
+            str2 +
+            "</h3><h3 style='margin:0'><strong>如果你的使用的是双核浏览器,请切换到极速模式访问<br/></strong></h3></pre>"
+        );
+        document.execCommand("Stop");
+      </script>
+    <![endif]-->
+<style>
+	/* 细则样式 */
+	.scholarship-rules {
+		background-color: #fff;
+		border-radius: 8px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+		padding: 30px;
+	}
+
+	.rules-list {
+		padding-left: 25px;
+		margin-bottom: 20px;
+		list-style: decimal-leading-zero;
+
+	}
+
+	.rules-list li {
+		margin-bottom: 15px;
+		color: #555;
+		line-height: 1.7;
+		list-style: disc;
+	}
+
+	.rules-notice {
+		font-style: italic;
+		color: #777;
+		text-align: right;
+		margin-top: 20px;
+	}
+
+	.section-subtitle {
+		font-size: 1.25em;
+		font-weight: bold;
+		color: #333;
+		margin-bottom: 20px;
+		text-align: center;
+		position: relative;
+	}
+
+	.bonus-table {
+		table-layout: auto;
+	}
+
+	/* .section-subtitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 24px;
+        position: relative;
+        padding-bottom: 12px;
+        text-align: center;
+    } */
+
+	/* .section-subtitle::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background-color: #3498db;
+        border-radius: 3px;
+    } */
+
+	.category-title {
+		font-size: 1.35em;
+		font-weight: 600;
+
+		margin-bottom: 15px;
+		display: flex;
+		align-items: center;
+
+
+	}
+
+	.category-title::before {
+		content: "";
+		display: block;
+		width: 4px;
+		height: 1em;
+		background: #fabc00;
+		/* background: linear-gradient(0deg, #01225f, #fabc00); */
+		margin-right: 10px;
+		border-radius: 2px;
+	}
+
+	/* 居中的类别标题 */
+	.category-title-center {
+		font-size: 20px;
+		font-weight: bold;
+		color: #333;
+		margin-bottom: 15px;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.tuition-amount {
+		font-size: 16px;
+		font-weight: bold;
+		color: #333;
+		margin: 10px 0;
+	}
+
+	.requirements-list {
+		list-style: none;
+		padding-left: 20px;
+	}
+
+	.requirements-list li {
+		margin-bottom: 10px;
+		position: relative;
+	}
+
+	.requirements-list li:before {
+		content: "•";
+		color: #3498db;
+		font-weight: bold;
+		position: absolute;
+		left: -20px;
+	}
+
+	.process-notice {
+		color: #666;
+		font-style: italic;
+		padding-left: 10px;
+	}
+
+	/* 商界精英计划样式 */
+	.business-leader-program {
+		margin-top: 20px;
+	}
+
+	.program-desc {
+		color: #555;
+		line-height: 1.8;
+		margin-bottom: 20px;
+	}
+
+	/* 横向模块容器 */
+	.program-modules-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		/* background-color: #f8fafc; */
+		/* padding: 20px; */
+		/* border-radius: 8px; */
+		margin-bottom: 20px;
+	}
+
+	/* 单个横向模块 */
+	.program-module-horizontal {
+		flex: 1;
+		min-width: 300px;
+		padding: 15px;
+		background-color: #deebf7;
+		border-radius: 8px;
+		/* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); */
+		/* border: 1px solid #e2e8f0; */
+	}
+
+
+
+	.module-rating span {
+		display: inline-block;
+		padding: 3px 8px;
+		border-radius: 12px;
+		font-size: 12px;
+		margin-right: 8px;
+		margin-top: 8px;
+	}
+
+	.program-module+.program-module {
+		margin-top: 1.25rem;
+
+	}
+
+	.module-highlight {
+		background-color: #ffffff;
+		padding: 10px 15px;
+		border-radius: 4px;
+		margin: 10px 0;
+	}
+
+	.module-rating span {
+		display: inline-block;
+		padding: 3px 8px;
+		border-radius: 12px;
+		font-size: 12px;
+		margin-right: 8px;
+		margin-top: 8px;
+	}
+
+	.rating-excellent {
+		background-color: #e6f7ed;
+		color: #28a745;
+	}
+
+	.rating-good {
+		background-color: #fff3cd;
+		color: #ffc107;
+	}
+
+	.rating-average {
+		background-color: #e9ecef;
+		color: #6c757d;
+	}
+
+	.application-guide a {
+		color: #3498db;
+		text-decoration: none;
+		border-bottom: 1px dashed #3498db;
+		transition: all 0.3s ease;
+	}
+
+	.application-guide a:hover {
+		color: #2980b9;
+		border-bottom: 1px solid #2980b9;
+	}
+
+	.notes-list {
+		padding-left: 20px;
+		margin-top: 10px;
+		display: list-item;
+	}
+
+	.notes-list li {
+		margin-bottom: 10px;
+		position: relative;
+		list-style: auto
+	}
+
+	.table-item1 {
+		text-align: center;
+	}
+
+	/* .notes-list li:before {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 2px;
+        background-color: #e53e3e;
+        color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        left: -20px;
+        top: 3px;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+	/* 白色区块样式 */
+	.white-block {
+		background-color: #fff;
+		border-radius: 8px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+
+	/* 表格样式 */
+	.business-elite-schedule {
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 15px;
+		margin-bottom: 25px;
+		background-color: rgb(234, 237, 242);
+		border-radius: 8px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+	}
+
+	.business-elite-schedule th,
+	.business-elite-schedule td {
+		padding: 12px 15px;
+		text-align: center;
+		border-bottom: 1px solid #e2e8f0;
+	}
+
+	.business-elite-schedule th {
+		background-color: rgb(10, 50, 137);
+		color: rgb(233, 210, 37);
+		font-weight: 600;
+
+	}
+
+	.business-elite-schedule tr:last-child td {
+		border-bottom: none;
+	}
+
+	.business-elite-schedule tr:nth-child(even) {
+		background-color: #f8fafc;
+	}
+
+	.business-elite-schedule tr:hover {
+		background-color: #f1f5f9;
+		transition: background-color 0.2s ease;
+	}
+
+	.business-elite-schedule small {
+		font-size: 85%;
+		color: #64748b;
+		/* display: block; */
+		margin-top: 3px;
+	}
+
+	/* 线上批次标识 */
+	.business-elite-schedule td:first-child:has(small) {
+		position: relative;
+	}
+
+
+
+	.elite-table {
+		width: 100%;
+		border-collapse: collapse;
+		/* color: #666; */
+		line-height: 1.6;
+		table-layout: auto;
+	}
+
+	.elite-table th,
+	.elite-table td {
+		border: 1px solid #999;
+		padding: 10px 20px;
+		vertical-align: middle;
+		transition: all 0.2s ease;
+	}
+
+	.elite-table .section-header {
+
+		color: #01225F;
+		font-weight: 600;
+		font-size: 1.15rem;
+		background: #f3f6fd;
+		color: var(--color-primary);
+		font-size: 1.25rem;
+	}
+
+
+
+	.section-header:last-child {
+		border-bottom: none;
+	}
+
+	.name {
+		font-weight: 600;
+		text-align: center;
+
+	}
+
+	.pytx-wrap p {
+		margin: 10px 0;
+	}
+
+	.program-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		background: #fff;
+		padding: 30px;
+		color: #333;
+		justify-content: space-between;
+		border: 1px solid #e2e8f0;
+	}
+
+	.program-container {
+		width: 48%;
+
+	}
+
+	.program-container:nth-child(n+3) {
+		margin-top: 30px;
+	}
+
+	.program-container h2 {
+		color: #01225F;
+		font-size: 1rem;
+	}
+
+	.bonus tr th:last-child {
+		width: 60%;
+	}
+
+	@media(min-width: 768px) {
+		.pytx-img-wrap1 img {
+			text-align: center;
+			max-width: 60%;
+
+		}
+	}
+
+	@media (max-width: 768px) {
+
+		.program-wrapper {
+			padding: 15px;
+		}
+
+		.program-container {
+			width: unset;
+
+		}
+
+		.program-container:nth-child(n+1) {
+			margin-top: 15px;
+		}
+
+		.elite-table th,
+		.elite-table td {
+			padding: 4px 10px;
+			font-size: 12px;
+		}
+
+		.elite-table .name {
+			white-space: nowrap;
+		}
+
+		.section-header {
+			font-size: 16px;
+			padding: 16px 18px;
+		}
+
+		.business-leader-program {
+			font-size: 10px;
+		}
+
+		.business-elite-schedule th,
+		.business-elite-schedule td {
+			padding: 5px;
+			white-space: nowrap;
+		}
+
+		.business-elite-schedule small {
+			display: block;
+			position: relative;
+		}
+
+		.scholarship-rules,
+		.white-block {
+			padding: 15px;
+		}
+
+		table thead tr th {
+			padding: 5px;
+			font-size: 10px;
+		}
+
+		.bonus .table-item1 {
+			width: unset;
+			white-space: nowrap;
+		}
+	}
+</style><script async="" charset="utf-8" src="https://cob.sufe.edu.cn/websites/MBA/Admissions/EMBA-Financial-2026/layui/lay/modules/element.js"></script></head>
+
+
+
+<body>
+	<!-- banner -->
+	<div class="banner" style="background-image: url(images/newImages/b5.jpg);">
+		<div class="layui-container">
+			<div class="header-logo">
+				<img src="./images/logo.png" alt="" width="254" height="69">
+			</div>
+			<div class="content-box">
+				<div class="content">
+					<div class="title">上海财经大学商学院金融EMBA项目</div>
+					<!-- <div class="small-title">培养金融业的未来领袖</div> -->
+					<div class="text">
+						<p>培养洞悉资本运作逻辑，能实现全球化资源新配置、构建金融商业新生态和创造资本市场发展新格局的金融领袖。</p>
+						<p>商学院金融EMBA项目依托上海财经大学雄厚学科优势，以商学院为平台整合国内外优质教育资源和杰出校友资源，以产业链的完善为战略突破口打通行业内壁垒和各行业间界限，赋以时代特征，着力培养下一代金融投资领袖，助力其在复杂多变的投资环境中精准把握市场机遇与产业趋势，成为具备国际竞争力的金融投资精英。
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="scroll-down">
+				<div class="banner-btn">
+					<i class="iconfont icon-down"></i>
+					<div class="yuan"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- banner END -->
+	<div class="main" id="app">
+		<div class="block advantage" style="background-image: url(images/bg01.jpg?v=20210108)">
+			<div class="layui-container">
+				<div class="title-box" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="1" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<div class="index_title white">得天独厚的“商学+财经”学科优势</div>
+					<div class="line"></div>
+				</div>
+				<div class="advantage-content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="2" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<div class="left">
+						<!-- <div class="logo">
+                <img src="./images/content-logo.png" alt="" />
+              </div> -->
+						<div class="title">学科实力一级优， <br>认证排名均领先 ！</div>
+						<div class="text">
+							<p>上海财经大学商学院EMBA教育始于2002年。作为首批开办EMBA教育院校之一，上海财经大学商学院EMBA一直积极拥抱变革，经历积日累久的探索，2022年12月EMBA项目荣获“2022年度卓越影响力EMBA项目”，2023年12月EMBA项目荣获“2023年度品牌实力EMBA项目”。荣获经理人2024中国EMBA项目排行榜第八位。被腾讯网教育·商学院暨专业学位教育发展论坛评为“2024年度商科教育行业标杆EMBA品牌”。项目现已通过AMBA及中国高质量MBA认证（CAMEA），上海财经大学商学院已通过AACSB和EQUIS国际认证。
+							</p>
+							<p>作为国内最早建立的商科大学，也是一所财经特色鲜明的多科性重点大学，上海财经大学的学科发展一向是在“商科”和“财经”两条路上齐头并进，并在多项认证和排名中获得了名列前茅的佳绩。
+								金融投资班也集纳了学校在“商学”和“财经”学科领域的优势和精华——学生既能感受到百年商学所带来的厚重管理学积淀，也能深度学习金融、财会领域的专业知识，为职业发展带来强劲助力。
+							</p>
+						</div>
+						<div class="tip-box">
+							<div class="txt">学校、学院和项目取得的部分排名和认证</div>
+							<div class="line-box">
+								<div class="content">
+									<div class="right-line"></div>
+									<div class="line1"></div>
+									<div class="line2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img">
+							<img src="https://www.mbachina.com/zt/2025/MBA-Global-2026/newImages/1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block plan" style="background: #F4F7FE">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="3" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					聚焦“财经、数智、绿色”的培养方案
+				</div>
+				<!-- <div class="intro-wrap" data-scroll-reveal="enter bottom over .5s after 0s">
+                    <div class="img-wrap">
+                        <div class="img-box">
+                            <div class="img">
+                                <img src="./images/intro_pic.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content index_intro">
+                        <p>培养方案独具上海财经大学商学院特色的创新培养理念，以“财经、数智、绿色”为内核，实现面向未来的商业人才培养需求。方案立足于应对数字化时代的新挑战、新机遇和新未来，从数据驱动、前瞻创新与跨界整合三个维度着眼，打破学科之间的边界与教学情景之间的差异，采用融合创新的方式进行兼具深度与广度的人才培养。
+                        </p>
+                        <p>同时，上财商学院在第二学年为金融投资班学生量身定制了“高级金融市场与投融资管理”、“数智金融与绿色经济”两大专属选修课程群组，授课内容聚焦时代和产业前沿，涵盖价值评估、量化投资、金融工程、绿色金融等金融热点领域，既帮助学生掌握现代金融定价理论和模型，也能通晓特定制度背景下的市场及产品的微观结构；既能了解国家、行业、机构间的资金供求机制，也能更好面对开放环境中金融国际化的挑战和机遇。
+                        </p>
+                    </div>
+                </div> -->
+
+				<div style="overflow: hidden;border-radius: 8px;background: #fff;padding: 30px;" class="pytx-wrap">
+					<img style="max-width: 1200px;margin: 0 auto;display: block;" src="../MBA-Global-2026/newImages/11.png" alt="" srcset="" width="1645" height="728">
+					<p>
+						<strong style="color: #01225F;">F- Faculty 名师领航: </strong>
+						拥有一支兼备“融国际视野、融中国智慧、融理论深度、融实践应用”立体化知识体系和“跨国界、跨文
+						化、跨行业、跨领域”多维度视角的享有盛誉、“四融四跨”的资深师资团队。
+					</p>
+					<p>
+						<strong style="color: #01225F;">L-Learning in Action 知行合一: </strong>
+						以数智商科为引领,构建产教融合新生态。贯通理论实践,链接产业资源,塑造多维竞争优
+						势,搭建职业跃升阶梯,促进知行合一。
+					</p>
+					<p>
+						<strong style="color: #01225F;">A-Alumni 校友力量: </strong>
+						MBA和EMBA校友规模已超过万人,遍布商学相关的各行各业,在中国社会经济发展中担当重要作用。校友资源强大,行业集中度高,优势明显。
+					</p>
+					<p>
+						<strong style="color: #01225F;">G-Global Gateway走遍全球: </strong>
+						与全球21个国家(地区),50+所海外名校进行深入交流与合作,推出多样化的海外交流形式,提升学生国际视野和全球竞争力。
+					</p>
+					<p>
+						<strong style="color: #01225F;">S-Standards of Excellence 认证与排名: </strong>
+						认证排名样样全,国际国内均领先。以评促建,形成“以认证促发展、以评估强实力”的良性发展生态,推进培养质量和学生职业发展的全面提升。
+					</p>
+
+					<p>
+						<strong style="color: #01225F;">H-High-Powered Ecosystem 高聚能生态: </strong>
+						深度对接上海“五个中心”建设需求,依托校研究生院“1+10+100+N”的“AI+课程体系”,打造企业实训营、产业命题攻关等多元场景,为学生提供丰富的实践机会,提升在复杂商业场景中解决问题的能力。
+					</p>
+					<p>
+						<strong style="color: #01225F;">IP-Integrated Platform 终身成长平台: </strong>
+						充分发挥学生主体作用,支持组建各类行业、文体、职业技能和职业发展俱乐部。联动优质资源构建终身成长平台,引导学生成为时代精神的创造者、引领者和传承者。
+					</p>
+					<br>
+					<div style="text-align: center;" class="pytx-img-wrap1">
+						<img src="images/newImages/222.jpg" alt="" srcset="" width="1242" height="1120">
+					</div>
+				</div>
+				<!-- <div
+            class="index_intro"
+            data-scroll-reveal="enter bottom over .5s after 0s"
+          >
+            <p>培养方案独具上海财经大学商学院特色的创新培养理念，以“科技财经、数智商学”为内核，实现面向未来的商业人才培养需求。方案立足于应对数字化时代的新挑战、新机遇和新未来，从数据驱动、前瞻创新与跨界整合三个维度着眼，打破学科之间的边界与教学情景之间的差异，采用融合创新的方式进行兼具深度与广度的人才培养。</p>
+            <p>同时，上财MBA在第二学年为金融投资班学生量身定制了“高级金融市场与交易管理”、“数智时代的金融科技”两大专属选修模块，授课内容聚焦时代和产业前沿，涵盖量化投资、金融工程、区块链、价值评估等金融热点领域，既帮助学生掌握现代金融定价理论和模型，也能通晓特定制度背景下的市场及产品的微观结构；既能了解国家、行业、机构间的资金供求机制，也能更好面对开放环境中金融国际化的挑战和机遇。</p>
+          </div> -->
+				<div class="plan-content">
+					<!-- <div class="small-title" data-scroll-reveal="enter bottom over .5s after 0s">
+              <span>【MBA培养方案：科技财经、数智商学】</span>
+            </div> -->
+					<div class="plan-item" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="4" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<div class="plan-title">
+							<div class="line"></div>
+							<span class="name">入学导向（正式入学前）</span>
+							<div class="line"></div>
+						</div>
+						<div class="text">
+							<span class="name">预修课程：</span>
+							<span>金融学导论、会计学导论、管理学导论、经济学导论、管理运筹学、应用数学基础、Python应用、商务英语、雅思听说读写、Excel应用</span>
+						</div>
+						<div class="text">
+							<span class="name">职业发展：</span>
+							<span>“商界精英”、“浦江财享会”、“实践导师下午茶”等职发讲座，入学导向活动</span>
+						</div>
+					</div>
+					<div class="plan-item" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="5" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<div class="plan-title">
+							<div class="line"></div>
+							<span class="name">商学核心课程</span>
+							<div class="line"></div>
+						</div>
+						<div class="content">
+							<div class="text">
+								<div class="name">分析能力模块</div>
+								<div class="course-text">
+									<ul class="left">
+										<li>全球宏观经济分析</li>
+										<li>中国宏观经济分析</li>
+										<li>中国产业结构与政策分析</li>
+										<li>管理经济学</li>
+									</ul>
+									<ul class="right">
+										<li>商务统计学</li>
+										<li>不确定下的决策模型</li>
+										<li>商务数据分析与决策</li>
+										<li>管理信息系统</li>
+									</ul>
+								</div>
+							</div>
+							<div class="shu"></div>
+							<div class="text">
+								<div class="name">软技能与领导力模块</div>
+
+								<div class="course-text">
+									<ul class="left">
+										<li>商法</li>
+										<li>管理科学和方法</li>
+										<li>管理思维与沟通</li>
+										<li>自然辩证法概论</li>
+									</ul>
+									<ul class="right">
+										<li>中国特色社会主义理论与实践研究</li>
+										<li>领导力开发与组织行为</li>
+										<li>商业伦理与企业社会责任</li>
+										<li>马克思主义与社会科学方法论</li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="shu"></div>
+							<div class="text">
+								<div class="name">管理核心模块</div>
+								<div class="course-text">
+									<ul class="left">
+										<li>财务报表分析</li>
+										<li>公司金融</li>
+										<li>高级公司金融</li>
+										<li>管理会计理论与实务</li>
+										<li>金融市场、机构与工具</li>
+									</ul>
+									<ul class="right">
+										<li>战略管理</li>
+										<li>会计学</li>
+										<li>营销管理</li>
+										<li>运营管理</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="knowledge" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="6" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<div class="plan-title">
+						<div class="line"></div>
+						<span class="name"> 特色方向课程（数智赋能、商学合一）</span>
+						<div class="line"></div>
+					</div>
+					<div class="layui-row layui-col-space15 row-flex item-box">
+						<div class="layui-col-md6 layui-col-sm12 layui-col-xs12">
+							<div class="item">
+								<div class="title title-color title-center">
+									全局广度·纵观通晓
+								</div>
+								<div class="text main-text">
+									<ul class="left">
+										<li>中国开放格局与政策</li>
+										<li>中国环境制度与商法</li>
+										<li>金融科技导论</li>
+										<li>金融市场、机构与工具</li>
+									</ul>
+									<ul class="right">
+										<li>公司战略与财务</li>
+										<li>冲突管理与谈判</li>
+										<li>创业企业治理</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-md6 layui-col-sm12 layui-col-xs12">
+							<div class="item">
+								<div class="title title-color title-center">
+									国际治理·格局争锋
+								</div>
+								<div class="text main-text">
+									<ul class="left">
+										<li>全球宏观经济分析</li>
+										<li>国际商务管理</li>
+										<li>国际金融管理</li>
+
+									</ul>
+									<ul class="right">
+										<li>跨国公司财务管理</li>
+										<li>跨文化沟通与冲突管理</li>
+
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									数智科学·智略拔萃
+								</div>
+								<div class="text">
+									<ul>
+										<li>社交大数据分析</li>
+										<li>数据挖掘与机器学习</li>
+										<li>大数据商业实战（基于R和Python）</li>
+										<li>营销数据分析</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									金融高阶·精尖智慧
+								</div>
+								<div class="text">
+									<ul>
+										<li>人工智能和量化投资</li>
+										<li>金融工程与金融衍生品开发</li>
+										<li>对冲基金策略</li>
+										<li>行为金融学与交易心理</li>
+										<li>私募股权投资（PE）理论与实践</li>
+										<li>投资组合管理</li>
+										<li>数字化资产管理</li>
+										<li>绿色金融与影响力投资</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									产业洞察·通览风华
+								</div>
+								<div class="text">
+									<ul>
+										<li>中美贸易争端与全球秩序重构</li>
+										<li>国际金融环境与中国金融市场</li>
+										<li>资本运作与投融资管理</li>
+										<li>企业危机管理与谈判策略</li>
+										<li>博弈论与企业战略</li>
+										<li>数字经济专题（Ⅰ）：产业数字化进程 </li>
+										<li>数字经济专题（Ⅱ）：数字经济核心产业发展</li>
+										<li>中企业海外并购或跨境投资专题</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									拓展实践
+								</div>
+								<div class="text">
+									<ul>
+										<li>整合实践</li>
+										<li>商业实践前沿</li>
+										<li>金融创新模拟实训</li>
+										<li>投顾工作坊</li>
+										<li>创新创业大赛</li>
+										<li>校友俱乐部</li>
+										<li>国际交流</li>
+										<li>亚沙戈赛</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									职业深度·精耕专长
+								</div>
+								<div class="text">
+									<ul>
+										<li>管理咨询框架与实务 </li>
+										<li>项目管理的工具、方法与实践 </li>
+										<li>数据驱动增长：顾客行为分析 </li>
+										<li>人力资源管理：创造团队竞争优势</li>
+										<li>会计准则与案例分析</li>
+										<li>财务报告与价值分析</li>
+										<li>内部控制与风险管理</li>
+										<li>管理会计理论与实务</li>
+										<li>企业资源规划（ERP）沙盘模拟 </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-lg2 layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="item">
+								<div class="title">
+									前瞻高度·新知思维
+								</div>
+								<div class="text">
+									<ul>
+										<li>社会媒介与数字营销 </li>
+										<li>新技术与创新管理</li>
+										<li>文化产业与创意营销</li>
+										<li>可持续发展指标体系与绿色治理</li>
+										<li>战略新兴产业的创业与投资</li>
+										<li>区块链：技术驱动金融、商务和社会</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="knowledge" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="7" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<div class="plan-title">
+						<div class="line"></div>
+						<span class="name">后MBA：无边界学习、终身学习</span>
+						<div class="line"></div>
+					</div>
+				</div>
+				<!-- <div
+            class="course-list"
+            data-scroll-reveal="enter bottom over .5s after 0s"
+          >
+            <div
+              class="item"
+              style="background-image: url('./images/course_bg1.png')"
+            >
+              <div class="img">
+                <img src="./images/course_logo1.png" alt="" />
+              </div>
+              <div class="content">
+                <div class="title">【高级金融市场与交易管理模块】</div>
+                <ul class="text-list">
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    价值评估与投资决策
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融市场专题
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    投资学
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    固定收益证券与利率模型
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    思辨、生活和阿尔法·证券组合管理实务
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融博弈
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    国际金融管理
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融衍生品和金融工程
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    时间序列分析
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="item"
+              style="background-image: url('./images/course_bg2.png')"
+            >
+              <div class="img">
+                <img src="./images/course_logo2.png" alt="" />
+              </div>
+              <div class="content">
+                <div class="title">【数智时代的金融科技】</div>
+                <ul class="text-list">
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融科技导论
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    Python金融大数据分析
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    程序化交易与实现
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    人工智能和量化投资
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    区块链：技术驱动金融、商务和社会
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融科技实践专题
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融创新专题
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    金融科技与风险控制
+                  </li>
+                  <li class="text">
+                    <i class="iconfont icon-status"></i>
+                    监管科技
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+				<div class="tip" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="8" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					说明：以上为部分教授课程，具体课表以入学后为准，上海财经大学商学院拥有对本课表的最终解释权。
+				</div>
+			</div>
+		</div>
+		<div class="block club" style="background-color: #eff2f5">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="9" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					打破课堂边界的移动课堂
+				</div>
+				<div class="index_intro" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="10" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					将学习场景扎根于真实的企业环境，走遍中国，聚焦实践，真正做到学以致用、知行合一。
+				</div>
+				<div class="layui-row layui-col-space20 row-flex content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="11" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/1.jpg?v=2" alt="" width="1280" height="960">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/2.jpg?v=2" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/3.jpg?v=2" alt="" width="1080" height="606">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/4.jpg?v=2" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/5.jpg?v=2" alt="" width="1080" height="810">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+						<div class="item">
+							<div class="img-box">
+								<div class="img">
+									<img src="./images/newImages/6.png?v=2" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="active active-swiper1">
+					<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="12" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">“金融家俱乐部”活动</div>
+					<div class="content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="13" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+						<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-autoheight">
+							<div class="swiper-wrapper" id="swiper-wrapper-236cc1b8a773a59b" aria-live="polite" style="height: 359px;">
+								<div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home01.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">
+											失衡与重塑全球变局及中国应对
+										</div>
+										<div class="name-box">
+											<div class="name">曹远征</div>
+										</div>
+										<div class="text">
+											中国银行原首席经济学家<br>中银国际研究公司董事长
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home02.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">
+											化债浪潮下的资产配置展望
+										</div>
+										<div class="name-box">
+
+											<div class="name">刘郁</div>
+										</div>
+										<div class="text">
+											华西证券首席经济学家
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="3 / 7" style="width: 223.784px; margin-right: 20px;">
+
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home03.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">从硬实力领先到软实力崛起中国资产价值重估分析</div>
+										<div class="name-box">
+
+											<div class="name">王涵</div>
+										</div>
+										<div class="text">
+											兴业证券首席经济学家
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="4 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home04.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">革新未来的AI大模型时代——大模型技术及应用场景案例</div>
+										<div class="name-box">
+
+											<div class="name">方明</div>
+										</div>
+										<div class="text">
+											科大讯飞副总裁<br>俄罗斯工程院外籍院士
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="5 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home05.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">当前中国资本市场的生态和挑战</div>
+										<div class="name-box">
+
+											<div class="name">汪毅</div>
+										</div>
+										<div class="text">
+											长城证券首席经济学家
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="6 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home06.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">中国经济：2024年回顾与2025年展望</div>
+										<div class="name-box">
+
+											<div class="name">邱晓华</div>
+										</div>
+										<div class="text">
+											国家统计局原局长<br>阳光保险集团首席经济学家
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="7 / 7" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/home07.jpg" alt="">
+											</div>
+										</div>
+										<div class="title">新质生产力、治理现代化与跨界创新</div>
+										<div class="name-box">
+
+											<div class="name">凌文</div>
+										</div>
+										<div class="text">
+											中国工程院院士<br>山东省科协主席
+										</div>
+									</div>
+								</div>
+							</div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+						<div class="button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-236cc1b8a773a59b" aria-disabled="true">
+							<i class="iconfont icon-left"></i>
+						</div>
+						<div class="button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-236cc1b8a773a59b" aria-disabled="false">
+							<i class="iconfont icon-right"></i>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="block active active-swiper2" style="background-image: url('./images/bg04.png');-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="14" data-scroll-reveal-initialized="true">
+			<div class="layui-container">
+				<div class="index_title white" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="15" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">“浦江财享会”活动</div>
+				<div class="content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="16" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-autoheight">
+						<div class="swiper-wrapper" id="swiper-wrapper-74973b3b3e9879c6" aria-live="polite" style="height: 400px;">
+							<div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active01.png" alt="">
+										</div>
+									</div>
+									<div class="title">
+										AI驱动的商业变革：逻辑、路径和节奏
+									</div>
+									<div class="name-box">
+										<div class="name">陈龙</div>
+									</div>
+									<div class="text">
+										罗汉堂秘书长<br>为溪创始人<br>湖畔创研中心执行教育长
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active02.png" alt="">
+										</div>
+									</div>
+									<div class="title">
+										对民营企业走出去的几点思考
+									</div>
+									<div class="name-box">
+										<div class="name">葛俊杰</div>
+									</div>
+									<div class="text">
+										上海申正达企业管理咨询有限公司董事长<br>中信资本运营合伙人<br>光明食品集团原副总裁
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="3 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active03.png" alt="">
+										</div>
+									</div>
+									<div class="title">宏观经济、资本市场和证券行业分析与展望</div>
+									<div class="name-box">
+										<div class="name">董晨</div>
+									</div>
+									<div class="text">
+										东北证券副总裁<br>东北证券战略规划部总经理<br>东证融通投资管理有限公司董事长
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="4 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active04.png" alt="">
+										</div>
+									</div>
+									<div class="title">从张江产业地产商转型“科技投行”的系统化变革——谈国企科技投行转型复盘的思考</div>
+									<div class="name-box">
+										<div class="name">葛培健</div>
+									</div>
+									<div class="text">
+										金地威新产业研究院院长<br>上海张江高科技园区开发股份有限公司原总经理
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="5 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active05.png" alt="">
+										</div>
+									</div>
+									<div class="title">宏观范式改变及资产配置展望</div>
+									<div class="name-box">
+										<div class="name">李慧勇</div>
+									</div>
+									<div class="text">
+										长江养老保险股份有限公司<br>资产管理与监督部总经理<br>上海财经大学校友
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="6 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active06.png" alt="">
+										</div>
+									</div>
+									<div class="title">中国船舶工业高质量发展——共迎新周期投资新逻辑</div>
+									<div class="name-box">
+										<div class="name">施卫东</div>
+									</div>
+									<div class="text">
+										中国船舶(SH.600150)董事、总经理
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="7 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active07.png" alt="">
+										</div>
+									</div>
+									<div class="title">2024年全球资本市场投资趋势</div>
+									<div class="name-box">
+										<div class="name">陈李</div>
+									</div>
+									<div class="text">
+										东吴证券首席经济学家
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" role="group" aria-label="8 / 8" style="width: 223.784px; margin-right: 20px;">
+								<div class="item">
+									<div class="img-box">
+										<div class="img">
+											<img src="./images/active08.png" alt="">
+										</div>
+									</div>
+									<div class="title">如何解决民营企业发展困境与融资难问题</div>
+									<div class="name-box">
+										<div class="name">刘晓春</div>
+									</div>
+									<div class="text">
+										上海新金融研究院副院长
+									</div>
+								</div>
+							</div>
+						</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+					<div class="button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-74973b3b3e9879c6" aria-disabled="true">
+						<i class="iconfont icon-left"></i>
+					</div>
+					<div class="button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-74973b3b3e9879c6" aria-disabled="false">
+						<i class="iconfont icon-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block">
+			<div class="layui-container">
+
+				<div class="active active-swiper3">
+					<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="17" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">“名家讲堂”活动</div>
+					<p>通过邀请海内外知名教授、精英校友及顶尖专家学者，熔全球视野、中国特色、前沿科技、海派文化于一炉，提升商业思维，把握财经热点，启迪人生智慧。</p>
+					<div class="content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="18" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+						<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-autoheight">
+							<div class="swiper-wrapper" id="swiper-wrapper-16bfae41dec427d5" aria-live="polite" style="height: 180px;">
+								<div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/newImages/m1.jpg?v=2" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/newImages/m2.jpg?v=2" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="3 / 4" style="width: 223.784px; margin-right: 20px;">
+
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/newImages/m3.jpg?v=2" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" role="group" aria-label="4 / 4" style="width: 223.784px; margin-right: 20px;">
+									<div class="item">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/newImages/m4.jpg?v=2" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="img-box">
+                                            <div class="img">
+                                                <img src="./images/newImages/m5.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+							</div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+						<div class="button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-16bfae41dec427d5" aria-disabled="true">
+							<i class="iconfont icon-left"></i>
+						</div>
+						<div class="button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-16bfae41dec427d5" aria-disabled="false">
+							<i class="iconfont icon-right"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div
+        class="block enumerate"
+        data-scroll-reveal="enter bottom over .5s after 0s"
+      >
+        <div class="layui-container">
+          <div class="title center">部分参访企业举荐</div>
+          <div class="content">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate01.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate02.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate03.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate04.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate05.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate06.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate07.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate08.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate09.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate10.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate11.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate12.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="img-box">
+                      <div class="img">
+                        <img src="./images/enumerate13.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button-prev">
+              <i class="iconfont icon-left"></i>
+            </div>
+            <div class="button-next">
+              <i class="iconfont icon-right"></i>
+            </div>
+          </div>
+        </div>
+      </div> -->
+		<div class="block local" style="background-image: url(images/bg03.png?v=20211012)">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="19" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					“地利”+“人和”的地理优势和校友平台
+				</div>
+				<div class="local-content">
+					<img src="images/newImages/aluminum.png" alt="">
+				</div>
+				<div class="local-swiper">
+					<div class="local-swiper-title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="20" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<div class="left active">
+							<div class="title">知名金融领域校友举例（按照拼音字母排序）：</div>
+						</div>
+						<div class="right">
+							<div class="button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-962c723563dbaeef" aria-disabled="false">
+								<i class="iconfont icon-left"></i>
+							</div>
+							<div class="button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-962c723563dbaeef" aria-disabled="false">
+								<i class="iconfont icon-right"></i>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="21" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<div class="swiper-wrapper" id="swiper-wrapper-962c723563dbaeef" aria-live="polite" style="transition-duration: 0ms;">
+							<div class="swiper-slide">
+								<div class="layui-row layui-col-space20 row-flex">
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												贝多广
+											</div>
+											<div class="intro">
+												中国人民大学普惠金融研究院理事会联席主席兼院长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												陈 戈
+											</div>
+											<div class="intro">
+												富国基金管理有限公司总经理<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												陈 庆
+											</div>
+											<div class="intro">
+												瑞士银行原行长，Higgs Block Technology CEO
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												陈有安
+											</div>
+											<div class="intro">
+												海南省金融发展促进会联席会长、专家委员会主任，原银河证券股份有限公司董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												邓方希
+											</div>
+											<div class="intro">
+												银翎资本管理合伙人<br>原诺亚财富CFO
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												冯国荣
+											</div>
+											<div class="intro">
+												申银万国证券股份有限公司原总裁
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												谷 澍
+											</div>
+											<div class="intro">
+												中国农业银行党委书记、董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												桂水发
+											</div>
+											<div class="intro">
+												原汇添富基金管理有限公司董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												姜建清
+											</div>
+											<div class="intro">
+												中欧陆家嘴国际金融研究院院长、中国工商银行原董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												金文忠
+											</div>
+											<div class="intro">
+												东方证券股份有限公司总裁<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												李扣庆
+											</div>
+											<div class="intro">
+												东盟与中日韩宏观经济研究办公室（AMRO）主任，中国会计学会常务理事、中国总会计师协会副会长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												李 星
+											</div>
+											<div class="intro">
+												云晖资本联合创始合伙人、CEO
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												李迅雷
+											</div>
+											<div class="intro">
+												中泰证券首席经济学家，上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												刘 波
+											</div>
+											<div class="intro">
+												南方证券原董事长、总裁
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												柳东雳
+											</div>
+											<div class="intro">
+												佐誉资本创始合伙人
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												刘秋明
+											</div>
+											<div class="intro">
+												光大证券执行董事、总裁
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												刘晓春
+											</div>
+											<div class="intro">
+												上海新金融研究院副院长，原浙商银行行长，上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												娄 刚
+											</div>
+											<div class="intro">
+												恒松资本创始人兼董事长
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="layui-row layui-col-space20 row-flex">
+
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												钱文挥
+											</div>
+											<div class="intro">
+												中国农业发展银行党委书记、董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												秦 健
+											</div>
+											<div class="intro">
+												上海市信息投资股份有限公司党委书记、董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												尚志民
+											</div>
+											<div class="intro">
+												华安基金投资部副总监、基金安顺基金经理
+											</div>
+										</div>
+									</div>
+									<!--<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+                        <div class="people-item">
+                            <div class="name">
+                              田惠宇	
+                            </div>
+                            <div class="intro">
+                              招商银行行长，上海财经大学校董
+                            </div>
+                        </div>
+                      </div>-->
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												王兰凤
+											</div>
+											<div class="intro">
+												苏州银行原党委书记<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												王益民
+											</div>
+											<div class="intro">
+												原东方证券股份有限公司董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												尉文渊
+											</div>
+											<div class="intro">
+												上海证券交易所首任总经理、创建人<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												邬建辉
+											</div>
+											<div class="intro">
+												大华会计师事务所董事长<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												徐浩明
+											</div>
+											<div class="intro">
+												原光大证券股份有限公司总裁
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												肖厚发
+											</div>
+											<div class="intro">
+												招商证券独立非执行董事<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												俞丽萍
+											</div>
+											<div class="intro">
+												英国罗斯柴尔德国际投资银行大中华区总裁<br>上海财经大学校董
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												俞仕新
+											</div>
+											<div class="intro">
+												国元证券股份有限公司原党委书记、董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												张训苏
+											</div>
+											<div class="intro">
+												景领投资管理公司董事长<br>原兴业证券副总裁兼首席风险官
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												周有道
+											</div>
+											<div class="intro">
+												原上海国际集团有限公司董事长，上投摩根基金管理有限公司董事长
+											</div>
+										</div>
+									</div>
+									<div class="layui-col-md2 layui-col-sm3 layui-col-xs6 item-box">
+										<div class="people-item">
+											<div class="name">
+												朱鹤新
+											</div>
+											<div class="intro">
+												中国人民银行副行长、国家外汇管理局局长
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+				</div>
+				<!-- <div class="img" data-scroll-reveal="enter bottom over .5s after 0s">
+            <img src="./images/local.jpg" alt="" />
+          </div> -->
+				<div class="local-list" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="22" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<div class="layui-row layui-col-space20 row-flex">
+						<div class="layui-col-md6 layui-col-sm6 layui-col-xs12 item-box">
+							<div class="item">
+								<div class="title">
+									何为“地利”？上海地理位置优渥，金融前景广大。
+								</div>
+								<div class="text">
+									“国际金融中心”是上海重要的城市定位。金融市场的完善、金融改革的推进、金融营商环境的优化和金融国际联通格局的开拓都需要大量高层次金融管理人才的汇聚。在上海、来上财、学金融自然成为了水到渠成的“地利”之举。
+								</div>
+							</div>
+						</div>
+						<div class="layui-col-md6 layui-col-sm6 layui-col-xs12 item-box">
+							<div class="item">
+								<div class="title">何为“人和”？大咖校友多，校友资源好。</div>
+								<div class="text">
+									校友对于职业发展的重要性不言而喻。上财校友的特征是金融行业集中度高，许多知名校友在龙头企业担任要职，相互为彼此职业发展带来强大能量和助力。
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block student">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="23" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					多元化的学生画像，助力职业发展走高走远
+				</div>
+				<div class="index_intro" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="24" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					作为中国最早的EMBA项目，自2002年开班以来，经过数十年的深耕与发展，上财商学院EMBA校友遍布商学相关的各行各业，在中国社会经济发展中担当重要作用。全校校友也大多从事商科相关工作，特别是在金融领域较为集中，我校校友资源庞大，优势明显。
+				</div>
+				<div class="student-content2">
+					<img src="images/newImages/img2.png" alt="">
+					<p>数据来源：2025级EMBA</p>
+				</div>
+				<div class="student-content" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="25" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+
+					<div class="left">
+						<div class="img">
+							<img src="./images/student.png" alt="">
+						</div>
+						<!--<div class="tip">（数据来源：2023年入学金融投资班新生）</div>-->
+					</div>
+					<div class="right">
+						<div class="title-box">
+							<div class="img">
+								<img src="./images/student_icon1.png" alt="">
+							</div>
+							<div class="title">工作职能TOP5</div>
+						</div>
+						<div class="content-list">
+							<div class="item">
+								<div class="text">
+									<i class="iconfont icon-status"></i>投资/资产/风险管理
+								</div>
+								<div class="text">
+									<i class="iconfont icon-status"></i>财务管理
+								</div>
+								<div class="text">
+									<i class="iconfont icon-status"></i>项目管理
+								</div>
+							</div>
+							<div class="item">
+								<div class="text">
+									<i class="iconfont icon-status"></i>产品研发
+								</div>
+								<div class="text">
+									<i class="iconfont icon-status"></i>市场运营
+								</div>
+							</div>
+						</div>
+						<!-- <div class="item">
+                <div class="title-box">
+                  <div class="img">
+                    <img src="./images/student_icon1.png" alt="" />
+                  </div>
+                  <div class="title">工作职能</div>
+                </div>
+                <div class="text">
+                  投资/资产/风险管理、财务管理、产品研发、项目管理、市场运营
+                </div>
+              </div>
+              <div class="item">
+                <div class="title-box">
+                  <div class="img">
+                    <img src="./images/student_icon2.png" alt="" />
+                  </div>
+                  <div class="title">学生感言</div>
+                </div>
+                <div class="text">
+                  虽然我不是金融行业的，但就是冲着金融投资班来的。”我曾仔细研究过金融投资班的师资力量和课程配置，认为培养方案中的必修限定和专业必修课程能够帮助我建立起产业和市场变化趋势、细分领域及企业基本面跟踪的分析框架，才能进一步洞察行业先机并找到投身其中的钥匙。中国芯的勃兴没有捷径，它既考验决策层的智慧，也离不开成千上万从业者们依靠智慧和双手通过堆出一张又一张晶圆、迭代一代又一代技术来积累经验，实现赶超。
+                </div>
+                <div class="text">
+                  ——隋运奇 / 2019级金融投资班就职于某高端化工企业集成电路部门
+                </div>
+              </div> -->
+					</div>
+				</div>
+				<div class="index_title">
+					学生感言
+				</div>
+				<div class="comments-swiper" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="26" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<div class="swiper-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-autoheight">
+						<div class="swiper-wrapper" id="swiper-wrapper-d61cd10a4365721107" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-2130.92px, 0px, 0px); height: 544px;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="10" role="group" aria-label="11 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -14;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student10.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">刘延枫</span>
+												<span class="year"> / 2006EMBA </span>
+											</div>
+											<div class="job-title">
+												东阿阿胶高级副总裁
+											</div>
+											<div class="text">
+												东阿阿胶集团营销总部位处上海，首先拥有地域上的优势，而上海财经大学地处金融腹地，在全国财经类院校中更是首屈一指的名校，在商科人才培养与校友网络方面集聚优势，可以说是诸多商界人士心中的朝圣之地。授课过程中，教授们特别注重将理论知识与实践相结合，将品牌故事与消费者行为紧密结合，使我收益颇丰。时至今日，我们08届的校友彼此之间也保持着充分的交流与商业互动，这种由个人及群体记忆串联起来的回忆到现在仍具温度。
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="11" role="group" aria-label="12 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -9;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student11.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">黄娟</span>
+												<span class="year"> / 2002EMBA </span>
+											</div>
+											<div class="job-title">
+												信永中和会计师事务所国际业务合伙人
+											</div>
+											<div class="text">
+												上海财经大学EMBA从财经领域的专业性和上课时间的灵活性上深深吸引了我，最开始的每个月，我从山东往返上海花费4-5天时间来上课。但来回奔波了2次之后，我就坚决地辞去了山东的工作。因为在与教授学者和企业家同学学习和交流过程中，我看到了一个完全不同的世界，以及上海的广袤未来。一路走来，跟随着行业的发展，跟随上海城市发展的脚步，我也享受到了经济社会发展带给我们的红利。所以，我非常感恩上财EMBA的求学生活，作为首期EMBA学子，我也特别自豪。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-prev" data-swiper-slide-index="12" role="group" aria-label="13 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -4;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student12.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">卜安洵</span>
+												<span class="year"> / 2002EMBA </span>
+											</div>
+											<div class="job-title">
+												大任智库董事长、透明商业领创人
+											</div>
+											<div class="text">
+												上财EMBA学习的最大价值来自于思维方式的变化，无论是市场、营销还是管理，工作中我都会不由自主的去思考前沿趋势和优化方向，而不仅仅满足于眼前问题的解决。水滴石穿，当有意识的思考演变成“下意识”的习惯，你就会发现这种思维方式的变化，对于整体工作能力带来的巨大提升。项目还利用晚上的时间开设了很多商业讲座，让我们接触到了众多管理新元素和新模式。在学习期间，我们不但成为了国内最早一批接触到BSC平衡记分卡的管理者，校方还邀请了两位专家学者为同学们详细讲解这类绩效管理新模式如何进行管理实践，让大家受益匪浅。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: 1;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student13.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">石向斌</span>
+												<span class="year"> / 2024EMBA </span>
+											</div>
+											<div class="job-title">
+												上海信投数字科技有限公司 项目总监
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												不论你从事什么行业和领域，战略框架性的思维和系统性的理论支撑是相通的。如果把从实践工作中的经验看成一颗颗珍珠，这个框架思维能力就是把珍珠串起来的线，能让你把问题看得更准确更全面。正因为在十余年职场生涯中看到自己这方面的欠缺，加上本身对财务管理、战略管理以及投资决策的兴趣，希望能通过继续学习，一方面更深入地探索自己的兴趣点，另一方面也补足自己的短板。而上海财经大学在这几个方面也都是国内顶尖的水平，于是当初毫不犹豫报考了上财商学院的EMBA。通过EMBA系统性的学习，能将以前接触到的散点的战略管理等知识点融会贯通，真正形成体系，更好地融入到我的工作中。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide-visible swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -4;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student14.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">陆虹</span>
+												<span class="year"> / 2024EMBA </span>
+											</div>
+											<div class="job-title">
+												上海龙旗科技股份有限公司 资金总监
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												伴随着北方的一丝清冷，迎来了EMBA班的第一次移动课堂。一行人走出上海，来到山西万华化学。<br>
+												王文斌老师的《数据模型与决策》讲述了企业管理中前沿实用的数据模型，结合万华化学由总和我们交流的公司IT架构框架及公司信息化搭建的历程，简直是完美的理论与实践的结合！<br>
+												周杰普老师的《商业伦理和企业社会责任》课堂中，我们了解了无论是上市公司还是中小企业，无论是法人主体还是员工、组织都有其社会责任。这堂课实实在在提高了我们对企业经营的风险意识，实用且重要。<br>
+												在这里还碰到了上财的师兄们。他们毕业多年，依旧为自己是上财学生的身份而自豪，他们讲述自己的心路历程，分享他们的人生经验。也更让我坚信，在职场工作17年后，再次走进校园选择上财是个正确的确定。
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -9;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student01.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">谢力</span>
+												<span class="year"> / 2019EMBA </span>
+											</div>
+											<div class="job-title">
+												南京大学 临床医学专业本硕 某外资医疗企业全国销售经理
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												“时尚大师山本耀司说过，自己这个东西是看不见，撞上一些别的什么，反弹回来，才会了解自己。”所以这一次，为了透过优秀的老师和同学清晰地探寻未来职场之路，以及更加全面的审视医药领域和资本运作规律，他选择来到上财EMBA。
+												20年后重回校园，谢力发现自己的精力和动力犹胜当年。“仿佛自己是个重返战场的老兵！就跟当初为公司发掘新的利润再增长点一样，引进开创性的产品线，搭建团队，铺好渠道……很累，也很快乐。”当上班长的他还给自己定下了个小目标——拼出一届最有爱，和最优秀的EMBA！
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -14;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student02.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">柳佳</span>
+												<span class="year"> / 2007EMBA </span>
+											</div>
+											<div class="job-title">
+												魔方生活服务集团CEO
+											</div>
+											<div class="text">
+												时钟拨回到2007年，当时的柳佳正担任中国内地第一份免费地铁报《i时代报》的总经理。那是一个大多数人对“互联网和信息爆炸”还似懂非懂的年代，淘宝的全年销售额还只有2018年双11的五分之一。常言道：兵马未动，粮草先行。时值企业正谋求上市，如何从一名带兵打仗（业务拓展）的常胜将军升格为兼顾粮草辎重（企业运维）并能运筹帷幄的大军统帅？如何抓住“信息爆炸”带来的时代风口，更好地带领团队走向资本市场大舞台，尤其是打造出一支出众的财务团队，并在内部创建一套稳健的行政与财务制度？来到上海财经大学攻读EMBA成为了柳佳的破局之举。“务实”二字是上财EMBA给柳佳最深的印象，“务实是多方面的，课程、老师、同窗无不如是。课程非常注重实践性，现代企业的竞争是全方位的竞争，如何在品质、资源、价格等多方面开展博弈？上财EMBA的学习给了我很大启发。”
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--<div class="swiper-slide">
+                                <div class="item">
+                                    <div class="left">
+                                        <div class="img-box">
+                                            <div class="img">
+                                                <img src="./images/student03.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="content">
+                                            <div class="name-box">
+                                                 <span class="name">熊雄</span>
+                                                 <span class="year"> / 2012EMBA </span>
+                                            </div>
+                                            <div class="job-title">
+                                                山屿海股份董事长兼总裁
+                                            </div>
+                                            <div class="text">
+                                                我曾经是南京军区的步兵班长，也曾经是银行的小职员；我曾经卖过剃须刀，也曾经卖过房，但是这些都不重要，重要的是，我现在是中国资本市场上市挂牌企业5000多家中唯一一家做候鸟式会员的上市公司——山屿海（833036）集团的董事长。我是上海财经大学2012级EMBA全球班学员——熊雄。
+                                                在一次采访中我被问到，我的诗与远方是什么?我说我的诗与远方是山屿海。我对财富并没有过多的眷恋，也没有过多的享受需求，忙碌的生活中简单的衬衣和一碗爱吃的面便足以体会到幸福。我希望用更多的钱去做更大的善事与好事，在商业投资中实现财务自由，同时期望高层次的人生价值实现，做追逐自由的梦想家。我想为老年人群、年轻人群做些有价值的事情，为这个社会做出改变。我想做一个100亿的事业，再用99亿回馈社会，这是我的100亿梦想，也是我的创业历程与生命故事的串联。
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>-->
+							<div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -19;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student04.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">何炫</span>
+												<span class="year"> / 2012EMBA </span>
+											</div>
+											<div class="job-title">
+												贵州省证券业协会常务副会长、友山基金董事长、上海财经大学校董
+											</div>
+											<div class="text">
+												如何平衡规模和收益这个老生常谈的话题？以及在“强者恒强”的逻辑正在逐渐渗透市场的情况下，高端人才的引进和管理又该怎么做？何炫认为，EMBA求学的新奇感和高级感主要源于管理学经典理论和企业家同窗的阅历分享，这些就是他山之石。新兴领域看似驳杂交叠，其发展和变化也仍需遵循商业社会的基本规律和价值体系。
+												不管基金公司在投研体系、产品策略和客户服务上有何差异，喧闹的外衣终究会被业绩和投资者评价所覆盖，特别是在如今加速出航的行业背景下。何炫明白这是一场持久战，耐心和恒心不可或缺。繁星流动，现在上财EMBA也成为了梦想的同路人，前行的动力便更足了一分。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="5" role="group" aria-label="6 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -24;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student05.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">张瑞珍</span>
+												<span class="year"> / 2019EMBA </span>
+											</div>
+											<div class="job-title">
+												上海法知特律师事务所律师
+											</div>
+											<div class="text">
+												由于日益变化的世界带来的危机感和紧迫感，我选择从职场回到校园。希望通过上财学习新的知识，打破认知边界，去拥抱这个日新月异的世界。回顾两年的上财学习生活，辛苦、忙碌却又充实、快乐。我在这里收获了知识，收获了同窗情谊，也收获了更好的自己。随着自己的成长与蜕变，这种变化也在影响着我的家人，我积极向上的状态让孩子们感受到了妈妈的力量，也让他们知道每个人都需要不停地去学习、去努力，只有付出才会有收获，这是对他们最好的教育。两年的求学之路，只是一个开始，只有不为自己的人生设限，才能走得更远。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="6" role="group" aria-label="7 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -29;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student06.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">阮歆然</span>
+												<span class="year"> / 2015EMBA </span>
+											</div>
+											<div class="job-title">
+												厦门巽丰财税咨询有限公司创始人
+											</div>
+											<div class="text">
+												上海财经大学是上市公司财务负责人（CFO）的摇篮，A股公司财务负责人毕业院校排行榜第一名，全国财经院校首屈一指的名校，又是地处国家金融腹地、改革开放和市场经济前沿的上海，在商科人才培养与财经类校友资源积聚上有优势。上财EMBA学习为我从CFO角色转换为创业者角色提供系统的管理理论基础、实效性的管理知识、多维度的思维方式，从更高层次去了解自身的不足，有效的提高自身综合素质和决策管理技能，无论在战略、组织、管理、投资、还是运营、财务、市场等方面都有突破和长足的进步，为我从财务高管向一名优秀的创业者转型奠定了厚实的基础。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="7" role="group" aria-label="8 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -34;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student07.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">黄伟潮</span>
+												<span class="year"> / 2015EMBA </span>
+											</div>
+											<div class="job-title">
+												亚太机电集团总经理
+											</div>
+											<div class="text">
+												从90年代保送职工进大学学习技术，到第一家为职工解决住房问题的杭州民企，再到成立员工发展基金（教育、医疗等）......思索并完善如何吸引人、培养人、留住人，成为了黄伟潮工作的绝对重心。上财EMBA的学习对于黄伟潮来说受益匪浅，黄伟潮说：“张银杰、孙铮、于研......我现在依然记得老师们上课的片段，既亲和又气场十足。他们的授课，除去能运用于企业实战的，更重要的是对企业经营哲学和人生境界修养的高度凝练。”对于人才管理，EMBA学习更让黄伟潮明确了在员工福利（教育、医疗）等方面的重点投入。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="8" role="group" aria-label="9 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -39;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student08.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">王同海</span>
+												<span class="year"> / 2013EMBA </span>
+											</div>
+											<div class="job-title">
+												上海瀛泰律师事务所高级合伙人
+											</div>
+											<div class="text">
+												上海作为金融中心，让我们这些法律人士工作过程中与金融的互动特别多，我所从事的房地产和工程类业务更是如此，上海财经大学EMBA“金融+高级管理”
+												的属性完美契合了我的学习需求。带领团队、经营企业，大家会遇到很多共性问题，EMBA的学习和同窗间的交流讨论都能为解决这些问题提供很好的思路，这些单纯通过法律硕士的学习很难领悟到，这也是上财EMBA项目的优势。EMBA课程体系设置颇为全面，特别是经济和金融领域的课程很多，同学中很多来自相关领域，给我的帮助很大。就读期间我还参加了几次海外院校交换项目，既学到了知识，还结识了朋友，开拓了视野。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="9" role="group" aria-label="10 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -44;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student09.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">余焕</span>
+												<span class="year"> / 2010EMBA </span>
+											</div>
+											<div class="job-title">
+												首批保荐代表人、国家绿色发展基金股份有限公司投资管理部总经理
+											</div>
+											<div class="text">
+												经常奔波于北京和上海之间，也考察对比了两座城市很多知名高校，最终选择了上财EMBA。因为在金融圈，特别是证券领域，上财拥有着顶级的师资力量和丰富的校友资源，对个人的职业生涯思考和职业发展促进作用很大。上财EMBA的学习给了我一个静下心来系统梳理和更新知识的机会。项目还为大家提供了海外顶级名校的游学机会，这些都极大开阔了我的全球视野，让我对西方资本市场的体系和理念有了深入了解。通过系统的学习增强了金融和管理两方面的知识技能，帮助自己更好地梳理了事业部的业务，并深度考虑了未来投行的定位、发展模式以及自身价值实现等问题。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="10" role="group" aria-label="11 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -49;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student10.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">刘延枫</span>
+												<span class="year"> / 2006EMBA </span>
+											</div>
+											<div class="job-title">
+												东阿阿胶高级副总裁
+											</div>
+											<div class="text">
+												东阿阿胶集团营销总部位处上海，首先拥有地域上的优势，而上海财经大学地处金融腹地，在全国财经类院校中更是首屈一指的名校，在商科人才培养与校友网络方面集聚优势，可以说是诸多商界人士心中的朝圣之地。授课过程中，教授们特别注重将理论知识与实践相结合，将品牌故事与消费者行为紧密结合，使我收益颇丰。时至今日，我们08届的校友彼此之间也保持着充分的交流与商业互动，这种由个人及群体记忆串联起来的回忆到现在仍具温度。
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide" data-swiper-slide-index="11" role="group" aria-label="12 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -54;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student11.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">黄娟</span>
+												<span class="year"> / 2002EMBA </span>
+											</div>
+											<div class="job-title">
+												信永中和会计师事务所国际业务合伙人
+											</div>
+											<div class="text">
+												上海财经大学EMBA从财经领域的专业性和上课时间的灵活性上深深吸引了我，最开始的每个月，我从山东往返上海花费4-5天时间来上课。但来回奔波了2次之后，我就坚决地辞去了山东的工作。因为在与教授学者和企业家同学学习和交流过程中，我看到了一个完全不同的世界，以及上海的广袤未来。一路走来，跟随着行业的发展，跟随上海城市发展的脚步，我也享受到了经济社会发展带给我们的红利。所以，我非常感恩上财EMBA的求学生活，作为首期EMBA学子，我也特别自豪。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="12" role="group" aria-label="13 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -59;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student12.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">卜安洵</span>
+												<span class="year"> / 2002EMBA </span>
+											</div>
+											<div class="job-title">
+												大任智库董事长、透明商业领创人
+											</div>
+											<div class="text">
+												上财EMBA学习的最大价值来自于思维方式的变化，无论是市场、营销还是管理，工作中我都会不由自主的去思考前沿趋势和优化方向，而不仅仅满足于眼前问题的解决。水滴石穿，当有意识的思考演变成“下意识”的习惯，你就会发现这种思维方式的变化，对于整体工作能力带来的巨大提升。项目还利用晚上的时间开设了很多商业讲座，让我们接触到了众多管理新元素和新模式。在学习期间，我们不但成为了国内最早一批接触到BSC平衡记分卡的管理者，校方还邀请了两位专家学者为同学们详细讲解这类绩效管理新模式如何进行管理实践，让大家受益匪浅。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -64;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student13.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">石向斌</span>
+												<span class="year"> / 2024EMBA </span>
+											</div>
+											<div class="job-title">
+												上海信投数字科技有限公司 项目总监
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												不论你从事什么行业和领域，战略框架性的思维和系统性的理论支撑是相通的。如果把从实践工作中的经验看成一颗颗珍珠，这个框架思维能力就是把珍珠串起来的线，能让你把问题看得更准确更全面。正因为在十余年职场生涯中看到自己这方面的欠缺，加上本身对财务管理、战略管理以及投资决策的兴趣，希望能通过继续学习，一方面更深入地探索自己的兴趣点，另一方面也补足自己的短板。而上海财经大学在这几个方面也都是国内顶尖的水平，于是当初毫不犹豫报考了上财商学院的EMBA。通过EMBA系统性的学习，能将以前接触到的散点的战略管理等知识点融会贯通，真正形成体系，更好地融入到我的工作中。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -69;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student14.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">陆虹</span>
+												<span class="year"> / 2024EMBA </span>
+											</div>
+											<div class="job-title">
+												上海龙旗科技股份有限公司 资金总监
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												伴随着北方的一丝清冷，迎来了EMBA班的第一次移动课堂。一行人走出上海，来到山西万华化学。<br>
+												王文斌老师的《数据模型与决策》讲述了企业管理中前沿实用的数据模型，结合万华化学由总和我们交流的公司IT架构框架及公司信息化搭建的历程，简直是完美的理论与实践的结合！<br>
+												周杰普老师的《商业伦理和企业社会责任》课堂中，我们了解了无论是上市公司还是中小企业，无论是法人主体还是员工、组织都有其社会责任。这堂课实实在在提高了我们对企业经营的风险意识，实用且重要。<br>
+												在这里还碰到了上财的师兄们。他们毕业多年，依旧为自己是上财学生的身份而自豪，他们讲述自己的心路历程，分享他们的人生经验。也更让我坚信，在职场工作17年后，再次走进校园选择上财是个正确的确定。
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 13" style="width: 747.692px; transition-duration: 0ms; z-index: -74;">
+								<div class="item">
+									<div class="left">
+										<div class="img-box">
+											<div class="img">
+												<img src="./images/student01.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="content">
+											<div class="name-box">
+												<span class="name">谢力</span>
+												<span class="year"> / 2019EMBA </span>
+											</div>
+											<div class="job-title">
+												南京大学 临床医学专业本硕 某外资医疗企业全国销售经理
+											</div>
+											<div class="text" style="line-height: 2.1em;">
+												“时尚大师山本耀司说过，自己这个东西是看不见，撞上一些别的什么，反弹回来，才会了解自己。”所以这一次，为了透过优秀的老师和同学清晰地探寻未来职场之路，以及更加全面的审视医药领域和资本运作规律，他选择来到上财EMBA。
+												20年后重回校园，谢力发现自己的精力和动力犹胜当年。“仿佛自己是个重返战场的老兵！就跟当初为公司发掘新的利润再增长点一样，引进开创性的产品线，搭建团队，铺好渠道……很累，也很快乐。”当上班长的他还给自己定下了个小目标——拼出一届最有爱，和最优秀的EMBA！
+											</div>
+										</div>
+									</div>
+								</div>
+							</div></div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+					<div class="button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-d61cd10a4365721107">
+						<i class="iconfont icon-left"></i>
+					</div>
+					<div class="button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d61cd10a4365721107">
+						<i class="iconfont icon-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="block abroad" style="background-image: url('./images/bg05.png')">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="27" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<!-- 令人期待的海外游学 -->
+					海外游学
+				</div>
+				<div class="img-list" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="28" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<img src="../MBA-Global-2026/newImages/4.png" width="100%" alt="">
+				</div>
+				<!-- <div class="tip" data-scroll-reveal="enter bottom over .5s after 0s">
+                    想拥有世界？先拓展视界！当然对于金融投资班学员来说，还有一些意想不到的收获和体验：
+                </div>
+                <div class="evaluate-wrap" data-scroll-reveal="enter bottom over .5s after 0s">
+                    <div class="evaluate-list">
+                        <div class="layui-row layui-col-space30 row-flex">
+                            <div class="layui-col-md6 layui-col-sm6 layui-col-xs12">
+                                <div class="item">
+                                    <div class="title-box">
+                                        <div class="img">
+                                            <img src="./images/heade_pic1.jpg" alt="" />
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">李天海</div>
+                                            <div class="txt">2017级金融投资班 / 创业者（基于区块链技术的相关企业）</div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        令人意想不到的是，通过这次短期的剑桥之旅，“成立一家自己的区块链公司”——这一创业想法真的落地生根了！在游学结束至今的仅两个月内，我紧锣密鼓地完成了注册公司、组建创业团队、与潜在客户企业接洽等事宜。而我的四位合作伙伴，正是同窗的四位同学，经过一年多的相处，我们对彼此的能力、想法和品德都极为认可，形成了互补共进的团队。其他同学、校友也根据自身岗位、行业与我们分享了多方面切实可行的想法。
+                                    </div>
+                                    <div class="icon-box">
+                                        <img src="./images/evaluate_icon.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-col-md6 layui-col-sm6 layui-col-xs12">
+                                <div class="item">
+                                    <div class="title-box">
+                                        <div class="img">
+                                            <img src="./images/heade_pic1.jpg" alt="" />
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">顾吴杰</div>
+                                            <div class="txt">
+                                                2023级金融投资班 / 加拿大多伦多大学游学学员
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        此次多伦多游学从高度、广度、深度三方面增加了我们的眼界阅历，我们一行财大学子既领略了世界顶级学府的教育高度，亦体会了西方及世界的辽阔广度，并进一步从学术深度探索了当下金融发展及创新现状，以及更多美好的前景未来。这是一次深刻的知识更新和思维拓展之旅，我将所学知识和经验视为职业生涯中宝贵的资产，并将不断追求在金融领域的专业成长和创新实践！
+                                    </div>
+                                    <div class="icon-box">
+                                        <img src="./images/evaluate_icon.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+			</div>
+		</div>
+		<div class="block bonus">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="29" style="-webkit-transform: translatey(50px);transform: translatey(50px);opacity: 0;" data-scroll-reveal-initialized="true">
+					<!-- 力度空前的精英人才奖学金 -->
+					2026级奖助体系
+				</div>
+				<div class="index_intro" data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="22" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<p style="color: #01225F;font-size: 1.1em;">
+						最高50万、多维激励、100%全覆盖
+					</p>
+					<!-- <p>
+                        项目为学生设置了丰富的奖学金，包含“精英人才奖学金”与“学业类奖学金”两类。其中，“精英人才奖学金”针对新生设置，主要奖励
+                        在研究生考试和项目复试中表现优异的同学；“学业类奖学金”针对在读生设置，奖励在读期间在学业、论文、学生活动及赛事、国际交
+                        流或促进社会及企业发展中有突出表现的同学。
+                    </p> -->
+				</div>
+				<h3 style="font-size: 1.5em;color: #01225F;margin-top: 2em;margin-bottom: 1em;font-weight: bold;">
+					一、精英人才奖学金</h3>
+
+				<div data-scroll-reveal="enter bottom over .5s after 0s" data-scroll-reveal-id="23" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<table border="1" cellspacing="0" class="bonus-table">
+						<thead>
+							<tr>
+								<th colspan="2">
+									奖学金类别
+								</th>
+								<th style="white-space: nowrap;">
+									金额（万元）
+								</th>
+								<th>
+									人数
+								</th>
+								<th>
+									评奖原则
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+								<td colspan="2">
+
+									杰出人才奖学金
+
+								</td>
+								<td>
+
+									50
+
+								</td>
+								<td>
+
+									8
+
+								</td>
+								<td>
+
+									个人或领导企业在服务国家战略中做出突出成绩，在行业发展中起到龙头带动作用，面向未来形成突破性创新成果的商界领袖，为机构、项目或做出重大贡献的企业紧缺急需的专业技术人员、管理人员、紧缺人才，获得省、部级及以上“劳动模范”、“先进生产者”、“先进工作者”称号等
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									商界精英计划奖学金
+
+								</td>
+								<td>
+
+									1
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									参加“商界精英”计划并获得优秀，第一志愿报考项目并被录取者
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									中国式现代化专项奖学金
+
+								</td>
+								<td>
+
+									10
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									需同时满足以下条件：1.参加当年度入学“商界精英计划”并获得“优秀”结果；2.第一志愿被录取的非全日制MBA学生，且管理类联考成绩高于国家A类考生线30分及以上；3.在推动中国式现代化建设的重点领域展现创新潜力的申请者
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									金融EMBA专项奖学金
+
+								</td>
+								<td>
+
+									8
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									满足条件之一：（1）金融业企业的高级管理人员；（2）中型以上（含）企业的中高级管理人员
+
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="3">
+
+									综合奖学金
+
+								</td>
+								<td>
+
+									一等奖
+
+								</td>
+								<td>
+
+									100%学费
+
+								</td>
+								<td>
+
+									1
+
+								</td>
+								<td>
+
+									综合成绩排名第1名
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									二等奖
+
+								</td>
+								<td>
+
+									50%学费
+
+								</td>
+								<td>
+
+									4
+
+								</td>
+								<td>
+
+									管理类联考成绩≥240分者，若人数不满4人，则从综合成绩排名靠前的学生中选取补足，总人数不超过4人；若人数超过4人，则选取其中综合成绩排名靠前的4人
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									三等奖
+
+								</td>
+								<td>
+
+									1
+
+								</td>
+								<td>
+
+									295
+
+								</td>
+								<td>
+
+									除一、二等奖获奖者外综合排名前300名
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									远行奖学金
+
+								</td>
+								<td>
+
+									2
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									工作及生活地不在上海的非全日制学生
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									校企知行奖学金
+
+								</td>
+								<td>
+
+									3-5
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									来自同一企业的非全日制MBA学生：3-9人，每人3万元；10人（含）以上，每人5万元
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									鲲鹏奖学金
+
+								</td>
+								<td>
+
+									3
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									研究生或本科（全日制统招）毕业于985高校或QS全球排名前100院校的学生
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									校友奖学金
+
+								</td>
+								<td>
+
+									5
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									研究生或本科（全日制统招）毕业于上海财经大学的学生
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+
+									专业奖学金
+
+								</td>
+								<td>
+
+									3
+
+								</td>
+								<td>
+
+									不限
+
+								</td>
+								<td>
+
+									CICPA执业会员/非执业会员/全科通过；CFA三级通过/持证人；司法考试/保荐代表人；一级运动员或其他需学院专业学位招生委员会评定的专业人才
+
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+
+
+
+				<h3 style="font-size: 1.5em;color: #01225F;margin-top: 2em;margin-bottom: 1em;font-weight: bold;">
+					二、普惠奖学金</h3>
+				<p>普惠奖学金用于奖励基本学习年限内具有中华人民共和国国籍的专业学位硕士研究生（含非全日制），奖励标准为当年度应缴学费总额的2.5%。普惠奖学金评定按照《上海财经大学专业学位硕士研究生专项奖学金管理办法》执行。
+				</p>
+
+				<h3 style="font-size: 1.5em;color: #01225F;margin-top: 2em;margin-bottom: 1em;font-weight: bold;">
+					三、学业奖学金</h3>
+				<p><img src="../MBA-Global-2026/newImages/6.png" alt=""></p>
+
+				<!-- 评比细则 -->
+				<!-- <div class="scholarship-rules">
+							<h3 class="section-subtitle" style="text-align: left;">精英人才奖学金评比和发放细则</h3>
+							<p>（1）精英人才奖学金于学生入学后发放，根据每学年学费上缴情况按比例发放。获奖学金学生如在今后学习过程中出现未按时按比例缴纳学费、违纪、课业不合格、退学等情况，将视为放弃对应奖励，不再补评。
+							</p>
+							<p>（2）按照奖学金的评选依据，各类别精英人才奖学金均不叠加累计发放，发放金额以最高的单项奖学金金额为准。</p>
+							<p>（3）综合奖学金根据考生综合成绩（初试成绩与复试成绩之和）由高到低排序确定发放对象。排名规则如下：若综合总分相同，优先比较复试成绩；若复试成绩仍相同，则优先比较背景评估成绩。
+							</p>
+							<p>（4）杰出人才奖学金由两部分构成：①100%学费费用；②学业过程中产生的其他费用，该部分费用需凭有效票据按学校财务规定报销。以上两部分累加之和不超过50万元人民币。</p>
+							<p>（5）金融EMBA专项奖学金说明：企业规模认定以国家统计局《统计上大中小微企业划分办法（2017）》为准。</p>
+							<p>（6）杰出人才奖学金、远行奖学金和专业奖学金需在入学前提交相关凭证申请，未按要求进行申请的一律不予评定发放。</p>
+							<p>（7）MBA/EMBA调剂生源奖学金设置事宜，由招生领导小组和学院党政联席会议审议另行发布。</p>
+							<p class="rules-notice">上海财经大学商学院对精英人才奖学金评比及发放规则拥有最终解释权。</p>
+						</div> -->
+				<br>
+				<p>说明：</p>
+				<p>（1）杰出人才奖学金与其他奖助学金不可叠加。除杰出人才奖学金外，学生获得的其他奖助学金总额不得超过学费总额；</p>
+				<p>（2）上海财经大学商学院对本奖助体系拥有最终解释权。</p>
+			</div>
+		</div>
+		<!--<div class="block" style="background-color: #f4f7fe">
+        <div class="layui-container">
+          <div
+            class="index_title"
+            data-scroll-reveal="enter bottom over .5s after 0s"
+          >
+            <div class="title_box">
+              <div class="title">上海财经大学MBA招生录取流程</div>
+            </div>
+          </div>
+          <div
+            class="field-container apply-step"
+            data-scroll-reveal="enter bottom over .5s after 0s"
+          >
+            <div
+              class="layui-row layui-col-space20 row-flex"
+              style="margin-top: 10px"
+              data-scroll-reveal="enter bottom over .5s after .3s"
+            >
+              <!--<div class="layui-col-md2 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>1</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">线上申请预面试</div>
+                      <div class="desc">
+                        <ul>
+                          <li>班型选择</li>
+                          <li>个人信息填写</li>
+                          <li>自我评述</li>
+                          <li>他人推荐</li>
+                          <li>问卷调查</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>-->
+		<!--<div class="layui-col-md2 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>2</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">参加预面试</div>
+                      <div class="desc text-justify">
+                        <ul>
+                          <li>个人面试</li>
+                          <li>小组面试</li>
+                          <li>政治笔试</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>->
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>1</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">全国统一考试（含联合考试）</div>
+                      <div class="desc text-justify">
+                        <ul>
+                          <li>时间一般为次年3月</li>
+                          <li>个人面试（含英文能力考核）</li>
+                          <li>政治笔试</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>2</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">常规面试</div>
+                      <div class="desc text-justify">
+                        <ul>
+                          <li>未参加过预面试的考生须申请并参加常规面试</li>
+                          <li>已参加过预面试的考生不得申请</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>3</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">拟录取</div>
+                      <div class="desc">
+                        <ul>
+                          <li>
+                            预面试结果为优秀的考生，在统考成绩达到国家A类考生线且单科成绩达到我校单科线可获得拟录取资格；
+                          </li>
+                          <li>
+                            按照总成绩从高到低排名录取。总成绩=统考成绩+面试成绩+政治笔试成绩+（附加分）
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+			  <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><span>4</span></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">授予证书</div>
+                      <div class="desc">
+                        <p>
+                          上海财经大学硕士研究生毕业证书和上海财经大学工商管理硕士学位证书<br />（如选择“MBA+X”可获海外学习院校硕士学位证书）
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="field-container"
+            data-scroll-reveal="enter bottom over .5s after 0s"
+          >
+            <div
+              class="layui-row layui-col-space20 row-flex"
+              style="margin-top: 10px"
+              data-scroll-reveal="enter bottom over .5s after .3s"
+            >
+              
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><i class="iconfont icon-apply-2"></i></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">报考条件</div>
+                      <div class="desc">
+                        <p>
+                          大学本科毕业后有3年以上工作经验的人员；或获得国家承认的高职高专毕业学历或大学本科结业后，达到与大学本科毕业生同等学力并有5年以上工作经验的人员；或获得硕士学位或博士学位后有2年以上工作经验的人员。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><i class="iconfont icon-apply-3"></i></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">申请方式</div>
+                      <div class="desc">
+                        <p>
+                          面试（含背景评估）+笔试（全国硕士研究生入学统一考试）；
+                        </p>
+                        <p>“MBA+X”在入学后面向所有同学开放申请。</p>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><i class="iconfont icon-apply-4"></i></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">面试说明</div>
+                      <div class="desc">
+                        <p>
+                          时间：常规面试一般为次年3月
+                        </p>
+                        <p>
+                          形式：个人面试（含英文能力考核）、政治笔试
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                <fieldset class="layui-elem-field">
+                  <legend><i class="iconfont icon-apply-5"></i></legend>
+                  <div class="layui-field-box">
+                    <div class="box">
+                      <div class="title">笔试说明</div>
+                      <div class="desc">
+                        <p>时间：10月报名，11月网上（现场）确认，12月底统考</p>
+                        <p>
+                          科目：外语（满分100分）、综合能力（满分200分，包括数学、逻辑、语文写作）
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+		<div class="block" style="background-image: url(https://www.mbachina.com/zt/2025/MBA-Program-2026/images/bg2.png);
+      background-size: cover;">
+			<div class="layui-container">
+				<div class="index_title" data-scroll-reveal="enter left over .6s after 0s" data-scroll-reveal-id="24" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+					<div class="title-wrap" style="text-align: center;">
+						<h2><span>即刻申请</span></h2>
+					</div>
+				</div>
+				<div class="application-section container">
+
+
+					<!-- 白色区块 -->
+					<div class="white-block">
+						<h4 class="category-title"><i class="fa fa-money"></i> 学费</h4>
+						<p>2026年入学学费</p>
+						<p class="tuition-amount">非全日制-金融EMBA：48.8万元人民币</p>
+					</div>
+
+					<!-- 白色区块 -->
+					<div class="white-block">
+						<h4 class="category-title"><i class="fa fa-check-circle"></i> 报考条件（针对中国大陆考生）</h4>
+						<ul class="requirements-list">
+							<li>中华人民共和国公民。</li>
+							<li>拥护中国共产党的领导，遵纪守法，品德良好。</li>
+							<li>身体健康状况符合国家和招生单位规定的体检要求。</li>
+							<li>本科毕业后有3年以上工作经验；或获得国家承认的高职（专科）毕业学历或本科结业后，符合招生单位提出的相关学业要求，达到本科毕业同等学力并有5年以上工作经验；或获得硕士、博士研究生学历或学位后有2年以上工作经验。如有变化，以教育部文件为准。
+							</li>
+						</ul>
+					</div>
+
+					<!-- 白色区块 -->
+					<div class="white-block">
+						<h4 class="category-title"><i class="fa fa-calendar"></i> 招生录取流程</h4>
+						<p class="process-notice"><img src="images/666.jpg" alt="" srcset=""></p>
+					</div>
+
+					<!-- 商界精英计划 -->
+					<!-- 白色区块 -->
+					<div class="white-block business-leader-program">
+						<!-- 修改为居中标题 -->
+						<h4 class="category-title-center">商界精英计划</h4>
+						<p class="program-desc">
+							商界精英计划旨在为考生打造一段深度的能力提升之旅。该计划通过"个人综合评价"(20分钟/人)和"商业认知升维"(60分钟/组)两大模块，对申请者当前的知识储备、管理水平和职业发展态势等方面进行全面和深入的综合评价，助力申请者实现职业素养升级和思维锻炼，进而更好地促进个人成长和企业发展。
+						</p>
+
+						<div class="program-modules-container">
+							<div class="program-module-horizontal">
+								<p><strong> "个人综合评价"(20分钟/人)</strong></p>
+								<br>
+
+								<p>该环节包含英语能力考核和个人综合素养考核。1位资深教授和2位来自一线的业界导师将对申请者进行全面的背景评估和面试考察。</p>
+								<div class="module-highlight">
+									<i class="fa fa-trophy"></i> 在该环节获评"优秀"、第一志愿报考项目并最终被录取者将获得 <i style="color: red;">10000</i> 元商界精英计划奖学金。
+								</div>
+								<p class="module-rating">
+									综合评价分为:
+									<span class="rating-excellent">优秀</span>
+									<span class="rating-good">良好</span>
+									<span class="rating-average">一般</span>
+								</p>
+							</div>
+
+							<div class="program-module-horizontal">
+								<p><strong>"商业认知升维"(60分钟/组)</strong></p>
+								<br>
+								<p>该环节将由1位资深学者或行业专家带领考生共同聚焦1篇极具代表性的商业案例，引导申请者对案例进行多视角、深层次解读。</p>
+							</div>
+						</div>
+
+
+						<div class="program-module">
+							<h5 class="category-title"><i class="fa fa-clock-o"></i> 2025年商界精英计划时间安排</h5>
+							<p>（针对2026年入学考生）</p>
+							<table class="business-elite-schedule">
+								<thead>
+									<tr>
+										<th>批次</th>
+										<th>网上报名截止</th>
+										<th>名单公布</th>
+										<th>时间安排</th>
+										<th>结果公布</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>第一批</td>
+										<td>3月25日</td>
+										<td>3月27日</td>
+										<td>3月30日</td>
+										<td>4月9日</td>
+									</tr>
+									<tr>
+										<td>第二批</td>
+										<td>4月13日</td>
+										<td>4月23日</td>
+										<td>4月26日</td>
+										<td>5月6日</td>
+									</tr>
+									<tr>
+										<td>第三批</td>
+										<td>5月11日</td>
+										<td>5月21日</td>
+										<td>5月24/25日</td>
+										<td>6月4日</td>
+									</tr>
+									<tr>
+										<td>第四批</td>
+										<td>6月15日</td>
+										<td>6月25日</td>
+										<td>6月28/29日</td>
+										<td>7月8日</td>
+									</tr>
+									<tr>
+										<td>第五批<small>（线上）</small></td>
+										<td>7月13日</td>
+										<td>7月23日</td>
+										<td>7月26/27日</td>
+										<td>8月6日</td>
+									</tr>
+									<tr>
+										<td>第六批</td>
+										<td>8月24日</td>
+										<td>9月3日</td>
+										<td>9月6/7日</td>
+										<td>9月16日</td>
+									</tr>
+									<tr>
+										<td>第七批<small>（线上）</small></td>
+										<td>9月14日</td>
+										<td>9月24日</td>
+										<td>9月27日</td>
+										<td>10月9日</td>
+									</tr>
+									<tr>
+										<td>第八批</td>
+										<td>10月8日</td>
+										<td>10月15日</td>
+										<td>10月18/19日</td>
+										<td>10月22日</td>
+									</tr>
+									<tr>
+										<td>第九批</td>
+										<td>11月23日</td>
+										<td>12月3日</td>
+										<td>12月6/7日</td>
+										<td>12月16日</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="process-notice">具体安排请以官方通知为准。</p>
+						</div>
+
+						<div class="program-module">
+							<h5 class="category-title"><i class="fa fa-file-text-o"></i> 申请商界精英计划</h5>
+							<p style="text-align: center;">
+								<img src="../MBA-Global-2026/newImages/qrcode3.png" alt="" srcset="" style="width: 200px;">
+								<br><br>
+							</p>
+							<p class="application-guide">
+								考生可直接扫描上方二维码，或登录
+								<a href="https://usercenter.sufe.edu.cn/Apply/Account/MBALogin" target="_blank">https://usercenter.sufe.edu.cn/Apply/Account/MBALogin</a>，
+								根据相关指引注册并申请
+								<br>
+								考生须在相应批次的报名截止日期之前完成在线申请的所有内容（班型选择、个人信息、自我评述、他人推荐、问卷调查以及电子申请材料上传）， <br>
+								所填信息将作为背景评估依据，请务必如实填写，并按要求上传附件，保证附件内容清晰。完成"资料提交"后方可视为商界精英计划申请成功。
+							</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="program-module">
+					<h5>【说明】</h5>
+					<ul class="notes-list">
+						<li>商界精英计划不与复试成绩挂钩，项目招生录取严格按照教育部和我校研究生院相关规定进行。</li>
+						<li>商界精英计划奖学金仅针对完成商界精英计划，且第一志愿报考上海财经大学商学院MBA/EMBA并最终被录取的学生。奖学金发放规则将遵循2026年入学新生奖学金的发放规定。</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="layui-container">
+				<div class="footer-top">
+					<div class="footer-logo">
+						<img src="images/logo.png" alt="" width="254" height="69">
+					</div>
+					<div class="layui-row layui-col-space30 row-flex">
+						<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="title layui-hide-xs">
+								联系方式
+							</div>
+							<p>联系电话：021-65580018</p>
+							<p>公共邮箱：cobadmissions@mail.shufe.edu.cn</p>
+							<p>通讯地址：上海市虹口区中山北一路369号上海财经大学商学院1号楼101室</p>
+							<!-- <p>邮政编码：200240</p> -->
+						</div>
+						<div class="layui-col-md4 layui-col-sm6 layui-col-xs12 layui-hide-xs">
+							<div class="title">
+								友情链接
+							</div>
+							<ul class="footer-link">
+								<li><a href="https://www.sufe.edu.cn/" target="_blank">上海财经大学</a></li>
+								<li><a href="https://gs.sufe.edu.cn/" target="_blank">上海财经大学研究生院</a></li>
+								<li><a href="https://usercenter.sufe.edu.cn/Apply/Account/MBALogin" target="_blank">申请“商界精英”计划</a></li>
+								<!-- <li><a href="https://cob.sufe.edu.cn/FinancialClub" target="_blank">金融家俱乐部</a></li> -->
+							</ul>
+						</div>
+						<div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+							<div class="footer-qrcode">
+								<div class="qrcode-item">
+									<div class="qrcode-box" style="margin-left: auto;margin-right: auto;">
+										<img src="../MBA-Global-2026/newImages/new.jpg" alt="">
+									</div>
+									<p>上财商学院MBA/EMBA微信订阅号</p>
+								</div>
+								<div class="qrcode-item">
+									<div class="qrcode-box">
+										<img src="../MBA-Global-2026/images/qrcode2.png" alt="">
+									</div>
+									<p>招生办微信咨询号</p>
+								</div>
+								<div class="qrcode-item">
+									<div class="qrcode-box">
+										<img src="images/qrcode3.png" alt="">
+									</div>
+									<p>上财商学院MBA/EMBA小程序</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					版权所有 © 上海财经大学MBA <a href="https://beian.miit.gov.cn/" target="_blank">沪交ICP备05052068号</a>，技术支持：<a href="https://www.mbachina.com/" target="_blank" rel="noopener noreferrer">MBAChina</a>
+				</div>
+			</div>
+		</footer>
+		<!-- <footer>
+            <div class="footer-top">
+                <div class="layui-container">
+                    <div class="layui-row row-flex layui-col-space30">
+                        <div class="layui-col-md6 layui-col-sm6 layui-xol-xs12">
+                            <div class="title">上海财经大学商学院MBA中心</div>
+                            <ul class="has-icon">
+                                <li>
+                                    <i class="iconfont icon-location"></i>地址：
+                                    上海市中山北一路 369 号
+                                </li>
+                                <li>
+                                    <i class="iconfont icon-phone"></i>MBA中心招生办电话：021-65580018
+                                </li>
+                                <li>
+                                    <i class="iconfont icon-email"></i>邮箱：<a
+                                        href="mailto:cobadmissions@mail.sufe.edu.cn">cobadmissions@mail.sufe.edu.cn</a>
+                                </li>
+                                <li><i class="iconfont icon-youbian"></i>邮编：200083</li>
+                            </ul>
+                        </div>
+                        <div class="layui-col-md6 layui-col-sm6 layui-xol-xs12">
+                            <div class="qrcode">
+                                <div class="box" style="text-align: center">
+                                    <div class="qrcode-item" style="margin: 0 auto">
+                                        <img src="images/qrcode1.jpg" width="100%" alt="" />
+                                    </div>
+                                    <p style="margin-top: 5px">
+                                        上海财经大学MBA<br />微信公众号
+                                    </p>
+                                </div>
+                                <div class="box" style="text-align: center">
+                                    <div class="qrcode-item" style="margin: 0 auto">
+                                        <img src="images/qrcode2.jpg" width="100%" alt="" />
+                                    </div>
+                                    <p style="margin-top: 5px">上财MBA微信咨询号</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="layui-container">
+                    &copy; 上海财经大学EMBA 版权所有
+                    <a href="https://beian.miit.gov.cn/" target="_blank">沪交ICP备05052068号</a>
+                    技术支持：商学院信息技术部
+                </div>
+            </div>
+        </footer> -->
+	</div>
+	<!-- <footer>
+    </footer> -->
+	<a href="#" id="button-to-top" style="display: none;"><i class="iconfont icon-top"></i></a>
+	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="layui/layui.js"></script>
+
+	<script type="text/javascript" src="js/scrollReveal.min.js"></script>
+	<script type="text/javascript">
+		//滚动动画
+		(function () {
+			"use strict";
+			if ($(window).width() > 991) {
+				window.scrollReveal = new scrollReveal({
+					reset: false,
+					move: "50px",
+				});
+			}
+		})();
+	</script>
+	<script type="text/javascript" src="js/index.js?v=20200113"></script>
+	<!-- Swiper JS -->
+	<script src="js/swiper-bundle.min.js?v=20210916"></script>
+	<!-- <script src="./js/vue.js"></script> -->
+	<!-- <script src="./js/element-ui.js"></script> -->
+	<script>
+		$(function () {
+			$(".scroll-down").click(function () {
+				$("body,html").animate(
+					{
+						scrollTop: $(".banner").height(),
+					},
+					500
+				);
+				return false;
+			});
+			layui.use(["element", "form", "layer"], function () {
+				var $ = layui.jquery,
+					element = layui.element,
+					layer = layui.layer,
+					form = layui.form;
+				$(".course-tab .layui-tab-title li").hover(function () {
+					var $i = $(this).index();
+					$(this).addClass("layui-this").siblings().removeClass("layui-this");
+					$(".course-tab .layui-tab-content .layui-tab-item")
+						.eq($i)
+						.addClass("layui-show")
+						.siblings()
+						.removeClass("layui-show");
+				});
+				$(".activity-tab .layui-tab-title li").hover(function () {
+					var $i = $(this).index();
+					$(this).addClass("layui-this").siblings().removeClass("layui-this");
+					$(".activity-tab .layui-tab-content .layui-tab-item")
+						.eq($i)
+						.addClass("layui-show")
+						.siblings()
+						.removeClass("layui-show");
+				});
+			});
+			var activeSwiper1 = new Swiper(".active-swiper1 .swiper-container", {
+				navigation: {
+					nextEl: ".active-swiper1 .button-next",
+					prevEl: ".active-swiper1 .button-prev",
+				},
+				autoHeight: true,
+				// mousewheel: true,
+				watchOverflow: true,
+				preventClicks: false,
+				resistanceRatio: 0,
+				slidesPerView: 1.7,
+				spaceBetween: 20,
+				breakpoints: {
+					1600: {
+						slidesPerView: 4.7,
+						spaceBetween: 30,
+						centeredSlides: false,
+					},
+					991: {
+						slidesPerView: 3.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					768: {
+						slidesPerView: 2.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					568: {
+						slidesPerView: 1.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					320: {
+						slidesPerView: 1.2,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+				},
+			});
+			var activeSwiper2 = new Swiper(".active-swiper2 .swiper-container", {
+				navigation: {
+					nextEl: ".active-swiper2 .button-next",
+					prevEl: ".active-swiper2 .button-prev",
+				},
+				autoHeight: true,
+				// mousewheel: true,
+				watchOverflow: true,
+				preventClicks: false,
+				resistanceRatio: 0,
+				slidesPerView: 1.7,
+				spaceBetween: 20,
+				breakpoints: {
+					1600: {
+						slidesPerView: 4.7,
+						spaceBetween: 30,
+						centeredSlides: false,
+					},
+					991: {
+						slidesPerView: 3.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					768: {
+						slidesPerView: 2.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					568: {
+						slidesPerView: 1.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					320: {
+						slidesPerView: 1.2,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+				},
+			});
+			var activeSwiper3 = new Swiper(".active-swiper3 .swiper-container", {
+				navigation: {
+					nextEl: ".active-swiper3 .button-next",
+					prevEl: ".active-swiper3 .button-prev",
+				},
+				autoHeight: true,
+				// mousewheel: true,
+				watchOverflow: true,
+				preventClicks: false,
+				resistanceRatio: 0,
+				slidesPerView: 1.7,
+				spaceBetween: 20,
+				breakpoints: {
+					1600: {
+						slidesPerView: 3.7,
+						spaceBetween: 30,
+						centeredSlides: false,
+					},
+					991: {
+						slidesPerView: 3.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					768: {
+						slidesPerView: 2.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					568: {
+						slidesPerView: 1.7,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+					320: {
+						slidesPerView: 1.2,
+						spaceBetween: 20,
+						centeredSlides: false,
+					},
+				},
+			});
+			var localSwiper = new Swiper('.local-swiper .swiper-container', {
+				navigation: {
+					nextEl: ".local-swiper .button-next",
+					prevEl: ".local-swiper .button-prev",
+				},
+				watchOverflow: true,
+				preventClicks: false,
+				resistanceRatio: 0,
+
+			});
+			var comments = new Swiper('.comments-swiper .swiper-container', {
+				allowTouchMove: true,
+				// mousewheel: true,
+				loop: true,
+				loopedSlides: 3,
+				// slideToClickedSlide: true,
+				autoHeight: true,
+				watchOverflow: true,
+				resistanceRatio: 0,
+				centeredSlides: true,
+				onInit: function (swiper) {
+					swiper.slides[2].className = "swiper-slide swiper-slide-active";
+				},
+				effect: 'coverflow',
+				coverflowEffect: {
+					rotate: 0,
+					stretch: "200%",
+					depth: '100%',
+					modifier: 5,
+					slideShadows: false
+				},
+				spaceBetween: 0,
+				navigation: {
+					nextEl: '.comments-swiper .button-next',
+					prevEl: '.comments-swiper .button-prev',
+				},
+				slidesPerView: 1,
+				breakpoints: {
+					1200: {
+						slidesPerView: 1.3,
+					},
+					992: {
+						slidesPerView: 1.3,
+					},
+					767: {
+						slidesPerView: 1.1,
+					},
+					556: {
+						slidesPerView: 1.1,
+					},
+					420: {
+						slidesPerView: 1.1,
+					},
+					320: {
+						slidesPerView: 1.1,
+					},
+				},
+				speed: 800,
+				updateOnWindowResize: true,
+			});
+			var enumerateSwiper = new Swiper(".enumerate .swiper-container", {
+				navigation: {
+					nextEl: ".enumerate .button-next",
+					prevEl: ".enumerate .button-prev",
+				},
+				// mousewheel: true,
+				watchOverflow: true,
+				preventClicks: false,
+				resistanceRatio: 0,
+				slidesPerView: 2,
+				spaceBetween: 0,
+				centeredSlides: true,
+				breakpoints: {
+					1200: {
+						slidesPerView: 5,
+						spaceBetween: 0,
+						centeredSlides: false,
+					},
+					991: {
+						slidesPerView: 4,
+						spaceBetween: 0,
+						centeredSlides: false,
+					},
+					767: {
+						slidesPerView: 3,
+						spaceBetween: 0,
+						centeredSlides: false,
+					},
+					556: {
+						slidesPerView: 2,
+						spaceBetween: 0,
+						centeredSlides: false,
+					},
+
+					320: {
+						slidesPerView: 1.4,
+						spaceBetween: 0,
+						centeredSlides: false,
+					},
+				},
+			});
+		});
+		//   new Vue({
+		//     el: "#app",
+		//     data: function () {
+		//       return {
+		//         url: "./images/bonus.jpg",
+		//         srcList: ["./images/bonus.jpg"],
+		//       };
+		//     },
+		//   });
+
+	</script>
+
+
+</body></html>

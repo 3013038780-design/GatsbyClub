@@ -1,0 +1,33 @@
+﻿来源编号,名称,网址,日期与证据性质
+D1,大超03号及当前活动入口,https://www.douyin.com/user/MS4wLjABAAAAzS55hxJ4_NKjM9xZw8xHpGVx8sP-m2Bxy6ekRE2I7-Q,2026-10-22前轮浏览器核验；本轮复用
+D2,大超05号咨询与活动介绍,https://www.douyin.com/user/MS4wLjABAAAALIHRWrJxwmo4LaeEqAPHHfrBlL_lexxrdc83OeXvSuysOixUI_5ys_rm2RCBgFX6,2026-10-22前轮浏览器核验；本轮复用
+Z1,钻石爱情定制现挂网页面,https://www.zuanshi.com/new/loveCustomization,2026-10-22网页检索工具读得；Crawl4AI同页失败，分开记录
+Z2,钻石近期派对目录,https://www.zuanshi.com/webActivity/newActivityList,2026-10-22 Crawl4AI取得；对应8-22、9-19及10-24预告
+H1,HIMMR线下活动及顾问产品,https://www.himmr.tech/,前轮公开官网存档与网页核验；本轮Crawl4AI失败，不重复算新增
+W1,我主良缘品牌与派聚,https://www.7799520.com/,2026-10-22 Crawl4AI复核
+W2,我主良缘旅行社交品牌表述,https://www.liangyuan.com/,前轮官网存档复用；无现期成团与完整售价
+J1,金凤凰9月20日再婚活动,https://www.jfh999.com/party/311.html,2026-09-20场次；2026-10-22复核
+J2,金凤凰活动及各会员层次,https://www.jfh999.com/about/20.html,前轮官网存档复用；未标规则生效期
+P1,珍爱网产品与门店入口,https://www.zhenai.com/,2026-10-22 Crawl4AI复核
+P2,珍爱网2026公益婚恋业务介绍,https://www.sznews.com/news/content/mb/2026-03/03/content_31963132.htm,2026-03-03，观察窗外，不能当近90天实绩
+B1,百合佳缘线下VIP,https://vip.jiayuan.com/index.html,网页检索可读；本轮Crawl4AI两次均未取得正文
+M1,MarryU官网,https://m.51marryyou.com/,2026-10-22取得；门店数据明确为2018，提醒明确为2023
+L1,北京腿姐主页,https://www.douyin.com/user/MS4wLjABAAAA-gUwX1miEXIUqIRisJZz99RHxerzcWIP--B8wkC5S4Y,2026-10-22浏览器核验
+L2,晓暖清醒择偶账号,https://www.douyin.com/user/MS4wLjABAAAAla4onIugAvz5lt05hv3ZjXKftdMTXOd5NMvcTR3tA7e8MlK2emzM_E5Ga6KkalUz,2026-10-22抖音用户搜索卡片；尚未完成机构主体核验
+S1,Seekr活动行招募,https://www.huodongxing.com/event/8873852954600,2026-10-22渲染；10-31小饭局被页面标记为线上活动
+K1,MeetKnow北京高净值专场,https://meetknow.com/activities/beijing/high-asset,2026-10-25招募；2026-10-22复核
+K2,MeetKnow历史活动目录,https://meetknow.com/activities/history,2026-10-22目录自述，1276条含线上，非实到或付费
+A1,爱重奏品牌定位,https://www.aichongzou.com/,2026-10-22复核；35—75岁为机构定位，非客群统计
+A2,爱重奏优享商品,https://www.aichongzou.com/chanpinyufuwu/38,页面币种冲突并保留支付沙箱测试，价格未采纳
+R1,如爱盘锦单身出游,https://www.ruailove.com/party/89.html,2026-10-18招募；男115女95；本轮网页核验
+R2,如爱近期活动目录,https://www.ruailove.com/p/party.php,2026-10-22网页核验；9-05、9-19、10-18及10-24预告
+V1,北京玉渡山单身一日游,https://www.sohu.com/a/1055933312_121626427,发布2026-07-28，计划08-01；招募非成行证明
+V2,囍上媒捎两日婚恋旅行,https://jinrishangye.com/8357/,发布2026-10-14，计划10-24至25；尚未举办
+T1,田蜜蜜官方介绍,https://www.tianmimiclub.com/aboutus/info,现挂网；历程截至2024，不能直接确认当前在营门店
+SH1,上海婚介协会机构名录,https://shshjxh.com/m_channel_org,2026-10-22抓取；仅作发现机构，非当前经营认证
+SH2,上海爱之都介绍,https://shshjxh.com/org_41,现挂网，未标更新；高端会员需资产材料为机构规则描述
+SH3,上海都市白领机构页,https://shshjxh.com/m_org_11,年检期限字段停在2020-12-31，不能据网页判断现在停业或持续合规
+SH4,上海才子佳人机构页,https://shshjxh.com/m_org_52,2026-10-22抓取名录，未取得近期价格与活动
+SH5,上海圣爱机构页,https://shshjxh.com/m_org_8,2026-10-22抓取名录，未取得近期价格与活动
+SH6,上海爱缘机构页,https://shshjxh.com/m_org_53,2026-10-22抓取名录，未取得近期价格与活动
+SH7,上海巾帼园机构页,https://shshjxh.com/m_org_2,2026-10-22抓取名录，未取得A8细分服务证据

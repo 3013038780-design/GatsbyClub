@@ -1,0 +1,957 @@
+<html><head><title>增值服务与自动续费协议</title> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> <link rel="icon" href="https://s1.qianshouapp.cn/v2/message-images/eyJpZCI6Ik1INVZITkpQWUNFUEI0VU9QTVRMU0NOQ09RVlhYVTA5IiwidyI6NTEyLCJoIjo1MTIsImQiOjAsIm10IjoiaW1hZ2UvcG5nIiwiZGgiOjk0NTAwNDQzODk3ODA2NDIyMDJ9.png" type="image/x-icon"> 
+    <style>
+    .ql-container {
+      box-sizing: border-box;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      height: 100%;
+      margin: 0px;
+      position: relative;
+    }
+    .ql-container.ql-disabled .ql-tooltip {
+      visibility: hidden;
+    }
+    .ql-container.ql-disabled .ql-editor ul[data-checked] > li::before {
+      pointer-events: none;
+    }
+    .ql-clipboard {
+      left: -100000px;
+      height: 1px;
+      overflow-y: hidden;
+      position: absolute;
+      top: 50%;
+    }
+    .ql-clipboard p {
+      margin: 0;
+      padding: 0;
+    }
+    .ql-editor {
+      box-sizing: border-box;
+      line-height: 1.42;
+      height: 100%;
+      outline: none;
+      overflow-y: auto;
+      padding: 12px 15px;
+      tab-size: 4;
+      -moz-tab-size: 4;
+      text-align: left;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .ql-editor > * {
+      cursor: text;
+    }
+    .ql-editor p,
+    .ql-editor ol,
+    .ql-editor ul,
+    .ql-editor pre,
+    .ql-editor blockquote,
+    .ql-editor h1,
+    .ql-editor h2,
+    .ql-editor h3,
+    .ql-editor h4,
+    .ql-editor h5,
+    .ql-editor h6 {
+      margin: 0;
+      padding: 0;
+      counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol,
+    .ql-editor ul {
+      padding-left: 1.5em;
+    }
+    .ql-editor ol > li,
+    .ql-editor ul > li {
+      list-style-type: none;
+    }
+    .ql-editor ul > li::before {
+      content: "";
+    }
+    .ql-editor ul[data-checked=true],
+    .ql-editor ul[data-checked=false] {
+      pointer-events: none;
+    }
+    .ql-editor ul[data-checked=true] > li *,
+    .ql-editor ul[data-checked=false] > li * {
+      pointer-events: all;
+    }
+    .ql-editor ul[data-checked=true] > li::before,
+    .ql-editor ul[data-checked=false] > li::before {
+      color: #777;
+      cursor: pointer;
+      pointer-events: all;
+    }
+    .ql-editor ul[data-checked=true] > li::before {
+      content: '±';
+    }
+    .ql-editor ul[data-checked=false] > li::before {
+      content: '±';
+    }
+    .ql-editor li::before {
+      display: inline-block;
+      white-space: nowrap;
+      width: 1.2em;
+    }
+    .ql-editor li:not(.ql-direction-rtl)::before {
+      margin-left: -1.5em;
+      margin-right: 0.3em;
+      text-align: right;
+    }
+    .ql-editor li.ql-direction-rtl::before {
+      margin-left: 0.3em;
+      margin-right: -1.5em;
+    }
+    .ql-editor ol li:not(.ql-direction-rtl),
+    .ql-editor ul li:not(.ql-direction-rtl) {
+      padding-left: 1.5em;
+    }
+    .ql-editor ol li.ql-direction-rtl,
+    .ql-editor ul li.ql-direction-rtl {
+      padding-right: 1.5em;
+    }
+    .ql-editor ol li {
+      counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+      counter-increment: list-0;
+    }
+    .ql-editor ol li:before {
+      content: counter(list-0, decimal) '. ';
+    }
+    .ql-editor ol li.ql-indent-1 {
+      counter-increment: list-1;
+    }
+    .ql-editor ol li.ql-indent-1:before {
+      content: counter(list-1, lower-alpha) '. ';
+    }
+    .ql-editor ol li.ql-indent-1 {
+      counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-2 {
+      counter-increment: list-2;
+    }
+    .ql-editor ol li.ql-indent-2:before {
+      content: counter(list-2, lower-roman) '. ';
+    }
+    .ql-editor ol li.ql-indent-2 {
+      counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-3 {
+      counter-increment: list-3;
+    }
+    .ql-editor ol li.ql-indent-3:before {
+      content: counter(list-3, decimal) '. ';
+    }
+    .ql-editor ol li.ql-indent-3 {
+      counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-4 {
+      counter-increment: list-4;
+    }
+    .ql-editor ol li.ql-indent-4:before {
+      content: counter(list-4, lower-alpha) '. ';
+    }
+    .ql-editor ol li.ql-indent-4 {
+      counter-reset: list-5 list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-5 {
+      counter-increment: list-5;
+    }
+    .ql-editor ol li.ql-indent-5:before {
+      content: counter(list-5, lower-roman) '. ';
+    }
+    .ql-editor ol li.ql-indent-5 {
+      counter-reset: list-6 list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-6 {
+      counter-increment: list-6;
+    }
+    .ql-editor ol li.ql-indent-6:before {
+      content: counter(list-6, decimal) '. ';
+    }
+    .ql-editor ol li.ql-indent-6 {
+      counter-reset: list-7 list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-7 {
+      counter-increment: list-7;
+    }
+    .ql-editor ol li.ql-indent-7:before {
+      content: counter(list-7, lower-alpha) '. ';
+    }
+    .ql-editor ol li.ql-indent-7 {
+      counter-reset: list-8 list-9;
+    }
+    .ql-editor ol li.ql-indent-8 {
+      counter-increment: list-8;
+    }
+    .ql-editor ol li.ql-indent-8:before {
+      content: counter(list-8, lower-roman) '. ';
+    }
+    .ql-editor ol li.ql-indent-8 {
+      counter-reset: list-9;
+    }
+    .ql-editor ol li.ql-indent-9 {
+      counter-increment: list-9;
+    }
+    .ql-editor ol li.ql-indent-9:before {
+      content: counter(list-9, decimal) '. ';
+    }
+    .ql-editor .ql-indent-1:not(.ql-direction-rtl) {
+      padding-left: 3em;
+    }
+    .ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
+      padding-left: 4.5em;
+    }
+    .ql-editor .ql-indent-1.ql-direction-rtl.ql-align-right {
+      padding-right: 3em;
+    }
+    .ql-editor li.ql-indent-1.ql-direction-rtl.ql-align-right {
+      padding-right: 4.5em;
+    }
+    .ql-editor .ql-indent-2:not(.ql-direction-rtl) {
+      padding-left: 6em;
+    }
+    .ql-editor li.ql-indent-2:not(.ql-direction-rtl) {
+      padding-left: 7.5em;
+    }
+    .ql-editor .ql-indent-2.ql-direction-rtl.ql-align-right {
+      padding-right: 6em;
+    }
+    .ql-editor li.ql-indent-2.ql-direction-rtl.ql-align-right {
+      padding-right: 7.5em;
+    }
+    .ql-editor .ql-indent-3:not(.ql-direction-rtl) {
+      padding-left: 9em;
+    }
+    .ql-editor li.ql-indent-3:not(.ql-direction-rtl) {
+      padding-left: 10.5em;
+    }
+    .ql-editor .ql-indent-3.ql-direction-rtl.ql-align-right {
+      padding-right: 9em;
+    }
+    .ql-editor li.ql-indent-3.ql-direction-rtl.ql-align-right {
+      padding-right: 10.5em;
+    }
+    .ql-editor .ql-indent-4:not(.ql-direction-rtl) {
+      padding-left: 12em;
+    }
+    .ql-editor li.ql-indent-4:not(.ql-direction-rtl) {
+      padding-left: 13.5em;
+    }
+    .ql-editor .ql-indent-4.ql-direction-rtl.ql-align-right {
+      padding-right: 12em;
+    }
+    .ql-editor li.ql-indent-4.ql-direction-rtl.ql-align-right {
+      padding-right: 13.5em;
+    }
+    .ql-editor .ql-indent-5:not(.ql-direction-rtl) {
+      padding-left: 15em;
+    }
+    .ql-editor li.ql-indent-5:not(.ql-direction-rtl) {
+      padding-left: 16.5em;
+    }
+    .ql-editor .ql-indent-5.ql-direction-rtl.ql-align-right {
+      padding-right: 15em;
+    }
+    .ql-editor li.ql-indent-5.ql-direction-rtl.ql-align-right {
+      padding-right: 16.5em;
+    }
+    .ql-editor .ql-indent-6:not(.ql-direction-rtl) {
+      padding-left: 18em;
+    }
+    .ql-editor li.ql-indent-6:not(.ql-direction-rtl) {
+      padding-left: 19.5em;
+    }
+    .ql-editor .ql-indent-6.ql-direction-rtl.ql-align-right {
+      padding-right: 18em;
+    }
+    .ql-editor li.ql-indent-6.ql-direction-rtl.ql-align-right {
+      padding-right: 19.5em;
+    }
+    .ql-editor .ql-indent-7:not(.ql-direction-rtl) {
+      padding-left: 21em;
+    }
+    .ql-editor li.ql-indent-7:not(.ql-direction-rtl) {
+      padding-left: 22.5em;
+    }
+    .ql-editor .ql-indent-7.ql-direction-rtl.ql-align-right {
+      padding-right: 21em;
+    }
+    .ql-editor li.ql-indent-7.ql-direction-rtl.ql-align-right {
+      padding-right: 22.5em;
+    }
+    .ql-editor .ql-indent-8:not(.ql-direction-rtl) {
+      padding-left: 24em;
+    }
+    .ql-editor li.ql-indent-8:not(.ql-direction-rtl) {
+      padding-left: 25.5em;
+    }
+    .ql-editor .ql-indent-8.ql-direction-rtl.ql-align-right {
+      padding-right: 24em;
+    }
+    .ql-editor li.ql-indent-8.ql-direction-rtl.ql-align-right {
+      padding-right: 25.5em;
+    }
+    .ql-editor .ql-indent-9:not(.ql-direction-rtl) {
+      padding-left: 27em;
+    }
+    .ql-editor li.ql-indent-9:not(.ql-direction-rtl) {
+      padding-left: 28.5em;
+    }
+    .ql-editor .ql-indent-9.ql-direction-rtl.ql-align-right {
+      padding-right: 27em;
+    }
+    .ql-editor li.ql-indent-9.ql-direction-rtl.ql-align-right {
+      padding-right: 28.5em;
+    }
+    .ql-editor .ql-video {
+      display: block;
+      max-width: 100%;
+    }
+    .ql-editor .ql-video.ql-align-center {
+      margin: 0 auto;
+    }
+    .ql-editor .ql-video.ql-align-right {
+      margin: 0 0 0 auto;
+    }
+    .ql-editor .ql-bg-black {
+      background-color: #000;
+    }
+    .ql-editor .ql-bg-red {
+      background-color: #e60000;
+    }
+    .ql-editor .ql-bg-orange {
+      background-color: #f90;
+    }
+    .ql-editor .ql-bg-yellow {
+      background-color: #ff0;
+    }
+    .ql-editor .ql-bg-green {
+      background-color: #008a00;
+    }
+    .ql-editor .ql-bg-blue {
+      background-color: #06c;
+    }
+    .ql-editor .ql-bg-purple {
+      background-color: #93f;
+    }
+    .ql-editor .ql-color-white {
+      color: #fff;
+    }
+    .ql-editor .ql-color-red {
+      color: #e60000;
+    }
+    .ql-editor .ql-color-orange {
+      color: #f90;
+    }
+    .ql-editor .ql-color-yellow {
+      color: #ff0;
+    }
+    .ql-editor .ql-color-green {
+      color: #008a00;
+    }
+    .ql-editor .ql-color-blue {
+      color: #06c;
+    }
+    .ql-editor .ql-color-purple {
+      color: #93f;
+    }
+    .ql-editor .ql-font-serif {
+      font-family: Georgia, Times New Roman, serif;
+    }
+    .ql-editor .ql-font-monospace {
+      font-family: Monaco, Courier New, monospace;
+    }
+    .ql-editor .ql-size-small {
+      font-size: 0.75em;
+    }
+    .ql-editor .ql-size-large {
+      font-size: 1.5em;
+    }
+    .ql-editor .ql-size-huge {
+      font-size: 2.5em;
+    }
+    .ql-editor .ql-direction-rtl {
+      direction: rtl;
+      text-align: inherit;
+    }
+    .ql-editor .ql-align-center {
+      text-align: center;
+    }
+    .ql-editor .ql-align-justify {
+      text-align: justify;
+    }
+    .ql-editor .ql-align-right {
+      text-align: right;
+    }
+    .ql-editor.ql-blank::before {
+      color: rgba(0,0,0,0.6);
+      content: attr(data-placeholder);
+      font-style: italic;
+      left: 15px;
+      pointer-events: none;
+      position: absolute;
+      right: 15px;
+    }
+    .ql-snow.ql-toolbar:after,
+    .ql-snow .ql-toolbar:after {
+      clear: both;
+      content: '';
+      display: table;
+    }
+    .ql-snow.ql-toolbar button,
+    .ql-snow .ql-toolbar button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      float: left;
+      height: 24px;
+      padding: 3px 5px;
+      width: 28px;
+    }
+    .ql-snow.ql-toolbar button svg,
+    .ql-snow .ql-toolbar button svg {
+      float: left;
+      height: 100%;
+    }
+    .ql-snow.ql-toolbar button:active:hover,
+    .ql-snow .ql-toolbar button:active:hover {
+      outline: none;
+    }
+    .ql-snow.ql-toolbar input.ql-image[type=file],
+    .ql-snow .ql-toolbar input.ql-image[type=file] {
+      display: none;
+    }
+    .ql-snow.ql-toolbar button:hover,
+    .ql-snow .ql-toolbar button:hover,
+    .ql-snow.ql-toolbar button:focus,
+    .ql-snow .ql-toolbar button:focus,
+    .ql-snow.ql-toolbar button.ql-active,
+    .ql-snow .ql-toolbar button.ql-active,
+    .ql-snow.ql-toolbar .ql-picker-label:hover,
+    .ql-snow .ql-toolbar .ql-picker-label:hover,
+    .ql-snow.ql-toolbar .ql-picker-label.ql-active,
+    .ql-snow .ql-toolbar .ql-picker-label.ql-active,
+    .ql-snow.ql-toolbar .ql-picker-item:hover,
+    .ql-snow .ql-toolbar .ql-picker-item:hover,
+    .ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+    .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+      color: #06c;
+    }
+    .ql-snow.ql-toolbar button:hover .ql-fill,
+    .ql-snow .ql-toolbar button:hover .ql-fill,
+    .ql-snow.ql-toolbar button:focus .ql-fill,
+    .ql-snow .ql-toolbar button:focus .ql-fill,
+    .ql-snow.ql-toolbar button.ql-active .ql-fill,
+    .ql-snow .ql-toolbar button.ql-active .ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+    .ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+    .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
+    .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
+      fill: #06c;
+    }
+    .ql-snow.ql-toolbar button:hover .ql-stroke,
+    .ql-snow .ql-toolbar button:hover .ql-stroke,
+    .ql-snow.ql-toolbar button:focus .ql-stroke,
+    .ql-snow .ql-toolbar button:focus .ql-stroke,
+    .ql-snow.ql-toolbar button.ql-active .ql-stroke,
+    .ql-snow .ql-toolbar button.ql-active .ql-stroke,
+    .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+    .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+    .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+    .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+    .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+    .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+    .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+    .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+    .ql-snow.ql-toolbar button:hover .ql-stroke-miter,
+    .ql-snow .ql-toolbar button:hover .ql-stroke-miter,
+    .ql-snow.ql-toolbar button:focus .ql-stroke-miter,
+    .ql-snow .ql-toolbar button:focus .ql-stroke-miter,
+    .ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
+    .ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
+    .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+    .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+    .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+    .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+    .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+    .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+    .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
+    .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
+      stroke: #06c;
+    }
+    @media (pointer: coarse) {
+      .ql-snow.ql-toolbar button:hover:not(.ql-active),
+      .ql-snow .ql-toolbar button:hover:not(.ql-active) {
+        color: #444;
+      }
+      .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-fill,
+      .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-fill,
+      .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill,
+      .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill {
+        fill: #444;
+      }
+      .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+      .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+      .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter,
+      .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter {
+        stroke: #444;
+      }
+    }
+    .ql-snow {
+      box-sizing: border-box;
+    }
+    .ql-snow * {
+      box-sizing: border-box;
+    }
+    .ql-snow .ql-hidden {
+      display: none;
+    }
+    .ql-snow .ql-out-bottom,
+    .ql-snow .ql-out-top {
+      visibility: hidden;
+    }
+    .ql-snow .ql-tooltip {
+      position: absolute;
+      transform: translateY(10px);
+    }
+    .ql-snow .ql-tooltip a {
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .ql-snow .ql-tooltip.ql-flip {
+      transform: translateY(-10px);
+    }
+    .ql-snow .ql-formats {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .ql-snow .ql-formats:after {
+      clear: both;
+      content: '';
+      display: table;
+    }
+    .ql-snow .ql-stroke {
+      fill: none;
+      stroke: #444;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2;
+    }
+    .ql-snow .ql-stroke-miter {
+      fill: none;
+      stroke: #444;
+      stroke-miterlimit: 10;
+      stroke-width: 2;
+    }
+    .ql-snow .ql-fill,
+    .ql-snow .ql-stroke.ql-fill {
+      fill: #444;
+    }
+    .ql-snow .ql-empty {
+      fill: none;
+    }
+    .ql-snow .ql-even {
+      fill-rule: evenodd;
+    }
+    .ql-snow .ql-thin,
+    .ql-snow .ql-stroke.ql-thin {
+      stroke-width: 1;
+    }
+    .ql-snow .ql-transparent {
+      opacity: 0.4;
+    }
+    .ql-snow .ql-direction svg:last-child {
+      display: none;
+    }
+    .ql-snow .ql-direction.ql-active svg:last-child {
+      display: inline;
+    }
+    .ql-snow .ql-direction.ql-active svg:first-child {
+      display: none;
+    }
+    .ql-snow .ql-editor h1 {
+      font-size: 2em;
+    }
+    .ql-snow .ql-editor h2 {
+      font-size: 1.5em;
+    }
+    .ql-snow .ql-editor h3 {
+      font-size: 1.17em;
+    }
+    .ql-snow .ql-editor h4 {
+      font-size: 1em;
+    }
+    .ql-snow .ql-editor h5 {
+      font-size: 0.83em;
+    }
+    .ql-snow .ql-editor h6 {
+      font-size: 0.67em;
+    }
+    .ql-snow .ql-editor a {
+      text-decoration: underline;
+    }
+    .ql-snow .ql-editor blockquote {
+      border-left: 4px solid #ccc;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      padding-left: 16px;
+    }
+    .ql-snow .ql-editor code,
+    .ql-snow .ql-editor pre {
+      background-color: #f0f0f0;
+      border-radius: 3px;
+    }
+    .ql-snow .ql-editor pre {
+      white-space: pre-wrap;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      padding: 5px 10px;
+    }
+    .ql-snow .ql-editor code {
+      font-size: 85%;
+      padding: 2px 4px;
+    }
+    .ql-snow .ql-editor pre.ql-syntax {
+      background-color: #23241f;
+      color: #f8f8f2;
+      overflow: visible;
+    }
+    .ql-snow .ql-editor img {
+      max-width: 100%;
+    }
+    .ql-snow .ql-picker {
+      color: #444;
+      display: inline-block;
+      float: left;
+      font-size: 14px;
+      font-weight: 500;
+      height: 24px;
+      position: relative;
+      vertical-align: middle;
+    }
+    .ql-snow .ql-picker-label {
+      cursor: pointer;
+      display: inline-block;
+      height: 100%;
+      padding-left: 8px;
+      padding-right: 2px;
+      position: relative;
+      width: 100%;
+    }
+    .ql-snow .ql-picker-label::before {
+      display: inline-block;
+      line-height: 22px;
+    }
+    .ql-snow .ql-picker-options {
+      background-color: #fff;
+      display: none;
+      min-width: 100%;
+      padding: 4px 8px;
+      position: absolute;
+      white-space: nowrap;
+    }
+    .ql-snow .ql-picker-options .ql-picker-item {
+      cursor: pointer;
+      display: block;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+    .ql-snow .ql-picker.ql-expanded .ql-picker-label {
+      color: #ccc;
+      z-index: 2;
+    }
+    .ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-fill {
+      fill: #ccc;
+    }
+    .ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+      stroke: #ccc;
+    }
+    .ql-snow .ql-picker.ql-expanded .ql-picker-options {
+      display: block;
+      margin-top: -1px;
+      top: 100%;
+      z-index: 1;
+    }
+    .ql-snow .ql-color-picker,
+    .ql-snow .ql-icon-picker {
+      width: 28px;
+    }
+    .ql-snow .ql-color-picker .ql-picker-label,
+    .ql-snow .ql-icon-picker .ql-picker-label {
+      padding: 2px 4px;
+    }
+    .ql-snow .ql-color-picker .ql-picker-label svg,
+    .ql-snow .ql-icon-picker .ql-picker-label svg {
+      right: 4px;
+    }
+    .ql-snow .ql-icon-picker .ql-picker-options {
+      padding: 4px 0px;
+    }
+    .ql-snow .ql-icon-picker .ql-picker-item {
+      height: 24px;
+      width: 24px;
+      padding: 2px 4px;
+    }
+    .ql-snow .ql-color-picker .ql-picker-options {
+      padding: 3px 5px;
+      width: 152px;
+    }
+    .ql-snow .ql-color-picker .ql-picker-item {
+      border: 1px solid transparent;
+      float: left;
+      height: 16px;
+      margin: 2px;
+      padding: 0px;
+      width: 16px;
+    }
+    .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+      position: absolute;
+      margin-top: -9px;
+      right: 0;
+      top: 50%;
+      width: 18px;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-label]:not([data-label=''])::before,
+    .ql-snow .ql-picker.ql-font .ql-picker-label[data-label]:not([data-label=''])::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-label]:not([data-label=''])::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-label]:not([data-label=''])::before,
+    .ql-snow .ql-picker.ql-font .ql-picker-item[data-label]:not([data-label=''])::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-label]:not([data-label=''])::before {
+      content: attr(data-label);
+    }
+    .ql-snow .ql-picker.ql-header {
+      width: 98px;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+      content: 'Normal';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+      content: 'Heading 1';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+      content: 'Heading 2';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+      content: 'Heading 3';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+      content: 'Heading 4';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+      content: 'Heading 5';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+      content: 'Heading 6';
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+      font-size: 2em;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+      font-size: 1.5em;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+      font-size: 1.17em;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+      font-size: 1em;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+      font-size: 0.83em;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+      font-size: 0.67em;
+    }
+    .ql-snow .ql-picker.ql-font {
+      width: 108px;
+    }
+    .ql-snow .ql-picker.ql-font .ql-picker-label::before,
+    .ql-snow .ql-picker.ql-font .ql-picker-item::before {
+      content: 'Sans Serif';
+    }
+    .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=serif]::before,
+    .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+      content: 'Serif';
+    }
+    .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=monospace]::before,
+    .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+      content: 'Monospace';
+    }
+    .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+      font-family: Georgia, Times New Roman, serif;
+    }
+    .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+      font-family: Monaco, Courier New, monospace;
+    }
+    .ql-snow .ql-picker.ql-size {
+      width: 98px;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item::before {
+      content: 'Normal';
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+      content: 'Small';
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+      content: 'Large';
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+      content: 'Huge';
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+      font-size: 10px;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+      font-size: 18px;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+      font-size: 32px;
+    }
+    .ql-snow .ql-color-picker.ql-background .ql-picker-item {
+      background-color: #fff;
+    }
+    .ql-snow .ql-color-picker.ql-color .ql-picker-item {
+      background-color: #000;
+    }
+    .ql-toolbar.ql-snow {
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      padding: 8px;
+    }
+    .ql-toolbar.ql-snow .ql-formats {
+      margin-right: 15px;
+    }
+    .ql-toolbar.ql-snow .ql-picker-label {
+      border: 1px solid transparent;
+    }
+    .ql-toolbar.ql-snow .ql-picker-options {
+      border: 1px solid transparent;
+      box-shadow: rgba(0,0,0,0.2) 0 2px 8px;
+    }
+    .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+      border-color: #ccc;
+    }
+    .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+      border-color: #ccc;
+    }
+    .ql-toolbar.ql-snow .ql-color-picker .ql-picker-item.ql-selected,
+    .ql-toolbar.ql-snow .ql-color-picker .ql-picker-item:hover {
+      border-color: #000;
+    }
+    .ql-toolbar.ql-snow + .ql-container.ql-snow {
+      border-top: 0px;
+    }
+    .ql-snow .ql-tooltip {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0px 0px 5px #ddd;
+      color: #444;
+      padding: 5px 12px;
+      white-space: nowrap;
+    }
+    .ql-snow .ql-tooltip::before {
+      content: "Visit URL:";
+      line-height: 26px;
+      margin-right: 8px;
+    }
+    .ql-snow .ql-tooltip input[type=text] {
+      display: none;
+      border: 1px solid #ccc;
+      font-size: 13px;
+      height: 26px;
+      margin: 0px;
+      padding: 3px 5px;
+      width: 170px;
+    }
+    .ql-snow .ql-tooltip a.ql-preview {
+      display: inline-block;
+      max-width: 200px;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+      vertical-align: top;
+    }
+    .ql-snow .ql-tooltip a.ql-action::after {
+      border-right: 1px solid #ccc;
+      content: 'Edit';
+      margin-left: 16px;
+      padding-right: 8px;
+    }
+    .ql-snow .ql-tooltip a.ql-remove::before {
+      content: 'Remove';
+      margin-left: 8px;
+    }
+    .ql-snow .ql-tooltip a {
+      line-height: 26px;
+    }
+    .ql-snow .ql-tooltip.ql-editing a.ql-preview,
+    .ql-snow .ql-tooltip.ql-editing a.ql-remove {
+      display: none;
+    }
+    .ql-snow .ql-tooltip.ql-editing input[type=text] {
+      display: inline-block;
+    }
+    .ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+      border-right: 0px;
+      content: 'Save';
+      padding-right: 0px;
+    }
+    .ql-snow .ql-tooltip[data-mode=link]::before {
+      content: "Enter link:";
+    }
+    .ql-snow .ql-tooltip[data-mode=formula]::before {
+      content: "Enter formula:";
+    }
+    .ql-snow .ql-tooltip[data-mode=video]::before {
+      content: "Enter video:";
+    }
+    .ql-snow a {
+      color: #06c;
+    }
+    .ql-container.ql-snow {
+      border: 1px solid #ccc;
+    }
+    body,html {margin:0;padding:0} 
+    p {margin:0} 
+    table{    
+      width: 100%;
+      display: flex;
+      overflow-x: scroll;
+      border-spacing: 0;
+      border-collapse: collapse;} td {        padding: 4px;
+      font-size: 12px;border: 1px solid #ccc;
+      border-collapse: collapse;
+      min-width: 100px;
+      max-width: 300px;
+    }
+    img {width:100%}
+
+    </style> </head><body><div class="ql-editor"><h4 class="ql-align-center"><br></h4><h4 class="ql-align-center"><strong>增值服务与自动续费协议</strong></h4><p><br></p><p><br></p><p>亲爱的牵手用户：</p><p><br></p><p>欢迎您购买牵手社交软件（以下简称“牵手”）增值服务。通过购买牵手增值服务功能，支付费用后，您就可以拥有并使用对应的牵手增值服务的专享功能。</p><p>携手同心科技（北京）有限公司（以下简称“携手同心”）作为牵手社交软件的运营者，在此特别提醒您，在开始购买增值服务之前，请您首先审慎阅读本《增值服务协议》（以下简称“服务协议”），<strong>确保您充分理解本服务协议中各项条款，再选择是否同意并接受以下协议内容。</strong></p><p>&nbsp;</p><p>一.协议条款的接受与修改</p><p>&nbsp;</p><p>1.1 本协议是携手同心科技（北京）有限公司与您之间关于购买并使用携手同心提供的增值服务所订立的协议。增值服务是有偿的，除非您同意并接受本协议所有条款内容，并完成付费程序，否则您无权使用牵手增值服务专享功能及本服务协议中所涉及的其他各项服务。</p><p><br></p><p>1.2 根据相关法律、法规的变化，<strong>携手同心将不断地完善服务质量并依此修改服务条款。新版服务协议公布后，您可在牵手【设置】-【关于牵手】中查阅最新版服务协议。</strong>除非您在新协议生效前已经享有的事项，否则您的权利及义务、购买相关程序及收费标准均以最新的服务协议中各条款和购买页面展示为准。</p><p><br></p><p>1.3 请您审慎阅读并选择是否接受本服务协议，您在享受牵手增值服务时必须完全、严格遵守本服务协议中的各项条款。</p><p>&nbsp;</p><p>二.增值服务及功能说明</p><p>&nbsp;</p><p><span style="color: rgb(0, 0, 0);">本协议中的牵手增值服务包括</span><strong style="color: rgb(0, 0, 0);">牵手VIP会员、查看谁喜欢我特权服务</strong><span style="color: rgb(0, 0, 0);">以及</span><strong style="color: rgb(0, 0, 0);">需要以购买牵手币的形式实现的增值服务</strong><span style="color: rgb(0, 0, 0);">等牵手可提供的全部增值付费服务。</span><strong style="color: rgb(0, 0, 0);">每一项增值服务分别计费并分别享受权利，您可以根据您的需要选择特定的增值付费服务。牵手VIP会员、查看谁喜欢我特权允许用户选择自动续费</strong><strong>。</strong></p><p>您在购买牵手的增值服务功能时，牵手将在购买页面展示增值服务的相关内容和价格，该等页面展示内容是对应增值服务的单项服务条款，是本协议的一部分，增值服务的购买和使用行为视为对各单项服务条款的同意。牵手可以根据实际情况调整增值服务的收费标准并会及时通知您，您已经购买的增值服务不受价格调整的影响，若您不同意调整后的收费标准，您可以选择在服务到期后不再续费使用。</p><p>牵手的增值服务中，牵手VIP会员和查看谁喜欢我特权分别以一周、一个月、三个月、十二个月为单位购买。一周按7天计算，一个月按31天计算，三个月按93天，十二个月按372天计算。【以上增值服务您实际使用不足一天的部分，按照使用一整天结算。】</p><p>&nbsp;</p><p>2.1 牵手VIP会员</p><p>牵手VIP会员用户除了可以使用牵手普通注册用户拥有的功能外，还将享有多种专享的增值服务，详细说明如下：</p><p>2.1.1 更多每日推荐功能</p><p>作为牵手VIP会员，您可以享受每日获得额外推荐的特权。</p><p>2.1.2 VIP会员身份标识功能</p><p>作为牵手VIP会员，您拥有身为VIP会员专有标识，以彰显您的与众不同。</p><p>2.1.3 消息突出显示</p><p>作为牵手VIP会员，您拥有消息优先展示的权利。</p><p>2.1.4 查看消息是否已读</p><p>作为牵手VIP会员，您拥有查看消息是否已读的权利。</p><p>&nbsp;</p><p>&nbsp;</p><p><br></p><p>2.2 查看谁喜欢我特权服务</p><p>购买查看谁喜欢我特权服务，您将拥有特殊查看权限，可以查看对您标注“喜欢”的用户。您可以查看的信息限于用户个人页面的公开信息。</p><p><br></p><p><span style="color: rgb(0, 0, 0);">2.3牵手币</span></p><p><span style="color: rgb(0, 0, 0);">购买牵手币后，您可以使用牵手APP内的【送花】等虚拟道具。道具价格及充值优惠以具体界面显示为准。牵手币的可用范围不包含牵手VIP会员、查看谁喜欢我的订阅服务。</span></p><p>&nbsp;</p><p>三.风险与责任</p><p>&nbsp;</p><p>3.1 请您妥善保管您的牵手账户、账户密码及个人信息。<strong>由于您自身保管或使用不当等非牵手方原因造成的账户密码及信息泄露问题或后果，牵手在接到您通知后在合理范围内保障您的权益。</strong></p><p><br></p><p>3.2&nbsp;<strong>您应当通过牵手软件内渠道购买牵手增值服务。</strong>通过其他渠道购买服务可能存在一定的商业风险（包括但不限于不法分子利用您的账户或银行卡等进行违法活动）。这些商业风险给您造成的一切经济损失，以及向侵权方追究侵权责任和追究责任不能等后果均由您个人自行承担。</p><p><br></p><p>3.3&nbsp;<strong>除非牵手存在过错，牵手对您因为第三方的行为或者不作为造成的损失不承担任何责任和赔偿，包括但不限于支付服务、网络接入服务等任何第三方的侵权行为。</strong></p><p>&nbsp;</p><p>四.增值服务购买及延续</p><p>&nbsp;</p><p>4.1 在购买牵手增值服务之前，须审阅并同意接受相关的服务条款。同时，您必须保证您所填写的个人信息真实、准确且有效，否则牵手有权中止您的增值服务，直至您满足了国家法律法规的要求进行了更正。您填写的个人资料发生变化，应及时修改注册的个人资料，否则由此造成的增值服务权利不能全面有效行使的责任由您自己承担。</p><p>4.2 您可以通过各种已有的和将来可能新增的渠道，包括各类牵手支持使用的在线支付工具购买增值服务。牵手用户完成用户注册程序，并通过牵手平台提供的支付方式完成相应的服务付费后，即可使用牵手增值服务。购买牵手增值服务之后不能租用、借用、转让或许可给第三方使用，不得以营利、经营等非个人使用的目的为自己或他人开通牵手增值服务。</p><p>4.3 牵手增值服务资格有效期自购买完成之时起算，具体期限由您在开通及续费时选择，您可以登录牵手【我的】界面中查看。牵手增值服务期限中包含解决故障、服务器维修、调整、升级、应对不可抗力因素等所需用的合理时间，对上述情况所需用的时间牵手将进行合理范围内的补偿。</p><p>4.4 牵手包月类线上增值服务包月类型包括一个月、一个季度（3个月）和一年（12个月）三类。基于不同的手机操作系统，价格可能因系统平台方原因有所差别，具体的每项增值服务费用标准以购买界面的实际标价为准，上述费用包含所有税费。</p><p>&nbsp;</p><p>五.增值服务的自动续费</p><p>&nbsp;</p><p>5.1&nbsp;自动续费服务是出于您对于自动续费服务的需求，在用户开通牵手包月类增值服务的前提下，避免您因疏忽或其他原因导致未能及时续费造成损失而推出的服务。如果您选择使用自动续费服务，您授权牵手在您购买的包月类增值服务有效期即将过期时，从您的自有充值账户、与用户账号绑定的第三方支付账户、银行卡、通信账户（以下统称“账户”）余额中代扣下一个计费周期（包含：1/3/12个月）包月费。自动续费服务实现的前提是您已将牵手账号与上述账户绑定，且可成功从其上述账户中扣款。</p><p><br></p><p>5.2 基于本条第一款的前提，牵手通过上述账户收取您下一计费周期增值服务费用，因上述账户中可扣款余额不足导致的续费失败，由您自行承担责任。对于所选择的支付渠道，您有义务确保定期关注并确保其于该支付方式的账号项下有充足的余额用于满足订阅自动续费服务的应用。如因前述原因瑕疵（包括但不限于：余额不足以满足您订阅自动续费服务）而致使无法满足自动续费的要求，则牵手暂停向您提供牵手增值服务。</p><p><br></p><p>5.3 若您是安卓手机用户，您可以选择自主续费，亦可选择牵手提供的自动延续牵手增值服务的功能；您也可以自行终止自动续费订阅服务。</p><p><br></p><p><strong>5.4 取消自动续费服务</strong></p><p><span style="color: rgb(0, 0, 0);">（1）使用苹果支付的用户，可登陆当时付款的苹果账号，在苹果系统的“设置 — apple ID — 订阅” 中，操作取消自动续费服务；</span></p><p><span style="color: rgb(0, 0, 0);">（2）使用支付宝支付的用户，可登陆当时付款的支付宝账号，在支付宝APP中“我的 — 设置 —支付设置 — 免密支付/自动扣款”中，根据相关提示取消自动续费服务。</span></p><p><span style="color: rgb(0, 0, 0);">（3）“我tab-设置-自动续费管理”，直接取消续订。</span></p><p><br></p><p>5.5若您未在订阅期结束至少24小时前取消自动续费，则视为您同意牵手继续按照本协议及您选择的自动续费周期进行扣款，一旦扣款成功，牵手将为用户开通下一个计费周期的牵手增值服务。</p><p>&nbsp;</p><p>六.增值服务的中断与终止</p><p>&nbsp;</p><p>6.1 除非牵手用户开通自动续费服务，增值服务期满后，牵手将终止继续向您提供增值服务功能。您可以通过继续支付增值服务费或者开通自动续费服务继续享受增值服务功能服务。</p><p><br></p><p>6.2对于因无法预见或不可抗拒的事由，包括但不限于政府行为、自然灾害、黑客攻击，以及基于互联网特性可能发生的服务器死机、网络或数据库故障、软件升级、服务器维修、调整及升级等问题等造成的服务中断，牵手会尽量以最快的速度通知您，并尽快采取措施进行恢复。</p><p><br></p><p>6.3您如果违反或被牵手视为违反本协议或用户协议的相关条款，或从事以下行为，包括但不限于：&nbsp;</p><p>（1）发布、传送、传播、储存违反国家法律、危害国家安全统一、社会稳定、公序良俗、社会公德以及侮辱、诽谤、淫秽、暴力的内容；&nbsp;</p><p>（2）发布、传送、传播、储存侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的内容；&nbsp;</p><p>（3）虚构事实、隐瞒真相以误导、欺骗他人；&nbsp;</p><p>（4）发表、传送、传播广告信息、诈骗信息、诱导消费信息及垃圾信息；&nbsp;</p><p>（5）使用虚假账号或注册小号；</p><p>（6）从事其他违反法律法规、政策及公序良俗、社会公德等的行为。</p><p>则牵手有权在发现该等情形后，随时停止向您提供所有功能服务，甚至限制或永久封禁您的账号。若因您出现上述问题，您已购买牵手增值服务，牵手将不承担您因此造成的其他损失，且对于已使用部分的费用将不予退还。因该等行为造成牵手损失，且已支付的费用不足以弥补牵手损失的，牵手有权向您继续追偿。</p><p>&nbsp;</p><p>七.您的权利和义务</p><p>&nbsp;</p><p>7.1 您享有牵手增值服务的各项权利，同时须遵守牵手用户协议以及与增值服务相关的各项条款，包括但不限于本服务协议。</p><p><br></p><p>7.2 您有权通过牵手的反馈与建议系统对我们的增值服务提出宝贵的意见和建议。</p><p><br></p><p>7.3您自行承担在牵手中传送、发布信息及使用牵手免费服务或增值服务的法律责任，您使用牵手服务，包括免费服务与收费服务的行为，均应遵守各项法律法规、规章、规范性文件。</p><p>&nbsp;</p><p>八.牵手的权利与义务</p><p>&nbsp;</p><p>8.1 牵手将根据本协议为您提供您已经购买的各项增值服务，如发生服务故障或错误，牵手将尽快进行检查和维护，采取必要手段恢复增值服务的正常提供。</p><p><br></p><p>8.2牵手享有对您使用增值服务过程中一切活动的监督、提示和检查等权利，如您的行为违反有关法律法规或违反牵手的相关条款，牵手有权要求您改正并追究您的责任。</p><p><br></p><p>8.3 对于您在使用牵手服务（包括免费和付费服务）的过程中存在的一切违反法律法规及本协议的行为，牵手有权根据法律法规追究您的责任。</p><p><br></p><p>8.4&nbsp;<strong>对于您因其个人的不良使用等原因造成的被牵手官方限制或封禁账号的情况，牵手不予以任何退款和赔偿，您自行承担由此导致的一切后果。</strong></p><p>&nbsp;</p><p>九.其他</p><p>&nbsp;</p><p>9.1 本协议的版权归牵手所有。</p><p><br></p><p>9.2 本协议的生效、履行、解释及争议的解决均适用中华人民共和国法律，若本协议因与中华人民共和国现行法律相抵触而导致部分无效，不影响其他部分的效力。</p><p><br></p><p>9.3&nbsp;<strong><u>如您和牵手之间发生任何纠纷或争议，应先尽量友好协商解决；协商不成时，您同意将纠纷或争议提交牵手注册地有管辖权的人民法院进行诉讼。</u></strong></p><p><br></p><p>9.4 牵手未行使或延迟行使在本协议项下的权利并不构成对这些权利的放弃，而单一或部分行使其在本协议项下的任何权利并不排斥其任何其它权利的行使。</p><p>&nbsp;</p><p>携手同心科技（北京）有限公司</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p></div></body></html>

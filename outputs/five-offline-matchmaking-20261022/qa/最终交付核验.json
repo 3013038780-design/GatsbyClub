@@ -1,0 +1,19 @@
+{
+  "report_pages": 21,
+  "word_distinct_urls": 53,
+  "pdf_link_annotations": 99,
+  "xlsx_links": 198,
+  "native_tables": 6,
+  "native_charts": 1,
+  "row_counts": {
+    "机构总览": 36,
+    "收费权益": 57,
+    "客户画像": 15,
+    "活动旅行": 9,
+    "账号声量": 8,
+    "内容明细": 73
+  },
+  "formula_tests": "60人=78场/负60万元；90人=117场/0元，缺输入提示已验证",
+  "scope": "研究报告优先，近期内容为补充",
+  "remaining_evidence": "四家完整合同报价、成交客户分布、实际到场与复购及利润仍为公开资料缺口；具体见报告附录。"
+}

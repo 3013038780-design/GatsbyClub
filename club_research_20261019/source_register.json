@@ -1,0 +1,247 @@
+[
+  [
+    "S01",
+    "BoL用户提供资料",
+    "本次对话附件及用户陈述",
+    "",
+    "五张截图；不盈利为用户提供的信息，未获得财务报表。"
+  ],
+  [
+    "S02",
+    "Modernist 官网活动",
+    "官方活动记录",
+    "https://www.modernist.club/",
+    "混合历史与新活动，未标年份的项目不作当月日历使用。"
+  ],
+  [
+    "S03",
+    "Modernist Gallery",
+    "官方历史图库",
+    "https://www.modernist.club/gallery",
+    "Gatsby、Studio 54及爵士晚宴等历史活动。"
+  ],
+  [
+    "S04",
+    "The Supper Club Membership",
+    "官方公开会籍页面",
+    "https://members.thesupperclubinc.com/membership",
+    "美元报价；分档权益及750美元入会费；未获得经营利润。"
+  ],
+  [
+    "S05",
+    "The Supper Club Terms",
+    "官方服务条款",
+    "https://thesupperclubinc.com/terms-of-services",
+    "Passport旅行另收费；以对应方案最终条款为准。"
+  ],
+  [
+    "S06",
+    "Parlor Membership Overview",
+    "官方会员手册",
+    "https://parlor.social/Parlor%20Membership.pdf",
+    "无固定地点、兴趣分组、分档；手册未列清晰有效期。"
+  ],
+  [
+    "S07",
+    "Mandala Club Calendar",
+    "官方当前活动及空间页",
+    "https://www.mandala.club/",
+    "含2026年10月活动；已过去与尚未举行项目分开理解。"
+  ],
+  [
+    "S08",
+    "Mandala Member Benefits",
+    "官方会员说明",
+    "https://www.mandala.club/enquire",
+    "个人、伴侣及30岁以下方案；未公开标准价格。"
+  ],
+  [
+    "S09",
+    "67 Pall Mall Singapore Events",
+    "官方活动日历",
+    "https://www.67pallmall.com/the-singapore-club/club-events/",
+    "盲品、WTF威士忌调配等；实际活动价格需会员登录。"
+  ],
+  [
+    "S10",
+    "67 Pall Mall Membership",
+    "官方会费说明",
+    "https://www.67pallmall.com/the-singapore-club/membership/",
+    "标准年费S$4800及入会费S$2000；Joint资格需咨询。"
+  ],
+  [
+    "S11",
+    "The Battery Societies",
+    "官方兴趣社群目录",
+    "https://legacy.thebatterysf.com/societies",
+    "Singles、Supper Club、Terroir等。"
+  ],
+  [
+    "S12",
+    "The Battery Events",
+    "官方活动日历",
+    "https://thebatterysf.com/events",
+    "含2026年10月爵士、台球、主题派对等。"
+  ],
+  [
+    "S13",
+    "The Battery Charter",
+    "官方会籍章程",
+    "https://thebatterysf.com/charter",
+    "会籍、来宾、资料与社区规则；不推断盈利。"
+  ],
+  [
+    "S14",
+    "Carlyle and Co",
+    "官方网站",
+    "https://www.carlyleandco.com/",
+    "成员定位及申请；未使用媒体旧报价作为现价。"
+  ],
+  [
+    "S15",
+    "Chef Nero Family Feast",
+    "官方历史活动页",
+    "https://login.carlyleandco.com/Chinese_New_Year/Chef_Nero_s_Family_Feast",
+    "2025蛇年活动；HK$1398，酒配另加HK$400。"
+  ],
+  [
+    "S16",
+    "Estelle Community",
+    "官方权益页",
+    "https://estellecommunity.com/",
+    "城市及乡间空间联动；活动数量属于品牌自述。"
+  ],
+  [
+    "S17",
+    "The Arts Club Culture",
+    "官方艺术文化页",
+    "https://theartsclub.co.uk/arts-culture/",
+    "音乐、早餐谈话、工作室参访；详细日历会员登录。"
+  ],
+  [
+    "S18",
+    "The Offline Club France Retreat",
+    "官方历史产品页",
+    "https://www.theoffline-club.com/retreat-locations/5-day-retreat-in-france",
+    "2026年夏季历史产品€795—1095；页面天数标题与夜数表述不完全一致。"
+  ],
+  [
+    "S19",
+    "Secret Cinema About",
+    "官方体验说明",
+    "https://www.secretcinema.com/about",
+    "参与故事世界；规模数字是品牌自述，未用于市场测算。"
+  ],
+  [
+    "S20",
+    "Crystal Maze Live Experience",
+    "官方线下体验页",
+    "https://the-crystal-maze.com/london/the-experience/",
+    "将综艺机制转为售票线下产品的案例。"
+  ],
+  [
+    "S21",
+    "Taskmaster",
+    "官方节目与任务目录",
+    "https://taskmaster.tv/shows",
+    "以节目任务介绍为玩法依据，未进行整季逐集评测。"
+  ],
+  [
+    "S22",
+    "Game Changer",
+    "官方Dropout节目页",
+    "https://watch.dropout.tv/game-changer-new",
+    "每轮规则变化、参与者探索规则的机制。"
+  ],
+  [
+    "S23",
+    "The Fortune Hotel",
+    "ITV官方节目发布",
+    "https://www.itv.com/presscentre/presscentre/media-releases/fortune-hotel-opens-its-doors-itv1-and-itvx",
+    "2023公布的首季格式；用于机制研究。"
+  ],
+  [
+    "S24",
+    "The Devils Plan",
+    "Netflix官方介绍",
+    "https://about.netflix.com/en/news/the-devils-plan-death-room-trailer",
+    "2025年第二季策略与联盟介绍。"
+  ],
+  [
+    "S25",
+    "Jet Lag Tag Eur It",
+    "Nebula官方节目页",
+    "https://nebula.tv/jetlag/season/3",
+    "欧洲追逐主题；不假设节目全部规则可直接用于商业活动。"
+  ],
+  [
+    "S26",
+    "The Amazing Race",
+    "CBS官方节目介绍",
+    "https://www.cbs.com/shows/amazing_race/about/",
+    "双人队、旅行与任务机制；不照搬淘汰和高强度。"
+  ],
+  [
+    "S27",
+    "Culinary Class Wars",
+    "Netflix官方节目说明",
+    "https://media.netflix.com/en/only-on-netflix/81728365",
+    "料理竞赛；非普通会员烹饪能力评估工具。"
+  ],
+  [
+    "S28",
+    "Love Is Blind Pods",
+    "Netflix官方制作介绍",
+    "https://www.netflix.com/tudum/articles/love-is-blind-pods?inapp=true",
+    "声音先行交流；原节目求婚机制不纳入产品。"
+  ],
+  [
+    "S29",
+    "Come Dine With Me",
+    "官方节目频道说明",
+    "https://www.youtube.com/watch?v=VokDXK6MSf0",
+    "2026-09-02官方频道视频说明，轮值做东及评分。"
+  ],
+  [
+    "S30",
+    "The Traitors Missions",
+    "USA Network官方节目文章",
+    "https://www.usanetwork.com/usa-insider/traitors-best-missions-season-1",
+    "团队任务及身份博弈，只借鉴虚构游戏机制。"
+  ],
+  [
+    "S31",
+    "Mandala Instagram",
+    "官网链接并实读公开主页",
+    "https://www.instagram.com/mandalaclub.sg/",
+    "已查看简介、精选栏目、网格与日期；具体帖子全文触发登录。"
+  ],
+  [
+    "S32",
+    "Carlyle Instagram",
+    "官网链接并实读公开主页",
+    "https://www.instagram.com/carlyleandco/",
+    "已读公开简介、What’s on及Drink and dine栏目；深帖未完整读取。"
+  ],
+  [
+    "S33",
+    "Battery Instagram",
+    "官网链接并实读公开主页",
+    "https://www.instagram.com/thebatterysf/",
+    "已读主页及Membership、Battery Powered栏目；不推断转化率。"
+  ],
+  [
+    "S34",
+    "Offline Club Instagram",
+    "官网链接并实读公开主页",
+    "https://www.instagram.com/theoffline_club/",
+    "已读Retreats、Your City、Events等公开栏目；不以粉丝数估营收。"
+  ],
+  [
+    "S35",
+    "Arts Club Instagram",
+    "官网链接并实读公开主页",
+    "https://www.instagram.com/the_arts_club/",
+    "已读公开简介、网格和日期；详细活动以官网补证。"
+  ]
+]

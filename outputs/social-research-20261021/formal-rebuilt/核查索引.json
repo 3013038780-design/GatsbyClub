@@ -1,0 +1,346 @@
+{
+  "sources": {
+    "R01": {
+      "title": "北京会所现行个人及公司会籍",
+      "url": "https://members.hkjc.com/about-membership/en-US/Membership",
+      "scope": "马会官网 Mainland Member 部分；2026年1月1日起；人民币；本轮复核"
+    },
+    "R02": {
+      "title": "木兰2026年会官方报名及票价",
+      "url": "https://swapp.iceo.com.cn/mulan2026/reg.html",
+      "scope": "主办方；2026安吉；普通 VIP SVIP、早鸟、赠票与餐饮；本轮取得"
+    },
+    "K06": {
+      "title": "EO Forum服务设计",
+      "url": "https://eonetwork.org/membership/forum/",
+      "scope": "6—10人、月度聚会、培训与伴侣小组"
+    },
+    "K07": {
+      "title": "EO 2024至2025年度报告官方发布",
+      "url": "https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh/",
+      "scope": "2024-07至2025-06；全球续会91.6%；本轮已读完整发布正文"
+    },
+    "R14": {
+      "title": "长江EMBA参访迈邦回顾",
+      "url": "https://finance.sina.com.cn/wm/2026-05-11/doc-inhxppii9032147.shtml",
+      "scope": "长江商学院EMBA发布；2026年5月6日46期2班活动；5月11日回顾"
+    },
+    "U14": {
+      "title": "现代传播俱乐部业务介绍",
+      "url": "https://www.modernmedia.com.cn/club",
+      "scope": "当前集团官网；确认优家荟品牌与女性会员定位"
+    },
+    "U15": {
+      "title": "优家荟新加坡十周年会员活动",
+      "url": "https://www.ilady.com.cn/wap/event/detail/?eid=2035",
+      "scope": "2025-11-14至15计划；黑金及白金，50席，250新币；非会员入会入口"
+    },
+    "S02": {
+      "title": "2025年度中国数字生活市场数据报告婚恋专题",
+      "url": "https://imgs-b2b.100ec.cn/detail--6658734.html",
+      "scope": "网经社；2021—2025；第三方估算"
+    },
+    "U12": {
+      "title": "网经社2025年度数字生活报告专题",
+      "url": "https://imgs-b2b.100ec.cn/zt/2025szshbg/",
+      "scope": "2026-04-22发布；第三方估算；互联网婚恋103.5亿元"
+    },
+    "S04": {
+      "title": "2025年结婚登记数据公布",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34194239",
+      "scope": "苏州发布转引民政部；2025；政务转载"
+    },
+    "S06": {
+      "title": "2021年民政事业发展统计公报",
+      "url": "https://www.caoss.org.cn/UploadFile/pic/20229122301585532.pdf",
+      "scope": "民政部 中国社会保障学会留存；2021；官方文件转载"
+    },
+    "S07": {
+      "title": "2022年民政事业发展统计公报",
+      "url": "https://www.caoss.org.cn/upload/news/20240710/79f02d06dd1545f18ed1f9d6de28ccf0.pdf",
+      "scope": "民政部 中国社会保障学会留存；2022；官方文件转载"
+    },
+    "S08": {
+      "title": "中国网转引2023民政年度公报",
+      "url": "https://news.china.com.cn/2024-09/12/content_117424653.html",
+      "scope": "2024-09-12媒体转引民政部年度公报；结婚768.2万对；原部委链接另存旧台账"
+    },
+    "S11": {
+      "title": "2026胡润至尚优品中国高净值人群品质生活报告",
+      "url": "https://www.hurun.net/zh-CN/Info/Detail?num=CSX6BTOMEWY4",
+      "scope": "胡润研究院；2025行为及2026意向；第三方样本调查"
+    },
+    "R18": {
+      "title": "招商银行2023私人财富研究发布",
+      "url": "https://www.cmbchina.com/privateBank/privateBankInfo?guid=8a07d69f-f3b5-448b-9ba3-1d12703b4840",
+      "scope": "银行研究原始发布；92城市问卷、近20城市深访；不同财富口径独立使用"
+    },
+    "K01": {
+      "title": "北京香港马会会所2025年6月会刊",
+      "url": "https://member.hkjc.com/ecard/eHarmony_Jun25.pdf",
+      "scope": "入会费p158；活动p33—40；价格自2024-01-01起"
+    },
+    "K05": {
+      "title": "EO China East分会资料",
+      "url": "https://member.eonetwork.org/chinaeast/about-our-chapter/",
+      "scope": "2026-10-21采集；人数年龄截至2026-09-30；全球收费"
+    },
+    "K08": {
+      "title": "2026商界木兰年会及木兰汇介绍",
+      "url": "https://www.iceo.com.cn/zt/2026_mulannh/",
+      "scope": "近1000成员、112核心、29省市；三日公布议程"
+    },
+    "K09": {
+      "title": "正和岛App开发者介绍与内购价",
+      "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E5%92%8C%E5%B2%9B/id525751375",
+      "scope": "当前上架页面自述；统计截止日未标；内购价为数字产品"
+    },
+    "U04": {
+      "title": "YPO会员资格",
+      "url": "https://www.ypo.org/membership-requirements/",
+      "scope": "2026-10-21当前公开网页；年龄、职位及企业规模条件"
+    },
+    "U05": {
+      "title": "YPO会员体验",
+      "url": "https://www.ypo.org/the-ypo-experience/",
+      "scope": "地方分会、Forum、兴趣网络及家庭服务；全球设计"
+    },
+    "U13": {
+      "title": "SEE生态协会2024年度审计报告",
+      "url": "https://conservation.see.org.cn/uploads/soft/250409/1-250409203446.pdf",
+      "scope": "已下载39页全文；PDF第17页 收入与会员活动成本；金额人民币元"
+    },
+    "R03": {
+      "title": "木兰汇杭州参访PingPong回顾",
+      "url": "https://www.pingpongx.com/zh/news/articles/2608040952041",
+      "scope": "接待企业官网；2026年7月30日活动；50余位；8月发布"
+    },
+    "R09": {
+      "title": "优家荟深圳十周年经营规模自述",
+      "url": "https://shenzhen.sina.cn/news/2026-09-18/detail-inisftxc0303360.d.html",
+      "scope": "新浪深圳；2026年9月18日；引述深圳分会会长十年累计规模；庆典10月23日尚未举办"
+    },
+    "R11": {
+      "title": "安徽正和岛参访元琛科技",
+      "url": "https://www.yckjgf.com/news/14/2277",
+      "scope": "接待上市企业官网；2026年1月3日；接待人、参观及交流流程"
+    },
+    "R12": {
+      "title": "正和岛2026宜兴发展年会回顾",
+      "url": "https://finance.sina.com.cn/wm/2026-07-07/doc-inifyquv1597077.shtml",
+      "scope": "正和岛发布；2026年7月7日；6月27至28日500位企业家；机构自述"
+    },
+    "K02": {
+      "title": "北京香港马会会所子女附属卡申请表",
+      "url": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+      "scope": "p1；8—21岁及120元年费"
+    },
+    "K15": {
+      "title": "EO中国华东分会资格",
+      "url": "https://member.eonetwork.org/chinaeast/membership-qualification/",
+      "scope": "创始人或所有者资格、企业营收及入会流程"
+    },
+    "R05": {
+      "title": "EO北京分会2026至2027入会及收费",
+      "url": "https://www.eobeijingmetropolitan.com/col.jsp?id=103",
+      "scope": "分会网页；2026年7月至2027年6月；地方年费9200元；仅作北京对照"
+    },
+    "R04": {
+      "title": "EO北亚2026北京企业家节回顾",
+      "url": "https://eonetwork.org/newsroom/events/eo-members-in-north-asia-celebrate-the-second-entrepreneurs-festival-in-beijing/",
+      "scope": "EO主办方；2026年3月11至13日；380余人含约110位潜在会员；区域活动"
+    },
+    "K03": {
+      "title": "长江商学院EMBA费用与申请",
+      "url": "https://www.ckgsb.com/emba/common_problems/",
+      "scope": "2026级学费及申请费"
+    },
+    "R16": {
+      "title": "长江EMBA学费信息入口",
+      "url": "https://www.ckgsb.com/emba/pages/tuition/1243.html",
+      "scope": "当前官网；表单筛选字段与咨询入口；价格以FAQ正文为准"
+    },
+    "U01": {
+      "title": "长江2027年EMBA招生简章",
+      "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3552283696%2CcategoryId-1719522122%2CschId-1719522069%2Cmindex-12.dhtml",
+      "scope": "研招网院校发布；2027学费待定，2026为99.8万元"
+    },
+    "R15": {
+      "title": "长江教育基金会近期校友活动目录",
+      "url": "https://www.ckgsb.com/ckedf/news/index/1160",
+      "scope": "学院官网；2026年7月2日发布6月27日EMBA28期十周年返校；仅目录可证事实"
+    },
+    "K04": {
+      "title": "长江商学院EMBA项目",
+      "url": "https://www.ckgsb.com/emba/",
+      "scope": "累计学员与核心决策者结构"
+    },
+    "U11": {
+      "title": "小红书平台研究快照",
+      "url": "https://www.xiaohongshu.com/",
+      "scope": "项目MediaCrawler采集与机构身份核对；2026-10-21；逐篇数据存本项目台账"
+    },
+    "K10": {
+      "title": "正和岛2015广西活动入会说明",
+      "url": "https://www.zhisland.com/newmedia/guangxi2015/about.html",
+      "scope": "2015历史入会制度、权益与3万元年费，不作2026报价"
+    },
+    "R13": {
+      "title": "正和岛较新历史会籍与产品说明",
+      "url": "https://www.sohu.com/a/444132188_99894239",
+      "scope": "区域团队宣传资料；2021年发布，说明2019入会费10万及2020年度服务费2万；非现价"
+    },
+    "R06": {
+      "title": "优家荟白金卡制度历史记录",
+      "url": "https://www.sohu.com/a/139198125_170023",
+      "scope": "优家荟发布账号；2017年5月8日；年费2800元及资格；历史制度"
+    },
+    "R07": {
+      "title": "优家荟黑金卡制度历史记录",
+      "url": "https://www.sohu.com/a/197998790_170023",
+      "scope": "优家荟发布账号；2017年10月13日；年费18000元及活动、传播权益；历史制度"
+    },
+    "R08": {
+      "title": "优家荟新加坡会员访京沪及活动规范",
+      "url": "https://www.sohu.com/a/712370059_121124650",
+      "scope": "2023年活动招募页；六天双城500新币及实名、非会员体验、缺席规则；历史安排"
+    },
+    "R10": {
+      "title": "优家荟现行入会入口",
+      "url": "https://www.imlady.cn/html/join-0929/check.html",
+      "scope": "官方活动页跳转；短信验证入口，未登录前未列现行年费；本轮未提交信息"
+    },
+    "R17": {
+      "title": "优家荟官方微博活动回顾",
+      "url": "https://www.weibo.com/uplusclub",
+      "scope": "公开索引快照；15086粉丝及历史互动；2025香港艺术旅程回顾"
+    },
+    "K11": {
+      "title": "阿拉善SEE 2025会员大会履职报告",
+      "url": "https://conservation.see.org.cn/news/dynamic/2025/1203/12953.html",
+      "scope": "2025-10-31数据；2025-12-03发布"
+    },
+    "K12": {
+      "title": "阿拉善SEE 2024年中理事会公报",
+      "url": "https://conservation.see.org.cn/uploads/soft/240723/1-240H3143125.pdf",
+      "scope": "2024上半年166场、338会员、2412人次；PDFp2"
+    },
+    "U09": {
+      "title": "中华人民共和国旅游法",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_55b4bbc9a30547a9912e7ed61ffa7e20.html",
+      "scope": "市场监管总局法律原文；第28条旅行社经营许可"
+    },
+    "U10": {
+      "title": "预付式消费司法解释发布说明",
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/yaowen/liebiao/202503/content_7020334.htm",
+      "scope": "中国政府网；2025-05-01施行；解除、退款及证据规则"
+    },
+    "S75": {
+      "title": "个人信息保护法",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_04a0f1fb5df244e39688fd5372623a8d.html",
+      "scope": "工信部法律文本；2021法律；法律原文"
+    },
+    "R19": {
+      "title": "安吉年会活动后报道",
+      "url": "https://www.sohu.com/a/1012528621_121106832",
+      "scope": "安吉发布及县妇联供稿转载；2026年4月21日；17至18日会议及40余地方代表"
+    },
+    "U11a": {
+      "title": "长江EMBA代表笔记",
+      "url": "https://www.xiaohongshu.com/explore/6aa7c749000000002700b528",
+      "scope": "2026-09-14发布；本项目2026-10-21快照，2评论、10分享"
+    },
+    "U11b": {
+      "title": "正和岛同名账号代表笔记",
+      "url": "https://www.xiaohongshu.com/explore/6ad60b8b0000000027014c39",
+      "scope": "2026-10-20发布；本项目2026-10-21快照，2评论、1分享；主体未充分核验"
+    }
+  },
+  "navigation": [
+    [
+      "一 决策摘要",
+      1,
+      "sec_1"
+    ],
+    [
+      "二 市场与客户需求",
+      1,
+      "sec_2"
+    ],
+    [
+      "三 行业格局与对标选择",
+      1,
+      "sec_6"
+    ],
+    [
+      "四 六家机构深度研究",
+      1,
+      "sec_9"
+    ],
+    [
+      "4.1 北京香港马会会所",
+      2,
+      "sec_10"
+    ],
+    [
+      "4.2 EO中国华东分会",
+      2,
+      "sec_11"
+    ],
+    [
+      "4.3 长江商学院",
+      2,
+      "sec_12"
+    ],
+    [
+      "4.4 木兰汇",
+      2,
+      "sec_13"
+    ],
+    [
+      "4.5 正和岛",
+      2,
+      "sec_14"
+    ],
+    [
+      "4.6 优家荟",
+      2,
+      "sec_15"
+    ],
+    [
+      "五 横向比较与公司机会",
+      1,
+      "sec_16"
+    ],
+    [
+      "六 进入方案与经营验证",
+      1,
+      "sec_21"
+    ],
+    [
+      "附录 证据索引与补证任务",
+      1,
+      "sec_28"
+    ]
+  ],
+  "asof": "2026-10-21",
+  "price_checks": {
+    "HKJC_annual": [
+      26400,
+      26400,
+      52800,
+      79200
+    ],
+    "HKJC_first_year": [
+      626400,
+      726400,
+      1352800,
+      1879200
+    ],
+    "mulan": [
+      8800,
+      17800,
+      37800
+    ]
+  }
+}

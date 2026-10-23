@@ -1,0 +1,3 @@
+Inspect result written to file: /Users/olivialee/Documents/ChatGPT/社区平台/outputs/social-research-20261021/中国高端社交市场研究数据工作簿.xlsx.inspect.ndjson
+{"exported":true,"model":[{"scenario":1,"operating":-183600,"breakEven":81,"seats":288},{"scenario":2,"operating":356800,"breakEven":75,"seats":576},{"scenario":3,"operating":1457600,"breakEven":86,"seats":960}],"modes":[-1059200,-334400,356800,-1202000],"sheets":17}
+Workbook previews complete

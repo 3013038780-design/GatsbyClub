@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<title>服务条款-金凤凰深港婚介深圳征婚交友网-金凤凰婚介</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<link rel="stylesheet" href="/tpl/static/layui/css/layui.css" />
+<link rel="stylesheet" href="/tpl/templets/v5/css/style.css" />
+<link rel="stylesheet" href="/tpl/templets/v5/css/main.css" />
+<link rel="stylesheet" href="/tpl/static/varpop/css/oe_varpop.css" />
+<link rel="stylesheet" href="/tpl/static/varpop/css/box.css" />
+<script src="/tpl/static/js/jquery.min.js"></script>
+<script type='text/javascript'>
+var _ROOT_PATH = "/";
+var _OE_FILE = "/index.php";
+var _LOGIN_STATUS = "0"; //登录状态
+var _CONNET_LOGIN = 0;
+
+var INFOWIN_FLAG = "1";
+var INFOWIN_LOADTIME = "1";
+var INFOWIN_CLOSETIME = "10";
+var INFOWIN_LOOPTIME = "60";
+</script>
+<script src="/tpl/static/js/jquery.superslide.js"></script>
+<script src="/tpl/static/js/common.js"></script>
+<script src="/tpl/static/js/jquery.upload.js"></script>
+<script src="/tpl/static/js/jquery.placeholder.min.js"></script>
+<script src="/tpl/static/js/oelove.ajax.js"></script>
+<script src="/tpl/static/js/picker.area.js"></script>
+
+<script src="/tpl/static/varpop/oe_varpop.js"></script>
+<script src="/tpl/static/js/model.popdialog2.js"></script>
+<script src="/tpl/static/layui/layui.js"></script> 
+<meta name="author" content="OEdev" />
+<meta name="generator" content="OElove" />
+<!--[if lte IE 9]>  
+<script type="text/javascript">  
+$(function(){  
+    $('input[placeholder]').placeholder();
+    $('textarea[placeholder]').placeholder();  
+});  
+</script>  
+<![endif]-->
+
+<style type="text/css">
+.layui-btn{background:#14b5a0;}
+</style>
+</head>
+
+<body>
+<style type="text/css">
+/*导航菜单*/
+.oe_mu{background:#eb2f7a;}
+.oe_menu ul li a{color:#fff; }
+.oe_menu ul li.current a,.oe_menu ul li a:hover{background:#ebebeb; color:#333;}
+/* -----全局重写样式----- */
+.layui-form-radio > i:hover, .layui-form-radioed > i{color:#eb2f7a;}
+.layui-form-select dl dd.layui-this{background:#eb2f7a;}
+.layui-form-checked span, .layui-form-checked:hover span{background:#eb2f7a;}
+.layui-form-checked, .layui-form-checked:hover {border-color: #eb2f7a;}
+.layui-form-checked i, .layui-form-checked:hover i{color:#eb2f7a;}
+.layui-btn{background:#eb2f7a;}
+/*----about----*/
+.oe_about_left dt a{	border-bottom: 2px solid #eb2f7a;}
+/*首页*/
+.layui-form-radio > i:hover, .layui-form-radioed > i{color:#eb2f7a;}
+.oe_index_newuser .bd ul li a{color:#eb2f7a;}
+.oe_indexusercon .bd dl dd p.p_3{color:#eb2f7a;}
+.oe_partycon .bd dl dd p.p_1 span a{color:#eb2f7a;}
+.oe_inzhenhun .rhd{background:#eb2f7a;}
+.oe_index_story .bd dl dd h3 a{color:#eb2f7a;}
+.oe_index_story .bd dl:hover dd{border-bottom:1px solid #eb2f7a;}
+.macon p.p_2 span{background:#eb2f7a;}
+.oe_index_sercon .bdd ul li.btn button{background:#eb2f7a;}
+.oe_banner .hd ul li.on span{background:#eb2f7a;}
+/*会员列表*/
+.layui-form-checked span, .layui-form-checked:hover span{background:#eb2f7a;}
+.layui-form-checked, .layui-form-checked:hover {border-color: #eb2f7a;}
+.layui-form-checked i, .layui-form-checked:hover i{color:#eb2f7a;}
+.oe_searchcon button.btn{background:#eb2f7a;}
+.oe_user_list dl dd.dd_2 span{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_user_list dl dd.dd_2 span{d border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_user_list dl dd.dd_2 label{ background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_page a._current,.oe_page a:hover{background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_searchcon .selectmore .selectbd p label{background:#eb2f7a;}
+/*会员主页*/
+.oe_home_user .hd .tips a{color:#eb2f7a;}
+.oe_home_user .hd .no_photo span{color:#eb2f7a; }
+.oe_home_userinfo .divinfo span{color:#eb2f7a;}
+.oe_home_userinfo .userrz h4{color:#eb2f7a;}
+.oe_home_userinfo .userrz ul li{ color:#eb2f7a;}
+.oe_home_userinfo .userrz ul li a{color:#eb2f7a;}
+.home_btn span{background:#eb2f7a;}
+.oe_home_info dl dd ul li label{color:#eb2f7a;}
+/*日记列表*/
+.layui-btn{background:#eb2f7a;}
+/*日记详情*/
+.oe_comment h2 a{background:#eb2f7a;}
+/*活动列表+详情*/
+.oe_parea .oe_pareacon p label{background:#eb2f7a;}
+.oe_party_type ul li em{border-bottom:3px solid #eb2f7a;}
+.oe_party_detail dl.head dd.dd_2 p.p_2{ color:#eb2f7a;}
+.oe_party_detail dl.head dd.dd_1 ul li.btn span{background:#eb2f7a;}
+.oe_party_detail dl.head dd.dd_1 ul li em{color:#eb2f7a;}
+.detail_bm_user dl dt span em{color:#eb2f7a;}
+.partydetail_content .righttips dl dt span{background:#eb2f7a;}
+.oe_party_type ul li i{ border-color: #eb2f7a transparent transparent; }
+.oe_party_detail dl.head dd.dd_2 h3{background:#eb2f7a;}
+/*征婚*/
+.oe_marry_search .sex span.span_1{border:1px solid #eb2f7a; border-right:0px; border-radius:40px 0px 0px 40px;}
+.oe_marry_search .sex span.span_2{border:1px solid #eb2f7a; border-left:0px; border-radius:0px 40px 40px 0px;}
+.oe_marry_search .sex span.current{background:#eb2f7a; color:#fff;}
+.oe_marry_detail .left .des span{color:#eb2f7a;}
+.oe_marry_detail .left dl.head dd p.p_2{color:#eb2f7a;}
+.oe_marry_detail .left .bmbtn label{ background:#eb2f7a;  border:1px solid #eb2f7a;}
+.oe_marry_detail .left .bmbtn span{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_marry_detail .marry_marryright .hd ul li.current{border:1px solid #eb2f7a;}
+.oe_newmarrylist .hd{ color:#eb2f7a;}
+.oe_newmarrylist .hd label{ border-bottom:2px solid #eb2f7a;}
+.oe_marrytips .hd{color:#eb2f7a;}
+.oe_marrytips .hd label{ border-bottom:2px solid #eb2f7a;}
+/*案例*/
+.oe_story dl dd p.p_5{color:#eb2f7a;}
+.oe_comment h2 span{ background:#eb2f7a;}
+/*动态*/
+.oe_dynamic_content dl dd label.send{border:1px solid #eb2f7a; color:#eb2f7a;}
+.oe_dynamic_content dl dd label.send:hover{background:#eb2f7a;}
+.oe_dynamic_content dl dd.dd_2 h3 span{ background:#eb2f7a;}
+.oe_dynamic .right .dynamic_fabiao span{background:#eb2f7a;}
+.dynamic_search .layui-btn{color:#eb2f7a;border:1px solid #eb2f7a;}
+.dynamic_user dl dd p.p_1 label.label_1{background:#eb2f7a;}
+.dynamic_user dl dd p.p_1 label{ color:#eb2f7a;}
+.dynamic_user dl dd p.p_1 label{border:1px solid #eb2f7a;}
+.dynamic_user dl dd p.p_1 label a{color:#eb2f7a;}
+.oe_dynamic_add dl.mar_dl dd button.layui-btn{background:#eb2f7a;}
+.oe_dynamic_content dl dd label.send a{color: #eb2f7a;}
+.dynamic_rank ul li.current a{color: #eb2f7a;}
+.dynamic_rank ul li.current{border:1px solid #eb2f7a;}
+.dynamic_rank ul li.current{border:1px solid #eb2f7a; border-bottom:2px solid #fff; font-weight:bold;}
+.oe_dynamic_content dl dd.dd_1 p.p_1 span{color:#eb2f7a}
+/*防骗中心*/
+.ser_top dl dt span.current{background:#eb2f7a; }
+.ser_top dl dd input{border:1px solid #eb2f7a; }
+.ser_top dl dd button.layui-btn{ background:#eb2f7a; }
+.oe_safety_r1 .bd p.p_3{color:#eb2f7a;}
+.oe_safety_index .left .hd ul li.current{ border-bottom:2px solid #eb2f7a; color:#eb2f7a;}
+.oe_safety_index .left .hd ul li.current a{color:#eb2f7a;}
+.oe_safety_index .right .layui-btn{ background:#eb2f7a;}
+/*媒婆圈专题*/
+.mp_banner .hd ul li.on span{background:#eb2f7a;}
+.mp_banner .mp_ft a{background:#eb2f7a; }
+/*留言反馈/弹窗*/
+.feedback_box dl dd label.current{background:#eb2f7a; border:1px solid #eb2f7a;}
+div.message_tips .hd{background: #eb2f7a;}
+div.message_tips .bd div.img p span.btn {background: #eb2f7a;}
+.oe_user_add dl dd label.current{background:#eb2f7a; border:1px solid #eb2f7a;}
+.oe_user_add dl.mar_dl dd button.layui-btn{background: #eb2f7a;}
+.oe_user_add dl.mar_dl dd button.layui-btn{background: #eb2f7a;}
+/*资讯文章*/
+.oe_article_cats .bd a:hover{color:#eb2f7a;}
+.oe_article_list .left dl dd h3 span{color:#eb2f7a;}
+.oe_article_cats .bd a.current{color:#eb2f7a;}
+.oe_article_cats .hd span{border-bottom:2px solid #eb2f7a;}
+/*推广路由*/
+.oe_user_display .login .tab_nav .reg_item.current{color:#eb2f7a}
+.oe_user_display .login h3{color:#eb2f7a}
+.oe_user_display .layui-btn{background:#eb2f7a}
+.oe_marry_display .marry_box .label{background:#eb2f7a}
+.oe_marry_display .marry_box .label em{border-top: 14px solid #eb2f7a;border-left: 5px solid #eb2f7a;}
+.oe_love .link .reg{border: 1px solid #eb2f7a;color: #eb2f7a;}
+.oe_love .link .login{background: #eb2f7a;}
+.oe_user_display .login .tab_nav .login_item.current{color:#eb2f7a}
+</style>
+
+  
+
+<div class="oe_headbar">
+	<div class="oe_container">
+		<a href="https://www.jfh999.com/" class="logo">
+			<img src="/data/attachment/upload/201808/01/8ad41a087cd47583.png" alt="金凤凰深港婚介深圳征婚交友网-金凤凰婚介" title="服务条款-金凤凰深港婚介深圳征婚交友网-金凤凰婚介" >
+		</a>
+		<h3 class="logo_text">
+		 
+		 
+		<p>
+	<span><span><span><strong>金凤凰深港婚介</strong>公务员、白领、企业家、深圳本地征婚</span>成功率较高！</span></span> 
+</p>
+<p>
+	<span><strong><strong>金凤凰深港婚介</strong></strong>连续十六届荣获深圳“</span><span style="color:#D81E1F;">3.15消费者信得过诚信婚恋品牌</span><span>”</span> 
+</p>
+<p>
+	<strong><strong>金凤凰深港婚介</strong></strong>自购物业，“三不换”婚介，不换老板，不换场地，不换招牌
+</p> 
+		 
+		</h3>
+    <div class="area drop">
+      <dl class="cin">
+        <dt>
+        <span>
+                    全国
+                  </span>
+        <em></em>
+	    </dt>
+        <dd class="sub">
+          <ul>
+									<li>
+			<span>华北东北</span>
+									<a href="/tianjing/">天津</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>华东地区</span>
+									<a href="/shanghai/">上海</a>
+						<a href="/jiujiang/">九江市</a>
+						<a href="/nanchang/">南昌市</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>中部西部</span>
+									<a href="/changde/">常德市</a>
+						<a href="/ganzhou/">赣州市</a>
+						<a href="/changsha/">长沙市</a>
+						<a href="/wuhan/">武汉市</a>
+						<a href="/huangshi/">黄石市</a>
+						<div class="clear"></div>
+			</li>
+						<li>
+			<span>华南地区</span>
+									<a href="/guangzhou/">广州市</a>
+						<a href="/zhongshan/">中山市</a>
+						<a href="/baise/">百色市</a>
+						<a href="/shenzhen/">深圳市</a>
+						<a href="/foshang/">佛山市</a>
+						<a href="/zhuhai/">珠海市</a>
+						<a href="/dongguan/">东莞市</a>
+						<a href="/huizhou/">惠州市</a>
+						<a href="/heyuan/">河源市</a>
+						<a href="/chaozhou/">潮州市</a>
+						<div class="clear"></div>
+			</li>
+			          </ul>
+          <div class="btn"> <a href="/city/">全部城市</a> </div>
+        </dd>
+      </dl>
+    </div>
+    <script type="text/javascript">
+      jQuery(".drop").slide({ type:"menu", titCell:".cin", targetCell:".sub",effect:"slideDown",delayTime:200,triggerTime:0,defaultPlay:false,returnDefault:true});
+    </script>
+    
+		<div class="phone">
+			<div class="phone_01">4006-333-526</div>
+			<div class="phone_02">
+			 
+			 
+			<p style="text-align:left;">
+	深圳征婚咨询热线：13392438871
+</p> 
+			 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="oe_navbar">
+	<div class="oe_container clearfix">
+		<ul class="fl">
+			<li><a href="/index.php">首页</a></li>
+						<li><a href="/user/">会员</a></li>
+			      <li><a href="/dynamic/">动态</a></li>
+      <li><a href="/marry/">征婚专区</a></li>
+      <li><a href="/index.php?c=hongkong&a=list&s_gender=&s_dist1=32&s_avatar=1">香港专区</a></li>
+      <li><a href="/party/">最新活动<em></em></a></li>
+      <li><a href="/story/">成功案例</a></li>
+      						<li><a href="/index.php?c=crm">红娘专区</a></li>
+									<li><a href="/article/">婚姻学院</a></li>
+			<li class='current'>
+        				<a href="/about/1.html">了解我们</a>
+        			</li>
+                  <li><a href="/meipo/">媒婆圈</a></li>
+            			
+		</ul>
+				<div class="login ft">
+			<a href="javascript:;" f="pop2_jdlogin" rel="nofollow">登录   </a>　
+      <a href="/passport/reg.html" rel="nofollow">注册</a>
+		</div>
+			</div>
+</div>
+<style type="text/css">
+  body{background:#f5f5f5;},
+  .oe_about_content img{margin: 5px auto;}
+</style>
+<div class="oe_about">
+  <div class="oe_about_left"> 
+     
+        <dl>
+      <dt><i></i><a href="javascript:;">关于我们</a></dt>
+      <dd> 
+         
+         
+        <a href="/about/1.html" rel='nofollow'> <i></i>关于我们</a> 
+         
+        <a href="/about/30.html" rel='nofollow'> <i></i>人才招聘</a> 
+         
+        <a href="/about/2.html"> <i></i>联系方式</a> 
+         
+        <a href="/about/3.html"> <i></i>商务合作</a> 
+         
+        <a href="/about/4.html"> <i></i>法律声明</a> 
+         
+        <a href="/about/5.html"> <i></i>隐私保护</a> 
+         
+        <a href="/about/32.html"> <i></i>增值电信业务经营许可证</a> 
+         
+        <a href="/about/6.html" rel='nofollow'> <i></i>加盟金凤凰</a> 
+         
+        <a href="/about/26.html"> <i></i>婚姻定制</a> 
+         
+        <a href="/about/27.html"> <i></i>情感求助</a> 
+         
+        <a href="/about/29.html"> <i></i>金凤凰创始人刘金老师</a> 
+         
+      </dd>
+    </dl>
+        <dl>
+      <dt><i></i><a href="javascript:;">线下活动</a></dt>
+      <dd> 
+         
+         
+        <a href="/about/7.html"> <i></i>活动报名</a> 
+         
+        <a href="/about/8.html" rel='nofollow'> <i></i>费用说明</a> 
+         
+        <a href="/about/14.html"> <i></i>注意事项</a> 
+         
+      </dd>
+    </dl>
+        <dl>
+      <dt><i></i><a href="javascript:;">支付方式</a></dt>
+      <dd> 
+         
+         
+        <a href="/about/15.html"> <i></i>网上支付</a> 
+         
+        <a href="/about/16.html"> <i></i>上门收款</a> 
+         
+        <a href="/about/17.html"> <i></i>银行转账</a> 
+         
+        <a href="/about/18.html"> <i></i>公司交款</a> 
+         
+      </dd>
+    </dl>
+        <dl>
+      <dt><i></i><a href="javascript:;">会员说明</a></dt>
+      <dd> 
+         
+         
+        <a href="/about/19.html" class="current"> <i></i>服务条款</a> 
+         
+        <a href="/about/20.html"> <i></i>会员等级</a> 
+         
+        <a href="/about/21.html"> <i></i>会员认证</a> 
+         
+        <a href="/about/22.html"> <i></i>完善资料</a> 
+         
+        <a href="/about/23.html"> <i></i>红娘服务</a> 
+         
+        <a href="/about/24.html"> <i></i>收费标准</a> 
+         
+        <a href="/about/25.html"> <i></i>会员积分</a> 
+         
+        <a href="/about/31.html"> <i></i>公示</a> 
+         
+      </dd>
+    </dl>
+     
+  </div>
+  <!--//oem_about_left End-->
+  
+  <div class="oe_about_right">
+    <h1 class="title"><span>服务条款</span></h1>
+    <div class="oe_about_content"> 
+      本协议由用户(以下称“用户”)与“金凤凰婚介(www.jfh999.com)”的所有权人及营运权人------深圳市深港金凤凰婚姻介绍有限公司(以下简称“金凤凰婚介”)共同缔结，本协议具有合同效力。<br />
+<br />
+一、 协议内容及签署<br />
+<br />
+1.本协议内容包括协议正文及所有金凤凰婚介已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。除另行明确声明外，任何金凤凰婚介提供的服务(以下称为“金凤凰婚介网服务”)均受本协议约束。<br />
+<br />
+本协议的效力范围及于金凤凰婚介提供的一切产品和服务，用户在享受金凤凰婚介任何单项服务时，应当受本协议以及单项服务相关的用户协议的约束。<br />
+<br />
+2.用户应当在使用金凤凰婚介网服务之前认真阅读全部协议内容，对于协议中以加粗字体显示的内容，用户应重点阅读。如用户对协议有任何疑问的，应向金凤凰咨询。但无论用户事实上是否在使用金凤凰婚介网服务之前认真阅读了本协议内容，只要用户使用金凤凰婚介网服务，则本协议即对用户产生约束，届时用户不应以未阅读本协议的内容或者未获得金凤凰婚介对用户问询的解答等理由，主张本协议无效或要求撤销本协议。<br />
+<br />
+3.用户承诺接受并遵守本协议的约定。如果用户不同意本协议的约定，用户应立即停止注册程序或停止使用金凤凰网服务。<br />
+<br />
+4.金凤凰有权根据需要不时地制订、修改本协议及/或各类规则，并以网站公示的方式进行公告，不再单独通知用户。变更后的协议和规则一经在网站公布后，立即自动生效。如用户不同意相关变更，应当立即停止使用金凤凰网服务。用户继续使用金凤凰网服务的，即表示用户接受经修订的协议。<br />
+<br />
+二、用户注册<br />
+<br />
+1.用户的陈述与保证<br />
+<br />
+用户保证，在用户完成注册程序或以其他金凤凰允许的方式实际使用金凤凰网服务时，用户应当是具备完全民事权利能力和完全民事行为能力的自然人、法人或其他组织。若用户不具备前述主体资格，则用户及用户的监护人应承担因此而导致的一切后果，且金凤凰有权注销(永久冻结)用户的金凤凰账户，并向用户及用户的监护人索偿。<br />
+<br />
+2.会员注册条件<br />
+<br />
+(1)申请注册成为金凤凰网站的会员应同时满足下列全部条件：<br />
+<br />
+在注册之日以及此后使用金凤凰交友服务期间必须以恋爱或者婚姻为目的;<br />
+<br />
+在注册之日以及此后使用金凤凰交友服务期间必须是单身状态，包括未婚、离异或是丧偶;<br />
+<br />
+在注册之日必须年满18周岁以上。<br />
+<br />
+(2)为更好的享有金凤凰提供的服务，会员应当按照法律法规要求：<br />
+<br />
+向金凤凰提供本人真实、正确、新及完整的资料;随时更新登记资料，保持其真实性及有效性; 提供真实有效的电子邮箱地址，征友过程中，务必保持征友帐号的性。如金凤凰有合理理由怀疑用户提供的资料错误、不实、过时或不完整的，金凤凰有权向用户发出询问及/或要求改正的通知，并有权直接做出删除相应资料的处理，直至中止、终止对用户提供部分或全部金凤凰网服务。金凤凰对此不承担任何责任，用户将承担因此产生的任何直接或间接支出。<br />
+<br />
+用户应当准确填写并及时更新用户提供的电子邮件地址、联系电话、联系地址、邮政编码等联系方式，以便金凤凰与用户进行有效联系，因通过这些联系方式无法与用户取得联系，导致用户在使用金凤凰网服务过程中产生任何损失或增加费用的，应由用户完全独自承担。<br />
+<br />
+(3)用户在使用金凤凰网服务过程中，所产生的应纳税赋，以及一切硬件、软件、服务及其它方面的费用，均由用户独自承担。<br />
+<br />
+(4)在用户按照注册页面提示填写信息、阅读并同意本协议并完成全部注册程序后或以其他金凤凰允许的方式实际使用金凤凰网服务时即成为金凤凰网用户。<br />
+<br />
+3.账户及账户管理<br />
+<br />
+在用户签署本协议，完成用户注册程序或以其他金凤凰允许的方式实际使用金凤凰网服务时，金凤凰会向用户提供编号的金凤凰账号(以下亦称“账号”)。用户可以对账号设置用户名、密码，通过该用户名、密码登陆金凤凰网(www.jfh999.com)，您可随时改变您的用户名及密码，也可以结束旧的账户重开一个新账户。<br />
+<br />
+用户设置的用户名不得违反法律法规的规定、不得侵犯或涉嫌侵犯他人合法权益，否则引起的一切后果由用户独自承担，同时金凤凰保留取消用户资格的权利。<br />
+<br />
+用户应对账户(包括用户名、密码)的安全以及对通过用户的账户所实施的行为负责。如果发现任何人不当使用用户的账户或有任何其他可能危及用户的账户安全的情形时，用户应当立即以有效方式通知金凤凰，要求金凤凰暂停相关服务。用户理解金凤凰对用户的请求采取行动需要合理时间，金凤凰对在采取行动前已经产生的后果(包括但不限于用户的任何损失)不承担任何责任。<br />
+<br />
+用户在丢失用户名或遗忘密码后，须遵照金凤凰的申诉途径及时申诉请求找回账户或密码。用户应不断提供能增加账户安全性的个人密码保护资料。用户可以凭初始注册资料及个人密码保护资料填写申诉单向金凤凰申请找回账户，金凤凰的密码找回机制仅负责识别申诉单上所填资料与系统记录资料的正确性，而无法识别申诉人是否系真正帐户使用权人。对用户因被他人冒名申诉而致的任何损失，金凤凰不承担任何责任，用户知晓金凤凰账户及密码保管责任在于用户，金凤凰并不承诺金凤凰账户丢失或遗忘密码后用户一定能通过申诉找回账户。<br />
+<br />
+除非有法律规定或司法裁定，且征得金凤凰的同意，否则，用户不得以任何方式转让、赠与或继承账户(与账户相关的财产权益除外)。如果金凤凰以合法手续获知到使用者并非账户初始注册人，金凤凰有权在查证属实后回收该账户而无需向该账户使用人承担法律责任，由此带来的包括并不限于用户资料等清空等损失由用户自行承担。金凤凰禁止用户私下有偿或无偿转让账户及其中的虚拟物品， 用户应当自行承担因违反此要求而遭致的任何损失，同时金凤凰保留追究上述行为人法律责任的权利。<br />
+<br />
+三、金凤凰网服务<br />
+<br />
+1.金凤凰网通过互联网为用户提供网络服务，包括在线及无线的相关业务。<br />
+<br />
+2.金凤凰网在提供网络服务时，对部分网络服务收取一定的费用，在此情况下，会在相关页面上做明确的提示。如用户拒绝支付该等费用，则不能使用相关的网络服务。付费业务将在本注册条款的基础上另行规定服务条款，以规范付费业务的内容和双方的权利义务，用户应认真阅读，如用户购买付费业务，则视为接受付费业务的服务条款。<br />
+<br />
+无论是付费业务还是金凤凰网免费提供的业务等，上述服务均有有效期，有效期结束后服务将自动终止，且有效期不可中断或延期。除非本注册条款另有规定，所有付费业务均不退费。<br />
+<br />
+3.对于利用金凤凰网服务进行非法活动，或其言行(无论线上或者线下的)背离真诚交友目的，或违反用户使用规范的，金凤凰将严肃处理，包括将其列入黑名单、将其被投诉的情形公之于众、删除用户帐号、移送相关司法机关查办等处罚措施。<br />
+<br />
+4.金凤凰有权向其用户发送广告信，或为组织线下活动等目的，向其用户发送电子邮件、短信或电话通知。<br />
+<br />
+5.为提高金凤凰用户交友的成功率和效率的目的，金凤凰有权将金凤凰网用户的交友信息在金凤凰的合作网站上进行展示或其他类似行为。<br />
+<br />
+6.用户在金凤凰网上传或张贴的内容(包括照片、文字、交友成功用户的成功故事等)，视为用户授予金凤凰免许可费、永久有效、不可撤销、非及可完全再授权之权利，金凤凰网有权在全球为展示、传播及推广前述张贴内容的目的，对上述内容进行复制、修改、改写、改编、发行、翻译、创造衍生性著作、出版等。或将前述内容(部分或全部)加以散布、展示，或放入利用任何现在已知和未来开发出之形式、媒体和科技之其他著作物当中。该使用权持续至用户书面通知金凤凰不得继续使用，且金凤凰实际收到该等书面通知时止。<br />
+<br />
+四、用户使用规范<br />
+<br />
+用户在使用金凤凰网服务期间，应遵守《中华人民共和国合同法》、《中华人民共和国著作权法》、《全国人民代表大会常务委员会关于维护互联网安全的决定》、《中华人民共和国保守国家秘密法》、《中华人民共和国电信条例》、《中华人民共和国计算机信息系统安全保护条例》、《中华人民共和国计算机信息网络国际联网管理暂行规定》及其实施办法、《计算机信息系统国际联网保密管理规定》、《互联网信息服务管理办法》、《计算机信息网络国际联网安全保护管理办法》、《互联网电子公告服务管理规定》等相关中国法律法规的规定及本协议的用户在此前提下可依本协议使用金凤凰网服务。<br />
+<br />
+用户无权实施包括但不限于下列行为：<br />
+<br />
+1.用户在使用金凤凰网服务时必须符合中国有关法规以及其他有关国家和地区的法律规定以及国际法的有关规定。用户不得利用金凤凰网制作、发表、复制、传送、传播、储存等以下信息：<br />
+<br />
+(1)违反宪法确定的基本原则的;<br />
+<br />
+(2)危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的;<br />
+<br />
+(3)损害国家荣<br /> 
+    </div>
+  </div>
+  <!--//oem_about_right End-->
+  
+  <div class="clear"></div>
+  <div class="oe_bottom_line"></div>
+</div>
+<div class="oe_footbar">
+	<div class="oe_container clearfix">
+		<div class="left fl">
+			<div class="b_nav">
+				 
+         
+        <a href="/about/1.html" rel='nofollow'>关于我们</a>
+         
+        <a href="/about/30.html" rel='nofollow'>人才招聘</a>
+         
+        <a href="/about/2.html">联系方式</a>
+        			</div>
+			<div class="msg">
+				<p>
+	<span>主办单位：深圳市鑫东方文化科技有限公司 &amp;&nbsp;</span>深圳市深港金凤凰婚姻介绍有限公司 &amp; 深圳市金凤凰婚姻信息咨询有限公司
+</p>
+<p>
+	<span style="background-color:transparent;color:#808080;font-family:Microsoft YaHei,simsun;font-size:12px;font-style:normal;font-weight:400;line-height:30px;text-decoration:none;"> </span><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备11069964号</a> 
+</p>
+			</div>
+		</div>
+		<div class="right ft">
+			<span class="text">
+				关注微信<br>
+				征婚快人一步
+			</span>
+			<img src="/data/attachment/upload/201809/20/4bb1a39856814d16.jpg">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/tpl/templets/v5/js/popwin.js"></script>
+<div id="moquu_wxin" class="moquu_wxin">
+  <a href="javascript:;" rel='nofollow'><img class="oe_moq_wei" src="/tpl/templets/v5/images/wei.png" />
+  <div class="moquu_wxinh">
+    <dl>
+      <dt><img src="/data/attachment/upload/201809/20/4bb1a39856814d16.jpg" width="200px" /></dt>
+      <dd>
+        <p><img src="/tpl/templets/v5/images/wei_ico.jpg" />微信</p>
+        <span>扫描二维码访问微信服务</span> </dd>
+    </dl>
+  </div>
+  </a>
+</div>
+
+<div id="moquu_wshare" class="moquu_wshare">
+  <a href="javascript:;"  rel='nofollow'><img class="oe_moq_wei" src="/tpl/templets/v5/images/wei.png" />
+  <div class="moquu_wshareh">
+    <dl>
+      <dt><img src="/data/attachment/upload/201809/20/f8c10e25f10459d4.jpg" width="200px" /></dt>
+      <dd>
+        <p><img src="/tpl/templets/v5/images/w_mobile.png" /> 手机端</p>
+        <span>扫描二维码访问手机端</span>
+	  </dd>
+    </dl>
+  </div>
+  </a>
+</div>
+<a id="moquu_top" href="javascript:;"></a> 
+
+
+
+
+
+
+<style>
+#newBridge .icon-right-center {
+    top: 33% !important;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+    jQuery(".drop").slide({ type:"menu", titCell:".down", targetCell:".sub",effect:"slideDown",delayTime:300,triggerTime:0,defaultPlay:false,returnDefault:true});
+    $('.addcurrent').hover(
+      function(){
+       $(this).addClass('current')
+      },
+      function(){
+       $(this).removeClass('current')
+      }
+    );
+});
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ff6a5cc50374928b1ca78bfafef904da";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    ;(function (W, D) {
+        W.ec_corpid = '321438';
+        W.ec_cskey = 'TkAjEiGEZgOqYdllCA';
+        W.ec_scheme = '0';
+        var s = D.createElement('script');
+        s.charset = 'utf-8';
+        s.src = '//1.staticec.com/kf/sdk/js/ec_cs.js';
+        D.getElementsByTagName('head')[0].appendChild(s);
+    })(window, document);
+</script>
+<script type="text/javascript" src="//js.users.51.la/19982503.js"></script>
+</body></html>

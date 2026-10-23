@@ -1,0 +1,780 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>会籍介绍 - 南沙游艇会官网</title>
+<meta name="keywords" content="会籍介绍-南沙游艇会官网">
+<meta name="description" content="会籍介绍-南沙游艇会官网">
+    <link rel="shortcut icon" href="/logoicon.ico" type="image/x-icon">
+     <link rel="stylesheet" type="text/css" href="/templates/main/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/templates/main/css/animate.css">
+	<link rel="stylesheet" href="/templates/main/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/templates/main/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/templates/main/css/components.css">
+    <link rel="stylesheet" type="text/css" href="/templates/main/css/about.css">
+    <link type="text/css" rel="stylesheet" href="/css/validate.css">
+<link type="text/css" rel="stylesheet" href="/css/pagination.css">
+<link type="text/css" rel="stylesheet" href="/scripts/artdialog/ui-dialog.css">
+
+<script type="text/javascript" src="/scripts/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery/jquery.form.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="/scripts/artdialog/dialog-plus-min.js"></script>
+<script type="text/javascript" src="/templates/main/js/common2.js"></script>
+    <link type="text/css" rel="stylesheet" href="/templates/main/skin/jedate.css">
+<script type="text/javascript">
+$(function(){
+	//初始化发表评论表单
+	AjaxInitForm('#feedback_form', '#btnSubmit', 1);
+});
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+<!--导航-->
+<script type="text/javascript">
+    $.ajax({
+        type: "get",//接口规定，只能用get
+        async: true,//异步
+        url: "https://apis.map.qq.com/ws/location/v1/ip",//接口地址
+        data: { "key": "V7ABZ-XR2WF-EYPJU-NS6MP-GZFW3-GDBP4", "output": "jsonp" },//参数格式必须用到output传参为jsonp，否则会报跨域问题
+        dataType: "jsonp",//跨域，必须用到jsonp
+        success: function(result){
+            $("#lat").text(result.result.location.lat);
+            $("#nl").text(result.result.location.lng);
+        },
+        error: function (XMLHttpRequest,textStatus,errorThrown){
+           
+        }
+    });
+</script>
+<div class="yh-navbar yh-navbar-home yh-navbar-fixed line yh-bg-ligh yh-dark wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+    <div class="container">
+        <div class="yh-container">
+            <a href="/index.html" class="yh-brand">
+                <img src="/templates/main/images/logo.png" alt="" class="logo hidden" width="190" height="73">
+                <img src="/templates/main/images/logo_02.png" alt="" class="logo-02">
+            </a>
+            <div class="yh-navbar-toggler">
+                <span class="yh-navbar-toggler-icon "></span>
+                <span class="yh-navbar-toggler-icon "></span>
+                <span class="yh-navbar-toggler-icon "></span>
+            </div>
+            <div class="yh-navbar-language">
+                <a href="/enindex.html" target="_blank"><img src="/templates/main/images/icon_en.png" alt=""></a>
+            </div>
+            <div class="yh-navbar-collapse">
+                <div class="yh-navbar-other d-none d-lg-block">
+                    <span style="display:block;float:right;padding-top:5px"><a href="/enindex.html" target="_blank"><img src="/templates/main/images/icon_en.png" alt=""> EN</a></span> <span style="display:block;float:right;padding-right:5px"><iframe allowtransparency="true" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&amp;z=3&amp;t=0&amp;v=0&amp;d=1&amp;bd=0&amp;k=&amp;f=&amp;q=1&amp;e=1&amp;a=1&amp;c=59287&amp;w=110&amp;h=36&amp;align=left" width="110" height="41" frameborder="0"></iframe></span><span class="weather" style="display: block; float: right;padding-top:7px">纬度: <span id="lat2">22°46'51"</span> N 经度：<span id="nl2">113°35'50"</span> E &nbsp;&nbsp;天气：</span> <img src="/templates/main/images/logo2.png" class="j-logo1" alt="" style="float: right"> <img class="j-logo2" src="/templates/main/images/logo3.png" alt="" style=" float: right">
+                </div>
+                <ul class="yh-navbar-nav in">
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/about/about.html">关于我们</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">关于我们</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                             
+<li><a href="/about/54.html">今日南沙</a></li>
+<li><a href="/about/125.html">南沙游艇会</a></li>
+<li><a href="/about/126.html">会长寄语</a></li>
+<li><a href="/about/131.html">联系我们</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202105/09/202105091428114438.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/membership/membership.html">会籍服务</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">会籍服务</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                            
+<li><a href="/membership/128.html">会籍介绍</a></li>
+<li><a href="/membership/132.html">会籍申请</a></li>
+<li><a href="/membership/129.html">荣誉会员</a></li>
+<li><a href="/membership/130.html">联盟游艇会</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070925113923.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/club/club.html">会所服务</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">会所服务</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                             
+<li><a href="/club/133.html">特色餐饮</a></li>
+<li><a href="/club/134.html">婚庆服务</a></li>
+<li><a href="/club/135.html">宴会会议</a></li>
+<li><a href="/club/136.html">商铺租赁</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070926534421.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/hotel/hotel.html">石奥客栈</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">石奥客栈</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                            
+<li><a href="/hotel/137.html">客栈介绍</a></li>
+<li><a href="/hotel/138.html">客栈设施</a></li>
+<li><a href="/hotel/139.html">客房预订</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070928072067.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/wharf/wharf.html">码头服务</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">码头服务</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                            
+<li><a href="/wharf/140.html">水上泊位</a></li>
+<li><a href="/wharf/141.html">岸上泊位</a></li>
+<li><a href="/wharf/142.html">维修服务</a></li>
+<li><a href="/wharf/143.html">清洁维护</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202105/09/202105091431446769.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/sail/sail.html">航培中心</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">航培中心</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                              
+<li><a href="/sail/144.html">游艇驾照</a></li>
+<li><a href="/sail/145.html">成人帆船</a></li>
+<li><a href="/sail/146.html">儿童帆船</a></li>
+<li><a href="/sail/147.html">课程申请</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202105/17/202105172041534837.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/lease/lease.html">船只租赁</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">船只租赁</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                             
+<li><a href="/lease/148.html">游艇租赁</a></li>
+<li><a href="/lease/149.html">帆船租赁</a></li>
+<li><a href="/lease/150.html">游玩路线</a></li>
+<li><a href="/lease/151.html">航海体验</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070929325957.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/match/191.html">赛事与活动</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">赛事与活动</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                            <li><a href="/match/191.html">简介</a></li>
+                                            <li><a href="/review/80.html">国际帆船赛</a></li>
+                                            <li><a href="/review/81.html">游艇博览会</a></li>
+                                            <li><a href="/match/153.html">合作伙伴</a></li>
+                                            <li><a href="/match/192.html">联系我们</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070930590668.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/activity/84.html">海钓活动</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">海钓活动</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                           <li><a href="/activity/84.html">活动安排</a></li>
+                                            <li><a href="/video/29.html">精彩视频</a></li>
+                                            <li><a href="/review/82.html">活动回顾</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070931492572.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="yh-nav-item">
+                        <a class="yh-nav-link" href="/news/3.html">新闻资讯</a>
+                        <div class="yh-dropdown-menu xiala hidden">
+                            <div class="container">
+                                <div class="sub-nav-item">
+                                    <div class="sub-nav-cont">
+                                        <div class="d-none d-lg-block">
+                                            <div class="sub-nav-title">新闻资讯</div>
+                                        </div>
+                                        <ul class="sub-nav-list">
+                                           <li><a href="/video/30.html">精彩视频</a></li>
+                                            <li><a href="/review/83.html">活动剪影</a></li>
+                                            <li><a href="/news/3.html">最新资讯</a></li>
+                                            <li><a href="/activity/85.html">活动安排</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-nav-img d-none d-lg-block">
+                                        <img src="/upload/202106/07/202106070932580040.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mask mask-mobile hidden"></div>
+</div>
+<div class="mask mask-pc hidden"></div>
+<!--导航结束-->
+    <div class="mask mask-pc hidden"></div>
+     <div class="banner-pc-sub d-none d-lg-block wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+        <img src="/upload/202106/07/202106071030159104.jpg" alt="" width="1920" height="600">
+     </div>
+    <div class="banner-m-sub d-lg-none wow fadeIn animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"><img src="/upload/202106/07/202106071030327089.jpg" alt=""></div>
+<div class="container">
+        <div class="swiper-container sub-nav wow fadeIn swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+            <div class="swiper-wrapper" id="swiper-wrapper-a2be91e9ae69cc84" aria-live="polite">
+                
+                     <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 232.5px;">
+                <a href="/membership/128.html" class="cur">会籍介绍</a>
+              </div>
+                    
+                       <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 232.5px;">
+                <a href="/membership/132.html">会籍申请</a>
+              </div>
+                    
+                       <div class="swiper-slide" role="group" aria-label="3 / 4" style="width: 232.5px;">
+                <a href="/membership/129.html">荣誉会员</a>
+              </div>
+                    
+                       <div class="swiper-slide" role="group" aria-label="4 / 4" style="width: 232.5px;">
+                <a href="/membership/130.html">联盟游艇会</a>
+              </div>
+                    
+           
+            </div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+        <div class="sub-container wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+            <div class="sub-title wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="sub-icon">
+                    <img src="/templates/main/images/icon_about.png" alt="" width="60">
+                </div>
+                <div class="sub-title-body">
+                    <p>会籍介绍</p>
+                    <span>五星级的设施与一流的服务</span>
+                </div>
+            </div>
+             <div class="sub-body">
+                 
+                       <div class="about-info about-info-bg-null">
+	<div class="row">
+		<div class="col-12 col-lg-6">
+			<div class="about-info-des">
+				<p class="wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+					无论您是否具有航海经验，只要您热爱大海、向往海洋、我们都热切地期望您的加入。拥有南沙游艇会会籍，决对是您的身份象征，是您掌控命运永远不妥协的印证。这里给爱海洋的您一个认识志同道合的朋友的大好机会，一个踏上热爱航海的终生旅程。
+				</p>
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<b class="text-yellow min">垂询热线：+862039078888</b> 
+				</p>
+				<p class="wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<!-- Swiper -->
+				</p>
+				<div class="swiper-container j-itable">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<table class="itable wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+								<tbody>
+									<tr class="itr-gray">
+										<th>
+											会籍类型
+										</th>
+										<th>
+											个人
+										</th>
+										<th>
+											公司(单提名)
+										</th>
+										<th>
+											泊位租赁申请权
+										</th>
+									</tr>
+									<tr>
+										<td>
+											海事会籍
+										</td>
+										<td style="white-space:nowrap;">
+											78万元
+										</td>
+										<td>
+											86万元
+										</td>
+										<td>
+											有
+										</td>
+									</tr>
+									<tr class="itr-gray">
+										<td>
+											普通会籍
+										</td>
+										<td>
+											20万元
+										</td>
+										<td>
+											24万元
+										</td>
+										<td>
+											无
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+<!-- Add Scroll Bar -->
+					<div class="swiper-scrollbar">
+					</div>
+				</div>
+				<p>
+					<br>
+				</p>
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<b class="text-yellow">备注：</b> 
+				</p>
+				<p class="p-sub wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					◆ 会籍可在入会两年后转让，转让费为转让同类型会籍入会费的10%。<br>
+◆ 公司会籍可更换提名人，费用为更换时同类型会籍入会费的5%。<br>
+◆ 海事会籍管理费1500元/季度，普通会籍管理费：1200元/季度。<br>
+◆ 会籍有效期至2040年1月1日。
+				</p>
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<b class="text-yellow">会员权利</b> 
+				</p>
+				<p class="p-sub wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					◆ 以会员价租赁南沙游艇会公司游艇。<br>
+◆ 免费使用会所设施(如健身房、游泳池、桑拿房等设施)。<br>
+◆ 参与南沙游艇会举办的各项专题会员活动。<br>
+◆ 保证优先参与游艇展览及论坛等活动。<br>
+◆ 会所所有的餐饮场所免收15%服务费，包括宴会会议。<br>
+◆ 会员优惠价参与游艇会所举办的航海及游艇帆船培训课程。<br>
+◆ 南沙大酒店、南沙高尔夫球会等联盟商户特别折扣优惠。<br>
+◆ 英国、新加坡、韩国、泰国、迪拜、土耳其等地知名游艇会享有会员权益。
+				</p>
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<b class="text-yellow">海事会籍专享</b> 
+				</p>
+				<p class="p-sub wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					◆ 海事会籍拥有一个泊位租赁申请权。<br>
+◆ 水上泊位及岸上干仓游艇停泊五折优惠。<br>
+◆ 游艇维修服务区各项服务费用低至五折优惠。
+				</p>
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<span class="about-info-img about-animation animation-img about-info-img-null" style="margin-top:10px;"> <img src="/upload/202106/07/202106071000171235.jpg" alt="" width="700" height="400"> </span> 
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-lg-6">
+			<div class="about-info-img about-info-img-null about-animation animation-img wow fadeInUp d-none d-lg-block" data-wow-delay=".3s" style="margin-top: 30px; visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+				<img src="/upload/202106/07/202106071000337668.jpg" alt="" width="700" height="488"> 
+			</div>
+			<div class="about-info-des">
+				<p class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<b class="text-yellow">短期会籍</b> 
+				</p>
+				<p class="p-sub wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					南沙游艇会现盛情推出短期会籍，面向包括在广州工作、生活期间需要体验亲水生活，融入高端社交圈，拥有商务会客厅等需求的个人及其家人发售。我们诚挚邀请您到南沙游艇会参观，并与我们进一步沟通您的娱乐和生活方式需求。
+				</p>
+				<p class="p-sub wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					会籍资格是南沙游艇会至高礼遇身份之象征，是为社会精英人士量身打造的高端社交平台，享有卓越的会员权益和增值服务。囊括了优质的会员礼遇，非凡的会所环境，尊贵的服务及元化的社交活动，南沙游艇会会籍是您的必然选择，尊贵生活，从现在开始！
+				</p>
+				<p class="wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+					<!-- Swiper -->
+				</p>
+				<div class="swiper-container j-itable">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<table class="itable wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+								<tbody>
+									<tr class="itr-gray">
+										<th colspan="2">
+											会籍种类及权益
+										</th>
+									</tr>
+									<tr>
+										<td style="white-space:nowrap;">
+											<span class="text-blue">会籍种类/价格</span> 
+										</td>
+										<td style="width:70%;">
+											<span class="text-blue">会籍权益</span> 
+										</td>
+									</tr>
+									<tr class="itr-gray">
+										<td rowspan="7">
+											1年期：23000元<br>
+或者<br>
+3年期48000元
+										</td>
+										<td>
+											设主卡1张，附属卡1张
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-left">
+												会员价享受南沙游艇会的产品和服务，包括船只租赁，航
+                                                            海培训课程等
+											</p>
+										</td>
+									</tr>
+									<tr class="itr-gray">
+										<td>
+											<p class="text-left">
+												优先受邀参加南沙游艇会主办的所有活动
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-left">
+												专享会所健身房、游泳池、桑拿房、按摩房、儿童房等家
+                                                            庭服务区设施
+											</p>
+										</td>
+									</tr>
+									<tr class="itr-gray">
+										<td>
+											<p class="text-left">
+												会所餐饮消费免收15%服务费，包括宴会会议
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-left">
+												享有免保证金签单挂账权益
+											</p>
+										</td>
+									</tr>
+									<tr class="itr-gray">
+										<td>
+											<p class="text-left">
+												会籍届满后对南沙游艇会对外销售的会籍在等同条件下拥
+                                                            有优先购买权。
+											</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+<!-- Add Scroll Bar -->
+					<div class="swiper-scrollbar">
+					</div>
+				</div>
+				<p>
+					<br>
+				</p>
+			</div>
+			<div class="about-info-img about-info-img-null about-animation animation-img wow fadeInUp d-lg-none animated" data-wow-delay=".3s" style="margin-top: 30px; visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+				<img src="/upload/202106/07/202106071000590978.jpg" alt=""> 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="about-bottom">
+	<img src="/templates/main/images/about_bottom2.jpg" alt="" width="1600" height="163"> 
+</div>
+                  <input type="text" name="txtriqi" class="feedback-input input-date" placeholder="出生日期" readonly="" id="date01" style="display:none">
+                    
+            
+             </div>
+        </div>
+     
+    </div>
+<div class="d-none d-lg-block">
+    <div class="footer-container  wow fadeIn" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+        <div class="container">
+            <div class="footer">
+                <div class="f-contact">
+                    <div class="f-logo"><a href="/index.html"><img src="/templates/main/images/logo.png" alt="" width="190" height="73"></a></div>
+                    <div class="f-contact-title">联系我们</div>
+                    <div class="f-contact-cont">
+                        <p><img src="/templates/main/images/icon_f_phone.png" alt=""> +86 20 3907 8888</p>
+                        <p><img src="/templates/main/images/icon_f_print.png" alt=""> +86 20 3903 3123</p>
+                        <p><img src="/templates/main/images/icon_f_local.png" alt=""> 广州市南沙区港前大道南5号</p>
+                    </div>
+                </div>
+                <div class="f-quicklink">
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/membership/membership.html">会籍服务</a></dt>
+                            
+<dd><a href="/membership/128.html">会籍介绍</a></dd>
+<dd><a href="/membership/132.html">会籍申请</a></dd>
+<dd><a href="/membership/129.html">荣誉会员</a></dd>
+<dd><a href="/membership/130.html">联盟游艇会</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/club/club.html">会所服务</a></dt>
+                            
+<dd><a href="/club/133.html">特色餐饮</a></dd>
+<dd><a href="/club/134.html">婚庆服务</a></dd>
+<dd><a href="/club/135.html">宴会会议</a></dd>
+<dd><a href="/club/136.html">商铺租赁</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/hotel/hotel.html">石奥客栈</a></dt>
+                            
+<dd><a href="/hotel/137.html">客栈介绍</a></dd>
+<dd><a href="/hotel/138.html">客栈设施</a></dd>
+<dd><a href="/hotel/139.html">客房预订</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/wharf/wharf.html">码头服务</a></dt>
+                            
+<dd><a href="/wharf/140.html">水上泊位</a></dd>
+<dd><a href="/wharf/141.html">岸上泊位</a></dd>
+<dd><a href="/wharf/142.html">维修服务</a></dd>
+<dd><a href="/wharf/143.html">清洁维护</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/sail/sail.html">航培中心</a></dt>
+                            
+<dd><a href="/sail/144.html">游艇驾照</a></dd>
+<dd><a href="/sail/145.html">成人帆船</a></dd>
+<dd><a href="/sail/146.html">儿童帆船</a></dd>
+<dd><a href="/sail/147.html">课程申请</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/lease/lease.html">船只租赁</a></dt>
+                            
+<dd><a href="/lease/148.html">游艇租赁</a></dd>
+<dd><a href="/lease/149.html">帆船租赁</a></dd>
+<dd><a href="/lease/150.html">游玩路线</a></dd>
+<dd><a href="/lease/151.html">航海体验</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/match/191.html">赛事与活动</a></dt>
+                                            <dd><a href="/review/80.html">国际帆船赛</a></dd>
+                                            <dd><a href="/review/81.html">游艇博览会</a></dd>
+                            <dd><a href="/match/153.html">合作伙伴</a></dd>
+                                            <dd><a href="/match/192.html">联系我们</a></dd>
+                        </dl>
+                    </div>
+                    <div class="f-quicklink-item">
+                        <dl>
+                            <dt><a href="/activity/84.html">海钓活动</a></dt>
+                            <dd><a href="/activity/84.html">活动安排</a></dd>
+                            <dd><a href="/video/29.html">精彩视频</a></dd>
+                            <dd><a href="/review/82.html">活动回顾</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="f-code">
+                    <img src="/templates/main/images/code.png" alt="" width="110" height="110">
+                    <p>
+                        扫上方二维码<br>
+                        关注”南沙游艇会”微信公众号<br>
+                        即可获得更多精彩资讯
+                    </p>
+                        
+                </div>
+            </div>
+            <div class="footer2">
+                <p class="link">
+                    <a href="/about/about.html">关于我们</a>  |  <a href="/news/3.html">新闻资讯</a>  |  <a href="/about/131.html">联系我们</a>  |  <a href="/Disclaimer/164.html">免责声明</a>|  <a href="/map/164.html">网站地图</a> |  <a href="/links/164.html">友情链接</a> <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279924435'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1279924435%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1279924435"></span><script src="https://v1.cnzz.com/z_stat.php?id=1279924435&amp;show=pic" type="text/javascript"></script>
+                </p> 
+                <p class="copyright">Copyright © 2022 广州南沙游艇会管理有限公司 版权所有 All Rrghts Reserved. <a href="https://beian.miit.gov.cn">粤ICP备14017254号</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-lg-none">
+    <div class="m-footer-container">
+        <div class="container">
+            <div class="m-footer-link">
+                <p><a href="/membership/membership.html">会籍服务</a></p>
+                <p><a href="/club/club.html">会所服务</a></p>
+                <p><a href="/hotel/hotel.html">石奥客栈</a></p>
+                <p><a href="/wharf/wharf.html">码头服务</a></p>
+                <p><a href="/sail/sail.html">航培中心</a></p>
+                <p><a href="/lease/lease.html">船只租赁</a></p>
+                <p><a href="/match/191.html">赛事与活动</a></p>
+                <p><a href="/news/3.html">新闻资讯</a></p>
+            </div>
+            <div class="m-f-logo">
+                <img src="/templates/main/images/logo.png" alt="">
+            </div>
+            <div class="m-f-code">
+                <img src="/templates/main/images/code.png" alt="">
+                <p>
+                    扫上方二维码<br>
+                    关注”南沙游艇会”微信公众号<br>
+                    即可获得更多精彩资讯
+                </p>
+            </div>
+            <div class="footer2">
+                <p class="link">
+                   <a href="/Disclaimer/164.html">免责声明</a>  |  <a href="/map/164.html">网站地图</a>  |  <a href="/links/164.html">友情链接</a>
+                </p> 
+                <p class="copyright">Copyright © 2022 广州南沙游艇会管理有限公司 版权所有 All Rrghts Reserved. <a href="https://beian.miit.gov.cn">粤ICP备14017254号</a></p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!--客服服务-->
+<ul class="kf wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+    <li class="d-none d-lg-block">
+        <a href="/index.html"><div class="kf-item">
+            <span class="icon-service icon-service-06"></span>
+        </div></a>
+    </li>
+    <li>
+        <div class="kf-item d-none d-lg-block">
+            <span class="icon-service icon-service-01"></span>
+            <div class="service-pop">
+               <div class="service-phone">
+                +86 20 3907 8888
+               </div>
+            </div>
+        </div>
+    </li>
+    <li class="d-none d-lg-block">
+        <div class="kf-item">
+            <span class="icon-service icon-service-02"></span>
+            <div class="service-pop">
+              <div class="service-pop-code">
+                <img src="/templates/main/images/code.png" alt="" width="110" height="110">
+                <p>微信公众号</p>
+              </div>
+            </div>
+        </div>
+    </li>
+    <li class="d-none d-lg-block">
+        <div class="kf-item j-goTop">
+            <span class="icon-service icon-service-03"></span>
+        </div>
+    </li>
+</ul>
+<!--客服服务结束-->
+
+
+<script type="text/javascript" src="/templates/main/js/wow.min.js"></script>
+<script src="/templates/main/js/swiper.min.js"></script>
+<script src="/templates/main/js/common.js"></script>
+
+    <script src="/templates/main/js/components.js"></script>
+    <script type="text/javascript" src="/templates/main/src/jedate.js"></script>
+    <script>
+        jeDate("#date01",{
+            theme:{bgcolor:"#002063",pnColor: "#ccc"},
+            format: "YYYY/MM/DD"
+         });
+
+      </script>
+<!--/Footer-->
+
+</body></html>

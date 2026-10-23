@@ -1,0 +1,352 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    
+    <script charset="utf-8" src="https://hmcdn.baidu.com/static/tongji/plugins/UrlChangeTracker.js"></script><script src="https://hm.baidu.com/hm.js?c368b8fe55b947e24b94c99f1bf8463b"></script><script src="/libs/vue/vue.min.js"></script>
+    
+    <script src="/libs/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="/libs/swiper/swiper.min.css">
+    <script src="/libs/vue-awesome-swiper/vue-awesome-swiper.js"></script>
+    <script>
+        Vue.use(window.VueAwesomeSwiper)
+    </script>
+    
+    
+    <script src="../../../common/utils/baiduStatistics.js"></script>
+    <script src="../../../common/utils/time.js"></script>
+    <script src="../../../common/utils/global.js"></script>
+    
+    <script src="../../../common/fetch/promise.js"></script>
+    <script src="../../../common/fetch/request.js"></script>
+    <script src="../../../common/fetch/api.js"></script>
+    
+    <script src="../../../components/pc/header/header.js"></script>
+    <script src="../../../components/pc/footer/footer.js"></script>
+    <script src="../../../components/pc/right-tools/right-tools.js"></script>
+    <script src="../../../common/components/message.js"></script>
+    <script src="../../../components/pc/vip-dialog/vip-dialog.js"></script>
+    
+    <link rel="shortcut icon" href="../../../static/images/favicon.ico">
+    <link rel="stylesheet" href="../../../static/style/common/reset.css">
+    <link rel="stylesheet" href="../../../static/style/common/global.css">
+    <link rel="stylesheet" href="../../../static/style/pc/header.css">
+    <link rel="stylesheet" href="../../../static/style/pc/footer.css">
+    <link rel="stylesheet" href="../../../static/style/common/message.css">
+    <link rel="stylesheet" href="../../../static/style/pc/vip-dialog.css">
+    <link rel="stylesheet" href="../../../static/style/pc/activity.css">
+    <title>活动中心 创合汇新商学</title>
+</head>
+
+<body>
+    <div id="app" class="pc"><div class="g-message info" style="top: 20px; z-index: 2000;"><i class="g-message__icon"></i><p class="g-message__content">这是一条消息</p></div> <div class="right-tools"><a class="connect-phone flexColumnCenter"><i class="icon"></i><p>400热线</p><div class="hover-phone">400-6886-238<i class="triangle"></i></div></a><a class="connect-online zhiCustomBtn"><i class="icon"></i><p>在线咨询</p></a><a class="to-top" style="display: none;"><i class="icon"></i><p>回到顶部</p></a></div> <nav class="g-header"><div class="wrapper g-width"><h1 class="logo float-left"><a href="/" title="官网首页"><img src="/static/images/pc/logo20230307.jpg" width="451" height="90"></a></h1><div class="lf-head "><a href="/" title="首页" class="item mk">首页</a><span class="item all-lesson"><a title="商学课程" class="mk">商学课程</a><div class="dropdown all-lesson-dorp" style="width: 560px;"><ul style="padding-left: 10px; width: 145px;"><li><a style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 20px;">特训营</a></li><li><a style="text-align: left;">科创家资本实战营</a></li><li><a style="text-align: left;">专精特新特训营 </a></li></ul><ul style="padding-left: 10px; width: 200px;"><li><a target="_blank" href="https://www.chuanghehui.com/custom/GGXZ" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 10px;">高管训战项目</a></li><li><a style="text-align: left;">创新增长高管训战项目</a></li><li><a style="text-align: left;">战略解码训战项目</a></li><li><a style="text-align: left;">营销增长与销售流程训战项目</a></li><li><a style="text-align: left;">研发创新管理（IPD）训战项目</a></li><li><a style="text-align: left;">数字化与运营管理训战项目</a></li><li><a style="text-align: left;">绩效管理与激励机制训战项目</a></li><li><a style="text-align: left;">干部体系训战项目</a></li></ul><ul style="padding-left: 10px; width: 170px;"><li><a title="人文领导力项目" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: left; padding-left: 10px;">人文领导力项目</a></li><li><a style="text-align: left;">哲学与东方领导力</a></li><li><a style="text-align: left;">领导智慧私塾班</a></li><li><a style="text-align: left;">易经传承私塾班</a></li></ul></div></span><span class="item all-lesson"><a href="https://www.chhconsulting.cn/index/company/index.html" title="定制项目" class="mk">定制项目</a><div class="dropdown all-lesson-dorp" style="width: 200px;"><ul style="padding-left: 10px; width: 170px;"><li><a title="定制项目" style="font-size: 17px; font-weight: 600; color: rgb(173, 124, 88); text-align: center;">定制项目</a></li><li><a>实战EMBA人才培养项目</a></li><li><a>训战模式人才培养项目</a></li><li><a>创新创业人才培养项目</a></li><li><a href="https://www.chhconsulting.cn/index/company/index.html" style="text-decoration: underline;">进入定制项目&gt;&gt;&gt;</a></li></ul></div></span><span class="item all-lesson"><a href="https://www.chhconsulting.cn/index/company/index.html" title="咨询辅导" class="mk">咨询辅导</a><div class="dropdown all-lesson-dorp" style="width: 200px;"><ul><li><a style="color: rgb(173, 124, 88);">咨询服务</a></li><li><a style="color: rgb(173, 124, 88);">服务案例</a></li><li><a href="https://www.chhconsulting.cn/" style="text-decoration: underline;">进入咨询中心&gt;&gt;&gt;</a></li></ul></div></span><span class="item activity-center"><a href="activity" class="mk active">活动</a><!----></span><span class="item club"><a href="teacher" title="师资团队" class="mk">师资团队</a><ul class="dropdown club-dorp"><li><a>首席顾问</a></li><li><a>知名学者&amp;教授</a></li><li><a>实践专家</a></li><li><a>企业家与投资人</a></li></ul></span><span class="item about-us"><a href="http://www.chuanghehui.cn" target="_blank" class="mk">关于我们</a><ul class="dropdown about-us-dorp"><li><a href="https://www.chuanghehui.com/view/aboutedu" target="_blank">创合汇创新院</a></li><li><a href="http://www.chuanghehui.cn" target="_blank">创合汇</a></li><li><a href="contact" target="_blank">联系我们</a></li><li><a href="https://www.chuanghehui.com/custom/SYHHR" target="_blank">合伙人招募</a></li><li><a href="https://www.chuanghehui.com/view/news?type=5">知识库</a></li><li><a href="https://www.chuanghehui.com/view/news?type=1">新闻报道</a></li></ul></span></div><div class="phone-area"><ul><li class="ml20"><img src="../../../static/pc/emba/img/navi_phone.png" alt="" class="phone-icon"><span class="phone">400-6886-238</span></li></ul></div><div class="lr-head"><!----><span class="login-before"><i class="icon header-login-icon"></i><a class="mk login">登录</a><a class="mk regist">注册</a></span></div></div></nav> <div class="activity g-pc-top g-width-100"><section><div class="banner"><div class="swiper-container swiper-container-horizontal"> <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);"><div class="swiper-wrapper swiper-slide swiper-slide-active" style="width: 1200px;"><div class="banner-bg g-width-100 pr" style="background-image: url(&quot;https://static.chuanghehui.com/activity-banner-cover/1658289523069.jpg&quot;);"><div class="banner-bg-wrapper"><div class="wrapper g-width"><div class="info"><p class="title fs16">【专精特新】2022首届创新增长大会</p> <p class="address fs14 white"><i class="icon"></i> <span>上海</span></p> <p class="time fs14 white"><i class="icon"></i> <span>2022/07/22 08:30:00</span></p> <p class="num fs14 white"><i class="icon"></i> <span>985人已报名</span></p> <div class="btn center"><!----> <span class="item disabled">已结束</span></div></div></div></div></div></div> <!----></div>    </div></div> <div class="filter"><div class="wrapper g-width"><ul class="list fs16 float-clear"><li class="label float-left">类型:</li> <li class="item float-left active">
+                                全部
+                            </li><li class="item float-left">
+                                线下公开课
+                            </li><li class="item float-left">
+                                沙龙
+                            </li><li class="item float-left">
+                                企业参访
+                            </li><li class="item float-left">
+                                知行课堂
+                            </li><li class="item float-left">
+                                论坛峰会
+                            </li><li class="item float-left">
+                                创业说
+                            </li><li class="item float-left">
+                                抗疫直播
+                            </li><li class="item float-left">
+                                课程答疑
+                            </li><li class="item float-left">
+                                解码案例
+                            </li><li class="item float-left">
+                                OMO直播
+                            </li></ul><ul class="list fs16 float-clear"><li class="label float-left">形式:</li> <li class="item float-left active">
+                                全部
+                            </li><li class="item float-left">
+                                线下活动
+                            </li><li class="item float-left">
+                                线上直播
+                            </li></ul><ul class="list fs16 float-clear"><li class="label float-left">时间:</li> <li class="item float-left active">
+                                全部
+                            </li><li class="item float-left">
+                                本周
+                            </li><li class="item float-left">
+                                本月
+                            </li></ul><ul class="list fs16 float-clear"><li class="label float-left">状态:</li> <li class="item float-left active">
+                                全部
+                            </li><li class="item float-left">
+                                未开始
+                            </li><li class="item float-left">
+                                已结束
+                            </li><li class="item float-left">
+                                进行中
+                            </li></ul></div></div> <div class="content"><div class="wrapper g-width flexWrap"><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1678950235762.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">「双碳引领 转型升级」碳中和产业创新发展大会暨上海交通大学国家电投智慧能源创新学院碳中和发展产学研智创中心成立仪式</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 3月21日 13:30-17:45
+                                    </p> <p class="num float-right">1102人已报名</p></div></div></div><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1676627189133.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">【开年十讲】第十讲：构建可复制的组织营销能力—华为LTC业务流程实践</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 2月7日 19:30-20:30
+                                    </p> <p class="num float-right">950人已报名</p></div></div></div><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1676626372736.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">【开年十讲】第九讲:企业如何协同创新，让研发成为高增长引擎？</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 2月6日 19:00-20:30
+                                    </p> <p class="num float-right">960人已报名</p></div></div></div><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1674011157516.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">【开年十讲】第八讲：企业如何利用数字化，向成本要利润，向经营要效能？</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 2月5日 19:30-20:30
+                                    </p> <p class="num float-right">950人已报名</p></div></div></div><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1673948897340.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">【开年十讲】第七讲：从华为基本法看如何构建一只打胜仗打硬仗的组织</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 2月4日 19:30-20:30
+                                    </p> <p class="num float-right">955人已报名</p></div></div></div><div class="listItem"><div class="listItem-head pr"><img src="https://static.chuanghehui.com/pc-activity-share/1673948406189.jpg" alt="活动封面" class="g-width-100"> <span class="is-over"><i class="dot"></i> <!----> <!----> <span>已结束</span></span></div> <div class="listItem-body pr"><p class="title fs16 line-clamp2">【开年十讲】第六讲：企业如何做绩效管理与激励机制，激发集体奋斗？</p> <p class="address fs14"><i class="icon"></i> 上海
+                                </p> <div class="float-clear"><p class="time fs14 float-left"><i class="icon"></i> 2月3日 13:00-14:00
+                                    </p> <p class="num float-right">955人已报名</p></div></div></div></div> <div><div class="show-more center"><span>加载更多</span></div></div> <!----></div></section> <footer class="g-footer g-width-100"><div class="wrapper g-width"><div class="sitemapcont float-clear"><dl class="float-left"><dt class="fs20">平台生态</dt><dd><a href="about" target="_blank" class="fs14">创合汇创新院</a></dd><dd><a href="http://chhcapital.cn" target="_blank" class="fs14">创合汇资本</a></dd><dd><a target="_blank" class="fs14">创合汇创服中心</a></dd></dl><dl class="float-left"></dl><dl class="float-left"></dl><dl class="float-left"><dt class="fs20">关于我们</dt><dd><a href="about" target="_blank" class="fs14">关于我们</a></dd><dd><a href="contact" target="_blank" class="fs14">联系我们</a></dd><dd><a href="usercenter?id=4" target="_blank" class="fs14">学习空间</a></dd></dl><dl class="float-clear"><dt class="fs20">关注我们</dt><p class="fs18 mb15" style="color: white;">全国免费咨询热线：400-6886-238</p><dd class="float-left"><div class="mr28 float-left"><img src="../../../static/images/cxy_wechat.jpg" alt="qrcode" class="qrcode-img" width="344" height="344"><p class="qrcode-text">微信号二维码</p></div><div class="mr28 float-left"><img src="https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/othermaterial/shipinhao.jpeg" alt="qrcode" class="qrcode-img"><p class="qrcode-text">视频号二维码</p></div></dd></dl></div><div class="connect"><p class="copyright">版权 © 上海创合汇教育科技有限公司 网站备案号：<a target="_blank" href="https://beian.miit.gov.cn/">沪ICP备18026080号-1</a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008932" style="color: rgb(255, 255, 255); display: inline-block; text-decoration: none; margin-left: 5px;"><img src="../../static/images/beian.png" style="float: left;">沪公网安备 31010402008932号</a>&nbsp;<a target="_blank"> 沪B2-20200258</a></p></div></div></footer></div> <div class="dialog"><div class="mask" style="display: none;"></div><div class="join-vip-dialog"><div class="wrapper"><div class="dialog-header"><i class="dialog-close"></i></div><div class="dialog-body"><div class="center"><img src="../../../static/images/pc/join-vip.png" alt="加入会员" width="200" height="200"></div><h2 class="center title fs24">成为创合汇会员吧！</h2><p class="center text fs18">此活动为会员专享，加入创合汇会员，公开课<span class="s1">全年免费学</span></p><p class="center text fs18">更有<span class="s2">17项会员权益</span></p><div class="vip-qrcode center"><img src="https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/chh_bc/images/gkkqrc.png" alt="二维码" width="400" height="400"><p class="fs14">微信扫码加入会员</p></div></div></div></div></div></div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                userInfo: localStorage.getItem('userInfo'), 
+                bannerData: [],
+                bannerOption: {
+                    autoplay: true,
+                    speed: 2000,
+                    
+                    pagination: {
+                        el: '.swiper-pagination'
+                    },
+                },
+
+                
+                page: {
+                    size: 6,
+                    current: 1,
+                    total: 0
+                },
+                filterOption: {
+                    types: {
+                        name: '类型',
+                        value: 0,
+                        data: []
+                    },
+                    forms: {
+                        name: '形式',
+                        value: 1,
+                        data: [{
+                            label: '全部',
+                            value: 0
+                        }, {
+                            label: '线下活动',
+                            value: 1
+                        }, {
+                            label: '线上直播',
+                            value: 2
+                        }]
+                    },
+                    times: {
+                        name: '时间',
+                        value: 2,
+                        data: [{
+                            label: '全部',
+                            value: 0
+                        }, {
+                            label: '本周',
+                            value: 1
+                        }, {
+                            label: '本月',
+                            value: 2
+                        }, ]
+                    },
+                    status: {
+                        name: '状态',
+                        value: 3,
+                        data: [{
+                            label: '全部',
+                            value: 0
+                        }, {
+                            label: '未开始',
+                            value: 1
+                        }, {
+                            label: '已结束',
+                            value: 2
+                        }, {
+                            label: '进行中',
+                            value: 3
+                        }, ]
+                    }
+                },
+                currentFilterTerm: {
+                    0: 0, 
+                    1: 0, 
+                    2: 0, 
+                    3: 0 
+                },
+                activityData: [],
+                showMoreFlag: false,
+                joinVipDialog: false,
+            }
+        },
+        methods: {
+            
+            showVipDialog: function() {
+                this.joinVipDialog = !this.joinVipDialog;
+            },
+            
+            fetchData: function(flag) {
+                var self = this;
+                var params = {
+                    page: this.page.current,
+                    size: this.page.size,
+                    plat_id: 3 
+                }
+                if (this.userInfo) {
+                    params.uid = JSON.parse(this.userInfo).id;
+                }
+                for (var key in this.currentFilterTerm) {
+                    if (this.currentFilterTerm[key] !== 0) {
+                        key = Number(key);
+                        if (key === 0) { 
+                            params.type_id = this.currentFilterTerm[key];
+                        } else if (key === 1) { 
+                            params.activity_type = this.currentFilterTerm[key];
+                        } else if (key === 2) { 
+                            if (this.currentFilterTerm[key] === 1) { 
+                                params.start_time = time.getWeekStartDate();
+                                params.end_time = time.getWeekEndDate();
+                            } else { 
+                                params.start_time = time.getMonthStartDate();
+                                params.end_time = time.getMonthEndDate();
+                            }
+                        } else if (key === 3) { 
+                            params.status = this.currentFilterTerm[key];
+                        }
+                    }
+                }
+                bsApi.fetchActivityList(params).then(function(res) {
+                    console.log(res);
+                    if (res.code === 0) {
+                        self.showMoreFlag = false;
+                        self.page.total = res.data.count;
+                        if (flag) {
+                            for (var i = 0; i < res.data.activityList.length; i++) {
+                                var m = common.handleAvtivity(res.data.activityList[i], res.data.time_now);
+                                self.activityData.push(m);
+                            }
+                        } else {
+                            for (var i = 0; i < res.data.activityList.length; i++) {
+                                res.data.activityList[i] = common.handleAvtivity(res.data.activityList[i], res.data.time_now);
+                            }
+                            self.activityData = res.data.activityList;
+                        }
+                    }
+                });
+            },
+            
+            fetchActivityBanner: function() {
+                var self = this;
+                var params = {};
+                if (this.userInfo) {
+                    params.uid = JSON.parse(this.userInfo).id;
+                }
+                bsApi.fetchActivityBanner(params).then(function(res) {
+                    console.log(res);
+                    if (res.code === 0) {
+                        var now = new Date();
+                        for (var i = 0; i < res.data.banner.length; i++) {
+                            var m = common.handleAvtivity(res.data.banner[i], res.data.time_now);
+                        }
+                        self.bannerData = res.data.banner;
+                        console.log(self.bannerData);
+                    }
+                });
+            },
+            
+            fetchActivityType: function() {
+                var self = this;
+                bsApi.fetchActivityType({}).then(function(res) {
+                    if (res.code === 0) {
+                        var types = [{
+                            label: '全部',
+                            value: 0
+                        }];
+                        for (var i = 0; i < res.data.length; i++) {
+                            var m = res.data[i];
+                            
+                            if (m.id !== 4) {
+                                types.push({
+                                    label: m.name,
+                                    value: m.id
+                                });
+                            }
+                        }
+                        self.filterOption.types.data = types;
+                    }
+                });
+            },
+            
+            fliterActivity: function(type, value) {
+                if (this.currentFilterTerm[type] === value) {
+                    return;
+                }
+                this.currentFilterTerm[type] = value;
+                this.fetchData();
+            },
+            
+            showMore: function() {
+                this.showMoreFlag = true;
+                this.page.current++;
+                this.fetchData(true);
+            },
+            
+            toActivityDetail: function(item) {
+                var url = 'activitydetail?id=' + item.id;
+                common.toPage(url);
+            },
+            
+            offlineClick: function(item) { 
+                common.checkLogin();
+                var status = item.status;
+                console.log('offlineClick', status);
+                if (status === 0) {
+                    var url = 'activitydetail?id=' + item.id + '&offline=1';
+                    common.toPage(url);
+                } else if (status === 1) {
+                    return;
+                } else if (status === 2) {
+                    this.$refs['g-message'].sentMessageOption(true, 'warning', '您的报名信息已提交！本次活动主办方需要审核，报名结果请以短信告知为准。');
+                    return;
+                } else if (status === 3) {
+                    this.$refs['g-message'].sentMessageOption(true, 'success', '已报名成功，请不要重复报名');
+                    return;
+                } else if (status === 4) {
+                    this.$refs['g-message'].sentMessageOption(true, 'warning', '抱歉由于现场名额限制，您的活动报名未通过审核，感谢参与！');
+                }
+            },
+            onlineClick: function(item) { 
+                console.log(item)
+                common.checkLogin();
+                var status = item.status;
+                console.log('onlineClick', status);
+                if (status === -1) {
+                    var url = 'activitydetail?id=' + item.id + '&online=1';
+                    common.toPage(url);
+                } else if (status === 1) {
+                    return;
+                } else if (status === 2 || status === 3) {
+                    var url = 'activitydetail?id=' + item.id;
+                    common.toPage(url);
+                    
+                }
+            },
+            
+            toLive: function(url) {
+                common.toPage(url);
+            }
+        },
+        mounted: function() {
+            this.fetchData();
+            this.fetchActivityType();
+            this.fetchActivityBanner();
+        }
+    });
+</script>
+<script src="../../../common/utils/tooth.js"></script><script async="" id="zhichiScript" class="zhiCustomBtn" src="https://chat.sobot.com/chat/frame/v2/entrance.js?sysnum=126a3b647d5247f38d75f041556992c8"></script>
+
+
+</body></html>

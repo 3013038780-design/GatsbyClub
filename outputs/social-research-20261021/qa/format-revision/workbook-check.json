@@ -1,0 +1,32 @@
+{
+  "contentPreserved": true,
+  "inspection": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "mtj5id",
+      "target": {
+        "id": "wb/qb1uzo",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "table",
+        "tokens": [
+          "table"
+        ]
+      },
+      "include": {
+        "requested": "values,formulas",
+        "tokens": [
+          "values",
+          "formulas"
+        ]
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

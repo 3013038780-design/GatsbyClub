@@ -1,0 +1,1658 @@
+{
+  "title": "中国高端社群市场研究与创业方案评估",
+  "asof": "2026-10-21",
+  "sections": [
+    "决策摘要",
+    "阅读导航与本轮更新",
+    "一 全国市场与公司定位",
+    "二 社交婚恋市场的五年变化",
+    "三 线上社交经营的最新变化",
+    "四 高净值客群的生活与时间",
+    "五 城市选择与可进入市场",
+    "六 行业地图与商业模式",
+    "七 六家选择与新增候选比较",
+    "八 目标客户与购买决策",
+    "九 价格与收费方式对照",
+    "十 会员权益与产品组合",
+    "十一 平台声量与经营活跃",
+    "十二 北京香港马会会所",
+    "十三 长江商学院",
+    "十四 EO中国华东分会",
+    "十五 木兰汇",
+    "十六 正和岛",
+    "十七 优家荟",
+    "经营专题 阿拉善SEE生态协会",
+    "十八 获客与内容经营",
+    "十九 社群活动的交付标准",
+    "二十 六类服务的组织重点",
+    "二十一 年度经营模型",
+    "二十二 敏感性与现金流",
+    "二十三 三种进入方向",
+    "二十四 九十天验证与绩效管理",
+    "二十五 经营要求与关键缺口",
+    "附录一 扩展机构地图 1",
+    "附录一 扩展机构地图 2",
+    "附录一 扩展机构地图 3",
+    "附录一 扩展机构地图 4",
+    "附录一 扩展机构地图 5",
+    "附录二 来源与统计口径 1",
+    "附录二 来源与统计口径 2",
+    "附录二 来源与统计口径 3",
+    "附录二 来源与统计口径 4",
+    "附录二 来源与统计口径 5",
+    "附录二 来源与统计口径 6",
+    "附录二 来源与统计口径 7"
+  ],
+  "market_map": [
+    {
+      "id": "O01",
+      "name": "京城俱乐部",
+      "category": "综合会员与生活方式",
+      "city": "北京",
+      "model": "会籍加场景消费",
+      "target": "中外商务人士及家庭",
+      "source": "S22",
+      "role": "直接模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "京城俱乐部",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O02",
+      "name": "HIGHER CLUB",
+      "category": "综合会员与生活方式",
+      "city": "上海 杭州 深圳网络自述",
+      "model": "审核会籍及品牌合作",
+      "target": "年轻高净值与企业家二代 自述",
+      "source": "S37",
+      "role": "直接模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "HIGHER CLUB",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O03",
+      "name": "KEE Club上海",
+      "category": "综合会员与生活方式",
+      "city": "上海",
+      "model": "会员空间与餐饮 历史",
+      "target": "艺术与餐酒生活方式人群",
+      "source": "S55",
+      "role": "场景替代",
+      "status": "历史介绍 当前状态待核",
+      "group": "KEE Club上海",
+      "tier": "历史线索 当前状态待核"
+    },
+    {
+      "id": "O04",
+      "name": "雍福会",
+      "category": "综合会员与生活方式",
+      "city": "上海",
+      "model": "餐饮预订与定制",
+      "target": "私密餐饮及文化体验客户",
+      "source": "S54",
+      "role": "场景替代",
+      "status": "公开产品或介绍可读",
+      "group": "雍福会",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O05",
+      "name": "黑骑士球员俱乐部",
+      "category": "综合会员与生活方式",
+      "city": "北京",
+      "model": "分层会籍",
+      "target": "高尔夫及家庭客户",
+      "source": "S52",
+      "role": "兴趣替代",
+      "status": "公开产品或介绍可读",
+      "group": "黑骑士球员俱乐部",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O06",
+      "name": "北京香港马会会所",
+      "category": "综合会员与生活方式",
+      "city": "北京 京港往来",
+      "model": "会籍及设施消费",
+      "target": "商务与会员家庭",
+      "source": "S53",
+      "role": "直接模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "北京香港马会会所",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O07",
+      "name": "上海卫智马术",
+      "category": "综合会员与生活方式",
+      "city": "上海",
+      "model": "课程与团建",
+      "target": "成人兴趣及亲子客户",
+      "source": "S56",
+      "role": "兴趣替代",
+      "status": "公开产品或介绍可读",
+      "group": "上海卫智马术",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O08",
+      "name": "伟事达中国",
+      "category": "企业家与私董会",
+      "city": "上海运营 全国",
+      "model": "年费加教练服务",
+      "target": "企业一号位及高管",
+      "source": "S28",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "伟事达中国",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O09",
+      "name": "EO中国华东分会",
+      "category": "企业家与私董会",
+      "city": "华东",
+      "model": "全球与地方会费",
+      "target": "企业所有者",
+      "source": "S38",
+      "role": "同侪社群替代",
+      "status": "公开产品或介绍可读",
+      "group": "EO China East",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O10",
+      "name": "正和岛",
+      "category": "企业家与私董会",
+      "city": "全国",
+      "model": "会员内容与商业连接",
+      "target": "企业家及创业者",
+      "source": "S39",
+      "role": "直接模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "正和岛",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O11",
+      "name": "亚布力论坛",
+      "category": "企业家与私董会",
+      "city": "全国",
+      "model": "论坛与学习交流",
+      "target": "企业家与新兴经营者",
+      "source": "S49",
+      "role": "网络替代",
+      "status": "公开产品或介绍可读",
+      "group": "亚布力论坛",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O12",
+      "name": "混沌",
+      "category": "企业家与私董会",
+      "city": "全国",
+      "model": "学习订阅 训练营 内训",
+      "target": "创业者与企业管理者",
+      "source": "S50",
+      "role": "学习替代",
+      "status": "公开产品或介绍可读",
+      "group": "混沌",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O13",
+      "name": "德申汇",
+      "category": "企业家与私董会",
+      "city": "全国及海外网络",
+      "model": "平台加俱乐部",
+      "target": "企业经营者与商务人士",
+      "source": "S51",
+      "role": "直接模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "德申汇",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O14",
+      "name": "中欧国际工商学院",
+      "category": "商学与游学",
+      "city": "北京 上海 深圳",
+      "model": "学位及高管课程",
+      "target": "有管理经验的经营者",
+      "source": "S42",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "中欧国际工商学院",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O15",
+      "name": "长江商学院",
+      "category": "商学与游学",
+      "city": "北京 上海 深圳项目",
+      "model": "学位及高管课程",
+      "target": "企业高管与经营者",
+      "source": "S43",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "长江商学院",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O16",
+      "name": "交大高金",
+      "category": "商学与游学",
+      "city": "上海及全国班",
+      "model": "金融EMBA",
+      "target": "金融与实业管理者",
+      "source": "S44",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "交大高金",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O17",
+      "name": "上海财大商学院",
+      "category": "商学与游学",
+      "city": "上海",
+      "model": "金融EMBA",
+      "target": "金融及企业管理者",
+      "source": "S45",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "上海财大商学院",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O18",
+      "name": "清华五道口",
+      "category": "商学与游学",
+      "city": "北京及海外模块",
+      "model": "学位及高管学习",
+      "target": "产融企业家及金融人才",
+      "source": "S46",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "清华五道口",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O19",
+      "name": "北大汇丰EDP",
+      "category": "商学与游学",
+      "city": "深圳",
+      "model": "高管课程加校友活动",
+      "target": "企业家及管理者",
+      "source": "S47",
+      "role": "教育替代",
+      "status": "公开产品或介绍可读",
+      "group": "北大汇丰EDP",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O20",
+      "name": "深商联",
+      "category": "商协会与渠道",
+      "city": "深圳",
+      "model": "组织会籍及企业服务",
+      "target": "企业与经营者",
+      "source": "S48",
+      "role": "替代及潜在渠道",
+      "status": "公开产品或介绍可读",
+      "group": "深圳市商业联合会",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O21",
+      "name": "深圳市侨商国际联合会",
+      "category": "商协会与渠道",
+      "city": "深圳",
+      "model": "分层组织会费",
+      "target": "具有侨港澳联系的企业及个人",
+      "source": "S40",
+      "role": "替代及潜在渠道",
+      "status": "公开产品或介绍可读",
+      "group": "深圳市侨商国际联合会",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O22",
+      "name": "上海美国商会",
+      "category": "商协会与渠道",
+      "city": "上海",
+      "model": "会籍加活动票",
+      "target": "会员企业与员工家庭",
+      "source": "S41",
+      "role": "替代及潜在渠道",
+      "status": "公开产品或介绍可读",
+      "group": "上海美国商会",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O23",
+      "name": "中国美国商会",
+      "category": "商协会与渠道",
+      "city": "北京及全国分会",
+      "model": "会籍加活动票",
+      "target": "在华美资及相关企业",
+      "source": "S74",
+      "role": "替代及潜在渠道",
+      "status": "公开产品或介绍可读",
+      "group": "中国美国商会",
+      "tier": "持续社群或替代组织"
+    },
+    {
+      "id": "O24",
+      "name": "耀悦",
+      "category": "旅行及体验",
+      "city": "北京服务 全国招募",
+      "model": "按产品或定制收费",
+      "target": "精英消费者 家庭及机构",
+      "source": "S33",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "中青旅相关品牌",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O25",
+      "name": "鸿鹄逸游",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "旅行产品及定制",
+      "target": "高品质出游客户",
+      "source": "S57",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "携程相关品牌",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O26",
+      "name": "碧山旅行 WildChina",
+      "category": "旅行及体验",
+      "city": "全国目的地",
+      "model": "定制及小团",
+      "target": "深度文化旅行人群",
+      "source": "S58",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "碧山旅行 WildChina",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O27",
+      "name": "德迈国际",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "定制与主题团",
+      "target": "极地与专业主题旅行客户",
+      "source": "S59",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "德迈国际",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O28",
+      "name": "赞那度",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "高端旅游及内容",
+      "target": "品质旅行客户",
+      "source": "S60",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "赞那度",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O29",
+      "name": "无二之旅",
+      "category": "旅行及体验",
+      "city": "北京服务 全国",
+      "model": "顾问定制",
+      "target": "家庭 伴侣及自由行客户",
+      "source": "S61",
+      "role": "定制替代",
+      "status": "公开产品或介绍可读",
+      "group": "无二之旅",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O30",
+      "name": "佰悦会",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "定制 管家及企业服务",
+      "target": "私人旅行及企业客户",
+      "source": "S62",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "佰悦会",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O31",
+      "name": "八大洲旅游",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "酒店预订及定制",
+      "target": "品质度假及家庭客户",
+      "source": "S63",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "八大洲旅游",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O32",
+      "name": "松赞",
+      "category": "旅行及体验",
+      "city": "目的地服务 全国客源",
+      "model": "酒店加线路",
+      "target": "藏地自然文化旅行客户",
+      "source": "S64",
+      "role": "体验替代",
+      "status": "公开产品或介绍可读",
+      "group": "松赞",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O33",
+      "name": "Club Med",
+      "category": "旅行及体验",
+      "city": "全国客源 全球度假村",
+      "model": "度假套餐及积分会员",
+      "target": "家庭 伴侣 企业团体",
+      "source": "S65",
+      "role": "体验替代",
+      "status": "公开产品或介绍可读",
+      "group": "Club Med",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O34",
+      "name": "野去自然旅行",
+      "category": "旅行及体验",
+      "city": "全国",
+      "model": "主题旅行",
+      "target": "自然摄影及探索人群",
+      "source": "S66",
+      "role": "兴趣替代",
+      "status": "含历史资讯 当前规模待核",
+      "group": "野去自然旅行",
+      "tier": "合作供给与项目替代"
+    },
+    {
+      "id": "O35",
+      "name": "我主良缘",
+      "category": "婚恋与关系服务",
+      "city": "北京 上海 深圳等自述",
+      "model": "顾问式婚恋及匹配",
+      "target": "以结婚为目的单身客户",
+      "source": "S67",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "我主良缘",
+      "tier": "独立婚恋服务参照"
+    },
+    {
+      "id": "O36",
+      "name": "珍爱网",
+      "category": "婚恋与关系服务",
+      "city": "全国",
+      "model": "线上增值及红娘",
+      "target": "严肃婚恋单身客户",
+      "source": "S68",
+      "role": "单项模式对标",
+      "status": "公开产品或介绍可读",
+      "group": "珍爱网",
+      "tier": "独立婚恋服务参照"
+    },
+    {
+      "id": "O37",
+      "name": "百合佳缘相关品牌",
+      "category": "婚恋与关系服务",
+      "city": "全国",
+      "model": "线上平台加线下服务",
+      "target": "婚恋单身客户",
+      "source": "S69",
+      "role": "单项模式对标",
+      "status": "注册入口可读 集团归属及线下状态待核",
+      "group": "百合与世纪佳缘合并一条",
+      "tier": "独立婚恋服务参照"
+    },
+    {
+      "id": "O38",
+      "name": "MarryU",
+      "category": "婚恋与关系服务",
+      "city": "历史布局含京沪深",
+      "model": "普通牵线 VIP 定制",
+      "target": "有明确结婚计划的单身者",
+      "source": "S70",
+      "role": "单项模式对标",
+      "status": "产品介绍可读 门店与用户数字为历史",
+      "group": "MarryU",
+      "tier": "独立婚恋服务参照"
+    },
+    {
+      "id": "O39",
+      "name": "网易花田",
+      "category": "线上社交替代",
+      "city": "全国",
+      "model": "基础免费加增值 历史",
+      "target": "线上婚恋用户",
+      "source": "S71",
+      "role": "历史替代",
+      "status": "历史案例 不判断当前状态",
+      "group": "网易花田",
+      "tier": "历史线索 当前状态待核"
+    },
+    {
+      "id": "O40",
+      "name": "Soul",
+      "category": "线上社交替代",
+      "city": "全国",
+      "model": "线上社交及增值",
+      "target": "兴趣个性社交用户",
+      "source": "S72",
+      "role": "大众替代",
+      "status": "公开产品或介绍可读",
+      "group": "Soul",
+      "tier": "线上替代或历史线索"
+    },
+    {
+      "id": "O41",
+      "name": "挚文集团 陌陌与探探",
+      "category": "线上社交替代",
+      "city": "全国及海外",
+      "model": "增值与订阅",
+      "target": "大众陌生人交友用户",
+      "source": "S12",
+      "role": "大众替代",
+      "status": "公开产品或介绍可读",
+      "group": "陌陌与探探合并一条",
+      "tier": "线上替代或历史线索"
+    },
+    {
+      "id": "O42",
+      "name": "观澜湖",
+      "category": "兴趣与生活方式",
+      "city": "深圳 东莞 海南",
+      "model": "连续高尔夫赛事与会员活动",
+      "source": "C20",
+      "tier": "专项参照"
+    },
+    {
+      "id": "O43",
+      "name": "领教工坊",
+      "category": "企业家与私董会",
+      "city": "全国",
+      "model": "15—20人组；全年六次每次两天",
+      "source": "C17",
+      "tier": "持续社群参照"
+    },
+    {
+      "id": "O44",
+      "name": "木兰汇",
+      "category": "女性企业家",
+      "city": "全国",
+      "model": "年会 路演 论坛与考察",
+      "source": "K08",
+      "tier": "六家深度"
+    },
+    {
+      "id": "O45",
+      "name": "阿拉善SEE",
+      "category": "企业家共同事业",
+      "city": "全国",
+      "model": "项目参与、企业互访及组织治理",
+      "source": "K11",
+      "tier": "经营专题"
+    },
+    {
+      "id": "O46",
+      "name": "创合汇",
+      "category": "学习与多主题社群",
+      "city": "全国",
+      "model": "公开自述30余社群、10万余成员",
+      "source": "C35",
+      "tier": "扩展参照"
+    },
+    {
+      "id": "O47",
+      "name": "上海新沪商联合会",
+      "category": "商协会",
+      "city": "上海",
+      "model": "分层会费，现有取得2019历史标准",
+      "source": "C41",
+      "tier": "历史收费参照"
+    },
+    {
+      "id": "O48",
+      "name": "雪茄客",
+      "category": "兴趣与生活方式",
+      "city": "待核",
+      "model": "主题爱好、品牌及活动，正文不足",
+      "source": "C26",
+      "tier": "候选线索"
+    },
+    {
+      "id": "O49",
+      "name": "YPO",
+      "category": "企业家与家庭",
+      "city": "全球",
+      "model": "全球38000余人，小组、学习及家庭",
+      "source": "U04",
+      "tier": "新增全球参照"
+    },
+    {
+      "id": "O50",
+      "name": "Kupu-kupu",
+      "category": "女性空间与活动",
+      "city": "按城市核实",
+      "model": "女性空间 书影活动；高端付费基础待核",
+      "source": "U11",
+      "tier": "新品牌候选"
+    },
+    {
+      "id": "O51",
+      "name": "SHE ACE CLUB",
+      "category": "女性运动",
+      "city": "按城市核实",
+      "model": "运动活动；规模与持续付费待核",
+      "source": "U11",
+      "tier": "新品牌候选"
+    },
+    {
+      "id": "O52",
+      "name": "The Queen’s Circle",
+      "category": "女性主题",
+      "city": "按城市核实",
+      "model": "主理人运营线索；机构主体待核",
+      "source": "U11",
+      "tier": "主理人线索"
+    },
+    {
+      "id": "O53",
+      "name": "优家荟",
+      "category": "女性生活方式",
+      "city": "全国及分会",
+      "model": "会籍、品牌活动、旅行及会员企业参访",
+      "source": "U14",
+      "tier": "六家深度"
+    },
+    {
+      "id": "O54",
+      "name": "中国企业家俱乐部",
+      "category": "企业家组织",
+      "city": "全国",
+      "model": "头部企业家治理与交流；当前收费待核",
+      "source": "U17",
+      "tier": "新增扩展"
+    },
+    {
+      "id": "O55",
+      "name": "新势会",
+      "category": "会员社群线索",
+      "city": "待核",
+      "model": "平台发现准入与会员展示内容；主体规模待核",
+      "source": "U11",
+      "tier": "新候选待核"
+    }
+  ],
+  "sources": {
+    "https://member.hkjc.com/ecard/eHarmony_Jun25.pdf": {
+      "ids": [
+        "K01"
+      ],
+      "row": {
+        "title": "北京香港马会会所2025年6月会刊",
+        "url": "https://member.hkjc.com/ecard/eHarmony_Jun25.pdf",
+        "scope": "入会费p158；活动p33—40；价格自2024-01-01起"
+      }
+    },
+    "https://eonetwork.org/membership/forum": {
+      "ids": [
+        "K06"
+      ],
+      "row": {
+        "title": "EO Forum服务设计",
+        "url": "https://eonetwork.org/membership/forum/",
+        "scope": "6—10人、月度聚会、培训与伴侣小组"
+      }
+    },
+    "https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh": {
+      "ids": [
+        "K07"
+      ],
+      "row": {
+        "title": "EO 2024至2025年度报告官方发布",
+        "url": "https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh/",
+        "scope": "2024-07至2025-06；全球续会91.6%；本轮已读完整发布正文"
+      }
+    },
+    "https://www.iceo.com.cn/zt/2026_mulannh": {
+      "ids": [
+        "K08"
+      ],
+      "row": {
+        "title": "2026商界木兰年会及木兰汇介绍",
+        "url": "https://www.iceo.com.cn/zt/2026_mulannh/",
+        "scope": "近1000成员、112核心、29省市；三日公布议程"
+      }
+    },
+    "https://apps.apple.com/cn/app/%E6%AD%A3%E5%92%8C%E5%B2%9B/id525751375": {
+      "ids": [
+        "K09"
+      ],
+      "row": {
+        "title": "正和岛App开发者介绍与内购价",
+        "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E5%92%8C%E5%B2%9B/id525751375",
+        "scope": "当前上架页面自述；统计截止日未标；内购价为数字产品"
+      }
+    },
+    "https://conservation.see.org.cn/news/dynamic/2025/1203/12953.html": {
+      "ids": [
+        "K11"
+      ],
+      "row": {
+        "title": "阿拉善SEE 2025会员大会履职报告",
+        "url": "https://conservation.see.org.cn/news/dynamic/2025/1203/12953.html",
+        "scope": "2025-10-31数据；2025-12-03发布"
+      }
+    },
+    "https://yz.chsi.com.cn/sch/viewZszc--infoId-3552283696%2CcategoryId-1719522122%2CschId-1719522069%2Cmindex-12.dhtml": {
+      "ids": [
+        "U01"
+      ],
+      "row": {
+        "title": "长江2027年EMBA招生简章",
+        "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3552283696%2CcategoryId-1719522122%2CschId-1719522069%2Cmindex-12.dhtml",
+        "scope": "研招网院校发布；2027学费待定，2026为99.8万元"
+      }
+    },
+    "https://cn.ceibs.edu/node/99": {
+      "ids": [
+        "U02",
+        "S42"
+      ],
+      "row": {
+        "title": "中欧EMBA学费信息当前正文",
+        "url": "https://cn.ceibs.edu/node/99",
+        "scope": "本轮Crawl4AI直接正文；2027级83.8万元，报名1800元"
+      }
+    },
+    "https://ir.hellogroup.com/news-releases/news-release-details/hello-group-inc-announces-unaudited-financial-results-second-4": {
+      "ids": [
+        "U03"
+      ],
+      "row": {
+        "title": "挚文集团2026年第二季度业绩",
+        "url": "https://ir.hellogroup.com/news-releases/news-release-details/hello-group-inc-announces-unaudited-financial-results-second-4",
+        "scope": "2026-09-03发布；未经审计季度业绩；集团及应用口径分别使用"
+      }
+    },
+    "https://www.modernmedia.com.cn/club": {
+      "ids": [
+        "U14"
+      ],
+      "row": {
+        "title": "现代传播俱乐部业务介绍",
+        "url": "https://www.modernmedia.com.cn/club",
+        "scope": "当前集团官网；确认优家荟品牌与女性会员定位"
+      }
+    },
+    "https://www.ilady.com.cn/wap/event/detail/?eid=2035": {
+      "ids": [
+        "U15"
+      ],
+      "row": {
+        "title": "优家荟新加坡十周年会员活动",
+        "url": "https://www.ilady.com.cn/wap/event/detail/?eid=2035",
+        "scope": "2025-11-14至15计划；黑金及白金，50席，250新币；非会员入会入口"
+      }
+    },
+    "https://conservation.see.org.cn/uploads/soft/250409/1-250409203446.pdf": {
+      "ids": [
+        "U13"
+      ],
+      "row": {
+        "title": "SEE生态协会2024年度审计报告",
+        "url": "https://conservation.see.org.cn/uploads/soft/250409/1-250409203446.pdf",
+        "scope": "已下载39页全文；PDF第17页 收入与会员活动成本；金额人民币元"
+      }
+    },
+    "https://imgs-b2b.100ec.cn/detail--6658734.html": {
+      "ids": [
+        "S02"
+      ],
+      "row": {
+        "title": "2025年度中国数字生活市场数据报告婚恋专题",
+        "url": "https://imgs-b2b.100ec.cn/detail--6658734.html",
+        "scope": "网经社；2021—2025；第三方估算"
+      }
+    },
+    "https://imgs-b2b.100ec.cn/zt/2025szshbg": {
+      "ids": [
+        "U12"
+      ],
+      "row": {
+        "title": "网经社2025年度数字生活报告专题",
+        "url": "https://imgs-b2b.100ec.cn/zt/2025szshbg/",
+        "scope": "2026-04-22发布；第三方估算；互联网婚恋103.5亿元"
+      }
+    },
+    "https://www.thepaper.cn/newsDetail_forward_34194239": {
+      "ids": [
+        "S04"
+      ],
+      "row": {
+        "title": "2025年结婚登记数据公布",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34194239",
+        "scope": "苏州发布转引民政部；2025；政务转载"
+      }
+    },
+    "https://www.caoss.org.cn/UploadFile/pic/20229122301585532.pdf": {
+      "ids": [
+        "S06"
+      ],
+      "row": {
+        "title": "2021年民政事业发展统计公报",
+        "url": "https://www.caoss.org.cn/UploadFile/pic/20229122301585532.pdf",
+        "scope": "民政部 中国社会保障学会留存；2021；官方文件转载"
+      }
+    },
+    "https://www.caoss.org.cn/upload/news/20240710/79f02d06dd1545f18ed1f9d6de28ccf0.pdf": {
+      "ids": [
+        "S07"
+      ],
+      "row": {
+        "title": "2022年民政事业发展统计公报",
+        "url": "https://www.caoss.org.cn/upload/news/20240710/79f02d06dd1545f18ed1f9d6de28ccf0.pdf",
+        "scope": "民政部 中国社会保障学会留存；2022；官方文件转载"
+      }
+    },
+    "https://news.china.com.cn/2024-09/12/content_117424653.html": {
+      "ids": [
+        "S08"
+      ],
+      "row": {
+        "title": "中国网转引2023民政年度公报",
+        "url": "https://news.china.com.cn/2024-09/12/content_117424653.html",
+        "scope": "2024-09-12媒体转引民政部年度公报；结婚768.2万对；原部委链接另存旧台账"
+      }
+    },
+    "https://www.cnnic.net.cn/NMediaFile/2026/0304/MAIN1772588317069TUXN3827X8.pdf": {
+      "ids": [
+        "S01"
+      ],
+      "row": {
+        "title": "第57次中国互联网络发展状况统计报告",
+        "url": "https://www.cnnic.net.cn/NMediaFile/2026/0304/MAIN1772588317069TUXN3827X8.pdf",
+        "scope": "CNNIC；2025-12；官方统计"
+      }
+    },
+    "https://www.hurun.net/zh-CN/Info/Detail?num=CSX6BTOMEWY4": {
+      "ids": [
+        "S11"
+      ],
+      "row": {
+        "title": "2026胡润至尚优品中国高净值人群品质生活报告",
+        "url": "https://www.hurun.net/zh-CN/Info/Detail?num=CSX6BTOMEWY4",
+        "scope": "胡润研究院；2025行为及2026意向；第三方样本调查"
+      }
+    },
+    "https://www.bain.com.cn/pdfs/202309051133339091.pdf": {
+      "ids": [
+        "S10"
+      ],
+      "row": {
+        "title": "2023中国私人财富报告",
+        "url": "https://www.bain.com.cn/pdfs/202309051133339091.pdf",
+        "scope": "招商银行与贝恩；2022存量及2023调查；第三方研究"
+      }
+    },
+    "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202601/t20260121_4451962.html": {
+      "ids": [
+        "S14"
+      ],
+      "row": {
+        "title": "2025年北京居民收入",
+        "url": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202601/t20260121_4451962.html",
+        "scope": "北京市统计局；2025；官方统计"
+      }
+    },
+    "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html": {
+      "ids": [
+        "S15"
+      ],
+      "row": {
+        "title": "2025年上海市国民经济和社会发展统计公报",
+        "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+        "scope": "上海市统计局；2025；官方统计"
+      }
+    },
+    "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/tjgb/content/post_12803919.html": {
+      "ids": [
+        "S16"
+      ],
+      "row": {
+        "title": "深圳市2025年国民经济和社会发展统计公报",
+        "url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/tjgb/content/post_12803919.html",
+        "scope": "深圳市统计局；2025；官方统计"
+      }
+    },
+    "https://member.eonetwork.org/chinaeast/about-our-chapter": {
+      "ids": [
+        "K05",
+        "S38"
+      ],
+      "row": {
+        "title": "EO China East分会资料",
+        "url": "https://member.eonetwork.org/chinaeast/about-our-chapter/",
+        "scope": "2026-10-21；人数、年龄、全球收费"
+      }
+    },
+    "https://edp.phbs.pku.edu.cn/info/1271/13221.htm": {
+      "ids": [
+        "C19"
+      ],
+      "row": {
+        "title": "北大汇丰EDP 征戈会六周年庆暨第三届班际驿传",
+        "url": "https://edp.phbs.pku.edu.cn/info/1271/13221.htm",
+        "scope": "2026-03-07活动；机构公开资料"
+      }
+    },
+    "https://www.missionhillschina.com/memberlife/index.html": {
+      "ids": [
+        "C20"
+      ],
+      "row": {
+        "title": "观澜湖 会员生活活动目录",
+        "url": "https://www.missionhillschina.com/memberlife/index.html",
+        "scope": "页面包含2026活动；机构公开资料"
+      }
+    },
+    "https://www.shenshang.org/sgcc/about-sgcc": {
+      "ids": [
+        "C24",
+        "S48"
+      ],
+      "row": {
+        "title": "深商联 机构与服务介绍",
+        "url": "https://www.shenshang.org/sgcc/about-sgcc",
+        "scope": "采集时页面；机构公开资料"
+      }
+    },
+    "https://www.ckgsb.com/emba": {
+      "ids": [
+        "K04"
+      ],
+      "row": {
+        "title": "长江商学院EMBA项目",
+        "url": "https://www.ckgsb.com/emba/",
+        "scope": "累计学员与核心决策者结构"
+      }
+    },
+    "https://www.ypo.org/membership-requirements": {
+      "ids": [
+        "U04"
+      ],
+      "row": {
+        "title": "YPO会员资格",
+        "url": "https://www.ypo.org/membership-requirements/",
+        "scope": "2026-10-21当前公开网页；年龄、职位及企业规模条件"
+      }
+    },
+    "https://www.ypo.org/the-ypo-experience": {
+      "ids": [
+        "U05"
+      ],
+      "row": {
+        "title": "YPO会员体验",
+        "url": "https://www.ypo.org/the-ypo-experience/",
+        "scope": "地方分会、Forum、兴趣网络及家庭服务；全球设计"
+      }
+    },
+    "https://www.ypo.org": {
+      "ids": [
+        "U06"
+      ],
+      "row": {
+        "title": "YPO机构首页",
+        "url": "https://www.ypo.org/",
+        "scope": "当前自述全球超过38000名成员"
+      }
+    },
+    "https://www.daonong.com/board": {
+      "ids": [
+        "U17"
+      ],
+      "row": {
+        "title": "中国企业家俱乐部理事会",
+        "url": "https://www.daonong.com/board",
+        "scope": "当前官方理事会与治理名单；用于机构身份和客户层级"
+      }
+    },
+    "https://conservation.see.org.cn/Admission/Association": {
+      "ids": [
+        "K14"
+      ],
+      "row": {
+        "title": "阿拉善SEE会员公约",
+        "url": "https://conservation.see.org.cn/Admission/Association/",
+        "scope": "会员活动、企业绿色实践、组织治理及交流边界"
+      }
+    },
+    "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf": {
+      "ids": [
+        "K02"
+      ],
+      "row": {
+        "title": "北京香港马会会所子女附属卡申请表",
+        "url": "https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf",
+        "scope": "p1；8—21岁及120元年费"
+      }
+    },
+    "https://www.ckgsb.com/emba/common_problems": {
+      "ids": [
+        "K03",
+        "S43"
+      ],
+      "row": {
+        "title": "长江商学院EMBA费用与申请",
+        "url": "https://www.ckgsb.com/emba/common_problems/",
+        "scope": "2026级学费及申请费"
+      }
+    },
+    "https://www.zhisland.com/newmedia/guangxi2015/about.html": {
+      "ids": [
+        "K10"
+      ],
+      "row": {
+        "title": "正和岛2015广西活动入会说明",
+        "url": "https://www.zhisland.com/newmedia/guangxi2015/about.html",
+        "scope": "2015历史入会制度、权益与3万元年费，不作2026报价"
+      }
+    },
+    "https://www.xiaohongshu.com/user/profile/63f3340c000000001001ee6f": {
+      "ids": [
+        "C27"
+      ],
+      "row": {
+        "title": "中欧国际工商学院 小红书认证机构主页",
+        "url": "https://www.xiaohongshu.com/user/profile/63f3340c000000001001ee6f",
+        "scope": "2026-10-21；机构公开资料"
+      }
+    },
+    "https://www.xiaohongshu.com/user/profile/662761820000000007005cc2": {
+      "ids": [
+        "C28"
+      ],
+      "row": {
+        "title": "长江商学院EMBA 小红书认证机构主页",
+        "url": "https://www.xiaohongshu.com/user/profile/662761820000000007005cc2",
+        "scope": "2026-10-21；机构公开资料"
+      }
+    },
+    "https://www.xiaohongshu.com/explore/6ac9ffdf0000000015008945": {
+      "ids": [
+        "C31"
+      ],
+      "row": {
+        "title": "中欧MBA 医疗健康行业专场小聚",
+        "url": "https://www.xiaohongshu.com/explore/6ac9ffdf0000000015008945",
+        "scope": "2026-10-10发布；10-31活动预告；机构公开资料"
+      }
+    },
+    "https://www.xiaohongshu.com/explore/6acb3536000000001c02cc41": {
+      "ids": [
+        "C32"
+      ],
+      "row": {
+        "title": "中欧MBA 海归职场小聚",
+        "url": "https://www.xiaohongshu.com/explore/6acb3536000000001c02cc41",
+        "scope": "2026-10-11发布；11-07活动预告；机构公开资料"
+      }
+    },
+    "https://www.xiaohongshu.com/explore/6ac8af69000000001301905a": {
+      "ids": [
+        "C33"
+      ],
+      "row": {
+        "title": "中欧MBA 科技圈职场小聚",
+        "url": "https://www.xiaohongshu.com/explore/6ac8af69000000001301905a",
+        "scope": "2026-10-09发布；10-24活动预告；机构公开资料"
+      }
+    },
+    "https://www.weibo.com/uplusclub": {
+      "ids": [
+        "U16"
+      ],
+      "row": {
+        "title": "优家荟官方微博公开索引",
+        "url": "https://www.weibo.com/uplusclub",
+        "scope": "检索快照：15086粉丝；2025-04-09艺术之旅视频1537赞、283评论、352转发；历史单帖"
+      }
+    },
+    "https://www.xiaohongshu.com": {
+      "ids": [
+        "U11"
+      ],
+      "row": {
+        "title": "小红书平台研究快照",
+        "url": "https://www.xiaohongshu.com/",
+        "scope": "项目MediaCrawler采集与机构身份核对；2026-10-21；逐篇数据存本项目台账"
+      }
+    },
+    "https://member.eonetwork.org/chinaeast/membership-qualification": {
+      "ids": [
+        "K15"
+      ],
+      "row": {
+        "title": "EO中国华东分会资格",
+        "url": "https://member.eonetwork.org/chinaeast/membership-qualification/",
+        "scope": "创始人或所有者资格、企业营收及入会流程"
+      }
+    },
+    "https://eonetwork.org/one/governance-financial-reporting/annual-reports": {
+      "ids": [
+        "U07"
+      ],
+      "row": {
+        "title": "EO年度财务与治理资料目录",
+        "url": "https://eonetwork.org/one/governance-financial-reporting/annual-reports",
+        "scope": "本轮公开目录最新列FY2024/25；审计正文链接要求登录"
+      }
+    },
+    "https://conservation.see.org.cn/uploads/soft/240723/1-240H3143125.pdf": {
+      "ids": [
+        "K12"
+      ],
+      "row": {
+        "title": "阿拉善SEE 2024年中理事会公报",
+        "url": "https://conservation.see.org.cn/uploads/soft/240723/1-240H3143125.pdf",
+        "scope": "2024上半年166场、338会员、2412人次；PDFp2"
+      }
+    },
+    "https://conservation.see.org.cn/Admission": {
+      "ids": [
+        "K13"
+      ],
+      "row": {
+        "title": "阿拉善SEE入会与活动类型",
+        "url": "https://conservation.see.org.cn/Admission/",
+        "scope": "会员交流、企业互访、环保行动、国际考察及会员大会"
+      }
+    },
+    "https://journals.sagepub.com/doi/abs/10.1177/0265407518761225": {
+      "ids": [
+        "U08"
+      ],
+      "row": {
+        "title": "Hall 共同时间与友谊形成研究",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0265407518761225",
+        "scope": "2018线上发表，2019卷期；355名搬迁成年人及112名大学新生"
+      }
+    },
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_55b4bbc9a30547a9912e7ed61ffa7e20.html": {
+      "ids": [
+        "U09"
+      ],
+      "row": {
+        "title": "中华人民共和国旅游法",
+        "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_55b4bbc9a30547a9912e7ed61ffa7e20.html",
+        "scope": "市场监管总局法律原文；第28条旅行社经营许可"
+      }
+    },
+    "https://big5.www.gov.cn/gate/big5/www.gov.cn/yaowen/liebiao/202503/content_7020334.htm": {
+      "ids": [
+        "U10"
+      ],
+      "row": {
+        "title": "预付式消费司法解释发布说明",
+        "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/yaowen/liebiao/202503/content_7020334.htm",
+        "scope": "中国政府网；2025-05-01施行；解除、退款及证据规则"
+      }
+    },
+    "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_04a0f1fb5df244e39688fd5372623a8d.html": {
+      "ids": [
+        "S75"
+      ],
+      "row": {
+        "title": "个人信息保护法",
+        "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_04a0f1fb5df244e39688fd5372623a8d.html",
+        "scope": "工信部法律文本；2021法律；法律原文"
+      }
+    },
+    "https://thecapitalclub.com/zh-hans/julebulishi": {
+      "ids": [
+        "S22"
+      ],
+      "row": {
+        "title": "京城俱乐部简介",
+        "url": "https://thecapitalclub.com/zh-hans/julebulishi/",
+        "scope": "京城俱乐部；页面无发布日期；机构自述"
+      }
+    },
+    "https://www.higherclub.cn": {
+      "ids": [
+        "S37"
+      ],
+      "row": {
+        "title": "HIGHER CLUB机构介绍",
+        "url": "https://www.higherclub.cn/",
+        "scope": "HIGHER CLUB；采集时；机构自述"
+      }
+    },
+    "https://www.cntraveler.com/bars/shanghai/kee-club": {
+      "ids": [
+        "S55"
+      ],
+      "row": {
+        "title": "KEE Club介绍",
+        "url": "https://www.cntraveler.com/bars/shanghai/kee-club",
+        "scope": "Condé Nast Traveler；页面未标；媒体观察"
+      }
+    },
+    "https://www.meet-in-shanghai.net/cn/food/yongfu-club-882569": {
+      "ids": [
+        "S54"
+      ],
+      "row": {
+        "title": "雍福会服务介绍",
+        "url": "https://www.meet-in-shanghai.net/cn/food/yongfu-club-882569/",
+        "scope": "上海文旅推广网；采集时；目的地机构介绍"
+      }
+    },
+    "https://www.tpc.com.cn/membership": {
+      "ids": [
+        "S52"
+      ],
+      "row": {
+        "title": "黑骑士球员俱乐部会籍",
+        "url": "https://www.tpc.com.cn/membership",
+        "scope": "黑骑士球员俱乐部；采集时；机构自述"
+      }
+    },
+    "https://www.beijingclubhouse.com/zh-CN/aboutus-thebeijingclubhouse.aspx": {
+      "ids": [
+        "S53"
+      ],
+      "row": {
+        "title": "北京香港马会会所介绍",
+        "url": "https://www.beijingclubhouse.com/zh-CN/aboutus-thebeijingclubhouse.aspx",
+        "scope": "北京香港马会会所；采集时；机构自述"
+      }
+    },
+    "https://www.shanghaiwestend.com": {
+      "ids": [
+        "S56"
+      ],
+      "row": {
+        "title": "上海卫智马术",
+        "url": "https://www.shanghaiwestend.com/",
+        "scope": "上海卫智马术；采集时；机构自述"
+      }
+    },
+    "https://www.oldchair.cn/wsdhy_jiage": {
+      "ids": [
+        "S28"
+      ],
+      "row": {
+        "title": "伟事达中国产品价格体系",
+        "url": "https://www.oldchair.cn/wsdhy_jiage",
+        "scope": "伟事达品牌产品页；页面标2026；机构标价"
+      }
+    },
+    "https://apps.apple.com/cn/app/正和岛/id525751375": {
+      "ids": [
+        "S39"
+      ],
+      "row": {
+        "title": "正和岛官方开发者介绍",
+        "url": "https://apps.apple.com/cn/app/正和岛/id525751375",
+        "scope": "正和岛 App Store；采集时；开发者自述"
+      }
+    },
+    "https://www.cefco.cn/about/index.html": {
+      "ids": [
+        "S49"
+      ],
+      "row": {
+        "title": "亚布力中国企业家论坛介绍",
+        "url": "https://www.cefco.cn/about/index.html",
+        "scope": "亚布力论坛；采集时；组织自述"
+      }
+    },
+    "https://ttobapi.hundun.cn": {
+      "ids": [
+        "S50"
+      ],
+      "row": {
+        "title": "混沌企业学习",
+        "url": "https://ttobapi.hundun.cn/",
+        "scope": "混沌；采集时；机构自述"
+      }
+    },
+    "https://www.detion.com/about": {
+      "ids": [
+        "S51"
+      ],
+      "row": {
+        "title": "德申汇平台介绍",
+        "url": "https://www.detion.com/about",
+        "scope": "德申汇；采集时；机构自述"
+      }
+    },
+    "https://emba.saif.sjtu.edu.cn/emba_mobile/content/show/236-887.html": {
+      "ids": [
+        "S44"
+      ],
+      "row": {
+        "title": "高金金融EMBA招生",
+        "url": "https://emba.saif.sjtu.edu.cn/emba_mobile/content/show/236-887.html",
+        "scope": "上海交通大学高金；2026级；机构标价"
+      }
+    },
+    "https://cob.sufe.edu.cn/websites/MBA/Admissions/EMBA-Financial-2026/index.html": {
+      "ids": [
+        "S45"
+      ],
+      "row": {
+        "title": "上海财经金融EMBA",
+        "url": "https://cob.sufe.edu.cn/websites/MBA/Admissions/EMBA-Financial-2026/index.html",
+        "scope": "上海财经大学；2026级；机构自述"
+      }
+    },
+    "https://emba.pbcsf.tsinghua.edu.cn/index.htm": {
+      "ids": [
+        "S46"
+      ],
+      "row": {
+        "title": "清华五道口金融EMBA",
+        "url": "https://emba.pbcsf.tsinghua.edu.cn/index.htm",
+        "scope": "清华大学五道口金融学院；采集时；机构自述"
+      }
+    },
+    "https://edp.phbs.pku.edu.cn": {
+      "ids": [
+        "S47"
+      ],
+      "row": {
+        "title": "北大汇丰高管教育",
+        "url": "https://edp.phbs.pku.edu.cn/",
+        "scope": "北京大学汇丰商学院；采集时及2025活动；机构自述"
+      }
+    },
+    "https://www.socia.org/Member/user/Chamber.html": {
+      "ids": [
+        "S40"
+      ],
+      "row": {
+        "title": "深圳侨商会籍与价格",
+        "url": "https://www.socia.org/Member/user/Chamber.html",
+        "scope": "深圳市侨商国际联合会；未标生效期；组织标价"
+      }
+    },
+    "https://amcham-shanghai.glueup.cn/event/2026-summer-youth-program-2-days-上海美国商会暑期青少年项目-50062": {
+      "ids": [
+        "S41"
+      ],
+      "row": {
+        "title": "上海美国商会青少年项目",
+        "url": "https://amcham-shanghai.glueup.cn/event/2026-summer-youth-program-2-days-上海美国商会暑期青少年项目-50062/",
+        "scope": "上海美国商会官方报名平台；2026-07-09至10；组织活动标价"
+      }
+    },
+    "https://amcham.glueup.cn/event/sold-out-chengdu-en-cn-2026-amcham-china-dialogue-with-sichuan-provincial-government-50581": {
+      "ids": [
+        "S74"
+      ],
+      "row": {
+        "title": "中国美国商会四川交流活动",
+        "url": "https://amcham.glueup.cn/event/sold-out-chengdu-en-cn-2026-amcham-china-dialogue-with-sichuan-provincial-government-50581/",
+        "scope": "中国美国商会；2026-06-25至26；组织活动标价"
+      }
+    },
+    "https://www.sparkletour.com/?from=websitedict.com": {
+      "ids": [
+        "S33"
+      ],
+      "row": {
+        "title": "耀悦产品与起价",
+        "url": "https://www.sparkletour.com/?from=websitedict.com",
+        "scope": "耀悦；页面未标团期；机构标价"
+      }
+    },
+    "https://www.hhtravel.com": {
+      "ids": [
+        "S57"
+      ],
+      "row": {
+        "title": "鸿鹄逸游",
+        "url": "https://www.hhtravel.com/",
+        "scope": "鸿鹄逸游 携程；采集时；机构自述"
+      }
+    },
+    "https://www.beshan.com": {
+      "ids": [
+        "S58"
+      ],
+      "row": {
+        "title": "碧山旅行",
+        "url": "https://www.beshan.com/",
+        "scope": "碧山旅行；采集时；机构自述"
+      }
+    },
+    "https://www.itravellive.com": {
+      "ids": [
+        "S59"
+      ],
+      "row": {
+        "title": "德迈国际旅行",
+        "url": "https://www.itravellive.com/",
+        "scope": "德迈；采集时；机构自述"
+      }
+    },
+    "https://zanadu.com.cn": {
+      "ids": [
+        "S60"
+      ],
+      "row": {
+        "title": "赞那度",
+        "url": "https://zanadu.com.cn/",
+        "scope": "赞那度；采集时；机构自述"
+      }
+    },
+    "https://www.unikv.cn/about.html": {
+      "ids": [
+        "S61"
+      ],
+      "row": {
+        "title": "无二之旅介绍",
+        "url": "https://www.unikv.cn/about.html",
+        "scope": "无二之旅；采集时；机构自述"
+      }
+    },
+    "https://www.100.travel": {
+      "ids": [
+        "S62"
+      ],
+      "row": {
+        "title": "佰悦会",
+        "url": "https://www.100.travel/",
+        "scope": "佰悦会；采集时；机构自述"
+      }
+    },
+    "https://www.badazhou.com": {
+      "ids": [
+        "S63"
+      ],
+      "row": {
+        "title": "八大洲旅游",
+        "url": "https://www.badazhou.com/",
+        "scope": "八大洲旅游；采集时；机构自述"
+      }
+    },
+    "https://www.songtsam.com": {
+      "ids": [
+        "S64"
+      ],
+      "row": {
+        "title": "松赞",
+        "url": "https://www.songtsam.com/",
+        "scope": "松赞；采集时；机构自述"
+      }
+    },
+    "https://www.clubmed.com.cn": {
+      "ids": [
+        "S65"
+      ],
+      "row": {
+        "title": "Club Med中国",
+        "url": "https://www.clubmed.com.cn/",
+        "scope": "Club Med；采集时；机构自述"
+      }
+    },
+    "https://www.yetravel.com": {
+      "ids": [
+        "S66"
+      ],
+      "row": {
+        "title": "野去自然旅行",
+        "url": "https://www.yetravel.com/",
+        "scope": "野去；页面含2021历史资讯；机构自述"
+      }
+    },
+    "https://m.liangyuan.com/about.html": {
+      "ids": [
+        "S67"
+      ],
+      "row": {
+        "title": "我主良缘机构介绍",
+        "url": "https://m.liangyuan.com/about.html",
+        "scope": "我主良缘；页面未标；机构自述"
+      }
+    },
+    "https://www.zhenai.com": {
+      "ids": [
+        "S68"
+      ],
+      "row": {
+        "title": "珍爱网",
+        "url": "https://www.zhenai.com/",
+        "scope": "珍爱网；采集时；机构自述"
+      }
+    },
+    "https://login.jiayuan.com": {
+      "ids": [
+        "S69"
+      ],
+      "row": {
+        "title": "世纪佳缘登录",
+        "url": "https://login.jiayuan.com/",
+        "scope": "世纪佳缘；采集时；机构自述"
+      }
+    },
+    "https://m.51marryyou.com": {
+      "ids": [
+        "S70"
+      ],
+      "row": {
+        "title": "MarryU官方产品介绍",
+        "url": "https://m.51marryyou.com/",
+        "scope": "MarryU；页面含2018资料；机构自述"
+      }
+    },
+    "https://finance.cnr.cn/gs/201211/t20121108_511322939_1.shtml": {
+      "ids": [
+        "S71"
+      ],
+      "row": {
+        "title": "网易花田上线报道",
+        "url": "https://finance.cnr.cn/gs/201211/t20121108_511322939_1.shtml",
+        "scope": "中国广播网；2012；历史媒体采访"
+      }
+    },
+    "https://www.soulapp.cn": {
+      "ids": [
+        "S72"
+      ],
+      "row": {
+        "title": "Soul官方产品",
+        "url": "https://www.soulapp.cn/",
+        "scope": "Soul；采集时；机构自述"
+      }
+    },
+    "https://ir.hellogroup.com/news-releases/news-release-details/hello-group-inc-announces-unaudited-financial-results-fourth-3": {
+      "ids": [
+        "S12"
+      ],
+      "row": {
+        "title": "挚文集团2025年度业绩发布",
+        "url": "https://ir.hellogroup.com/news-releases/news-release-details/hello-group-inc-announces-unaudited-financial-results-fourth-3",
+        "scope": "Hello Group；2025；上市公司业绩发布"
+      }
+    },
+    "https://www.clec.com.cn/p/sirendongshihui.html": {
+      "ids": [
+        "C17"
+      ],
+      "row": {
+        "title": "领教工坊 私人董事会",
+        "url": "https://www.clec.com.cn/p/sirendongshihui.html",
+        "scope": "采集时页面；机构公开资料"
+      }
+    },
+    "https://www.chuanghehui.com/view/club": {
+      "ids": [
+        "C35"
+      ],
+      "row": {
+        "title": "创合汇 全球商学院共创联盟与创投俱乐部",
+        "url": "https://www.chuanghehui.com/view/club",
+        "scope": "未标统计截止日；机构公开资料"
+      }
+    },
+    "https://mzj.sh.gov.cn/MZ_shetuan748_0-2-3-357-732/20200520/MZ_shetuan748_141531.html": {
+      "ids": [
+        "C41"
+      ],
+      "row": {
+        "title": "上海新沪商联合会 上海民政收费公示",
+        "url": "https://mzj.sh.gov.cn/MZ_shetuan748_0-2-3-357-732/20200520/MZ_shetuan748_141531.html",
+        "scope": "2019-04-10历史会费标准；政府公开资料"
+      }
+    },
+    "https://www.cigarambassador.com/home": {
+      "ids": [
+        "C26"
+      ],
+      "row": {
+        "title": "雪茄客 机构官网检索记录",
+        "url": "https://www.cigarambassador.com/home/",
+        "scope": "采集时未取得有效正文；机构公开资料"
+      }
+    }
+  },
+  "charts": [
+    "macro",
+    "platform",
+    "wealth",
+    "social",
+    "architecture",
+    "economics"
+  ],
+  "financial_assumptions": {
+    "fee": 48000,
+    "direct_per_member": 14000,
+    "acquisition_per_member": 6000,
+    "fixed": 1800000,
+    "break_even": 65
+  }
+}

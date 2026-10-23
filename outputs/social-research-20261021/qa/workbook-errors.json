@@ -1,0 +1,25 @@
+{
+  "recordCount": 1,
+  "truncated": false,
+  "metadata": {
+    "revision": "7nzhpu",
+    "target": {
+      "id": "wb/9ie942",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "match",
+      "tokens": [
+        "match"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pages": 28,
+  "changed_pages": [
+    1,
+    8,
+    9,
+    10,
+    11,
+    14,
+    24,
+    27,
+    28
+  ],
+  "navigation_errors": [],
+  "all_28_original_pages_visually_reviewed": true,
+  "collection_refresh": {
+    "pages": 22,
+    "successful": 20
+  },
+  "source_count": 51,
+  "final_all_pages_reviewed": true,
+  "changed_pages_reviewed": true,
+  "six_case_sections": 6,
+  "no_unresolved_generic_pending_labels": true,
+  "document_bytes": 169408
+}

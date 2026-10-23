@@ -1,0 +1,565 @@
+<!DOCTYPE html><html><head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!--<title>创合汇 打破大学围墙 重塑商学教育</title>-->
+<title>创合汇集团 创新增长赋能平台</title>
+<meta name="keywords" content="创合汇、创合汇平台、创合汇集团、创合汇商学院、上海创合汇、创合汇教育科技有限公司、创合汇教育、上海创合汇教育科技有限公司、创合汇邵钧、创合汇总站、创合汇资本、创合汇咨询、创合汇APP、创合汇社群">
+<meta name="keywords" content="创合汇、创合汇平台、创合汇官网、创合汇集团、创合汇商学院、上海创合汇、创合汇教育科技有限公司、创合汇教育、上海创合汇教育科技有限公司、创合汇邵钧、创合汇总站、创合汇资本、创合汇咨询、创合汇APP、创合汇社群">
+<meta name="description" content="创合汇是基于“斯坦福+硅谷”的模式成立的集商学、资本、创服等业务于一体创新创业服务平台，旗下设有创合汇创新院、创合汇资本、创合汇创业服务中心、21世纪新商学研究院等机构。 "> <!-- Apple iOS and Android stuff -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/icon.png">
+<link rel="apple-touch-icon-precomposed" href="/images/icon.png">
+<link rel="apple-touch-startup-image" media="screen and (orientation: portrait)" href="/images/startup.png">
+<link rel="apple-touch-startup-image" media="screen and (orientation: landscape)" href="/images/startupL.png">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1">
+<script type="text/javascript">
+function fBrowserRedirect()
+{    
+    var sUserAgent = navigator.userAgent.toLowerCase();    
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";      
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";    
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";    
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";    
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";    
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";    
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";    
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";    
+   
+    if(bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM){    
+            window.location.href = "/mobile/";   
+    }     
+}   
+
+fBrowserRedirect();  
+</script> 
+    <link href="/public/index/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="/public/index/css/layout.css" type="text/css" rel="stylesheet">
+    <link href="/public/index/css/common.css" type="text/css" rel="stylesheet">
+    <link href="/public/index/css/colorbox.css" type="text/css" rel="stylesheet">
+    <link href="/public/index/css/swiper.min.css" type="text/css" rel="stylesheet">
+    <link href="/public/index/css/index.css?v=20230512" type="text/css" rel="stylesheet">
+    <!--[if IE]><script src="js/html5.js"></script><![endif]-->
+    <!--[if lt IE 10]><script type="text/javascript" src="js/PIE.js"></script><![endif]-->
+    <script type="text/javascript" src="/public/index/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/index/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/public/index/js/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="/public/index/js/banner.js"></script>
+    <script type="text/javascript" src="/public/index/js/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="/public/index/js/ckplayer/ckplayer.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+
+            function changeVideo(flv, mp4, ogv, webm, v_c, _img) {
+                var _h = 450;
+                var _w = 800;
+                mp4 = 'https://chhcollege-static.oss-cn-shanghai.aliyuncs.com/othermaterial/%E5%88%9B%E5%90%88%E6%B1%87%E5%B9%B3%E5%8F%B0%E5%AE%A3%E4%BC%A0%E7%89%8720230428.mp4';
+                var flashvars = {
+                    f: flv,
+                    c: 0,
+                    b: 1,
+                    e: 1,
+                    p: 0,
+                    i: _img
+                };
+                var params = {
+                    bgcolor: '#FFF',
+                    allowFullScreen: true,
+                    allowScriptAccess: 'always',
+                    wmode: 'transparent'
+                };
+                var video = [mp4 + '->video/mp4', ogv + '->video/ogg', webm + '->video/webm'];
+                CKobject.embed('/public/index/js/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '' + _w + '', '' + _h + '', true, flashvars, video, params);
+
+            }
+
+
+
+            // $.fn.banner(".index_kv_body", 5000);
+
+            $(".index_center_body .list li").hover(function() {
+                $(this).find("*").stop(false, true);
+                $(this).find("img").fadeIn().end().find(".more_btn").show(300).end().find(".mask").addClass("show");
+
+            }, function() {
+                $(this).find("*").stop(false, true);
+                $(this).find("img").fadeOut().end().find(".more_btn").hide(300).end().find(".mask").removeClass("show");
+            });
+
+
+            $(".news_body .tab_body span").click(function() {
+                var index = $(".news_body .tab_body span").index($(this));
+                $(".news_body .tab_body span").removeClass("cur").eq(index).addClass("cur");
+                $(".news_body .tab_con .con").hide().eq(index).fadeIn();
+            }).eq(0).click();
+
+            $(".video_con").click(function() {
+
+                changeVideo('', '', '', '', '', '');
+
+                $.colorbox({
+                    "inline": true,
+                    "href": ".video_pop"
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- <div class="right-tools">
+        <a class="connect-online zhiCustomBtn">
+            <i class="icon"></i>
+            <p>在线咨询</p>
+        </a>
+    </div>
+    <div style="display:none;">
+        <div class="video_pop">
+            <div id="a1">
+
+            </div>
+        </div>
+    </div> -->
+
+    <header>
+    <div class="cw">
+        <a href="/" class="logo fl"></a>
+        <div class="right_body fr">
+            <ul class="nav_list fl">
+                <li><a href="/" class="cur" target="_blank">首页</a></li>
+                <li><a href="/index/about/index.html" class="" target="_blank">关于创合汇</a>
+                    <div class="sub_Nav">
+                        <div class="line"></div>
+                        <!-- <p> <a href="/index/about/index/cid/369.html">创合汇概况</a> </p> -->
+                         <p> <a href="/index/about/overview.html">创合汇概况</a> </p>
+                        <p> <a href="/index/about/index/cid/370.html">创始人介绍</a> </p>
+                        <!-- <p> <a href="/index/about/index/cid/371.html">企业文化</a></p> -->
+                        <!-- <p> <a href="/index/about/video.html">视频集锦</a> </p> -->
+                        <p> <a href="/index/about/join.html">加入创合汇</a> </p>
+                    </div>
+
+                </li>
+                <li><a href="#" target="_blank">生态业务</a>
+                    <div class="sub_Nav">
+                        <div class="line"></div>
+                        <!-- <p> <a href="https://www.chuanghehui.com/" target="_blank">创合汇商学院</a> </p>
+                        <p> <a href="https://www.chhconsulting.cn/" target="_blank">创合汇咨询</a> </p>
+                        <p> <a href="https://www.chuanghehui.com/" target="_blank">创合汇APP</a> </p>
+                        <p> <a href="https://www.chhcapital.cn/" target="_blank">创合汇资本</a> </p>
+                        <p> <a href="#">创合汇社群</a> </p>
+                        <p> <a href="#">创合汇众创空间</a> </p> -->
+                        <p> <a href="https://www.chuanghehui.com/view/index">创合汇创新院</a> </p>
+                        <p> <a href="https://www.chuanghehui.com/custom/CHUANGFU">创合汇创服中心</a> </p>
+                        <p> <a href="https://www.chhcapital.cn/">创合汇资本</a> </p>
+                    </div>
+                </li>
+                <!-- <li><a href="/index/activity/index.html" class="" target="_blank">平台活动</a>
+                    <div class="sub_Nav">
+                        <div class="line"></div>
+                        <p> <a href="/index/activity/index/cid/466.html">创新创业系列活动</a> </p>
+                        <p> <a href="/index/activity/index/cid/468.html">创服动态</a> </p>
+                        <p> <a href="/index/activity/index/cid/469.html">学院活动</a> </p>
+                        <p> <a href="/index/activity/index/cid/470.html">赤兔活动</a> </p>
+
+                    </div>
+
+                </li> -->
+                <li><a href="/index/news/index.html" class="" target="_blank">新闻动态</a>
+                    <div class="sub_Nav">
+                        <div class="line"></div>
+                        <p> <a href="/index/news/index/cid/466.html">商学动态</a> </p>
+                        <p> <a href="/index/news/index/cid/468.html">创服动态</a> </p>
+                        <p> <a href="/index/news/index/cid/467.html">资本动态</a> </p>
+                        <p> <a href="/index/activity/index/index.html">平台活动</a> </p>
+                        <!-- <p> <a href="/index/news/index/cid/471.html">创始人动态</a> </p> -->
+                        <!-- <p> <a href="/index/news/index/cid/468.html">行业资讯</a> </p> -->
+                    </div>
+                </li>
+                <li><a href="/index/staff/index.html" class="" target="_blank">战略资源</a>
+                    <div class="sub_Nav">
+                        <div class="line"></div>
+                        <p> <a href="/index/staff/index.html">战略合作</a> </p>
+                        <p> <a href="/index/staff/teacher.html">专家智库</a> </p>
+                    </div>
+
+
+                </li>
+                <li><a href="/index/contact/index.html" class="" target="_blank">联系我们</a></li>
+            </ul>
+            <div class="tools_bar fr">
+                <div class="search_bar fl" onkeydown="if (event.keyCode==13) {searchAll();}">
+                    <input type="text" id="keys" placeholder="Search">
+                    <a href="javascript:;" onclick="searchAll()"></a>
+                </div>
+                <div class="website_change fl"><span>创合汇网群</span><i></i>
+                    <ul>
+                        <li><a href="http://www.chuanghehui.cn/" target="_blank">创合汇总站</a></li>
+                        <li><a href="https://www.chhcapital.cn/" target="_blank">创合汇资本</a></li>
+
+                        <li><a href="https://www.chuanghehui.com/" target="_blank">创合汇创新院</a></li>
+                        <!-- <li> <a href="https://www.chhconsulting.cn/" target="_blank">创合汇咨询</a> </li> -->
+                        <!-- <li><a href="https://www.chuanghehui.com/" target="_blank">创合汇APP</a></li> -->
+                    </ul>
+                </div>
+                <div style="display: inline-block;">
+                    <a href="tel:400-0520-019" class="wechat"></a><span style="color: #AD7C58; position: relative;top: -15px;font-size: 17px;">400-0520-019</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    function searchAll() {
+        var str = $("#keys").val();
+        if (str == "")
+            alert("请输入要搜索的关键词");
+        else
+            location.href = "/index/search/index.html?q=" + str;
+    }
+    $(function() {
+        $("ul.nav_list li").hover(function() {
+            $("ul.nav_list li .sub_Nav").stop(false, true);
+            $(this).find(".sub_Nav").fadeIn();
+        }, function() {
+            $("ul.nav_list li .sub_Nav").stop(false, true);
+            $(this).find(".sub_Nav").fadeOut();
+        });
+    });
+</script>
+
+    <div class="index_kv_body">
+        <!--         <a href="https://www.chuanghehui.cn/index/about/index.html" target="_blank" class="kv" style="background-image:url(/public/upload/20180423/20180423152230.jpg);"></a>
+                <a href="javascript:;" class="btn prev_btn"></a>
+        <a href="javascript:;" class="btn next_btn"></a> -->
+        <div id="banner-swiper" class="banner-swiper swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transform: translate3d(-2160px, 0px, 0px); transition-duration: 6000ms;"><div class="swiper-slide zhexue_03 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1080px;">
+                    <a href="https://www.chuanghehui.cn/index/bannerpage/txy.html" style="width: 100%; height: 100%;display: block;">
+                        <img src="/public/index/images/index/创合汇官网banner3.jpg" style="width: 100%; display: block;" width="1200" height="391">
+                    </a>
+                </div>
+                <div class="swiper-slide zhexue_01 swiper-slide-prev" data-swiper-slide-index="0" style="width: 1080px;">
+                    <a href="https://www.chuanghehui.cn/index/about/index.html" style="width: 100%; height: 100%;display: block;">
+                        <img src="/public/index/images/index/index_banner2025.jpg" style="width: 100%; display: block;" width="1200" height="391">
+                    </a>
+                </div>
+                <div class="swiper-slide zhexue_02 swiper-slide-active" data-swiper-slide-index="1" style="width: 1080px;">
+                    <a href="https://www.chuanghehui.cn/index/bannerpage/company.html" style="width: 100%; height: 100%;display: block;">
+                        <img src="/public/index/images/index/创合汇官网banner2.png" style="width: 100%; display: block;" width="1200" height="391">
+                    </a>
+                </div>
+                <div class="swiper-slide zhexue_03 swiper-slide-next" data-swiper-slide-index="2" style="width: 1080px;">
+                    <a href="https://www.chuanghehui.cn/index/bannerpage/txy.html" style="width: 100%; height: 100%;display: block;">
+                        <img src="/public/index/images/index/创合汇官网banner3.jpg" style="width: 100%; display: block;" width="1200" height="391">
+                    </a>
+                </div>
+            <div class="swiper-slide zhexue_01 swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1080px;">
+                    <a href="https://www.chuanghehui.cn/index/about/index.html" style="width: 100%; height: 100%;display: block;">
+                        <img src="/public/index/images/index/index_banner2025.jpg" style="width: 100%; display: block;" width="1200" height="391">
+                    </a>
+                </div></div>
+        </div>
+    </div>
+
+    <div class="index_center_body">
+        <div class="in">
+            <div class="cw">
+                <h3 class="tit"><img src="/public/index/images/index/index_tit_2.jpg" width="271" height="32"></h3>
+                <ul class="list clearfix">
+
+                    <li>
+                        <a href="https://www.chuanghehui.com/" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇创新院</h3>
+                                <h4>创新增长解决方案提供者</h4>
+                                <p>创合汇创新院具有十年的商学院教育积淀，拥有深厚理论功底和丰富实践经验的教授、专家顾问、企业家导师组成的一流师资团队。累计学员10万+，其中上市公司500余家，未来30年致力于卓越企业，成为全球领先的创新增长解决方案提供者！</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg">
+                        </a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="https://www.chuanghehui.com/" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇APP</h3>
+                                <h4>商学社群生态平台</h4>
+                                <p>打破大学围墙，整合国际知名商学院教育资源和全球产业资源，构建中国线上商学社群生态平台。</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg" />
+                        </a>
+                    </li> -->
+
+                    <!-- <li>
+                        <a href="http://www.chhconsulting.cn" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇咨询</h3>
+                                <h4>企业创新发展整体解决方案提供者</h4>
+                                <p>助力企业实现创新转型，构建可持续发展的核心竞争优势。</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg" />
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a href="https://www.chhcapital.cn/" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇资本</h3>
+                                <h4>赋能型股权投融资平台</h4>
+                                <p>以“投资+创服”的模式服务于创新创业企业和拟挂牌上市企业的投融资服务平台。</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg">
+                        </a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇社群</h3>
+                                <h4>全球商学院校友联盟</h4>
+                                <p>打造跨商学院校友交流分享、合作共赢的平台，推动商学院校友创新创业，弘扬企业家精神与新商业文明。</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg" />
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a href="https://www.chuanghehui.com/custom/CHUANGFU" target="_blank">
+                            <div class="mask">
+                                <h3>创合汇创业服务中心</h3>
+                                <h4>以“创业加速为核心”的产业创新解决方案提供商</h4>
+                                <p>通过“产业龙头加速+创新城市赋能+专业三方创服”的新模式，打造创业企业、大企业和地方城市融通发展的创新创业生态。</p>
+                                <h6><span>MORE</span><i>+</i></h6>
+                            </div>
+                            <span class="more_btn"></span>
+                            <img src="/public/index/images/index/img_1.jpg">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index_btm_body">
+        <div class="cw">
+            <div class="clearfix">
+
+                <div class="news_body fl">
+                    <div class="tab_body">
+                        <a href="/index/news/index.html" target="_blank" class="fr"><em>MORE +</em></a><em>
+                        <span class="cur">商学动态</span>
+                        <span>创服动态</span>
+                        <span>资本动态</span>
+                        <span>活动动态</span>
+                    </em></div><em>
+                    <div class="tab_con">
+                        <div class="con" style="display: block;">
+                            <div class="focus_news">
+                                <a href="/index/news/detail/id/1149/cid/466.html" target="_blank">
+                                    <img src="/public/upload/20230516/20230516153404.jpeg" class="fl" width="1080" height="660">
+                                </a>
+                                <div class="fl">
+                                    <a href="/index/news/detail/id/1149/cid/466.html" target="_blank">
+                                        <h3>创合汇创新院联合创始人、首席战略顾问孟宪忠教授携专家教授团访问宁德时代</h3>
+                                        <p>2月28日，创合汇创新院联合创始人、首席战略顾问、21世纪新商学研究院院长孟宪忠教授携上海交大行业研究院专家教授团一行八人前往宁德时代交流访问。聚集了在供应链、...</p>
+                                    </a>
+                                    <h6><a href="/index/news/index/cid/466.html" target="_blank">MORE +</a></h6>
+                                </div>
+                            </div>
+                            <ul>
+                                                                <li><span>2022-09-08</span><a href="/index/news/detail/id/1097/cid/466.html">重磅｜25家！创合汇又一批校友企业入选第四批专精特新“小巨人”企业名单 </a></li>
+                                                                <li><span>2022-08-15</span><a href="/index/news/detail/id/1101/cid/466.html">创合汇校友联盟全面升级：校友总会、数字科技产业联盟、科创投资百人会正式成立！ </a></li>
+                                                                <li><span>2022-07-23</span><a href="/index/news/detail/id/1147/cid/466.html">“专精特新”企业经营管理人才培训创新增长特训营首期盛大开营！ </a></li>
+                                                            </ul>
+                        </div>
+                        <div class="con" style="display: none;">
+                            <div class="focus_news">
+                                <a href="/index/news/detail/id/1150/cid/468.html" target="_blank">
+                                    <img src="/public/upload/20231018/1697595676591299.jpg" class="fl" width="195">
+                                </a>
+                                <div class="fl">
+                                    <a href="/index/news/detail/id/1150/cid/468.html" target="_blank">
+                                        <h3>创合汇&amp;科大硅谷｜创合汇入围“科大硅谷”首批2023年全球合伙人，签约仪式在合肥隆重举行</h3>
+                                        <p>“科大硅谷”从全球200多家机构中，遴选出首批25家2023年全球合伙人，其中创新单元全球合伙人16家、创新中心合伙人6家、基金合伙人3家。创合汇成功入选，成为...</p>
+                                    </a>
+                                    <h6><a href="/index/news/index/cid/468.html" target="_blank">MORE +</a></h6>
+                                </div>
+                            </div>
+                            <ul>
+                                                                <li><span>2023-04-05</span><a href="/index/news/detail/id/1142/cid/468.html">全链融合·聚势发展 | 苏州工业园区推动产业创新集群服务生态建设，“园易联”焕新升级！ </a></li>
+                                                                <li><span>2023-02-24</span><a href="/index/news/detail/id/1107/cid/468.html">Welcome to 常州 | 聚非“常”英才 看创新之“州” ——2023“龙城英才计划”上海邀请赛圆满落幕！ </a></li>
+                                                                <li><span>2022-11-12</span><a href="/index/news/detail/id/1103/cid/468.html">2022年虹口区改制上市“专精特新”企业沙龙，在上海北外滩圆满落幕！ </a></li>
+                                                            </ul>
+                        </div>
+                        <div class="con" style="display: none;">
+                            <div class="focus_news">
+                                <a href="/index/news/detail/id/1153/cid/467.html" target="_blank">
+                                    <img src="/public/upload/20250605/hefeiqichen.png" class="fl" width="195">
+                                </a>
+                                <div class="fl">
+                                    <a href="/index/news/detail/id/1153/cid/467.html" target="_blank">
+                                        <h3>创合汇资本与合肥市基金联合出资！多孔碳/高性能硅碳负极材料“合肥启宸”获千万级天使轮融资</h3>
+                                        <p>近日，创合汇资本联合合肥市种子基金、合肥市包河区科创种子基金，完成对合肥启宸新能科技有限公司（以下简称“合肥启宸”）的千万级天使轮投资。
+之后，借助资本的力量...</p>
+                                    </a>
+                                    <h6><a href="/index/news/index/cid/467.html" target="_blank">MORE +</a></h6>
+                                </div>
+                            </div>
+                            <ul>
+                                                                <li><span>2024-11-19</span><a href="/index/news/detail/id/1152/cid/467.html">创合汇资本已投企业「希迪智驾」“大疆教父”回湖南老家，打造90亿估值独角兽，即将IPO丨投企动态 </a></li>
+                                                                <li><span>2024-01-20</span><a href="/index/news/detail/id/1151/cid/467.html">创合汇资本荣获融中2023「中国最佳ESG投资机构」、「中国最佳投后管理创业投资机构」 </a></li>
+                                                                <li><span>2023-04-19</span><a href="/index/news/detail/id/1116/cid/467.html">「希迪智驾」新晋上榜胡润研究院《2023全球独角兽榜》！ </a></li>
+                                                            </ul>
+                        </div>
+                        <div class="con" style="display: none;">
+                            <div class="focus_news">
+                                <a href="/index/activity/detail/id/110/cid/466.html" target="_blank">
+                                    <img src="/public/upload/20230512/20230512141003.jpeg" class="fl" width="195">
+                                </a>
+                                <div class="fl">
+                                    <a href="/index/activity/detail/id/110/cid/466.html" target="_blank">
+                                        <h3>双碳引领·转型升级 | 碳中和产业创新发展大会暨上海交通大学国家电投智慧能源创新学院碳中和发展产学研智创中心成立仪式，圆满落幕！</h3>
+                                        <p>秉承国家“碳中和”战略，着力促进创新链、产业链、生态圈的有效衔接，2023年3月21日，由上海交大国家电投智慧能源创新学院主办，创合汇创业服务中心协办的“碳中和...</p>
+                                    </a>
+                                    <h6><a href="/index/activity/index.html" target="_blank">MORE +</a></h6>
+                                </div>
+                            </div>
+                            <ul>
+                                                                <li><span>2023-02-23</span><a href="/index/activity/detail/id/112/cid/466.html">南京市雨花台区委书记张连春带队参访创合汇资本已投企业沈德无创时代与爱可生  </a></li>
+                                                                <li><span>2022-07-26</span><a href="/index/activity/detail/id/88/cid/466.html">重磅｜2022首届“专精特新”创新增长大会暨科创大赛圆满落幕！  </a></li>
+                                                                <li><span>2021-05-09</span><a href="/index/activity/detail/id/109/cid/466.html">凯文·凯利、何亚非、冯仑、尹烨、邵钧等大咖齐聚，这场盛典超高能！| 创合汇新商学十周年盛典  </a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </em></div><em>
+
+                <div class="video_body fr">
+                    <h3 class="tit"><a href="/index/about/index.html" target="_blank" class="fr">MORE +</a><span>视频中心</span></h3>
+
+                    <div class="video_con">
+                        <img src="/public/upload/20200923/20200923141201.jpg">
+                        <div class="mask"><i></i><span>创合汇宣传片</span></div>
+                    </div>
+                </div>
+
+
+            </em></div><em>
+        </em></div><em>
+    </em></div><em>
+
+    <footer class="footer">
+    <div class="cw">
+        <div class="top_body clearfix">
+            <ul class="fl clearfix">
+                <li>
+                    <h3><a href="/index/about/index.html" target="_blank">关于创合汇</a></h3>
+                    <p><a href="/index/about/overview.html" target="_blank">创合汇概况</a></p>
+                    <p><a href="/index/about/index/cid/370.html" target="_blank">创始人介绍</a></p>
+                    <!-- <p><a href="/index/about/index/cid/371.html" target="_blank">企业文化</a></p> -->
+                    <p><a href="/index/about/join.html" target="_blank">加入创合汇</a></p>
+                </li>
+                <li>
+                    <h3><a href="#" target="_blank">生态业务</a></h3>
+                    <p><a href="https://www.chuanghehui.com/view/business" target="_blank">创合汇创新院</a></p>
+                    <!-- <p><a href="https://www.chhconsulting.cn/" target="_blank">创合汇咨询</a></p>
+          <p><a href="https://www.chuanghehui.com/" target="_blank">创合汇APP</a></p> -->
+                    <p><a href="https://www.chuanghehui.com/custom/CHUANGFU" target="_blank">创合汇创服中心</a></p>
+                    <p><a href="https://www.chhcapital.cn/" target="_blank">创合汇资本</a></p>
+                    <!-- <p><a href="#" target="_blank">创合汇社群</a></p>
+          <p><a href="#" target="_blank">赤兔创业咖啡</a></p> -->
+                </li>
+                <!-- <li>
+          <h3><a href="/index/activity/index.html" target="_blank">平台活动</a></h3>
+          <p><a href="/index/activity/index/cid/466.html" target="_blank">创新创业系列活动</a></p>
+          <p><a href="/index/activity/index/cid/468.html" target="_blank">创服动态</a></p>
+          <p><a href="/index/activity/index/cid/469.html" target="_blank">学院活动</a></p>
+          <p><a href="/index/activity/index/cid/470.html" target="_blank">赤兔活动</a></p>
+        </li> -->
+                <li>
+                    <h3><a href="/index/news/index.html" target="_blank">新闻动态</a></h3>
+                    <p><a href="/index/news/index/cid/466.html" target="_blank">商学动态</a></p>
+                    <p><a href="/index/news/index/cid/468.html" target="_blank">创服动态</a></p>
+                    <p><a href="/index/news/index/cid/467.html" target="_blank">资本动态</a></p>
+                    <p><a href="/index/activity/index.html" target="_blank">平台活动</a></p>
+                </li>
+                <li>
+                    <h3><a href="/index/staff/index.html" target="_blank">战略资源</a></h3>
+                    <p><a href="/index/staff/index.html" target="_blank">战略合作</a></p>
+                    <p><a href="/index/staff/teacher.html" target="_blank">专家智库</a></p>
+                </li>
+            </ul>
+
+            <div class="contactus_body fr">
+                <h3>联系我们</h3>
+                <p>创合汇集团总部：</p>
+                <p>地址：上海市闵行区沧源路1300号"海聚英才"创业城2楼211-212室</p>
+                <p>创合汇集团电话：400-0520-019</p>
+
+                <!-- <h6><img style="width: 100px;" src="/public/index/images/common/qr_code.jpg" /></h6> -->
+            </div>
+
+        </div>
+
+        <div class="copyright_bar">
+            <!-- <div class="fl">
+                <a href="../contact/index.html" target="_blank">联系我们</a>
+                <em>|</em>
+                <a href="#" target="_blank">网站地图</a>
+                <em>|</em>
+                <a href="#" target="_blank">法律声明</a>
+            </div> -->
+            <p class="fr">版权 © 上海创合汇教育科技有限公司 网站备案号：<a target="_blank" href="https://beian.miit.gov.cn/" style="color: #fff;">沪ICP备18026080号-7</a>
+                <a id="host" target="_blank" href="http://www.beian.gov.cn/portal/recordQuery?token=13d2ddc3-571a-4537-9418-4b61c4a246f0" style="color: #fff;position: relative;right: 0;top: 16px;"><img style="width: 30px;height: 30px;" src="/public/index/images/common/dian.png" alt=""><span style="position: relative;top: -15px;left: 20px;">沪公网安备 31010402009341号</span></a>
+            </p>
+        </div>
+
+        <script>
+            var link = ['http://218.242.124.22:8081/businessCheck/verifKey.do?showType=extShow&serial=9031000020190125155927000003646420-SAIC_SHOW_310000-20190703165346678141&signData=MEQCID6D+Kk3JMEPpl4NGATnOj/swxm0DQwyTm24OUb/YXprAiBXJavHx8ZRYmFD/yTrJhxdEKznRL2S3/w6ZfcJkJvVjQ==', 'http://www.beian.gov.cn/portal/recordQuery?token=13d2ddc3-571a-4537-9418-4b61c4a246f0']
+            var host = window.location.host;
+            var dom = document.getElementById('host')
+            if (host.indexOf('chuanghehui.com') >= 0) {
+                dom.href = link[0]
+            } else {
+                dom.href = link[1]
+            }
+        </script>
+
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="/public/index/js/tooth.js"></script>
+<script>
+    $(function() {
+        var mySwiper = new Swiper('.banner-swiper', {
+                direction: 'horizontal',
+                loop: true,
+                autoplay: true,
+                speed: 6000,
+                pagination: '.swiper-pagination',
+
+            })
+            // mySwiper.el.onmouseover = function() {
+            //     mySwiper.autoplay.stop();
+            // }
+            // mySwiper.el.onmouseout = function() {
+            //     mySwiper.autoplay.start();
+            // }
+    });
+</script>
+
+</em><script async="" id="zhichiScript" class="zhiCustomBtn" src="https://chat.sobot.com/chat/frame/v2/entrance.js?sysnum=126a3b647d5247f38d75f041556992c8"></script><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>

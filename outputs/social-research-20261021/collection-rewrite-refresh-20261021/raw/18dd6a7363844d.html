@@ -1,0 +1,515 @@
+<!DOCTYPE html><html lang="zh-cn"><head><script async="" src="http://www.imlady.cn/wechat/jssdk/imlady/jsonp?callback=jQuery18207316423469566622_1792585221495&amp;url=https%3A%2F%2Fwww.imlady.cn%2Fhtml%2Fjoin-0929%2Fcheck.html&amp;_=1792585221497"></script>
+	<meta charset="utf-8">
+	<title>立即加入优家荟！</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+		window.addEventListener('touchmove',function(event){
+					event.preventDefault();
+				});
+	</script>
+	<style>
+	    *{margin:0;padding:0;}
+		body{background-color:#fff;font-family:"Microsoft YaHei";}ul,li{list-style: none;margin:0;padding:0;}em,i{font-style:normal;}
+        a{text-decoration:none;color:#c2b587;}
+		/*input,textarea{-webkit-text-size-adjust:none; -webkit-appearance: none;outline:none;border:solid 1px #ccc;font-size:16px;height:20px;line-height:20px;color:#000;padding:12px 5px;font-family:"Microsoft YaHei", Arial;background-color:#fff;width:194px;border-radius:0;}:focus {outline:0;}*/
+		input,textarea{
+		  /*line-height: 100%;*/
+		  font-family: "Microsoft YaHei", Arial;
+		  -webkit-text-size-adjust: none;
+		  -webkit-appearance: none;
+		  outline: none;
+		  background-color:transparent;
+		  border:0;
+		  font-size:16px;
+		  border-bottom:solid 1px #c2b587;
+		  color:#c2b587;
+		  border-radius:0;
+		  width:296px;
+		  height:20px;
+		  line-height:20px;
+		  padding:12px 5px;
+		  text-align: center;
+		}
+       /* input::-webkit-input-placeholder {line-height:40px;}*/
+		.join{width:320px;position:absolute;left:50%;top:0;margin-left:-160px;z-index:2}
+		.join li{width:300px;float:left;padding:10px;font-size:16px;text-align: center;}
+        .join li:nth-child(1){text-align:center;margin-top:20px;}
+        .join button{width:115px;height:36px;float:left;line-height:30px;font-size:16px;background-color:transparent;color:#c2b587;border:0;border-radius:0 5px 5px 0;font-family:"Microsoft YaHei", Arial;cursor:pointer; border:solid 1px #c2b587;border-radius:20px;margin:20px 0 0 95px;outline:none;}
+        .join .cur{background-color:#ccc;}
+        .join .time{font-size:14px;}
+        #phone,#number{float:left;}
+
+
+        #messapgePage,#messapgePage1{
+				width: 100%;
+				height:120%;
+				position: fixed;
+				display: none;
+				opacity:0;
+				z-index:100;
+				position:absolute;
+				left:0;
+				top:0;
+
+			}
+			.pincode{
+				width: 100%;
+				height:120%;
+				display:none;
+				position: fixed;
+				z-index:100;
+				left:0;
+				top:0;
+			}
+			.pincode .pincode-mask{
+				width: 100%;
+				height: 100%;
+				background-color: #000;
+				opacity: 0.5;
+			}
+			.pincode .pincode-wrap{
+				width: 280px;
+				height: 190px;
+				background-color: #fff;
+				position: absolute;
+				left: 50%;
+				top: 20%;
+				margin-left: -140px;
+				/*margin-top: -80px;*/
+				border-radius:10px;
+			}
+			.pincode .pincode-cnt{
+				width: 100%;
+				left: 0;
+				top: 25px;
+				margin-left: 0px;
+				text-align: center;
+				line-height: 20px;
+
+				font-size:16px;
+			}
+			.pincode .js-pincode-cancel-btn,.pincode .js-pincode-send-btn{
+				width:50%;
+				height:40px;
+				line-height:40px;
+				font-size: 18px;
+				text-align:center;
+				color:#c2b587;
+				border-top:solid #eee 1px;
+				bottom:0;
+				left: 0;
+				position:absolute;
+			}
+			.pincode .js-pincode-send-btn{border-left:solid #eee 1px;left:49%;}
+			.pincode-wrap dl{margin:0; padding:0; padding-top: 20px; padding-left:20px; overflow:hidden;}
+			.pincode-wrap dl dt{width: 50%; float: left; text-align:right;}
+			.pincode-wrap dl dd{width: 50%; float:left;}
+			.pincode-wrap dl dt input{width:50px; border:1px solid #c2b587; height:20px; padding: 5px 10px; margin-right:15px;}
+
+			#mask{
+				width: 100%;
+				height: 100%;
+				background-color: #000;
+				opacity: 0.5;
+			}
+			#messageWrapper{
+				width: 280px;
+				height: 120px;
+				background-color: #fff;
+				position: absolute;
+				left: 50%;
+				top: 20%;
+				margin-left: -140px;
+				/*margin-top: -80px;*/
+				border-radius:10px;
+			}
+
+			#messapgePage1 #messageWrapper{height: 160px;}
+
+			#closebtn,.cancel,.ok{
+
+				height:40px;
+				line-height:40px;
+				font-size: 18px;
+				text-align:center;
+				color:#c2b587;
+				border-top:solid #eee 1px;
+				bottom:0;
+				left: 0;
+				position:absolute;
+			}
+			#closebtn{width:100%;}
+
+			.cancel,.ok{width:50%;}.ok{border-left:solid #eee 1px;left:49%;}
+
+			#messageBox,#messageBox1{
+				width: 100%;
+				position: absolute;
+				left: 0;
+				top: 25px;
+				margin-left: 0px;
+				text-align: center;
+				line-height: 20px;
+
+				font-size:16px;
+			}
+			#messageBox1{top: 15px;font-size:15px;color:#777;}
+			.bg-pic{position:relative;left:0;top:0;}
+			.tips{position:absolute;width:100%;left:0;bottom:22%;z-index:1;}
+			.nub{position:fixed;width:200px;left:50%;bottom:10px;margin-left:-100px;text-align:center;color: #c2b587;font-size:14px;z-index:2;line-height:22px;}
+			.web{width:100%;max-width:414px;position:relative;margin:0 auto}
+
+			@media only screen and (max-height:500px){
+			  .tips{display:none}
+			}
+
+			@media only screen and (min-width:600px){
+			  .bg-pic{position:absolute;}
+			  .tips{position:relative;bottom:0;float:left;margin-top:-230px}
+			  .nub{position:relative;bottom:0;float:left;margin-top:660px}
+			}
+	</style>
+
+</head>
+<body>
+<div class="web">
+    <ul class="join">
+<!--		<li><img width="80" src="http://iladyimg.cdn.imlady.cn/5f/00/5f003db723f432a8db0ae87a7f7c034f.png"></li>-->
+		<li><img width="80" src="http://iladyimg.cdn.imlady.cn/3c/5d/3c5d59fc46a1fc614bfb6ee8649f7846.png"></li>
+    	<!-- <li>手机号码验证</li> -->
+    	<li id="in_mobile">
+    	    <input id="phone" name="phone" type="tel" placeholder="请输入手机号码">
+    	    <button id="get_code" onclick="get_valid_code_pre();return false;">获取校验码</button>
+    	</li>
+
+
+    	<li style="color:#b0b0b0;line-height:20px;display:none" id="has_mobile">
+	    	<p>
+		    	我们已发送<span style="color:#c2b587">验证码短信</span>到这个号码<br><span style="color:#000" id="_mobile"></span><br>
+		    	<span class="time" id="sec" style="display:"><font id="sec_">60秒</font>秒重新发送</span>
+	    	</p>
+
+	    	<p>
+		    	<input id="number" name="number" type="tel" placeholder="请输入4位校验码">
+	    	    <button id="check">立即验证</button>
+    	    </p>
+    	</li>
+    </ul>
+    <div class="nub">会员服务热线<br>021-63353677</div>
+    <img class="tips" src="images/tips.png" width="640" height="249">
+    <img class="bg-pic" width="640" src="images/bg2.jpg" height="1136">
+
+
+</div>
+
+<!-- 手机号提示 -->
+<div class="pincode">
+		<div class="pincode-mask">
+		</div>
+		<div class="pincode-wrap">
+			<div class="pincode-cnt">
+				<b style="color:#000;font-size:18px;line-height:40px;">确认手机号码</b><br>我们将发送验证码短信到这个号码：<br><span style="color:#000" class="js-pincode-send-mobile"></span>
+			</div>
+			<dl>
+				<dt><input type="text" name="pcode" maxlength="4" value="" class="js-pincode-input"></dt>
+				<dd><img class="js-pincode" src="http://www.imlady.cn/pincode?1792585221509"></dd>
+			</dl>
+			<a class="js-pincode-cancel-btn">取消</a>
+			<a class="js-pincode-send-btn">确认发送</a>
+		</div>
+	</div>
+
+    <div id="messapgePage1">
+		<div id="mask">
+		</div>
+		<div id="messageWrapper">
+			<p id="messageBox1">
+			   <b style="color:#000;font-size:18px;line-height:40px;">确认手机号码</b><br>我们将发送验证码短信到这个号码：<br><span style="color:#000" id="send_mobile"></span>
+			</p>
+			<a class="cancel" id="cannel">取消</a>
+			<a class="ok" id="close">好</a>
+		</div>
+	</div>
+	<!-- 错误提示 -->
+	<div id="messapgePage">
+		<div id="mask">
+		</div>
+		<div id="messageWrapper">
+			<p id="messageBox">
+
+			</p>
+			<a id="closebtn" class="abs">好</a>
+		</div>
+	</div>
+
+<script>
+var timeout;
+var count = 60; // 倒数十下
+var check_flag = 1;
+var mobile='';
+BtnCount = function() {
+
+       // 启动按钮
+       if (count == 0) {
+        $("#get_code").removeClass("cur");
+       	$("#sec").html('<b style="color:#c2b587" id="get_code_" onclick="get_valid_code_pre();return false;">重新发送</b>');
+        //$("#sec_").html(60);
+        flag = 1;
+        clearTimeout(timeout);
+    }
+    else {
+        count--;
+        $("#sec_").html(count);
+        setTimeout(BtnCount, 1000);
+    }
+};
+
+function get_valid_code_pre(){
+	var _val = $.trim($('#phone').val());
+	if(_val.length <5){
+		// alert("请正确输入手机号码");
+		$("#messageBox").html("请正确输入手机号码");
+		$("#messapgePage").css("opacity",1);
+		$("#messapgePage").show();
+		return false;
+	}
+
+	$(".pincode").show();
+	$(".js-pincode-send-mobile").html(_val);
+}
+
+var flag=1;
+function get_code_pre(){
+	var _val = $.trim($('#phone').val());
+	if(_val.length <5){
+		// alert("请正确输入手机号码");
+		$("#messageBox").html("请正确输入手机号码");
+		$("#messapgePage").css("opacity",1);
+		$("#messapgePage").show();
+		return false;
+	}
+
+	$("#messapgePage1").show();
+	$("#messapgePage1").css("opacity",1);
+	$("#send_mobile").html(_val);
+}
+function get_code(){
+	var _val = $.trim($('#phone').val());
+	if(_val.length <5){
+		// alert("请正确输入手机号码");
+		$("#messageBox").html("请正确输入手机号码");
+		return false;
+	}
+
+	$("#has_mobile").show();
+	$("#in_mobile").hide();
+	$("#_mobile").html(_val);
+	$("#sec").html('<font id="sec_">60秒</font>秒重新发送');
+	if(flag == 1){
+		flag = 2;
+		count = 60;
+		timeout = setTimeout(BtnCount, 1000);
+		$("#get_code").addClass("cur");
+		$("#check").removeClass("cur");
+		$("#sec").css("display","block");
+		$('#check').bind('click', function() {
+			 check();
+			});
+		$.ajax({
+			url:'/aj/insertmem/getvcode',
+			data:{
+				'mobile':_val
+			},
+			dataType:'json',
+			type:'post',
+			success:function (res) {
+				if(res.code == 100000){
+				// $(".tip-pop").show();
+				//alert("您的资料已经递交，我们会在2个工作日内将审核结果发送至您的邮箱，请耐心等候！");
+					mobile=_val;
+				}else{
+					// alert(res.msg);
+					$("#messageBox").html(res.msg);
+					$("#messapgePage").css("opacity",1);
+					$("#messapgePage").show();
+					flag = 1;
+					count = 60;
+					$("#sec").html('<font id="sec_">60秒</font>秒重新发送');
+					clearTimeout(timeout);
+					$("#get_code").removeClass("cur");
+				}
+			}
+		});
+	}
+
+
+
+}
+
+$(function(){
+	$('.js-pincode').attr('src', 'http://www.imlady.cn/pincode?' + new Date().getTime());
+	$('.js-pincode').on('click', function(){
+		$('.js-pincode').attr('src', 'http://www.imlady.cn/pincode?' + new Date().getTime());
+	});
+	$('.js-pincode-cancel-btn').on('click', function(){
+		$('.pincode').hide();
+	});
+	$('.js-pincode-send-btn').on('click', function(){
+		var pincode = $('.js-pincode-input').val();
+		if (!pincode) {
+			alert('请输入验证码');
+			return;
+		}
+		var _val = $.trim($('#phone').val());
+		if(flag == 1){
+			flag = 2;
+			$.ajax({
+				url:'/aj/insertmem/getvcode',
+				data:{
+					'mobile':_val,
+					'pcode':pincode
+				},
+				dataType:'json',
+				type:'post',
+				complete:function(XMLHttpRequest, textStatus) {
+					$('.js-pincode-input').val('');
+					$('.pincode').hide();
+					$('.js-pincode').attr('src', 'http://www.imlady.cn/pincode?' + new Date().getTime());
+				},
+				success:function (res) {
+					if(res.code == 100000){
+					// $(".tip-pop").show();
+					//alert("您的资料已经递交，我们会在2个工作日内将审核结果发送至您的邮箱，请耐心等候！");
+						$("#has_mobile").show();
+						$("#in_mobile").hide();
+						$("#_mobile").html(_val);
+						$("#sec").html('<font id="sec_">60秒</font>秒重新发送');
+						mobile=_val;
+						count = 60;
+						timeout = setTimeout(BtnCount, 1000);
+						$("#get_code").addClass("cur");
+						$("#check").removeClass("cur");
+						$("#sec").css("display","block");
+						$('#check').bind('click', function() {
+							 check();
+							});
+					}else{
+						// alert(res.msg);
+						$("#messageBox").html(res.msg);
+						$("#messapgePage").css("opacity",1);
+						$("#messapgePage").show();
+						flag = 1;
+						count = 60;
+						$("#sec").html('<font id="sec_">60秒</font>秒重新发送');
+						clearTimeout(timeout);
+						$("#get_code").removeClass("cur");
+					}
+				}
+			});
+		}
+	});
+});
+
+$("#closebtn").click(function(){
+	$('.pincode').hide();
+			  $("#messapgePage").css("opacity",1);
+			  $("#messapgePage").hide();
+			});
+$("#close").click(function(){
+	$('.pincode').hide();
+			  $("#messapgePage1").css("opacity",1);
+			  $("#messapgePage1").hide();
+			  get_code();
+			});
+$("#cannel").click(function(){
+	$('.pincode').hide();
+			  $("#messapgePage1").css("opacity",1);
+			  $("#messapgePage1").hide();
+			});
+function check(){
+	var _val = $.trim($('#number').val());
+	if(_val == ''||_val.length !=4){
+		// alert('请填写正确验证码');
+		$("#messageBox").html("请填写正确验证码");
+		$("#messapgePage").css("opacity",1);
+		$("#messapgePage").show();
+		return;
+	}
+
+	if(check_flag == 1){
+		check_flag = 2;
+	$.ajax({
+		url:'/aj/insertmem/check',
+		data:{
+			'mobile':$.trim($('#phone').val()),
+			'code':_val
+		},
+		dataType:'json',
+		type:'post',
+		success:function (res) {
+			if(res.code == 100000){
+
+				window.location.href="/html/join-0929/from.html?mobile="+res.data;
+			}else{
+				// alert(res.msg);
+				$("#messageBox").html(res.msg);
+				$("#messapgePage").css("opacity",1);
+				$("#messapgePage").show();
+				check_flag = 1;
+			}
+		}
+	});
+	}
+}
+</script>
+
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script>
+	$.ajax({
+	    url: 'http://www.imlady.cn/wechat/jssdk/imlady/jsonp',
+	    dataType: 'jsonp',
+	    async : false,
+	    type: 'POST',
+	    data: {'url': location.href},
+	    success: function ( res ) {
+	        if (res.code == 200) {
+	            wx.config({
+	                //debug: true,
+	                appId: res.data.appId,
+	                timestamp: res.data.timestamp,
+	                nonceStr: res.data.nonceStr,
+	                signature: res.data.signature,
+	                jsApiList: [
+	                  'onMenuShareTimeline',
+	                  'onMenuShareAppMessage'
+	                ]
+	            });
+	            // 分享
+	            wx.ready(function () {
+	                var shareData = {
+	                         title: '立即加入优家荟！',
+	                         desc: '轻松三步加入优家荟：填写个人信息>通过审核>缴纳会费',
+	                         link: location.href,
+	                         imgUrl: 'http://iladyimg.cdn.imlady.cn/bb/d2/bbd28668cfabc5f3f9aa9c780bf1a31d.png'
+	                    }
+	                wx.onMenuShareAppMessage(shareData);
+	                wx.onMenuShareTimeline(shareData);
+	            });
+	            wx.error(function(res){
+	                console.log(res);
+	            });
+	        }
+	    },
+	    error: function (jqXHR, textStatus, error) {
+
+	    }
+	});
+	</script>
+
+
+
+
+
+</body></html>

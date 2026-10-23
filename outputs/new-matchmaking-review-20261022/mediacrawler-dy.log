@@ -1,0 +1,10 @@
+2026-10-22 13:04:11 MediaCrawler INFO (core.py:88) - [DouYinCrawler] 使用标准模式启动浏览器
+2026-10-22 13:04:23 MediaCrawler ERROR (login.py:119) - [DouYinLogin.popup_login_dialog] login dialog box does not pop up automatically, error: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("//div[@id='login-panel-new']") to be visible
+
+2026-10-22 13:04:23 MediaCrawler INFO (login.py:120) - [DouYinLogin.popup_login_dialog] login dialog box does not pop up automatically, we will manually click the login button
+COLLECTION_STOP TimeoutError Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//p[text() = '登录']")
+

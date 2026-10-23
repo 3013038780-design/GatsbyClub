@@ -1,0 +1,43 @@
+2026-10-22 12:16:45 MediaCrawler INFO (core.py:91) - [XiaoHongShuCrawler] Launching browser using standard mode
+2026-10-22 12:16:45 MediaCrawler INFO (core.py:425) - [XiaoHongShuCrawler.launch_browser] Begin create browser context ...
+Traceback (most recent call last):
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/outputs/social-research-20261021/research/run_matchmaking_capture.py", line 93, in <module>
+    runpy.run_path(str(REPO/'main.py'),run_name='__main__')
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/main.py", line 161, in <module>
+    run(main, async_cleanup, cleanup_timeout_seconds=15.0, on_first_interrupt=_force_stop)
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/tools/app_runner.py", line 109, in run
+    asyncio.run(_runner())
+  File "/Users/olivialee/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/olivialee/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/olivialee/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/tools/app_runner.py", line 96, in _runner
+    await app_main()
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/main.py", line 114, in main
+    await crawler.start()
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/media_platform/xhs/core.py", line 104, in start
+    await self.context_page.goto(self.index_url)
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 18363, in goto
+    await self._impl_obj.goto(
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/playwright/_impl/_page.py", line 564, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 157, in goto
+    await self._channel.send(
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/olivialee/Documents/ChatGPT/社区平台/tools/MediaCrawler/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.xiaohongshu.com/", waiting until "load"
+

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "S02",
+    "status": 200,
+    "url": "https://imgs-b2b.100ec.cn/detail--6658734.html",
+    "chars": 11487
+  },
+  {
+    "id": "S10",
+    "status": 200,
+    "url": "https://www.bain.com.cn/pdfs/202309051133339091.pdf",
+    "chars": 45386
+  },
+  {
+    "id": "S13",
+    "status": 200,
+    "url": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568228.html",
+    "chars": 12569
+  },
+  {
+    "id": "S15",
+    "status": 200,
+    "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+    "chars": 11466
+  },
+  {
+    "id": "S16",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S22",
+    "status": 200,
+    "url": "https://thecapitalclub.com/zh-hans/julebulishi/",
+    "chars": 2235
+  },
+  {
+    "id": "S23",
+    "status": 200,
+    "url": "https://thecapitalclub.com/membership/",
+    "chars": 1723
+  },
+  {
+    "id": "S25",
+    "status": 200,
+    "url": "https://thecapitalclub.com/zh-hans/julebulishi/zhuozhuangyaoqiu/jingchengjulebuguizhangzhidu/",
+    "chars": 2325
+  },
+  {
+    "id": "S28",
+    "status": 200,
+    "url": "https://www.oldchair.cn/wsdhy_jiage",
+    "chars": 15
+  },
+  {
+    "id": "S29",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+    "id": "S30",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+    "id": "S31",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+    "id": "S33",
+    "status": 200,
+    "url": "https://www.sparkletour.com/?from=websitedict.com",
+    "chars": 1945
+  },
+  {
+    "id": "S34",
+    "status": 200,
+    "url": "https://m.sparkletour.com/",
+    "chars": 404
+  },
+  {
+    "id": "S35",
+    "status": 200,
+    "url": "https://www.sparkletour.com/customise/",
+    "chars": 2334
+  },
+  {
+    "id": "S36",
+    "status": 200,
+    "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225188439.PDF",
+    "chars": 187255
+  },
+  {
+    "id": "S38",
+    "status": 200,
+    "url": "https://member.eonetwork.org/chinaeast/about-our-chapter/",
+    "chars": 3327
+  },
+  {
+    "id": "S40",
+    "status": 200,
+    "url": "https://www.socia.org/Member/user/Chamber.html",
+    "chars": 808
+  },
+  {
+    "id": "S41",
+    "status": 200,
+    "url": "https://amcham-shanghai.glueup.cn/event/2026-summer-youth-program-2-days-%e4%b8%8a%e6%b5%b7%e7%be%8e%e5%9b%bd%e5%95%86%e4%bc%9a%e6%9a%91%e6%9c%9f%e9%9d%92%e5%b0%91%e5%b9%b4%e9%a1%b9%e7%9b%ae-50062/",
+    "chars": 17748
+  },
+  {
+    "id": "S42",
+    "status": 200,
+    "url": "https://cn.ceibs.edu/node/99",
+    "chars": 19243
+  },
+  {
+    "id": "S43",
+    "status": 200,
+    "url": "https://www.ckgsb.com/emba/common_problems/",
+    "chars": 44
+  },
+  {
+    "id": "S44",
+    "status": 200,
+    "url": "https://emba.saif.sjtu.edu.cn/emba_mobile/content/show/236-887.html",
+    "chars": 3467
+  },
+  {
+    "id": "S67",
+    "status": 200,
+    "url": "https://m.liangyuan.com/about.html",
+    "chars": 419
+  },
+  {
+    "id": "S70",
+    "status": 200,
+    "url": "https://m.51marryyou.com/",
+    "chars": 1
+  }
+]

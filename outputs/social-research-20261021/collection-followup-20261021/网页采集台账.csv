@@ -1,0 +1,16 @@
+﻿机构,网址,状态,HTTP状态,正文字数,采集时间,原文文件,错误
+中欧国际工商学院,https://cn.ceibs.edu/hemba/faq,已采集,200,39130,2026-10-21T17:06:35+08:00,raw/08a30b638db14e.md,
+中欧国际工商学院,https://cn.ceibs.edu/gemba/tuition-fees,已采集,200,36221,2026-10-21T17:06:35+08:00,raw/9865127cc27d73.md,
+中欧国际工商学院,https://cn.ceibs.edu.cn/execed/amp,已采集,200,47314,2026-10-21T17:06:35+08:00,raw/699b8fb216f028.md,
+领教工坊,https://www.clec.com.cn/jiaruwomen.html,已采集,200,10593,2026-10-21T17:06:35+08:00,raw/88621ddcaa4efa.md,
+领教工坊,https://www.clec.com.cn/p/sirendongshihui.html,已采集,200,7461,2026-10-21T17:06:35+08:00,raw/534f2351628f4f.md,
+领教工坊,https://www.clec.com.cn/fuwuyujiazhi.html,已采集,200,7271,2026-10-21T17:06:35+08:00,raw/045da9fa63b98b.md,
+观澜湖,https://mp.weixin.qq.com/s/MVEK0BX4SrxyUzyCQ52z3g,失败或正文不足,302,69,2026-10-21T17:06:35+08:00,,
+观澜湖,https://mp.weixin.qq.com/s/P7XfqLyzvEELXZqBmMfGOg,失败或正文不足,302,69,2026-10-21T17:06:35+08:00,,
+观澜湖,https://mp.weixin.qq.com/s/qbAZ3sUnmT7lAAS0BQtwPg,失败或正文不足,302,69,2026-10-21T17:06:35+08:00,,
+北京香港马会会所,https://www.beijingclubhouse.com/zh-CN/membership-applyingformembership/index,已采集,200,12185,2026-10-21T17:06:35+08:00,raw/3e159f7d80cbee.md,
+EO中国,https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh/,失败或正文不足,,0,2026-10-21T17:06:35+08:00,,"Unexpected error in _crawl_web at line 779 in _crawl_web (.venv-research/lib/python3.12/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Pag"
+北京香港马会会所,https://www.beijingclubhouse.com/zh-HK/images/membership/Application_Form_for_Children_Supplementary_Card.pdf,已采集,200,65397,2026-10-21T17:06:35+08:00,raw/501e1016306da4.pdf,
+长江商学院,https://ee.ckgsb.com/uploads/202512/16/1765873387437578.pdf,已采集,200,3804,2026-10-21T17:06:35+08:00,raw/42192d33398b5e.pdf,
