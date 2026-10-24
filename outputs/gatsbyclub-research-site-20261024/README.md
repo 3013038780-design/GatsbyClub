@@ -2,7 +2,7 @@
 
 当前网址：https://gatsbyclub-research.easy-tern-3117.chatgpt.site
 
-Sites私有站点，仅所有者可访问。2026年10月24日发布。
+Sites公开站点，拿到链接无需登录。2026年10月24日重新按公开访问发布，已使用无登录记录的电脑及手机浏览器核验。
 
 ## 阅读结构
 

@@ -4,6 +4,10 @@
   "commit_sha": "fa644588c7d63a0dacfb698e7f5279dc4dbf2cac",
   "url": "https://gatsbyclub-research.easy-tern-3117.chatgpt.site",
   "status": "succeeded",
-  "audience": "owner-private",
-  "date": "2026-10-24"
+  "audience": "public",
+  "date": "2026-10-24",
+  "access_revision": 2,
+  "public_deployment_id": "appgdep_6adc8934f4208191bbbafaf4f6fb6361",
+  "public_redeployment_at": "2026-10-24T10:32:24.989174+00:00",
+  "anonymous_desktop_mobile_verified": true
 }
