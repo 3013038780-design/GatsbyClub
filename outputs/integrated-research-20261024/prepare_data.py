@@ -256,5 +256,7 @@ if execution_quotes.exists():
   if quote:data['sources'].append(dict(id=code,name=title,url=quote['source_url'],period=quote['captured_at']+'；2026-11-19至22日三晚',kind=quote['source_type'],note=str(quote['total'])+'元／间／三晚；'+quote['breakfast']+'；'+quote['cancellation']+'；'+quote['scope']))
 from bol_screenshot_update import apply_bol_screenshots
 apply_bol_screenshots(data)
+from conclusion_update import apply_conclusion_update
+apply_conclusion_update(data,ROOT)
 (B/'统一研究数据.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 print({k:len(v) for k,v in data.items() if isinstance(v,list)})

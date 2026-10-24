@@ -1,5 +1,5 @@
 from pathlib import Path
-import zipfile,json,shutil
+import zipfile,json,shutil,re,hashlib
 from lxml import etree as E
 from pypdf import PdfReader
 from urllib.parse import unquote
@@ -18,7 +18,7 @@ with zipfile.ZipFile(book,'w',zipfile.ZIP_DEFLATED)as z:
  for n,v in files.items():z.writestr(n,v)
 with zipfile.ZipFile(book)as z:
  root=E.fromstring(z.read('xl/worksheets/sheet2.xml'));assert len(root.findall('{'+ns+'}hyperlinks/{'+ns+'}hyperlink'))==len(links)
-pdf=B/'qa/meeting/高端线下社群合伙人会议讲解稿.pdf';shutil.copy2(pdf,O/pdf.name);reader=PdfReader(pdf);assert len(reader.pages)==2
+pdf=B/'qa/meeting/高端线下社群合伙人会议讲解稿.pdf';shutil.copy2(pdf,O/pdf.name);reader=PdfReader(pdf);assert len(reader.pages)==5
 urls=[]
 for p in reader.pages:
  for ref in p.get('/Annots',[]):
@@ -29,7 +29,10 @@ assert set(map(unquote,targets))<=set(map(unquote,urls))
 site=B/'site/dist';shutil.copy2(O/'高端线下社群合伙人会议讲解稿.docx',site/'meeting.docx');shutil.copy2(book,site/'launch.xlsx')
 pack=R/'outputs/integrated-research-20261024/交付文件/高端线下社群调研资料包.zip'
 with zipfile.ZipFile(pack)as z:entries={n:z.read(n)for n in z.namelist()}
-entries['阅读说明.txt']+='\n附录含两页会议讲解稿和可调整启动测算。试价与成本情景属于初案，供应商团体报价和客户付费反馈尚未确认。'.encode()
+note='附录含五页口语讲稿、完整HTML阅读版和可调整启动测算。试价与成本情景属于初案，供应商团体报价和客户付费反馈尚未确认。'
+readme=entries['阅读说明.txt'].decode()
+readme=re.sub(r'\n附录含[^\n]*','',readme)
+entries['阅读说明.txt']=(readme.rstrip()+'\n\n'+note+'\n新增官网补查发布结构化字段、原文链接和哈希；完整抓取仅本机保存。\n').encode()
 for name in ['启动产品与费用测算.xlsx','高端线下社群合伙人会议讲解稿.docx','高端线下社群合伙人会议讲解稿.pdf']:entries['初案附件/'+name]=(O/name).read_bytes()
 for f in (R/'.research-private/execution-followthrough-20261024').glob('瑞吉-*'):
  if f.suffix in ['.png','.txt']:entries['初案附件/酒店报价证据/'+f.name]=f.read_bytes()
@@ -46,8 +49,20 @@ for name in ['携程同日核价.json']:
 public_excerpt=R/'.research-private/execution-followthrough-20261024/resumed-login/携程结算页公开价格摘录.txt'
 if public_excerpt.exists():entries['初案附件/酒店报价证据/'+public_excerpt.name]=public_excerpt.read_bytes()
 for n in ['交付核验.json','内容覆盖核验.json','逐页复核结果.json']:entries['数据/'+n]=(R/'outputs/integrated-research-20261024/qa'/n).read_bytes()
+for f in (B/'site/dist').rglob('*'):
+ if f.is_file()and f.suffix in ['.html','.pdf','.docx','.xlsx','.jpg','.png']:entries['HTML阅读版/'+str(f.relative_to(B/'site/dist'))]=f.read_bytes()
+for n in ['HTML内容核验.json','网站浏览器验收.json']:
+ if(B/'qa'/n).exists():entries['数据/'+n]=(B/'qa'/n).read_bytes()
+for n in ['计划验收审计.json']:
+ entries['数据/'+n]=(R/'outputs/integrated-research-20261024/qa'/n).read_bytes()
+# Keep the new full pages on this machine, publish source hashes and structured facts.
+entries={n:v for n,v in entries.items()if not n.startswith('证据/结论补查/web-raw/')}
+fresh=R/'.research-private/conclusion-refresh-20261024'
+if(fresh/'网页采集台账.json').exists():entries['证据/结论补查/网页采集台账.json']=(fresh/'网页采集台账.json').read_bytes()
+research=json.loads((R/'outputs/integrated-research-20261024/统一研究数据.json').read_text())
+entries['证据/结论补查/结构化核验.json']=json.dumps({'sources':[x for x in research['sources']if re.fullmatch('R[0-9]+',x['id'])],'products':[x for x in research['products']if x[8].startswith('R')],'conclusions':research['conclusions'],'travel_forms':research['travel_forms']},ensure_ascii=False,indent=2).encode()
 with zipfile.ZipFile(pack,'w',zipfile.ZIP_DEFLATED)as z:
  for n,v in entries.items():z.writestr(n,v)
 with zipfile.ZipFile(pack)as z:assert z.testzip()is None
 for f in O.glob('*.inspect.ndjson'):f.replace(B/'qa'/f.name)
-(B/'qa/配套核验.json').write_text(json.dumps(dict(meeting_pages=2,meeting_links_preserved=True,model_native_links=len(links),package_files=len(entries),remote_page_updated=(R/'.research-private/execution-followthrough-20261024/Page同步核验.json').exists(),website_browser_qa_pending=True),ensure_ascii=False,indent=2));print('Execution attachments verified')
+(B/'qa/配套核验.json').write_text(json.dumps(dict(meeting_pages=5,meeting_links_preserved=True,model_native_links=len(links),package_files=len(entries),remote_page_updated=(R/'.research-private/execution-followthrough-20261024/Page同步核验.json').exists(),website_browser_qa_pending=not(B/'qa/网站浏览器验收.json').exists()),ensure_ascii=False,indent=2));print('Execution attachments verified')

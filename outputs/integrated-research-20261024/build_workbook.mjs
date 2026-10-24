@@ -25,7 +25,7 @@ const sourceSheet=make('来源与缺口','来源台账与需要补证的事项',
 D.sources.forEach((s,i)=>{if(s.url)links.push({sheet:3,cell:'F'+(i+6),url:s.url});});
 const gr=sources.length+9,gaps=[
  ['BoL商务会籍','付费会员、续费、实际履约及运动含项','待品牌正式服务确认','不能由10万自述或年活动承诺代填'],
- ['BoL Selected','最终规格价、到场、复购及退改适用条款','待当场结算和服务记录','1688是商品展示价；已售29不作实到'],
+ ['BoL Selected','到场、复购及退改适用条款','后续以服务记录核实','会员价按用户决定停止追查，保留未公开；1688是展示价；已售29不作实到'],
  ['钻石婚恋','服务期限、次数、合同退改、单次派对价','待合同或正式报价','30／60／100万起为项目费'],
  ['婚恋旅行','同一产品的收费、承办关系、实际成团','待品牌完整产品及交付证据','有旅行入口或户外海报不等于旅行经营已成立'],
  ['客户画像','付费客户的年龄收入、性格兴趣分布','待客户访谈与机构脱敏统计','当前分品牌定位、单场准入和公开样例'],
@@ -41,5 +41,7 @@ w.recalculate();const check=await w.inspect({kind:'match',searchTerm:'#REF!|#DIV
 await fs.writeFile(B+'qa/工作簿检查.txt',check.ndjson||String(check));
 for(const[sheetName,range,key]of[['市场调研','A5:G10','市场调研'],['对标产品','A5:D8','对标收费'],['对标产品','E5:I8','对标画像流程'],['机构名录','A5:F10','机构名录'],['来源与缺口','A5:F9','来源'],['内容互动','A5:J10','互动']]){const blob=await w.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(B+'qa/'+key+'.png',new Uint8Array(await blob.arrayBuffer()));}
 for(const[sheetName,range,key]of[['市场调研',`A${D.macro.length}:G${D.macro.length+5}`,'新增婚恋规模'],['对标产品',`A${D.products.length+4}:I${D.products.length+5}`,'新增收费与流程']]){const blob=await w.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(B+'qa/'+key+'.png',new Uint8Array(await blob.arrayBuffer()));}
+for(const brand of ['Founder Feast','32号','The Offline Club']){const ix=D.products.findIndex(r=>r[1].startsWith(brand));if(ix>=0){const row=ix+6,blob=await w.render({sheetName:'对标产品',range:`B${row}:I${row}`,scale:1,format:'png'});await fs.writeFile(B+'qa/补写-'+brand.replaceAll(' ','')+'.png',new Uint8Array(await blob.arrayBuffer()));}}
+const summaryBlob=await w.render({sheetName:'市场调研',range:`A${D.macro.length}:G${D.macro.length+5}`,scale:1,format:'png'});await fs.writeFile(B+'qa/结论.png',new Uint8Array(await summaryBlob.arrayBuffer()));
 await fs.writeFile(B+'链接索引.json',JSON.stringify(links));const result=await SpreadsheetFile.exportXlsx(w);await result.save(B+'交付文件/高端线下社群市场调研与对标总表.xlsx');
 console.log(JSON.stringify({sheets:5,products:D.products.length,institutions:D.market.length,sources:sources.length,content:content.length,links:links.length}));

@@ -192,6 +192,14 @@
     "note": "沿用10月22日记录；更新结果以本版正文为准"
   },
   {
+    "id": "BOLSCREEN",
+    "name": "BoL会籍及Selected六张用户提供截图",
+    "url": "",
+    "period": "2026-10-24收到；会籍页未标发布日，Selected为10月24日活动",
+    "kind": "用户提供的小程序页面截图",
+    "note": "六张原图及哈希随证据保存；确认488／2888年费、七项权益、审核与五环节。1288元／次×12位于价值栏，不作为会员票价；本批未展示最终报名规格或结算价。"
+  },
+  {
     "id": "QI",
     "name": "奇语旅行济州岛4天3晚",
     "url": "https://www.douyin.com/note/7611854005258612965",
@@ -246,6 +254,70 @@
     "period": "页面未标更新日，2026年10月23日复核",
     "kind": "机构公开资料",
     "note": "费用规则可读，价格由前端动态加载，本轮未取得有效金额"
+  },
+  {
+    "id": "R09",
+    "name": "32号海南六日私家团",
+    "url": "https://www.32hike.com/personal_detail/92.html",
+    "period": "2026-10-24T15:59:38.411745+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "23034字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R10",
+    "name": "三亚四天私家包车产品",
+    "url": "https://www.eastchinatrip.com/zh-hant/tours/sanya-4-day-private-tour/",
+    "period": "2026-10-24T15:59:51.015774+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "19014字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "TD08",
+    "name": "如爱盘锦一日活动",
+    "url": "https://www.ruailove.com/party/89.html",
+    "period": "活动2026年10月18日，10月23日复核",
+    "kind": "机构公开资料",
+    "note": "男115女95，报名显示18，现场签到模块为空"
+  },
+  {
+    "id": "R12",
+    "name": "The Offline Club五月法国房型与付款退改",
+    "url": "https://luma.com/theofflinegetaway-france-20-25-may",
+    "period": "2026-10-24T16:00:42.473851+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "8961字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R06",
+    "name": "FTLO客群及复购优惠",
+    "url": "https://www.ftlotravel.com/faqs",
+    "period": "2026-10-24T15:58:52.836520+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "87519字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R04",
+    "name": "OWR旅行适配条件",
+    "url": "https://www.otherwayround.travel/owr-trip-style/",
+    "period": "2026-10-24T15:58:24.580722+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "11044字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R07",
+    "name": "The Offline Club法国社群度假",
+    "url": "https://www.theoffline-club.com/retreat-locations/5-day-retreat-in-france",
+    "period": "2026-10-24T15:59:07.950400+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "29038字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R05",
+    "name": "OWR预订付款取消条款",
+    "url": "https://www.otherwayround.travel/booking-terms-and-conditions/",
+    "period": "2026-10-24T15:58:40.515560+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "23432字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
   },
   {
     "id": "X01",
@@ -360,14 +432,6 @@
     "note": "个人受邀体验；非机构披露。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
   },
   {
-    "id": "BOLSCREEN",
-    "name": "BoL会籍及Selected六张用户提供截图",
-    "url": "",
-    "period": "2026-10-24收到；会籍页未标发布日，Selected为10月24日活动",
-    "kind": "用户提供的小程序页面截图",
-    "note": "六张原图及哈希随证据保存；确认488／2888年费、七项权益、审核与五环节。1288元／次×12位于价值栏，不作为会员票价；本批未展示最终报名规格或结算价。"
-  },
-  {
     "id": "B10",
     "name": "Founder Feast产品和收费",
     "url": "https://founderfeast.com/",
@@ -376,28 +440,28 @@
     "note": "200；14281字；原始文件及哈希本机留存"
   },
   {
-    "id": "B13",
-    "name": "Founder Feast具体酒会票价与流程",
-    "url": "https://founderfeast.com/events/november-5th",
-    "period": "2026-10-24采集",
-    "kind": "Crawl4AI官网原文",
-    "note": "200；11192字；原始文件及哈希本机留存"
+    "id": "R01",
+    "name": "Founder Feast匹配与交付",
+    "url": "https://founderfeast.com/how-it-works",
+    "period": "2026-10-24T15:57:47.869333+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "8805字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
   },
   {
-    "id": "B14",
-    "name": "Founder Feast加拿大应用商店",
-    "url": "https://apps.apple.com/ca/app/founder-feast/id6765519776",
-    "period": "2026-10-24采集",
-    "kind": "Crawl4AI官网原文",
-    "note": "200；24868字；原始文件及哈希本机留存"
+    "id": "R03",
+    "name": "Founder Feast常见问题",
+    "url": "https://founderfeast.com/faq",
+    "period": "2026-10-24T15:58:12.850824+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "10411字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
   },
   {
-    "id": "C03",
-    "name": "Founder Feast当期定价复核",
+    "id": "R11",
+    "name": "Founder Feast现行价格复核",
     "url": "https://founderfeast.com/pricing",
-    "period": "2026-10-24读取；页面未标更新日",
-    "kind": "Crawl4AI原文",
-    "note": "HTTP 200；正文7642字；HTML及SHA256本机保存。"
+    "period": "2026-10-24T16:00:08.143798+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "7642字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
   },
   {
     "id": "C04",
@@ -406,6 +470,14 @@
     "period": "2026-10-24读取；页面未标更新日",
     "kind": "Crawl4AI原文",
     "note": "HTTP 200；正文11192字；HTML及SHA256本机保存。"
+  },
+  {
+    "id": "B14",
+    "name": "Founder Feast加拿大应用商店",
+    "url": "https://apps.apple.com/ca/app/founder-feast/id6765519776",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；24868字；原始文件及哈希本机留存"
   },
   {
     "id": "M02",
@@ -454,6 +526,22 @@
     "period": "2026-10-24",
     "kind": "官网自述",
     "note": "30—49岁及年客量为品牌自述"
+  },
+  {
+    "id": "MARBB",
+    "name": "万豪官网同日青樾大床含早套餐",
+    "url": "https://www.marriott.com.cn/search/availabilityCalendar.mi?lengthOfStay=3&fromDate=2026-11-19&toDate=2026-11-22&numberOfRooms=1&numberOfAdults=1&childrenCount=0&clusterCode=none&isHwsGroupSearch=true&propertyCode=SYXXR&useRewardsPoints=false&flexibleDateSearch=false",
+    "period": "2026-10-24T12:51:01.152462+08:00；2026-11-19至22日三晚",
+    "kind": "万豪官网查询结果及房价详情；浏览器实查",
+    "note": "7870元／间／三晚；每天2成人及2位6岁以下儿童早餐；本次按1位成人查询；明细显示2026-10-25 23:59后取消预计扣6750元，即全部晚数房费；1间客房、1位成人的零售公开价；未证明可按此价取得14间房；不是旅行社或酒店团体书面报价"
+  },
+  {
+    "id": "CTRBB",
+    "name": "携程同日青樾大床含早预订详情",
+    "url": "https://hotels.ctrip.com/hotels/detail/?checkin=2026-11-19&checkout=2026-11-22&city=43&adult=1&crn=1&hotelId=345074",
+    "period": "2026-10-24T15:23:27+08:00；2026-11-19至22日三晚",
+    "kind": "用户已登录Chrome；酒店详情及预订详情页只读核验，未提交订单",
+    "note": "7240.86元／间／三晚；2份早餐；2026-10-24 23:59前免费取消；之后不可取消，未入住收7240.86元（优惠券积分另按实际支付）；搜索1房1成人；结算页写房型可住2人。1间三晚零售报价，未取得14间库存及团体价"
   },
   {
     "id": "HAM",
@@ -590,21 +678,5 @@
     "period": "页面未标更新日，2026年10月23日复核",
     "kind": "机构公开资料",
     "note": ""
-  },
-  {
-    "id": "MARBB",
-    "name": "万豪官网同日青樾大床含早套餐",
-    "url": "https://www.marriott.com.cn/search/availabilityCalendar.mi?lengthOfStay=3&fromDate=2026-11-19&toDate=2026-11-22&numberOfRooms=1&numberOfAdults=1&childrenCount=0&clusterCode=none&isHwsGroupSearch=true&propertyCode=SYXXR&useRewardsPoints=false&flexibleDateSearch=false",
-    "period": "2026-10-24T12:51:01.152462+08:00；2026-11-19至22日三晚",
-    "kind": "万豪官网查询结果及房价详情；浏览器实查",
-    "note": "7870元／间／三晚；每天2成人及2位6岁以下儿童早餐；本次按1位成人查询；明细显示2026-10-25 23:59后取消预计扣6750元，即全部晚数房费；1间客房、1位成人的零售公开价；未证明可按此价取得14间房；不是旅行社或酒店团体书面报价"
-  },
-  {
-    "id": "CTRBB",
-    "name": "携程同日青樾大床含早预订详情",
-    "url": "https://hotels.ctrip.com/hotels/detail/?checkin=2026-11-19&checkout=2026-11-22&city=43&adult=1&crn=1&hotelId=345074",
-    "period": "2026-10-24T15:23:27+08:00；2026-11-19至22日三晚",
-    "kind": "用户已登录Chrome；酒店详情及预订详情页只读核验，未提交订单",
-    "note": "7240.86元／间／三晚；2份早餐；2026-10-24 23:59前免费取消；之后不可取消，未入住收7240.86元（优惠券积分另按实际支付）；搜索1房1成人；结算页写房型可住2人。1间三晚零售报价，未取得14间库存及团体价"
   }
 ]

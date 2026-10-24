@@ -91,6 +91,8 @@ with zipfile.ZipFile(pack,'w',zipfile.ZIP_DEFLATED)as z:
  base=R/'.research-private/bol-research-20261024'
  for f in base.iterdir():
   if f.is_file()and(f.suffix=='.png'and f.name.startswith(('vip-','selected-'))or f.name=='会籍实查.json'):z.write(f,'证据/BoL/'+f.name)
+ fresh=R/'.research-private/conclusion-refresh-20261024'
+ if (fresh/'网页采集台账.json').exists():z.write(fresh/'网页采集台账.json','证据/结论补查/网页采集台账.json')
  user_bol=R/'.research-private/execution-followthrough-20261024/user-bol-evidence'
  if user_bol.exists():
   for f in user_bol.iterdir():

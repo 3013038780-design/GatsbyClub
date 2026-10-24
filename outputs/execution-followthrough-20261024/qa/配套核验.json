@@ -1,8 +1,10 @@
 {
-  "meeting_pages": 2,
+  "meeting_pages": 5,
   "meeting_links_preserved": true,
   "model_native_links": 7,
-  "package_files": 220,
+  "package_files": 244,
   "remote_page_updated": true,
-  "website_browser_qa_pending": true
+  "website_browser_qa_pending": false,
+  "html_body_verified": true,
+  "speech_visual_pages": 5
 }

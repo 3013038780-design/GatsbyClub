@@ -1,17 +1,36 @@
 {
-  "pages": 40,
-  "latest_changed_pages": [
+  "pages": 50,
+  "changed_pages": [
+    1,
+    4,
+    11,
+    13,
+    14,
     15,
     16,
-    17,
-    20,
     21,
+    23,
+    24,
+    25,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
     38,
-    39,
-    40
+    42,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
   ],
-  "latest_changed_pages_visually_reviewed": true,
-  "unchanged_text_pages_reusing_previous_visual_review": 32,
-  "no_blank_pages": true,
-  "note": "本记录区分本次变更页视觉复核与沿用上次复核；模块存在不等于事实完整。"
+  "changed_pages_visually_reviewed": true,
+  "unchanged_page_texts": 23,
+  "graphs": 4,
+  "no_blank_pages": true
 }
