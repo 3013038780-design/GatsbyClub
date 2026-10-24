@@ -1,13 +1,14 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
-{"path": "README.md", "bytes": 8544, "sha256": "59e6837bc4fbde1232fdcd0c75e8a7353976a25e02bbccc2322dfc96055b867a"}
+{"path": "README.md", "bytes": 8607, "sha256": "5bbd2a47186ac58f3479af27c6435f5f1b85888f7337abaccbac4bd0a3a30c0b"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
 {"path": "archive/20261024同步清单.json", "bytes": 31100, "sha256": "091d6aee586578a8bb1206c2b8a42e7b46d8bb47d625ee4daf93d0e8cf6f7ac5"}
+{"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
 {"path": "archive/20261024导出核验.json", "bytes": 102, "sha256": "678048080bbc28a26847eac94a93402899e4c94b682e5089dac4baede94ab554"}
-{"path": "archive/20261024计划验收审计.json", "bytes": 4612, "sha256": "cb6c415cef5043b05702bf6139bea1ce86735ddafad9b3c39c681f586864c2a9"}
+{"path": "archive/20261024计划验收审计.json", "bytes": 4712, "sha256": "50e0ac47c73a24f7b5b296932577bb18f3ee68955c3e88918175b1274e47421b"}
 {"path": "archive/MediaCrawler-local-changes.patch", "bytes": 3261, "sha256": "f7440a0095ecd587c7472b5cd1ba42e2fdfdf836a854c434d3c516772766c1db"}
 {"path": "archive/工具来源.md", "bytes": 868, "sha256": "7357c54572f57e25bad75263b83ed2d0ea37aa13aa3fe29c7bdde0adf946480a"}
-{"path": "archive/归档范围.json", "bytes": 1459, "sha256": "2b80d24009b10a383473e46d8620deef3e1094f77fc53b3dba8e988e36623a2b"}
+{"path": "archive/归档范围.json", "bytes": 1459, "sha256": "d1fc1e3ed00f1dcad1dcc25b1aecd740c393bec3ac85b6f2dab7ffc40c309017"}
 {"path": "club_research_20261019/build_report.py", "bytes": 68780, "sha256": "802b10196e68db8e3197e7444026cb501b5cfe55a10b44e924e0d1b9ea172025"}
 {"path": "club_research_20261019/financial_model.json", "bytes": 26360, "sha256": "6864a1595b83e9ae017daa698c99b95f07f1208fc9c2ab214df8750bee950573"}
 {"path": "club_research_20261019/financial_monthly.csv", "bytes": 2228, "sha256": "907ea1f6f8ee9c2bf65c9e97966a5efa364ec441fcbe61697c5364f9069d7724"}
@@ -1209,7 +1210,7 @@
 {"path": "outputs/integrated-research-20261024/qa/机构名录.png", "bytes": 151450, "sha256": "7a139aa1fdb8be395703d470e02565ff35ac70de3c147a1c02df451d4d0f04c8"}
 {"path": "outputs/integrated-research-20261024/qa/来源.png", "bytes": 84455, "sha256": "aa7ddf424df097c575a48c4a57af143698d52d92cc7a0529337a273a7f07862d"}
 {"path": "outputs/integrated-research-20261024/qa/样本年龄.png", "bytes": 40694, "sha256": "8bf4ff7dac9ca76a8482fd8751ce600540d483771cf915d82a125aac55b0fe71"}
-{"path": "outputs/integrated-research-20261024/qa/计划验收审计.json", "bytes": 4612, "sha256": "cb6c415cef5043b05702bf6139bea1ce86735ddafad9b3c39c681f586864c2a9"}
+{"path": "outputs/integrated-research-20261024/qa/计划验收审计.json", "bytes": 4712, "sha256": "50e0ac47c73a24f7b5b296932577bb18f3ee68955c3e88918175b1274e47421b"}
 {"path": "outputs/integrated-research-20261024/qa/财富人群.png", "bytes": 27190, "sha256": "ddd7a5e4576804a4db91f4df60c17bbcdb02f79e4b55e6fbcd0c7e2d3d8aa579"}
 {"path": "outputs/integrated-research-20261024/qa/逐页复核结果.json", "bytes": 366, "sha256": "13f4eb438bfe7d33957a0525e558f941b36c730411777cd816197f29df39cd47"}
 {"path": "outputs/integrated-research-20261024/qa/逐页对比.json", "bytes": 753, "sha256": "9951050728c3c523851a17f7543df67a3d6caf0876f692bdd3e20477d2b3f775"}
@@ -1219,7 +1220,7 @@
 {"path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标总表.xlsx.inspect.ndjson", "bytes": 2733486, "sha256": "5050f3438dc5283eeb5f8de0665841f472a59280192c3fa29740e10155547839"}
 {"path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标报告.docx", "bytes": 175441, "sha256": "a8b6ccab5a639ac781980cf4a3703f88c9cc0ee3543d14f52f2eb567476cb3c8"}
 {"path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标报告.pdf", "bytes": 1774568, "sha256": "4b281490f9613a92a5744ec994603405eed3d7f185d4893d27b93c772dc7adc8"}
-{"path": "outputs/integrated-research-20261024/交付文件/高端线下社群调研资料包.zip", "bytes": 15684890, "sha256": "1ca0099adff315dbdd3f9b9429d21c2655248888dc92db4444f490d24d7f8665"}
+{"path": "outputs/integrated-research-20261024/交付文件/高端线下社群调研资料包.zip", "bytes": 15684944, "sha256": "26316e5cb69b2967bb87088f8b734752d205ce4ea8839109e8cbffea214f3ffc"}
 {"path": "outputs/integrated-research-20261024/商业婚恋补查数据.json", "bytes": 80617, "sha256": "b2c7f225ce8c256c83ae842278e1389e35aac362f581b50e9dba5603b943c6bb"}
 {"path": "outputs/integrated-research-20261024/报告引用来源.json", "bytes": 23759, "sha256": "9783f8b8ff53b12c13b2e3936ba2efb50a644a0fbdfee45738c571b05eedf228"}
 {"path": "outputs/integrated-research-20261024/统一研究数据.json", "bytes": 568693, "sha256": "542b05554a1142ab3453fc5323e5ff6917b057dfc2cd9706e96b456b9b30c4af"}
@@ -4427,4 +4428,4 @@
 {"path": "tools/MediaCrawler/webui/tailwind.config.ts", "bytes": 7291, "sha256": "b121ccbc25204fa0264cff0948de9d203dd92ac97b61cff17b4079e72f6e62b3"}
 {"path": "tools/MediaCrawler/webui/tsconfig.json", "bytes": 649, "sha256": "f4813c95dfb993628a3184707f1189f3151f533b001a7e554501dd13abe093d4"}
 {"path": "tools/MediaCrawler/webui/vite.config.ts", "bytes": 500, "sha256": "d5e11fc8effe4f78c956561cf16c650d1cd39fa9636dee8734208e39b61217f9"}
-{"path": "项目待办清单.md", "bytes": 10098, "sha256": "46b2713e56af8798b15c2e5b047e457dbb1c2ab9927bccb02a25efcbd9322acc"}
+{"path": "项目待办清单.md", "bytes": 10119, "sha256": "7ad63edc014dd990606a77f147cae2f8971477a69adbb1f0e71dc33d21a62a2d"}
