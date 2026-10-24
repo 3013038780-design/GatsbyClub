@@ -7,7 +7,7 @@
 {"path": "archive/20261024计划验收审计.json", "bytes": 4612, "sha256": "cb6c415cef5043b05702bf6139bea1ce86735ddafad9b3c39c681f586864c2a9"}
 {"path": "archive/MediaCrawler-local-changes.patch", "bytes": 3261, "sha256": "f7440a0095ecd587c7472b5cd1ba42e2fdfdf836a854c434d3c516772766c1db"}
 {"path": "archive/工具来源.md", "bytes": 868, "sha256": "7357c54572f57e25bad75263b83ed2d0ea37aa13aa3fe29c7bdde0adf946480a"}
-{"path": "archive/归档范围.json", "bytes": 1396, "sha256": "039196da926e3e039d212831c14bc7dbb07dd95e909aba64f9cbf57c9aa211cc"}
+{"path": "archive/归档范围.json", "bytes": 1459, "sha256": "2b80d24009b10a383473e46d8620deef3e1094f77fc53b3dba8e988e36623a2b"}
 {"path": "club_research_20261019/build_report.py", "bytes": 68780, "sha256": "802b10196e68db8e3197e7444026cb501b5cfe55a10b44e924e0d1b9ea172025"}
 {"path": "club_research_20261019/financial_model.json", "bytes": 26360, "sha256": "6864a1595b83e9ae017daa698c99b95f07f1208fc9c2ab214df8750bee950573"}
 {"path": "club_research_20261019/financial_monthly.csv", "bytes": 2228, "sha256": "907ea1f6f8ee9c2bf65c9e97966a5efa364ec441fcbe61697c5364f9069d7724"}
@@ -447,7 +447,7 @@
 {"path": "outputs/community-research-final-20261022/高端社群市场研究修订资料_20261022/高端社群市场研究_35家机构与收费客群.xlsx", "bytes": 30469, "sha256": "d5c5fa6f990340adb97ca582bf0ab13715356989233394646014e8a463dde4da"}
 {"path": "outputs/execution-followthrough-20261024/build_meeting.py", "bytes": 6274, "sha256": "fa84e21e3d580c2bc91de2771ecddeee739a56c0e0d924fef57444cc90651c4b"}
 {"path": "outputs/execution-followthrough-20261024/build_model.mjs", "bytes": 15781, "sha256": "28fb264f17588bdc6acc4040037c94c98e72e352733d93f0f918d8baa820158e"}
-{"path": "outputs/execution-followthrough-20261024/build_site.py", "bytes": 16756, "sha256": "ef65e9f660d4e0371aba3e5a7e0e9aa357872fa27594c1dfbde311b038a4578e"}
+{"path": "outputs/execution-followthrough-20261024/build_site.py", "bytes": 16750, "sha256": "a7a46b667ab8667724f5093657d94420e4bca4a7163564aad6b178f815aa969e"}
 {"path": "outputs/execution-followthrough-20261024/finalize_execution.py", "bytes": 5023, "sha256": "8749d9cea75f7c78d24fcc59cc5807e611c32a8b90ee6670b9b6b29d57663843"}
 {"path": "outputs/execution-followthrough-20261024/prepare_execution.py", "bytes": 7649, "sha256": "0eca07d14baed73b97ccc39bd11de4a84eb511fc657817573732b8aa65ef1a96"}
 {"path": "outputs/execution-followthrough-20261024/qa/meeting/page-1.png", "bytes": 379369, "sha256": "dd8c30ccd9b96ca5fd7cf069b4b7e8d665f6a626ea979548c6d9a7657c79a4a8"}
@@ -468,12 +468,12 @@
 {"path": "outputs/execution-followthrough-20261024/site/dist/bol/selected-20261024-flow.png", "bytes": 151028, "sha256": "71bbcf1ac0b820c1c1d65d4724e768b4a1293dc41a02ecfd7358927e9a3d43fa"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/bol/vip-2888-network-salon.png", "bytes": 156682, "sha256": "1b421252040bd397de8a7df4f6b00119bf2b60abf22e75cf60287709166fc94f"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/bol/vip-starlight-488.png", "bytes": 142174, "sha256": "4855b102d9bd1571040b856273799329f575f0c034b35387379e1da70b13bca6"}
-{"path": "outputs/execution-followthrough-20261024/site/dist/index.html", "bytes": 95016, "sha256": "ee8ef96c790f027120bc432f2603a851694f6fc5ecf5cebaac1090d42b3dc445"}
+{"path": "outputs/execution-followthrough-20261024/site/dist/index.html", "bytes": 95010, "sha256": "2f93ff9e2acb863d3157f6b29ce6377fd9bd4261452c13e0a0d25b85731483ae"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/launch.xlsx", "bytes": 23480, "sha256": "26f9314c17b0532ad1883fdc2642ddc1104624570c60208ca49f51f3e2016cf1"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/meeting.docx", "bytes": 40030, "sha256": "53297a42f1cec42ed0cab43ab2c97ff111461c231fa0c82714fa952829aea63f"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/research.pdf", "bytes": 1774568, "sha256": "4b281490f9613a92a5744ec994603405eed3d7f185d4893d27b93c772dc7adc8"}
 {"path": "outputs/execution-followthrough-20261024/site/dist/research.xlsx", "bytes": 132655, "sha256": "45fb4b854ae5acdfa2fed1c59e5b07ceacc74ee9371e2ec7829be71f3ce6d4ed"}
-{"path": "outputs/execution-followthrough-20261024/site/dist/研究讨论网站.html", "bytes": 95016, "sha256": "ee8ef96c790f027120bc432f2603a851694f6fc5ecf5cebaac1090d42b3dc445"}
+{"path": "outputs/execution-followthrough-20261024/site/dist/研究讨论网站.html", "bytes": 95010, "sha256": "2f93ff9e2acb863d3157f6b29ce6377fd9bd4261452c13e0a0d25b85731483ae"}
 {"path": "outputs/execution-followthrough-20261024/交付文件/启动产品与费用测算.xlsx", "bytes": 23480, "sha256": "26f9314c17b0532ad1883fdc2642ddc1104624570c60208ca49f51f3e2016cf1"}
 {"path": "outputs/execution-followthrough-20261024/交付文件/高端线下社群合伙人会议讲解稿.docx", "bytes": 40030, "sha256": "53297a42f1cec42ed0cab43ab2c97ff111461c231fa0c82714fa952829aea63f"}
 {"path": "outputs/execution-followthrough-20261024/交付文件/高端线下社群合伙人会议讲解稿.pdf", "bytes": 209759, "sha256": "33e331c19df5f47ecf73da65aabd619105aaa4b90e4e4344f47c93f15673b2e1"}
@@ -4427,4 +4427,4 @@
 {"path": "tools/MediaCrawler/webui/tailwind.config.ts", "bytes": 7291, "sha256": "b121ccbc25204fa0264cff0948de9d203dd92ac97b61cff17b4079e72f6e62b3"}
 {"path": "tools/MediaCrawler/webui/tsconfig.json", "bytes": 649, "sha256": "f4813c95dfb993628a3184707f1189f3151f533b001a7e554501dd13abe093d4"}
 {"path": "tools/MediaCrawler/webui/vite.config.ts", "bytes": 500, "sha256": "d5e11fc8effe4f78c956561cf16c650d1cd39fa9636dee8734208e39b61217f9"}
-{"path": "项目待办清单.md", "bytes": 10013, "sha256": "8f0e3ad536ce7bca86c57481c70d56f50ef534c1c939c0e8eb947747fcd6648f"}
+{"path": "项目待办清单.md", "bytes": 10098, "sha256": "46b2713e56af8798b15c2e5b047e457dbb1c2ab9927bccb02a25efcbd9322acc"}

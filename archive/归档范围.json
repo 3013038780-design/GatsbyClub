@@ -7,7 +7,6 @@
     "调研高端婚恋平台模式 club_research_20261019 报告讲解稿财务模型"
   ],
   "files": 4430,
-  "bytes": 1482648886,
   "excluded_categories": [
     "登录状态 Cookie 浏览器资料与二维码",
     "Python和Node运行环境及chart-deps依赖",
@@ -31,5 +30,6 @@
     "max_file_MB": 29.7
   },
   "latest_audit": "archive/20261024计划验收审计.json",
-  "manifest_note": "清单不包含自身，以避免自引用哈希；其余文件逐项SHA-256。"
+  "manifest_note": "清单不包含自身，以避免自引用哈希；其余文件逐项SHA-256。",
+  "size_note": "文件大小与SHA-256逐项见文件清单，不包含清单自身"
 }
