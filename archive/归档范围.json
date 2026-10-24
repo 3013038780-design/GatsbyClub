@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "source_groups": [
     "社区平台 outputs 全部研究成果",
     "社区平台 tools 采集工具及本地修改",
     "调研高端婚恋平台模式 private-club-site 网站源码和静态页",
     "调研高端婚恋平台模式 club_research_20261019 报告讲解稿财务模型"
   ],
-  "files": 4007,
-  "bytes": 1351604928,
+  "files": 4430,
+  "bytes": 1482648886,
   "excluded_categories": [
     "登录状态 Cookie 浏览器资料与二维码",
     "Python和Node运行环境及chart-deps依赖",
@@ -23,11 +23,13 @@
     "网站源码 图片来源和离线网页",
     "商业方案 讲解稿和财务模型"
   ],
-  "formatting": "最新版正式报告为23页；已统一格式，带17项目录。Excel内容为36家机构、57项收费权益，排版沿用上一轮。",
+  "formatting": "现行40页报告、5表Excel、65条机构线索、50产品记录；详细状态以计划验收审计为准",
   "validation": {
     "root_readme_links": "全部存在",
     "website_local_assets": "全部存在",
     "credential_scan": "未发现高置信度密钥或登录Cookie",
     "max_file_MB": 29.7
-  }
+  },
+  "latest_audit": "archive/20261024计划验收审计.json",
+  "manifest_note": "清单不包含自身，以避免自引用哈希；其余文件逐项SHA-256。"
 }

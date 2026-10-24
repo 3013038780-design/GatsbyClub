@@ -22,3 +22,8 @@ __pycache__/
 Thumbs.db
 .~*
 ~$*
+
+# Bundled dependencies and account-only evidence
+**/vendor/
+**/resumed-login/
+**/*含个人信息*

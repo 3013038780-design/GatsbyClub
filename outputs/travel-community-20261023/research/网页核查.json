@@ -1,0 +1,268 @@
+[
+  {
+    "url": "https://www.32hike.com/aboutus.html",
+    "status": 200,
+    "final_url": "https://www.32hike.com/aboutus.html",
+    "collected": "2026-10-23",
+    "file": "19cf601efb70.html",
+    "bytes": 81572,
+    "title": "32号 - 关于32号"
+  },
+  {
+    "url": "https://www.hike32.com/",
+    "error": "HTTPSConnectionPool(host='www.hike32.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hike32.com'. (_ssl.c:1010)\")))",
+    "collected": "2026-10-23"
+  },
+  {
+    "url": "https://home.54traveler.com/",
+    "status": 200,
+    "final_url": "https://home.54traveler.com/",
+    "collected": "2026-10-23",
+    "file": "427b8367184a.html",
+    "bytes": 3387,
+    "title": "稻草人旅行 - 专注于青年，带来非凡的小团队旅行体验"
+  },
+  {
+    "url": "https://www.youxiake.com/",
+    "status": 200,
+    "final_url": "https://www.youxiake.com/",
+    "collected": "2026-10-23",
+    "file": "60f29cde621b.html",
+    "bytes": 156245,
+    "title": "\n            游侠客旅行-好玩的主题旅行平台\n        "
+  },
+  {
+    "url": "https://www.ruailove.com/party/89.html",
+    "status": 200,
+    "final_url": "https://www.ruailove.com/party/89.html",
+    "collected": "2026-10-23",
+    "file": "61ddd6c6be2d.html",
+    "bytes": 16046,
+    "title": "10月18日金秋稻浪和自然景区正宗盘锦稻田蟹_沈阳如爱单身俱乐部"
+  },
+  {
+    "url": "https://www.ruailove.com/party/",
+    "status": 200,
+    "final_url": "https://www.ruailove.com/party/",
+    "collected": "2026-10-23",
+    "file": "38efc0ec5c7b.html",
+    "bytes": 19494,
+    "title": "相亲活动_沈阳如爱单身俱乐部"
+  },
+  {
+    "url": "https://www.ruailove.com/about/1.html",
+    "status": 404,
+    "final_url": "https://www.ruailove.com/about/1.html",
+    "collected": "2026-10-23",
+    "file": "2d18d8955e43.html",
+    "bytes": 148,
+    "title": "404 Not Found"
+  },
+  {
+    "url": "https://www.zuanshi.com/new/loveCustomization",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/new/loveCustomization",
+    "collected": "2026-10-23",
+    "file": "7f9a1a130c6b.html",
+    "bytes": 44841,
+    "title": "钻石婚恋专注高端婚恋二十一年，国内首届富翁集体征婚开创者，成功服务国内首富家族，最了解高端单身人群的婚恋需求，无差别严密审核每一位单身人士的信息真实性，服务精准、保密、安全、迅速！"
+  },
+  {
+    "url": "https://www.zuanshi.com/webContent/question",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/webContent/question",
+    "collected": "2026-10-23",
+    "file": "0af5eca401e0.html",
+    "bytes": 33444,
+    "title": "钻石婚恋专注高端婚恋二十一年，国内首届富翁集体征婚开创者，成功服务国内首富家族，最了解高端单身人群的婚恋需求，无差别严密审核每一位单身人士的信息真实性，服务精准、保密、安全、迅速！"
+  },
+  {
+    "url": "https://www.zuanshi.com/webActivity/newActivityList",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/webActivity/newActivityList",
+    "collected": "2026-10-23",
+    "file": "3099eac4791c.html",
+    "bytes": 53638,
+    "title": "\n"
+  },
+  {
+    "url": "https://www.liangyuan.com/",
+    "status": 200,
+    "final_url": "https://www.liangyuan.com/",
+    "collected": "2026-10-23",
+    "file": "e754cd190f1a.html",
+    "bytes": 46066,
+    "title": "我主良缘科技|我主良缘-征婚、交友、相亲,实名认证高端婚恋交友平台"
+  },
+  {
+    "url": "https://www.jfh999.com/party/311.html",
+    "status": 200,
+    "final_url": "https://www.jfh999.com/party/311.html",
+    "collected": "2026-10-23",
+    "file": "e7638a1a7d77.html",
+    "bytes": 22431,
+    "title": "中秋寄相思，湾区遇知己 - 深港二婚离异专场联谊会-金凤凰深港婚介深圳征婚交友网-金凤凰婚介"
+  },
+  {
+    "url": "https://meetknow.com/activities/beijing",
+    "status": 200,
+    "final_url": "https://meetknow.com/activities/beijing",
+    "collected": "2026-10-23",
+    "file": "5ea9228ea395.html",
+    "bytes": 235186,
+    "title": "北京相亲活动｜线下与线上见面局·费用与报名 - MeetKnow"
+  },
+  {
+    "url": "https://www.xsms-club.com/",
+    "status": 200,
+    "final_url": "https://www.xsms-club.com/",
+    "collected": "2026-10-23",
+    "file": "d6f476fee03b.html",
+    "bytes": 28092,
+    "title": "囍上媒捎·婚恋网"
+  },
+  {
+    "url": "https://www.sohu.com/a/1055933312_121626427",
+    "status": 200,
+    "final_url": "https://www.sohu.com/a/1055933312_121626427",
+    "collected": "2026-10-23",
+    "file": "46e2bc38200a.html",
+    "bytes": 50138,
+    "title": "【单身户外】8月1日情定•玉渡山｜83-03单身专线 北京小九寨-湖泊·草甸·溪水·峡谷·瀑布·环湖｜目标200人_活动_景区"
+  },
+  {
+    "url": "https://jinrishangye.com/8357/",
+    "status": 200,
+    "final_url": "https://jinrishangye.com/8357/",
+    "collected": "2026-10-23",
+    "file": "67f3100be33f.html",
+    "bytes": 86858,
+    "title": "快讯：情定南充“爱在旅途·缘在山水”单身男女报名通知 – 今日商业网，商业资讯，产经新闻，商业人物，商业新闻，创业商机，招商加盟，商业模式，商业智慧，会议展览，生活消费，文化艺术，公益慈善"
+  },
+  {
+    "url": "https://www.modernist.club/",
+    "status": 200,
+    "final_url": "https://www.modernist.club/",
+    "collected": "2026-10-23",
+    "file": "7d5c9b9e7c02.html",
+    "bytes": 157719,
+    "title": "Modernist | San Francisco Members Social Club"
+  },
+  {
+    "url": "https://members.thesupperclubinc.com/membership",
+    "status": 200,
+    "final_url": "https://members.thesupperclubinc.com/membership",
+    "collected": "2026-10-23",
+    "file": "1c66fb4fa68b.html",
+    "bytes": 77610,
+    "title": "The Supper Club"
+  },
+  {
+    "url": "https://thesupperclubinc.com/terms-of-services",
+    "status": 200,
+    "final_url": "https://thesupperclubinc.com/terms-of-services",
+    "collected": "2026-10-23",
+    "file": "8e480f4e6393.html",
+    "bytes": 110584,
+    "title": "The Supper Club"
+  },
+  {
+    "url": "https://parlor.social/Parlor%20Membership.pdf",
+    "status": 200,
+    "final_url": "https://parlor.social/Parlor%20Membership.pdf",
+    "collected": "2026-10-23",
+    "file": "efded2c9f002.pdf",
+    "bytes": 7945658,
+    "title": ""
+  },
+  {
+    "url": "https://www.mandala.club/",
+    "status": 200,
+    "final_url": "https://www.mandala.club/",
+    "collected": "2026-10-23",
+    "file": "48dfd6f97ea4.html",
+    "bytes": 1256275,
+    "title": "Mandala Club Singapore"
+  },
+  {
+    "url": "https://www.mandala.club/enquire",
+    "status": 200,
+    "final_url": "https://www.mandala.club/enquire",
+    "collected": "2026-10-23",
+    "file": "0c5778393eca.html",
+    "bytes": 1516324,
+    "title": "Membership Interest Form | Mandala Club"
+  },
+  {
+    "url": "https://www.67pallmall.com/the-singapore-club/membership/",
+    "status": 403,
+    "final_url": "https://www.67pallmall.com/the-singapore-club/membership/",
+    "collected": "2026-10-23",
+    "file": "682f714245a3.html",
+    "bytes": 5494,
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "url": "https://www.67pallmall.com/67-trips/",
+    "status": 403,
+    "final_url": "https://www.67pallmall.com/67-trips/",
+    "collected": "2026-10-23",
+    "file": "16d7999a0f2b.html",
+    "bytes": 5494,
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "url": "https://legacy.thebatterysf.com/societies",
+    "status": 200,
+    "final_url": "https://legacy.thebatterysf.com/societies",
+    "collected": "2026-10-23",
+    "file": "e2807529aba3.html",
+    "bytes": 38874,
+    "title": "The Battery"
+  },
+  {
+    "url": "https://thebatterysf.com/events",
+    "status": 200,
+    "final_url": "https://thebatterysf.com/events",
+    "collected": "2026-10-23",
+    "file": "ab9d80622fa5.html",
+    "bytes": 141157,
+    "title": "The Battery"
+  },
+  {
+    "url": "https://www.carlyleandco.com/",
+    "status": 200,
+    "final_url": "https://www.carlyleandco.com/",
+    "collected": "2026-10-23",
+    "file": "78c2e1023502.html",
+    "bytes": 257668,
+    "title": "Carlyle & Co. "
+  },
+  {
+    "url": "https://estellecommunity.com/",
+    "status": 200,
+    "final_url": "https://estellecommunity.com/",
+    "collected": "2026-10-23",
+    "file": "84d1daddb4d7.html",
+    "bytes": 99675,
+    "title": "Estelle Community"
+  },
+  {
+    "url": "https://www.theartsclub.co.uk/membership/",
+    "status": 200,
+    "final_url": "https://www.theartsclub.co.uk/membership/",
+    "collected": "2026-10-23",
+    "file": "aaf1f9917e5e.html",
+    "bytes": 161872,
+    "title": "Membership - The Arts Club"
+  },
+  {
+    "url": "https://theartsclub.co.uk/arts-culture/",
+    "status": 200,
+    "final_url": "https://theartsclub.co.uk/arts-culture/",
+    "collected": "2026-10-23",
+    "file": "7bf619445559.html",
+    "bytes": 162682,
+    "title": "Arts & Culture - The Arts Club"
+  }
+]
