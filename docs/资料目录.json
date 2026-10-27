@@ -1,0 +1,228 @@
+{
+  "updated": "2026-10-27",
+  "baseline": "docs/项目定位与业务共识.md",
+  "groups": [
+    {
+      "name": "01 项目基础",
+      "items": [
+        {
+          "name": "项目定位与业务共识",
+          "path": "docs/项目定位与业务共识.md",
+          "status": "当前依据",
+          "purpose": "定位、客户、产品、价格、待定事项"
+        },
+        {
+          "name": "项目待办",
+          "path": "项目待办清单.md",
+          "status": "当前行动",
+          "purpose": "当前需要补全什么"
+        },
+        {
+          "name": "协作约定",
+          "path": "AGENTS.md",
+          "status": "工作规则",
+          "purpose": "先读共识、复用研究及同步规则"
+        }
+      ]
+    },
+    {
+      "name": "02 市场调研与对标",
+      "items": [
+        {
+          "name": "综合报告 PDF",
+          "path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标报告.pdf",
+          "status": "调研版 · 2026-10-24",
+          "purpose": "宏观、对标、收费、客群、流程及判断"
+        },
+        {
+          "name": "研究总Excel",
+          "path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标总表.xlsx",
+          "status": "调研版 · 2026-10-24",
+          "purpose": "5张表及可追溯来源"
+        },
+        {
+          "name": "可编辑报告 Word",
+          "path": "outputs/integrated-research-20261024/交付文件/高端线下社群市场调研与对标报告.docx",
+          "status": "与PDF配套",
+          "purpose": "用于修订"
+        },
+        {
+          "name": "统一研究数据",
+          "path": "outputs/integrated-research-20261024/统一研究数据.json",
+          "status": "研究源数据",
+          "purpose": "报告与总表的生成依据"
+        },
+        {
+          "name": "旅行补充工作簿",
+          "path": "outputs/travel-discovery-20261024/社交旅行产品与采集核验.xlsx",
+          "status": "专题补充",
+          "purpose": "旅行发现及采集核验"
+        }
+      ]
+    },
+    {
+      "name": "03 产品、权益与测算",
+      "items": [
+        {
+          "name": "会员与收益框架",
+          "path": "docs/项目定位与业务共识.md",
+          "status": "待完善",
+          "purpose": "当前会籍框架，尚未全部定稿"
+        },
+        {
+          "name": "启动产品与费用测算",
+          "path": "outputs/execution-followthrough-20261024/交付文件/启动产品与费用测算.xlsx",
+          "status": "研究初案",
+          "purpose": "人数、成本、工时与现金情景"
+        },
+        {
+          "name": "初期活动形式",
+          "path": "outputs/execution-followthrough-20261024/初期活动形式选择.md",
+          "status": "研究初案",
+          "purpose": "本地活动形式与交付考虑"
+        },
+        {
+          "name": "同线路报价核查",
+          "path": "outputs/execution-followthrough-20261024/同线路报价核查补充.md",
+          "status": "待外部报价",
+          "purpose": "不能替代供应商正式团体报价"
+        }
+      ]
+    },
+    {
+      "name": "04 阅读与汇报",
+      "items": [
+        {
+          "name": "独立HTML",
+          "path": "outputs/gatsbyclub-research-site-20261024/交付文件/高端线下社群市场调研与对标_直接打开.html",
+          "status": "优先分享",
+          "purpose": "文字、图片、交互内嵌，下载后浏览器打开"
+        },
+        {
+          "name": "离线阅读资料包",
+          "path": "outputs/gatsbyclub-research-site-20261024/交付文件/高端线下社群_离线阅读及附件.zip",
+          "status": "优先分享",
+          "purpose": "HTML、PDF、Excel、讲稿和说明"
+        },
+        {
+          "name": "完整报告HTML",
+          "path": "outputs/execution-followthrough-20261024/site/dist/高端线下社群市场调研与对标报告.html",
+          "status": "全文阅读",
+          "purpose": "完整报告内容与目录检索"
+        },
+        {
+          "name": "合伙人讲解稿",
+          "path": "outputs/execution-followthrough-20261024/交付文件/高端线下社群合伙人会议讲解稿.pdf",
+          "status": "汇报配套",
+          "purpose": "5页口语稿"
+        },
+        {
+          "name": "研究证据资料包",
+          "path": "outputs/integrated-research-20261024/交付文件/高端线下社群调研资料包.zip",
+          "status": "详细附件",
+          "purpose": "结构化资料、来源与证据"
+        }
+      ]
+    },
+    {
+      "name": "05 历史与专题研究",
+      "items": [
+        {
+          "name": "2026-10-22婚恋五家深挖",
+          "path": "outputs/five-offline-matchmaking-20261022/",
+          "status": "历史专题",
+          "purpose": "保留当时样本，不替代当前业务方向"
+        },
+        {
+          "name": "2026-10-22综合修订",
+          "path": "outputs/community-research-final-20261022/",
+          "status": "历史版本",
+          "purpose": "较早的综合对照及修订"
+        },
+        {
+          "name": "2026-10-22婚恋复核",
+          "path": "outputs/matchmaking-review-20261022/",
+          "status": "历史专题",
+          "purpose": "婚恋候选、活动及多轮核验"
+        },
+        {
+          "name": "线下婚恋候选扩搜",
+          "path": "outputs/offline-matchmaking-selection-20261022/",
+          "status": "历史专题",
+          "purpose": "选择过程"
+        },
+        {
+          "name": "新婚恋模式检索",
+          "path": "outputs/new-matchmaking-review-20261022/",
+          "status": "历史专题",
+          "purpose": "新平台与传播模式线索"
+        },
+        {
+          "name": "香港赛马会会员专题",
+          "path": "outputs/hkjc-membership-20261022/",
+          "status": "专题参考",
+          "purpose": "会籍、家属、消费及结算"
+        },
+        {
+          "name": "2026-10-23旅行研究",
+          "path": "outputs/travel-community-20261023/",
+          "status": "历史方案",
+          "purpose": "旅行、国外案例与早期模型"
+        },
+        {
+          "name": "2026-10-21早期行业研究",
+          "path": "outputs/social-research-20261021/",
+          "status": "历史研究与证据",
+          "purpose": "多轮采集及旧版报告"
+        },
+        {
+          "name": "2026-10-19商业方案",
+          "path": "club_research_20261019/",
+          "status": "历史方案",
+          "purpose": "另一轮报告、模型和讲稿"
+        },
+        {
+          "name": "早期网站",
+          "path": "private-club-site/",
+          "status": "历史展示",
+          "purpose": "原网站及素材"
+        },
+        {
+          "name": "早期行动清单",
+          "path": "outputs/partner-actions-20261023/",
+          "status": "历史清单",
+          "purpose": "先前执行安排"
+        }
+      ]
+    },
+    {
+      "name": "06 工具、来源与验收",
+      "items": [
+        {
+          "name": "工具说明",
+          "path": "tools/README.md",
+          "status": "技术入口",
+          "purpose": "MediaCrawler及工具来源"
+        },
+        {
+          "name": "归档与验收说明",
+          "path": "archive/README.md",
+          "status": "追溯入口",
+          "purpose": "审计、SHA-256及同步记录"
+        },
+        {
+          "name": "文件版本与维护规则",
+          "path": "docs/版本与维护规则.md",
+          "status": "维护入口",
+          "purpose": "哪个文件是准、如何同步"
+        },
+        {
+          "name": "本次整理记录",
+          "path": "docs/文件整理记录.md",
+          "status": "整理记录",
+          "purpose": "发现的问题及处理方式"
+        }
+      ]
+    }
+  ]
+}

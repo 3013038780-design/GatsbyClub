@@ -6,7 +6,7 @@
     "调研高端婚恋平台模式 private-club-site 网站源码和静态页",
     "调研高端婚恋平台模式 club_research_20261019 报告讲解稿财务模型"
   ],
-  "files": 4516,
+  "files": 4543,
   "excluded_categories": [
     "登录状态 Cookie 浏览器资料与二维码",
     "Python和Node运行环境及chart-deps依赖",
@@ -22,7 +22,7 @@
     "网站源码 图片来源和离线网页",
     "商业方案 讲解稿和财务模型"
   ],
-  "formatting": "现行40页报告、5表Excel、65条机构线索、50产品记录；详细状态以计划验收审计为准",
+  "formatting": "2026-10-24研究快照：50页报告、5表Excel、66家机构线索、52条产品；当前项目方向以docs/项目定位与业务共识.md为准",
   "validation": {
     "root_readme_links": "全部存在",
     "website_local_assets": "全部存在",
@@ -31,5 +31,6 @@
   },
   "latest_audit": "archive/20261024计划验收审计.json",
   "manifest_note": "清单不包含自身，以避免自引用哈希；其余文件逐项SHA-256。",
-  "size_note": "文件大小与SHA-256逐项见文件清单，不包含清单自身"
+  "size_note": "文件大小与SHA-256逐项见文件清单，不包含清单自身",
+  "navigation": "README.md → docs/项目文件导航.md，六类用途分组，历史和副本明确标识"
 }

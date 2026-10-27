@@ -1,16 +1,22 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
-{"path": "AGENTS.md", "bytes": 1590, "sha256": "44f323becf795bebebe96ce8fed77722aad61a333a11b06396358f65712bf69a"}
-{"path": "README.md", "bytes": 9600, "sha256": "6873f2110903b70ff64236656f0a0e1e006d971f57aa342d1747b24488df893d"}
+{"path": "AGENTS.md", "bytes": 2052, "sha256": "89c13a9e76244440aab1a19d501bc38294c967f40dd0629231729b5ecca54e1b"}
+{"path": "CHANGELOG.md", "bytes": 1240, "sha256": "8851a854f35e4bfc8554756adbad335395c3db8734d98711ecf95311206eba4a"}
+{"path": "README.md", "bytes": 5003, "sha256": "249caf546b1d62d2125ee07fa8a6badefbac259f3ca78bd564dbe7e78335f76a"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
-{"path": "archive/20261024同步清单.json", "bytes": 37370, "sha256": "0ff8bd1b9e64fcccfe16bb0199122756544805a9e37d0211ba38bb1ab780d14b"}
+{"path": "archive/20261024同步清单.json", "bytes": 38447, "sha256": "e51cf7f73141db35c467a2e6c38470ed1f5a4a1ea08e665a7b7a75dcf0aefdf5"}
 {"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
-{"path": "archive/20261024导出核验.json", "bytes": 96, "sha256": "5a7f8f7b9d740e20e1f4dc8ddba4137f58009676c5ce6985c5e0daee8596eea9"}
+{"path": "archive/20261024导出核验.json", "bytes": 98, "sha256": "c7a1628e3f2fa3ed499e5ebacdb62e97edebc2987ff3ac9b76fe6d60e6f0f350"}
 {"path": "archive/20261024计划验收审计.json", "bytes": 5557, "sha256": "f7377e18c42e39e2c429ab33d5b912052b32a1dc502f76a529fa03ba57832ca1"}
 {"path": "archive/20261027基础文件核验.json", "bytes": 903, "sha256": "7296d82cba1ac6d1befcbbf1fb1146ab136cc0d19fd48b9478a7c885c6fbee24"}
+{"path": "archive/20261027导航预览/README-desktop.png", "bytes": 150436, "sha256": "1a0a024ca89cb3d06e19c095bb48b46885a1503fd99fb71ce162293b847b002e"}
+{"path": "archive/20261027导航预览/README-mobile.png", "bytes": 94643, "sha256": "2742190f1254fe24c5c0eab43017ea3d6c01eb8d6c3dc21928a8a4e2de6be1cd"}
+{"path": "archive/20261027文件整理核验.json", "bytes": 788, "sha256": "6237c01b086293d86cc673ad4d3f65e77e97b39bde40d060e26d33d928dd4033"}
 {"path": "archive/MediaCrawler-local-changes.patch", "bytes": 3261, "sha256": "f7440a0095ecd587c7472b5cd1ba42e2fdfdf836a854c434d3c516772766c1db"}
+{"path": "archive/README.md", "bytes": 1029, "sha256": "7f1ec804306caf7c75af2dcf8d953ded7d5ceca539cbe60ac4c99504e4e3f9d9"}
 {"path": "archive/工具来源.md", "bytes": 868, "sha256": "7357c54572f57e25bad75263b83ed2d0ea37aa13aa3fe29c7bdde0adf946480a"}
-{"path": "archive/归档范围.json", "bytes": 1459, "sha256": "1eaa6ba81f69591b69cc30e5074d848164e0dc61dafb482e21e2291af13caa0b"}
+{"path": "archive/归档范围.json", "bytes": 1609, "sha256": "87a4e3e0ab33c0795cf6491e167898984c74e7815b5fb1603e1b82a892bde7a2"}
+{"path": "assets/project-overview.svg", "bytes": 1643, "sha256": "b1c27067dd779ab539b62f7e93fad212841ec40f93284ef8b03d1da6bc082215"}
 {"path": "club_research_20261019/build_report.py", "bytes": 68780, "sha256": "802b10196e68db8e3197e7444026cb501b5cfe55a10b44e924e0d1b9ea172025"}
 {"path": "club_research_20261019/financial_model.json", "bytes": 26360, "sha256": "6864a1595b83e9ae017daa698c99b95f07f1208fc9c2ab214df8750bee950573"}
 {"path": "club_research_20261019/financial_monthly.csv", "bytes": 2228, "sha256": "907ea1f6f8ee9c2bf65c9e97966a5efa364ec441fcbe61697c5364f9069d7724"}
@@ -259,7 +265,15 @@
 {"path": "club_research_20261019/speech_work/speech_content.json", "bytes": 49073, "sha256": "8afd0bf381a198d8cdc49bb8d4fed1424902395ea8dd693a4eddf8466574ef03"}
 {"path": "club_research_20261019/speech_work/speech_content.py", "bytes": 45456, "sha256": "7ab6e7b254baa20a44f467eb12364f4375c30020e00862b715a9f603214b888a"}
 {"path": "club_research_20261019/speech_work/speech_model.json", "bytes": 17313, "sha256": "b117b6f62488e14f98cfa849c71254bfe7f2a592a5d97949bf6a642be93eb27f"}
+{"path": "docs/history/README_20261027整理前.md", "bytes": 9854, "sha256": "c31da0fb24e351297a0b5724ea279e9969bc9fab752a7f2981cd693a6ef769cd"}
+{"path": "docs/history/项目待办_20261024.md", "bytes": 10735, "sha256": "99df16a1136326b2f55365cff20b5caf6fa49571aa5248cc1ce5b5276a8a3aa5"}
+{"path": "docs/文件整理记录.md", "bytes": 1807, "sha256": "fa60c4eb678edcca69256143770a91ab13a32f4ac01799e89b041b9342b9bc4d"}
+{"path": "docs/版本与维护规则.md", "bytes": 2502, "sha256": "60eb43c2210357dc8295e8f9a58294a789f1ecef2d814236c80db5190e1aa81f"}
+{"path": "docs/资料目录.json", "bytes": 7983, "sha256": "fd082afe1758f03e93a597c80ec990396875b909e4a355d548584df274ffade2"}
 {"path": "docs/项目定位与业务共识.md", "bytes": 12963, "sha256": "ea2021d03060e9364f6e632b31198a943b3cbf1fd9c6e446312911ab2b03bbd1"}
+{"path": "docs/项目文件导航.md", "bytes": 5747, "sha256": "3d10edbe9aada10456676b49e9a30f22ba1d77965a4f47b069a888efe2cd169a"}
+{"path": "outputs/README.md", "bytes": 1475, "sha256": "99bfd43afc751069902140eb2c5cb83a4bbdbb4b7243af78ed6e21a99e7a44b5"}
+{"path": "outputs/community-research-final-20261022/README.md", "bytes": 797, "sha256": "2a74e9ab9daac32dfe71c443569c7abd9a7c41bb4743dc96115abb419aeb17e0"}
 {"path": "outputs/community-research-final-20261022/audit_workbook.py", "bytes": 864, "sha256": "a44412df456ae90835079790a674fa8624e96c8d06c39ff30df70475d8bbadeb"}
 {"path": "outputs/community-research-final-20261022/build_report.py", "bytes": 16984, "sha256": "066079c005b4389e4a95c6c49d7ee6be8ab1a330d936f1053d1faf8b84ec7078"}
 {"path": "outputs/community-research-final-20261022/build_workbook.mjs", "bytes": 4027, "sha256": "3dbeed586e6159236fdd09a75ab807a669ef537e6e6fdfa8de7579707d647ddd"}
@@ -449,6 +463,7 @@
 {"path": "outputs/community-research-final-20261022/高端社群市场研究修订资料_20261022/本轮结构化核查数据.json", "bytes": 56334, "sha256": "392563eb3a86964164685cfd6d357b71824f9bbae6c3c617cd928304969ce800"}
 {"path": "outputs/community-research-final-20261022/高端社群市场研究修订资料_20261022/阅读说明.txt", "bytes": 759, "sha256": "bd613f4fa922af61062428566e2e411c244952a20febe02d9a6f84c9ed8f8c7e"}
 {"path": "outputs/community-research-final-20261022/高端社群市场研究修订资料_20261022/高端社群市场研究_35家机构与收费客群.xlsx", "bytes": 30469, "sha256": "d5c5fa6f990340adb97ca582bf0ab13715356989233394646014e8a463dde4da"}
+{"path": "outputs/execution-followthrough-20261024/README.md", "bytes": 879, "sha256": "dadec93e61a87d7da03e7dfbba26da3d7cb2adf07b63a3e00a9a4ee2daa1af1f"}
 {"path": "outputs/execution-followthrough-20261024/build_meeting.py", "bytes": 2743, "sha256": "09f7ab5b22efb8c674d611e40c9e623e8be643f6bd9b63c374cb4ff3b509deb8"}
 {"path": "outputs/execution-followthrough-20261024/build_model.mjs", "bytes": 15781, "sha256": "28fb264f17588bdc6acc4040037c94c98e72e352733d93f0f918d8baa820158e"}
 {"path": "outputs/execution-followthrough-20261024/build_report_html.py", "bytes": 11502, "sha256": "740dd88714aba87883120647f8613b114bc206bb3a49128c7194af3bf5a2c192"}
@@ -509,6 +524,7 @@
 {"path": "outputs/execution-followthrough-20261024/携程同日核价.json", "bytes": 1875, "sha256": "426dffa8a94207dd452172a83245dd27bf2d5d99dff4531481a62d7931b4f042"}
 {"path": "outputs/execution-followthrough-20261024/网站数据.json", "bytes": 103628, "sha256": "352fe23c999636616372ded8d8b00bcb4f9b74758c595e3c34eb1ef96fc939ee"}
 {"path": "outputs/execution-followthrough-20261024/链接索引.json", "bytes": 1946, "sha256": "edfb8254d5f0b1953e67a4e3e15f57bbdbeb54f646f70d7928f502d4d008c556"}
+{"path": "outputs/five-offline-matchmaking-20261022/README.md", "bytes": 991, "sha256": "36fb2be84cccb7b127c2f6c19cfef8fe5954460194926447d5f93e21ee65ff73"}
 {"path": "outputs/five-offline-matchmaking-20261022/build_report.py", "bytes": 29239, "sha256": "9783aecc26932e2258e7b22bfb1c04b4ca78e039807b678560fafbc8fef36edc"}
 {"path": "outputs/five-offline-matchmaking-20261022/build_workbook.mjs", "bytes": 11241, "sha256": "45d1245b7ce6efa3ece2969f2e52813ff7915381e2bfe31e592defd2330e9652"}
 {"path": "outputs/five-offline-matchmaking-20261022/collect_deep.py", "bytes": 1980, "sha256": "11141055b6ec05782bc781a95257334a1ae06641487856c18ed98b0d541a23d2"}
@@ -1013,7 +1029,7 @@
 {"path": "outputs/five-offline-matchmaking-20261022/进度核对.json", "bytes": 761, "sha256": "c93b644880a4a50851b3679b8e9bb23b78eb01d1e68510c69b9163365681f9bc"}
 {"path": "outputs/five-offline-matchmaking-20261022/采集运行.log", "bytes": 965, "sha256": "74c716c4c182fd6f9688405b06f4d7ce5440b3c7ea6f90df73e29f7d83144c00"}
 {"path": "outputs/five-offline-matchmaking-20261022/钻石准入与家族服务网页核验.json", "bytes": 603, "sha256": "dae215b5d28bf1cbffee80c9c409d168d077ab5423b5bbf2945c607a0a2a0ba1"}
-{"path": "outputs/gatsbyclub-research-site-20261024/README.md", "bytes": 1783, "sha256": "2f11e24f997cd7a1f8c0361c48e9f368297c4329e6893c08f44f53273a3ab637"}
+{"path": "outputs/gatsbyclub-research-site-20261024/README.md", "bytes": 2716, "sha256": "05487cb587c9fbdcb2a843fb2dc692b56a49b5e9440ba86677236866b442da3b"}
 {"path": "outputs/gatsbyclub-research-site-20261024/assets-sources.json", "bytes": 1516, "sha256": "0ba1e1972c56ed31aa81279f1a5087501172dc8d2b4bb87472f7c8efe23ede1e"}
 {"path": "outputs/gatsbyclub-research-site-20261024/build.py", "bytes": 19341, "sha256": "5dd0ab599beaa9aa5156b614f3a07ccd557c97c5c8c5c383c3b638694785a70e"}
 {"path": "outputs/gatsbyclub-research-site-20261024/build_offline.py", "bytes": 3196, "sha256": "aff3a7817baae201ca8b3dd9307201a8535e76ead237aea9661e8bb69d1f7f23"}
@@ -1063,6 +1079,7 @@
 {"path": "outputs/hkjc-membership-20261022/03_香港公司会籍权益.png", "bytes": 550253, "sha256": "514caa1ab09c917080fd5fd364b68e5fcab1501a468abdcd557e7431eff826a4"}
 {"path": "outputs/hkjc-membership-20261022/04_内地会籍及家庭权益.html", "bytes": 5503, "sha256": "bafb92241a9d2f13bad4572ef1185807140c71316b0766963f7ec88b32b86768"}
 {"path": "outputs/hkjc-membership-20261022/04_内地会籍及家庭权益.png", "bytes": 585503, "sha256": "a039f28ee4c2f51600e015181690ae582cb277907fe833b5a1209d5dc0822ded"}
+{"path": "outputs/hkjc-membership-20261022/README.md", "bytes": 631, "sha256": "98aa7add20fbf13019f75de97af1446e3fc041696fbaa099cb9ff5e51077f503"}
 {"path": "outputs/hkjc-membership-20261022/build_figures.py", "bytes": 16122, "sha256": "212f49c4ac3354cdef45cb2ad9deeeb714a4f1358b8b901c4179e67e3e4860de"}
 {"path": "outputs/hkjc-membership-20261022/three_figure_content.py", "bytes": 10724, "sha256": "9400c8dfd59dacb20ef9a0546d6e3a12f8b6728894820869f047faad991f400c"}
 {"path": "outputs/hkjc-membership-20261022/三图修订版/01_香港个人会籍及家庭权益.html", "bytes": 7674, "sha256": "fd79e4a2df917e2097ba5775635851e515f27fac41f11715e111efe54144ca2e"}
@@ -1083,6 +1100,7 @@
 {"path": "outputs/hkjc-membership-20261022/香港赛马会会籍与家庭权益_四图.zip", "bytes": 2488354, "sha256": "88c477a0211c35521893203b7e61bad48e2f57de8af3ac3fe4e75054907d61d1"}
 {"path": "outputs/hkjc-membership-20261022/马术收费原文-1.png", "bytes": 195245, "sha256": "b4b96d5a5de1581996e2c7c38adb77485720d3a1c5c31290c95abd2fcf0eb95f"}
 {"path": "outputs/hkjc-membership-20261022/马术收费原文-2.png", "bytes": 143374, "sha256": "13517fe07f5f98fa2ca44ed785c77f2f5aff1bc9133dbd718b19b309804627b4"}
+{"path": "outputs/integrated-research-20261024/README.md", "bytes": 768, "sha256": "12c45a253f3f86cbe786a9a9596d2ca8f21d623ce18b6e940cf46bad991e7084"}
 {"path": "outputs/integrated-research-20261024/bol_screenshot_update.py", "bytes": 4749, "sha256": "7cb40603d5c83b97015abcd327de165d51f9a1d1f8153afeb3bea0f217c4c170"}
 {"path": "outputs/integrated-research-20261024/build_report.py", "bytes": 46998, "sha256": "edc35d93ebab71b94bc5a11833085045604bfa4f6512dc6e6f44daca3742035c"}
 {"path": "outputs/integrated-research-20261024/build_workbook.mjs", "bytes": 8767, "sha256": "55967c4311d91ece2b6228a50fbfbbaa206bde3949d33bae0675acd951fce4dc"}
@@ -1310,6 +1328,7 @@
 {"path": "outputs/integrated-research-20261024/报告引用来源.json", "bytes": 27249, "sha256": "1e24d88fdebec76cd0742319664dc2c8a5a2d6d2f24b7de3845370c5d4727a82"}
 {"path": "outputs/integrated-research-20261024/统一研究数据.json", "bytes": 589973, "sha256": "06f7ee1adbc4f2f38619c209337693347d578469b326cfbfcf7f6afb706dda6e"}
 {"path": "outputs/integrated-research-20261024/链接索引.json", "bytes": 90653, "sha256": "c6dbf3658f37f1dd5ee1435c415654f7e7918fb35e07fb1823fa3aec61e92f80"}
+{"path": "outputs/matchmaking-review-20261022/README.md", "bytes": 880, "sha256": "1cddb67263f132803fff38f19ba4fbd8ec9f911935fb3f7efa5f5c62a2a4c91e"}
 {"path": "outputs/matchmaking-review-20261022/build_documents.py", "bytes": 25621, "sha256": "91a149c97909f1a8b07e36751d38fdd5f37eb75a79f1ad23864d1a378ce221f9"}
 {"path": "outputs/matchmaking-review-20261022/check_links.py", "bytes": 960, "sha256": "3c31122376d36f1d0a3f4e6f476469c72cb50d4e0585d7353bbf1b85452ad2bd"}
 {"path": "outputs/matchmaking-review-20261022/collect.py", "bytes": 2643, "sha256": "7ada0ed6fa77762902fa070003a16aa04fc746d2c6f26932c9598a9966dea5b0"}
@@ -1516,6 +1535,7 @@
 {"path": "outputs/matchmaking-review-20261022/报告结构.json", "bytes": 8847, "sha256": "49449102fb8f08f454a251ac1f1edf42122e58e88b61da0e77d42ec2795385f6"}
 {"path": "outputs/matchmaking-review-20261022/核查数据.json", "bytes": 32199, "sha256": "3c00d4f308f64dc4909aab13fa7f1a27b37a923993d556bf07726c9cacd67b09"}
 {"path": "outputs/matchmaking-review-20261022/高端会员社群市场研究更新资料_20261022.zip", "bytes": 3077909, "sha256": "111d92e346b0f0e53db38a06d37136d61e3bae3a5946e4569a28b9658a09e209"}
+{"path": "outputs/new-matchmaking-review-20261022/README.md", "bytes": 613, "sha256": "d3189ca88ad7a973bcfcbd6c74baf30609125e6afd2ee04046624236791ab29a"}
 {"path": "outputs/new-matchmaking-review-20261022/collect_recent.py", "bytes": 1483, "sha256": "9a8fa1dddeac12f4c250f446181de1c3fde31d2ff414d1c0946cb3d5433fcc2c"}
 {"path": "outputs/new-matchmaking-review-20261022/collection.log", "bytes": 460, "sha256": "63779d96e8cae8669a74c42a737efc763bceaa065736f9c4389ba2d7978348be"}
 {"path": "outputs/new-matchmaking-review-20261022/crawl4ai_collection.json", "bytes": 1333, "sha256": "d8b7119c6f1d1578a753b6b7ccca5087adc915384c284ad03add71a6c3f2b7db"}
@@ -1531,6 +1551,7 @@
 {"path": "outputs/new-matchmaking-review-20261022/大超说媒已核验互动.csv", "bytes": 773, "sha256": "6db74edb424bf96d190f8e3018abc86bc8ea073e150415dc34aa7df101de1fc3"}
 {"path": "outputs/new-matchmaking-review-20261022/核查说明.txt", "bytes": 381, "sha256": "c8a84e7515f28e025a6a29099129d01ba073a1a810acac10dba3b4e1ad43c7b0"}
 {"path": "outputs/new-matchmaking-review-20261022/近期婚恋平台核查明细.csv", "bytes": 2720, "sha256": "326ec80a0a4ceac8174a21af2171ef9d5bde30f81bd165b6eb875e3780c8ccab"}
+{"path": "outputs/offline-matchmaking-selection-20261022/README.md", "bytes": 610, "sha256": "81d1ded03fff478120a4cfbbc9f77fb364f1cff54434142ec0c9a7b14022554f"}
 {"path": "outputs/offline-matchmaking-selection-20261022/build_evidence.py", "bytes": 25153, "sha256": "667cce8ca324caff0cc8f69d556f44e8682ebf9d346ce1f242ff0ed728a3a09e"}
 {"path": "outputs/offline-matchmaking-selection-20261022/collect.py", "bytes": 2724, "sha256": "c3d52c0558b6f36161350c4ecaad61b7aba50074cfb5007fab2afb08ad9e9162"}
 {"path": "outputs/offline-matchmaking-selection-20261022/collect_more.py", "bytes": 2885, "sha256": "e71cdc335ccddc3cb9c9971e9e86f226dbcd38c1913420e415059ebf77039ab8"}
@@ -1622,7 +1643,9 @@
 {"path": "outputs/offline-matchmaking-selection-20261022/采集日志.txt", "bytes": 1108, "sha256": "6cc6b3e60bca34ebe19eb22da8897534a701e590f978e18a56ce5b2bd64aed63"}
 {"path": "outputs/offline-matchmaking-selection-20261022/钻石现价及目录网页核验.json", "bytes": 17168, "sha256": "f04aa2ea28740dca1811119b5baafc681746e638de10cf907db8a89f60a8dc7d"}
 {"path": "outputs/offline-matchmaking-selection-20261022/验收核对.json", "bytes": 433, "sha256": "94d1f1e236882f8a4bba4d90cd0e522ca1ea0835ab52faa443d23c3ee108ca41"}
+{"path": "outputs/partner-actions-20261023/README.md", "bytes": 510, "sha256": "56ec82f35141c8723e5662f573302b6481788c5461135f8c6911e32136eabddc"}
 {"path": "outputs/partner-actions-20261023/待办清单.json", "bytes": 19156, "sha256": "981d49f1e81f6b0080b7bf7bbf222ed46b9b96c421e055b2a8049529e7fb59cd"}
+{"path": "outputs/social-research-20261021/README.md", "bytes": 774, "sha256": "8b06caef9a3928d84b29638a41e0263532369a6ed1837619f43f5b9539942c3f"}
 {"path": "outputs/social-research-20261021/collection-20261021/collection.json", "bytes": 863360, "sha256": "52a316efd83090b95046eaeed383f52495659f5e07dbd9b84b48997d8c821fc7"}
 {"path": "outputs/social-research-20261021/collection-20261021/raw/0118655c8375a2.html", "bytes": 113382, "sha256": "6dfe55c0996baa88f2cfc77b09d5ccb3bc157ef4ded89e94b735f1ba6e02f891"}
 {"path": "outputs/social-research-20261021/collection-20261021/raw/0118655c8375a2.md", "bytes": 5214, "sha256": "f85f58f803e55f5455593a1d0c18368aafa64607c20645ea461429bb49fde40a"}
@@ -3947,6 +3970,7 @@
 {"path": "outputs/social-research-20261021/交付资料/资料目录.html", "bytes": 3188, "sha256": "e96307493c80673c3e75a3b66c929b75f9d13c7f9e1499852c59c2b81019015d"}
 {"path": "outputs/social-research-20261021/高端社交公司合伙人决策摘要.docx", "bytes": 40990, "sha256": "1bc2fe5a2824c85492dab306c3ed7720d2e380f17bb475cfe5ea17577a900e79"}
 {"path": "outputs/social-research-20261021/高端社群首批采集数据.zip", "bytes": 14932855, "sha256": "9505d489fcf1485f417117db7938266fb7ea20e3865affb4a5bf255725550588"}
+{"path": "outputs/travel-community-20261023/README.md", "bytes": 845, "sha256": "ee36249363be5ca35f2ae91b065ec70ab1cc245187c020756dd8bac13d499c2a"}
 {"path": "outputs/travel-community-20261023/build_documents.py", "bytes": 29057, "sha256": "fd8e1122bbd65f4176164ae09a2dcf7028b4dd06a88a77723d5fb51972ed5239"}
 {"path": "outputs/travel-community-20261023/build_site.py", "bytes": 13031, "sha256": "2eddf7a9ca3a35f88cf4ef929d56d0f6be2d1d1c23c570f6d318a227af71e164"}
 {"path": "outputs/travel-community-20261023/build_workbook.mjs", "bytes": 14861, "sha256": "bd01806e952d9c3fc444ad994456dbe4736ec540b5b7d1407f8febb8a159eea9"}
@@ -4107,6 +4131,7 @@
 {"path": "outputs/travel-community-20261023/研究与产品数据.json", "bytes": 59502, "sha256": "7f054bd8de7194830886f66f13e7d3473f6efdcd0bf6423d4c76707c34005467"}
 {"path": "outputs/travel-community-20261023/链接索引.json", "bytes": 7449, "sha256": "14d85533afba54e5a16da0e829030e134202de8f0f6d21a6e6d566f5a9de4d1e"}
 {"path": "outputs/travel-community-20261023/高端单身旅行与线下社群研究资料_20261023.zip", "bytes": 7468484, "sha256": "7786ae8db7732bf5607e84efa609b4bddfa6451104ae3cff30a0458aaaae440f"}
+{"path": "outputs/travel-discovery-20261024/README.md", "bytes": 639, "sha256": "1e654aa4e8ce4273049f1c0ac4f3b3124ea257fc440d83f27aecb966fe2ee35f"}
 {"path": "outputs/travel-discovery-20261024/build_supplement.mjs", "bytes": 10442, "sha256": "86c47e33fd80d9304ae001cc467f0ecc42e38915a5dd176705ec1f0718eb90b4"}
 {"path": "outputs/travel-discovery-20261024/finalize_workbook.py", "bytes": 3039, "sha256": "c40d3ea2711124043571fc15a6958789fef481aa3be8068b449f7ffa4256c1df"}
 {"path": "outputs/travel-discovery-20261024/qa/价格.png", "bytes": 91679, "sha256": "e9bcbeea5a8aaa992af13807980e633840451ddb7be503ee5e37a3081e69b10c"}
@@ -4158,6 +4183,7 @@
 {"path": "private-club-site/supper.html", "bytes": 77610, "sha256": "34405e4beba90b1e4c6c762445d170874ae4d612997d532126a6a62af4a78bb2"}
 {"path": "private-club-site/taskmaster.html", "bytes": 10577, "sha256": "db91225b865fce168bcde8063cd90a2043b47bbe8464828e60f3b21474e294ab"}
 {"path": "private-club-site/template.html", "bytes": 20428, "sha256": "5a3f4668a47ecd78925ad2f90985f083ca1bede7b733e7a755497da7dae763c1"}
+{"path": "scripts/check_project_docs.mjs", "bytes": 2733, "sha256": "73b21d3905729f1c3d636bf4404795b6626a3c00c1702c92e01f4a4c3771dde3"}
 {"path": "tools/MediaCrawler/.env.example", "bytes": 943, "sha256": "5cd5442133cc9667d47384a0bd3194c1237d00f2ad61f88c76492298cf463a87"}
 {"path": "tools/MediaCrawler/.gitattributes", "bytes": 93, "sha256": "01736911783890d939e983479f88118d1325c08cecea1eb8bfdc8228ee1bcc6f"}
 {"path": "tools/MediaCrawler/.github/CODEOWNERS", "bytes": 582, "sha256": "e35fd1c656d254b4446139dfb0258bc7c939488a21e82187c33c686e4f256f7c"}
@@ -4513,4 +4539,5 @@
 {"path": "tools/MediaCrawler/webui/tailwind.config.ts", "bytes": 7291, "sha256": "b121ccbc25204fa0264cff0948de9d203dd92ac97b61cff17b4079e72f6e62b3"}
 {"path": "tools/MediaCrawler/webui/tsconfig.json", "bytes": 649, "sha256": "f4813c95dfb993628a3184707f1189f3151f533b001a7e554501dd13abe093d4"}
 {"path": "tools/MediaCrawler/webui/vite.config.ts", "bytes": 500, "sha256": "d5e11fc8effe4f78c956561cf16c650d1cd39fa9636dee8734208e39b61217f9"}
-{"path": "项目待办清单.md", "bytes": 10637, "sha256": "b119dcb390e517a0ba4162049d78a2db67f3cac3dbf37007c39ce325f8fea60b"}
+{"path": "tools/README.md", "bytes": 808, "sha256": "03ad508247f6ee5026612c1d9ebc2e6a0fa6420c3403777c72ae903f7a89861d"}
+{"path": "项目待办清单.md", "bytes": 2829, "sha256": "352f41ebaef42a174461e0b9ffa2190a0955d61792069103d2174b1c4f1227ec"}
