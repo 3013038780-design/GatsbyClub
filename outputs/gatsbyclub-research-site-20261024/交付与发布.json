@@ -1,0 +1,13 @@
+{
+  "project_id": "appgprj_6adc8299b43081918d6188bdb4d28aa2",
+  "version_id": "appgprj_6adc8299b43081918d6188bdb4d28aa2~appgver_ec4fe4c49bfc8191b2d548a426c94bed",
+  "commit_sha": "fa644588c7d63a0dacfb698e7f5279dc4dbf2cac",
+  "url": "https://gatsbyclub-research.easy-tern-3117.chatgpt.site",
+  "status": "succeeded",
+  "audience": "public",
+  "date": "2026-10-24",
+  "access_revision": 2,
+  "public_deployment_id": "appgdep_6adc8934f4208191bbbafaf4f6fb6361",
+  "public_redeployment_at": "2026-10-24T10:32:24.989174+00:00",
+  "anonymous_desktop_mobile_verified": true
+}

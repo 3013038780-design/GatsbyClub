@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "case": 1,
+      "travelContribution": 8560,
+      "cash": 116600
+    },
+    {
+      "case": 2,
+      "travelContribution": 35104,
+      "cash": 141296
+    },
+    {
+      "case": 3,
+      "travelContribution": 48376,
+      "cash": 153644
+    },
+    {
+      "vehicleStep": 19600
+    },
+    {
+      "missingHotel": "需补住宿预算"
+    },
+    {
+      "otherPrepay": 0.5,
+      "cash": 131496,
+      "expectedCash": 131496
+    }
+  ],
+  "restoredContribution": 35104,
+  "cash": 141296,
+  "breakeven": 9,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "annualUtilization": 0.7770833333333333
+}

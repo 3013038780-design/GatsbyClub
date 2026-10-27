@@ -1,0 +1,303 @@
+[
+  {
+    "id": "D01",
+    "url": "https://www.32hike.com/aboutus.html",
+    "status": 200,
+    "final_url": "https://www.32hike.com/aboutus.html",
+    "bytes": 81572,
+    "note": "广州三十二号国际旅行社有限公司，信用代码91440105340204851E，旅行社许可L-GD02356；规模与推荐比例均为企业自述"
+  },
+  {
+    "id": "D02",
+    "url": "https://www.youxiake.com/",
+    "status": 200,
+    "final_url": "https://www.youxiake.com/",
+    "bytes": 156185,
+    "note": "首页报名动态与累计线路报名人数，不等于本年独立客户"
+  },
+  {
+    "id": "D03",
+    "url": "https://home.54traveler.com/",
+    "status": 200,
+    "final_url": "https://home.54traveler.com/",
+    "bytes": 3387,
+    "note": "当前前端需执行脚本；本轮未取得可读的具体线路日历价"
+  },
+  {
+    "id": "D04",
+    "url": "https://www.zuanshi.com/new/loveCustomization",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/new/loveCustomization",
+    "bytes": 44841,
+    "note": "30万、60万、100万元起为定制项目起价，具体服务期限与次数须以合同为准"
+  },
+  {
+    "id": "D05",
+    "url": "https://www.zuanshi.com/webContent/question",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/webContent/question",
+    "bytes": 33444,
+    "note": ""
+  },
+  {
+    "id": "D06",
+    "url": "https://www.zuanshi.com/webActivity/newActivityList",
+    "status": 200,
+    "final_url": "https://www.zuanshi.com/webActivity/newActivityList",
+    "bytes": 53638,
+    "note": "10月24日山野及亿元单身局仍是未来招募"
+  },
+  {
+    "id": "D07",
+    "url": "https://www.liangyuan.com/",
+    "status": 200,
+    "final_url": "https://www.liangyuan.com/",
+    "bytes": 46066,
+    "note": "含派聚旅行社交品牌，尚缺当前旅行商品及成交证据"
+  },
+  {
+    "id": "D08",
+    "url": "https://www.ruailove.com/party/89.html",
+    "status": 200,
+    "final_url": "https://www.ruailove.com/party/89.html",
+    "bytes": 16046,
+    "note": "男115女95，报名显示18，现场签到模块为空"
+  },
+  {
+    "id": "D09",
+    "url": "https://www.jfh999.com/party/311.html",
+    "status": 200,
+    "final_url": "https://www.jfh999.com/party/311.html",
+    "bytes": 22431,
+    "note": "99元，计划60，页面报名59；不等同到场"
+  },
+  {
+    "id": "D10",
+    "url": "https://jinrishangye.com/8357/",
+    "status": 200,
+    "final_url": "https://jinrishangye.com/8357/",
+    "bytes": 86858,
+    "note": "388元；收款及旅行承办资质待核；正文混用未来招募与完成语气，仅作招募"
+  },
+  {
+    "id": "D11",
+    "url": "https://www.xsms-club.com/",
+    "status": 200,
+    "final_url": "https://www.xsms-club.com/",
+    "bytes": 28092,
+    "note": "思然互联网科技集团；全国网点和本地活动分别核实"
+  },
+  {
+    "id": "D12",
+    "url": "https://www.sohu.com/a/1055933312_121626427",
+    "status": 200,
+    "final_url": "https://www.sohu.com/a/1055933312_121626427",
+    "bytes": 50138,
+    "note": "138元，200人是招募计划；联合主办，旅行承办主体未确认"
+  },
+  {
+    "id": "D13",
+    "url": "https://meetknow.com/activities/beijing",
+    "status": 200,
+    "final_url": "https://meetknow.com/activities/beijing",
+    "bytes": 235186,
+    "note": "页面仍显示10月18日报名，排期滞后；仅作公开规则与价格样本"
+  },
+  {
+    "id": "D14",
+    "url": "https://www.xiaohongshu.com/user/profile/6270c387000000002102a8b5",
+    "status": 200,
+    "final_url": "https://www.xiaohongshu.com/login?redirectPath=http%3A%2F%2Fwww.xiaohongshu.com%2Fuser%2Fprofile%2F6270c387000000002102a8b5%3FexSource%3Dnull",
+    "bytes": 36721,
+    "note": "999元本人定位与199元红娘定位为主页项目；完整服务包和旅行产品未核实，可能需登录"
+  },
+  {
+    "id": "D16",
+    "url": "https://www.himmr.tech/",
+    "status": 200,
+    "final_url": "https://www.himmr.tech/",
+    "bytes": 39521,
+    "note": "高校与职业定位及线下组织参照，未取得当前旅行商品"
+  },
+  {
+    "id": "M01",
+    "url": "https://paper.people.com.cn/rmlt/pc/content/202607/03/content_30172466.html",
+    "status": 200,
+    "final_url": "https://paper.people.com.cn/rmlt/pc/content/202607/03/content_30172466.html",
+    "bytes": 74288,
+    "note": "需求背景，不能直接推出A8客群市场容量"
+  },
+  {
+    "id": "M02",
+    "url": "https://www.syyalongbay.cn/news_detail_34.html",
+    "error": "HTTPSConnectionPool(host='www.syyalongbay.cn', port=443): Max retries exceeded with url: /news_detail_34.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
+  },
+  {
+    "id": "M03",
+    "url": "https://www.marriott.com.cn/hotels/hotel-information/syxxr-the-st-regis-sanya-yalong-bay-resort/",
+    "status": 200,
+    "final_url": "https://www.marriott.com.cn/hotels/syxxr-the-st-regis-sanya-yalong-bay-resort/overview/",
+    "bytes": 442832,
+    "note": "用于核对交付条件，不提供选定日期房价"
+  },
+  {
+    "id": "F01",
+    "url": "https://www.modernist.club/",
+    "status": 200,
+    "final_url": "https://www.modernist.club/",
+    "bytes": 157719,
+    "note": ""
+  },
+  {
+    "id": "F02",
+    "url": "https://members.thesupperclubinc.com/membership",
+    "status": 200,
+    "final_url": "https://members.thesupperclubinc.com/membership",
+    "bytes": 77610,
+    "note": "价格与规则从同页公开data-page结构核对"
+  },
+  {
+    "id": "F03",
+    "url": "https://thesupperclubinc.com/terms-of-services",
+    "status": 200,
+    "final_url": "https://thesupperclubinc.com/terms-of-services",
+    "bytes": 110584,
+    "note": ""
+  },
+  {
+    "id": "F04",
+    "url": "https://parlor.social/Parlor%20Membership.pdf",
+    "status": 200,
+    "final_url": "https://parlor.social/Parlor%20Membership.pdf",
+    "bytes": 7945658,
+    "note": ""
+  },
+  {
+    "id": "F05",
+    "url": "https://www.mandala.club/enquire",
+    "status": 200,
+    "final_url": "https://www.mandala.club/enquire",
+    "bytes": 1516324,
+    "note": ""
+  },
+  {
+    "id": "F06",
+    "url": "https://www.mandala.club/",
+    "status": 200,
+    "final_url": "https://www.mandala.club/",
+    "bytes": 1256275,
+    "note": ""
+  },
+  {
+    "id": "F07",
+    "url": "https://www.67pallmall.com/the-singapore-club/membership/",
+    "status": 403,
+    "final_url": "https://www.67pallmall.com/the-singapore-club/membership/",
+    "bytes": 5494,
+    "note": "浏览搜索工具可读，本地直接请求403"
+  },
+  {
+    "id": "F08",
+    "url": "https://legacy.thebatterysf.com/societies",
+    "status": 200,
+    "final_url": "https://legacy.thebatterysf.com/societies",
+    "bytes": 38874,
+    "note": "旧版社群目录，当前社群仍否开放须另核"
+  },
+  {
+    "id": "F09",
+    "url": "https://thebatterysf.com/events",
+    "status": 200,
+    "final_url": "https://thebatterysf.com/events",
+    "bytes": 141157,
+    "note": ""
+  },
+  {
+    "id": "F10",
+    "url": "https://www.carlyleandco.com/",
+    "status": 200,
+    "final_url": "https://www.carlyleandco.com/",
+    "bytes": 257665,
+    "note": ""
+  },
+  {
+    "id": "F11",
+    "url": "https://estellecommunity.com/",
+    "status": 200,
+    "final_url": "https://estellecommunity.com/",
+    "bytes": 99675,
+    "note": ""
+  },
+  {
+    "id": "F12",
+    "url": "https://www.theartsclub.co.uk/membership/",
+    "status": 200,
+    "final_url": "https://www.theartsclub.co.uk/membership/",
+    "bytes": 161872,
+    "note": ""
+  },
+  {
+    "id": "F13",
+    "url": "https://theartsclub.co.uk/arts-culture/",
+    "status": 200,
+    "final_url": "https://theartsclub.co.uk/arts-culture/",
+    "bytes": 162682,
+    "note": ""
+  },
+  {
+    "id": "D17",
+    "url": "https://www.32hike.com/personal_detail/92.html",
+    "status": 200,
+    "final_url": "https://www.32hike.com/personal_detail/92.html",
+    "bytes": 292757,
+    "note": "5980元起，两人同住基础房；日期与房态需二次确认，非指定日期成交价"
+  },
+  {
+    "id": "D18",
+    "url": "https://www.32hike.com/detail/227411.html",
+    "status": 200,
+    "final_url": "https://www.32hike.com/detail/227411.html",
+    "bytes": 615404,
+    "note": "23900元每人；页面名额会变化，仅记录公开招募，不作已出发证据"
+  },
+  {
+    "id": "D19",
+    "url": "https://www.youxiake.com/lines.html?id=64810",
+    "status": 200,
+    "final_url": "https://www.youxiake.com/lines.html?id=64810",
+    "bytes": 524747,
+    "note": "费用规则可读，价格由前端动态加载，本轮未取得有效金额"
+  },
+  {
+    "id": "M04",
+    "url": "https://www.hurun.cn/zh-CN/Info/Detail?num=CSX6BTOMEWY4",
+    "status": 200,
+    "final_url": "https://www.hurun.cn/zh-CN/Info/Detail?num=CSX6BTOMEWY4",
+    "bytes": 149649,
+    "note": "470位千万资产受访者，78%一线城市；不是单身客户的代表样本"
+  },
+  {
+    "id": "M05",
+    "url": "https://mzt.fj.gov.cn/gk/wpldq/202610/t20261008_7221424.htm",
+    "status": 200,
+    "final_url": "https://mzt.fj.gov.cn/gk/wpldq/202610/t20261008_7221424.htm",
+    "bytes": 27289,
+    "note": "676.5万对，同比增长10.8%；使用年度公报，不用676.3季度快报"
+  },
+  {
+    "id": "L01",
+    "url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/fl/202105/t20210526_924763.html",
+    "status": 200,
+    "final_url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/fl/202105/t20210526_924763.html",
+    "bytes": 92361,
+    "note": ""
+  },
+  {
+    "id": "L02",
+    "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "status": 200,
+    "final_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "bytes": 60221,
+    "note": ""
+  }
+]

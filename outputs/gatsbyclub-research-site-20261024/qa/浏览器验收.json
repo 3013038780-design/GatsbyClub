@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "direction_switches": 3,
+  "image_dialog": true,
+  "escape_close": true,
+  "mobile_menu": true,
+  "downloads": [
+    "report.pdf",
+    "research.xlsx",
+    "speech.pdf"
+  ],
+  "anchors": [],
+  "broken_images": [],
+  "js_errors": [],
+  "checked_at": "2026-10-24T10:17:52.309Z"
+}

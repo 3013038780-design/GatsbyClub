@@ -1,0 +1,15 @@
+{
+  "local_references": [
+    "research.pdf",
+    "research.xlsx",
+    "launch.xlsx",
+    "meeting.docx"
+  ],
+  "download_copies_match": [
+    "research.pdf",
+    "research.xlsx",
+    "launch.xlsx",
+    "meeting.docx"
+  ],
+  "browser_visual_qa": "待完成；本次仅验证文件存在及下载副本一致性"
+}

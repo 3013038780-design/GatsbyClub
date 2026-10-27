@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "BoL万象博联": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    },
+    "Founder Feast": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    },
+    "BoL Selected": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    },
+    "钻石婚恋": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    },
+    "奇语旅行": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    },
+    "Other Way Round": {
+      "people": true,
+      "fees": true,
+      "flow": true,
+      "acquisition": true,
+      "performance": true,
+      "judgment": true,
+      "sources": true
+    }
+  },
+  "new_search_cards": 157,
+  "unique_notes": 154,
+  "full_notes": 9,
+  "new_profiles": 5,
+  "retained_foreign": 9,
+  "excluded_removed": true,
+  "all_product_sources_resolve": true,
+  "legacy_comment_save_mapping_verified": 24,
+  "visible_follower_counts": 3,
+  "hidden_counts_omitted": 2,
+  "meaning": "checks=true仅表示报告包含该字段，不代表取得真实付费客户分布、续费、利润或完整交易价格。",
+  "known_open_items": [
+    "BoL Selected最终会员结算价",
+    "完整同条件旅行总价及供应商报价",
+    "实际客户访谈及资源确认",
+    "经营实绩及可计算市场份额证据",
+    "网站浏览器交互验收"
+  ]
+}

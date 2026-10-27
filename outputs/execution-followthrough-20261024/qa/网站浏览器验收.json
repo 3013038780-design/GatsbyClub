@@ -1,0 +1,25 @@
+{
+  "full_report": {
+    "tables": 37,
+    "images": 4,
+    "toc": 17,
+    "brokenImages": 0,
+    "badAnchors": 0
+  },
+  "search_results": "1/2",
+  "mobile_overflow": false,
+  "downloads_checked": [
+    "research.pdf",
+    "research.xlsx",
+    "launch.xlsx",
+    "speech.pdf",
+    "meeting.docx"
+  ],
+  "dashboard_base": "35,104元",
+  "dashboard_low": "8,560元",
+  "missing_input": "请补有效输入",
+  "map_search_rows": 1,
+  "javascript_errors": [],
+  "report_pdf_sha256": "125a5c585920bbaed4ccf18e03f1e1d38f0d646fc4ba9c699b491e9a5859e5de",
+  "status": "passed"
+}

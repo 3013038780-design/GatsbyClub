@@ -1,0 +1,44 @@
+[
+  {
+    "i": 0,
+    "src": "https://founderfeast.com/logo.svg",
+    "alt": "Founder Feast logo",
+    "w": 150,
+    "h": 150
+  },
+  {
+    "i": 1,
+    "src": "https://founderfeast.com/images/1.jpeg",
+    "alt": "People at a Founder Feast dinner table in a Vancouver restaurant",
+    "w": 1600,
+    "h": 1600
+  },
+  {
+    "i": 2,
+    "src": "https://founderfeast.com/images/2.jpeg",
+    "alt": "Founders raising glasses together at a Founder Feast dinner",
+    "w": 1080,
+    "h": 1287
+  },
+  {
+    "i": 3,
+    "src": "https://founderfeast.com/logo.svg",
+    "alt": "Founder Feast logo",
+    "w": 150,
+    "h": 150
+  },
+  {
+    "i": 4,
+    "src": "",
+    "alt": "Download on the App Store",
+    "w": 0,
+    "h": 0
+  },
+  {
+    "i": 5,
+    "src": "",
+    "alt": "Get it on Google Play",
+    "w": 0,
+    "h": 0
+  }
+]

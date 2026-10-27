@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "stage": "passed",
+  "purpose_groups": 6,
+  "catalog_entries": 32,
+  "source_paths_preserved": true,
+  "research_deliverables_modified": false,
+  "known_exact_duplicate_delivery_groups": 37,
+  "duplicates_policy": "保留网页、资料包和QA副本，主入口统一指向指定成品",
+  "checks": {
+    "markdown_documents": 26,
+    "relative_links_and_anchors": 229,
+    "broken_links": 0,
+    "catalog_groups": 6,
+    "catalog_entries": 32,
+    "desktop_preview": "1440x1100，已检查",
+    "mobile_preview": "390x844，已检查，无横向溢出",
+    "baseline_amounts_and_slots_preserved": true,
+    "historical_artifact_files_unchanged": true
+  },
+  "private_materials": "本轮未新增原始会议、个人名单、股权结构或登录状态"
+}

@@ -1,0 +1,28 @@
+{
+  "高端单身旅行与线下社群决策摘要.pdf": {
+    "pages": 1,
+    "external_annotations": 0,
+    "unique_urls": 0
+  },
+  "高端单身旅行与线下社群会议讲解稿.pdf": {
+    "pages": 1,
+    "external_annotations": 0,
+    "unique_urls": 0
+  },
+  "高端单身旅行与线下社群研究报告.pdf": {
+    "pages": 20,
+    "external_annotations": 74,
+    "unique_urls": 38
+  },
+  "word_pdf_link_difference": [],
+  "sheet_names": [
+    "对标主表",
+    "同线路费用",
+    "首发产品与测算",
+    "来源与待补",
+    "既有机构名录"
+  ],
+  "native_charts": 1,
+  "xlsx_hyperlinks": 95,
+  "native_sensitivity_tables": 4
+}

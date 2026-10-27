@@ -1,0 +1,45 @@
+[
+  {
+    "id": "founder",
+    "url": "https://founderfeast.com/how-it-works",
+    "final_url": "https://founderfeast.com/how-it-works",
+    "title": "How Founder Feast Works | Founder Dinner Club",
+    "captured_at": "2026-10-24T10:04:41.361Z",
+    "screenshot": "assets/founder-website.jpg"
+  },
+  {
+    "id": "owr",
+    "url": "https://www.otherwayround.travel/mexico-city-4-days/",
+    "final_url": "https://www.otherwayround.travel/mexico-city-4-days/",
+    "title": "Mexico City Group Tour for Solo Travelers 30s & 40s | Other Way Round",
+    "captured_at": "2026-10-24T10:04:50.498Z",
+    "screenshot": "assets/owr-website.jpg"
+  },
+  {
+    "id": "offline",
+    "url": "https://www.theoffline-club.com/",
+    "final_url": "https://www.theoffline-club.com/",
+    "title": "The Offline Club | Offline Community & Events",
+    "captured_at": "2026-10-24T10:05:06.332Z",
+    "screenshot": "assets/offline-website.jpg"
+  },
+  {
+    "id": "founder-dinner",
+    "url": "https://founderfeast.com/how-it-works",
+    "original_image_url": "https://founderfeast.com/images/1.jpeg",
+    "method": "浏览器对官网活动图片元素截图",
+    "alt": "People at a Founder Feast dinner table in a Vancouver restaurant",
+    "file": "assets/founder-dinner.jpg",
+    "captured_date": "2026-10-24"
+  },
+  {
+    "id": "bol",
+    "source": "用户提供的BoL小程序六张原始截图，2026-10-24收到",
+    "files": [
+      "bol-selected.jpg",
+      "bol-flow.jpg",
+      "bol-488.jpg",
+      "bol-2888.jpg"
+    ]
+  }
+]

@@ -1,0 +1,1679 @@
+{
+  "component": "Public/Pages/Membership",
+  "props": {
+    "jetstream": {
+      "canCreateTeams": false,
+      "canManageTwoFactorAuthentication": true,
+      "canUpdatePassword": true,
+      "canUpdateProfileInformation": true,
+      "hasEmailVerification": false,
+      "flash": [],
+      "hasAccountDeletionFeatures": true,
+      "hasApiFeatures": false,
+      "hasTeamFeatures": true,
+      "hasTermsAndPrivacyPolicyFeature": false,
+      "managesProfilePhotos": false
+    },
+    "auth": {
+      "user": null
+    },
+    "errorBags": [],
+    "errors": {},
+    "publicURL": "http://thesupperclubinc.com",
+    "ziggy": {
+      "url": "https://members.thesupperclubinc.com",
+      "port": null,
+      "defaults": [],
+      "routes": {
+        "login.store": {
+          "uri": "login",
+          "methods": [
+            "POST"
+          ]
+        },
+        "logout": {
+          "uri": "logout",
+          "methods": [
+            "POST"
+          ]
+        },
+        "password.email": {
+          "uri": "forgot-password",
+          "methods": [
+            "POST"
+          ]
+        },
+        "reset-password": {
+          "uri": "reset-password",
+          "methods": [
+            "POST"
+          ]
+        },
+        "register.store": {
+          "uri": "register",
+          "methods": [
+            "POST"
+          ]
+        },
+        "user-profile-information.update": {
+          "uri": "user/profile-information",
+          "methods": [
+            "PUT"
+          ]
+        },
+        "user-password.update": {
+          "uri": "user/password",
+          "methods": [
+            "PUT"
+          ]
+        },
+        "password.confirmation": {
+          "uri": "user/confirmed-password-status",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "password.confirm.store": {
+          "uri": "user/confirm-password",
+          "methods": [
+            "POST"
+          ]
+        },
+        "two-factor.login.store": {
+          "uri": "two-factor-challenge",
+          "methods": [
+            "POST"
+          ]
+        },
+        "two-factor.enable": {
+          "uri": "user/two-factor-authentication",
+          "methods": [
+            "POST"
+          ]
+        },
+        "two-factor.confirm": {
+          "uri": "user/confirmed-two-factor-authentication",
+          "methods": [
+            "POST"
+          ]
+        },
+        "two-factor.disable": {
+          "uri": "user/two-factor-authentication",
+          "methods": [
+            "DELETE"
+          ]
+        },
+        "two-factor.qr-code": {
+          "uri": "user/two-factor-qr-code",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "two-factor.secret-key": {
+          "uri": "user/two-factor-secret-key",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "two-factor.recovery-codes": {
+          "uri": "user/two-factor-recovery-codes",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "two-factor.regenerate-recovery-codes": {
+          "uri": "user/two-factor-recovery-codes",
+          "methods": [
+            "POST"
+          ]
+        },
+        "profile.show": {
+          "uri": "user/profile",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "other-browser-sessions.destroy": {
+          "uri": "user/other-browser-sessions",
+          "methods": [
+            "DELETE"
+          ]
+        },
+        "current-user-photo.destroy": {
+          "uri": "user/profile-photo",
+          "methods": [
+            "DELETE"
+          ]
+        },
+        "current-user.destroy": {
+          "uri": "user",
+          "methods": [
+            "DELETE"
+          ]
+        },
+        "teams.create": {
+          "uri": "teams/create",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "teams.store": {
+          "uri": "teams",
+          "methods": [
+            "POST"
+          ]
+        },
+        "teams.show": {
+          "uri": "teams/{team}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "team"
+          ]
+        },
+        "teams.update": {
+          "uri": "teams/{team}",
+          "methods": [
+            "PUT"
+          ],
+          "parameters": [
+            "team"
+          ]
+        },
+        "teams.destroy": {
+          "uri": "teams/{team}",
+          "methods": [
+            "DELETE"
+          ],
+          "parameters": [
+            "team"
+          ]
+        },
+        "current-team.update": {
+          "uri": "current-team",
+          "methods": [
+            "PUT"
+          ]
+        },
+        "team-members.store": {
+          "uri": "teams/{team}/members",
+          "methods": [
+            "POST"
+          ],
+          "parameters": [
+            "team"
+          ]
+        },
+        "team-members.update": {
+          "uri": "teams/{team}/members/{user}",
+          "methods": [
+            "PUT"
+          ],
+          "parameters": [
+            "team",
+            "user"
+          ]
+        },
+        "team-members.destroy": {
+          "uri": "teams/{team}/members/{user}",
+          "methods": [
+            "DELETE"
+          ],
+          "parameters": [
+            "team",
+            "user"
+          ]
+        },
+        "team-invitations.accept": {
+          "uri": "team-invitations/{invitation}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "invitation"
+          ]
+        },
+        "team-invitations.destroy": {
+          "uri": "team-invitations/{invitation}",
+          "methods": [
+            "DELETE"
+          ],
+          "parameters": [
+            "invitation"
+          ]
+        },
+        "sanctum.csrf-cookie": {
+          "uri": "sanctum/csrf-cookie",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "ignition.healthCheck": {
+          "uri": "_ignition/health-check",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "ignition.executeSolution": {
+          "uri": "_ignition/execute-solution",
+          "methods": [
+            "POST"
+          ]
+        },
+        "ignition.updateConfig": {
+          "uri": "_ignition/update-config",
+          "methods": [
+            "POST"
+          ]
+        },
+        "admin-login": {
+          "uri": "login",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "dashboard": {
+          "uri": "dashboard",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "users": {
+          "uri": "users",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "events": {
+          "uri": "events",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "new-event": {
+          "uri": "events/event/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-event": {
+          "uri": "events/event/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "event-attendees": {
+          "uri": "events/attendees/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "export-attendees": {
+          "uri": "events/attendees/{id}/export",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "monthly-events": {
+          "uri": "events/calendar/monthly",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "yearly-events": {
+          "uri": "events/calendar/yearly",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "upcoming": {
+          "uri": "events/upcoming",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "past": {
+          "uri": "events/past",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "members-dashboard": {
+          "uri": "members",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "members-active": {
+          "uri": "members/active",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "members-inactive": {
+          "uri": "members/inactive",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "applications": {
+          "uri": "members/applications",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "waitlist": {
+          "uri": "members/waitlist",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "view-application": {
+          "uri": "members/application/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "new-member": {
+          "uri": "members/member/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-member": {
+          "uri": "members/member/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "locations": {
+          "uri": "locations",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "new-city": {
+          "uri": "locations/city/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-city": {
+          "uri": "locations/city/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "venues": {
+          "uri": "locations/venues",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "new-venue": {
+          "uri": "locations/venue/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-venue": {
+          "uri": "locations/venue/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "hotspots": {
+          "uri": "locations/hotspots",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "new-hotspot": {
+          "uri": "locations/hotspot/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-hotspot": {
+          "uri": "locations/hotspot/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "perks": {
+          "uri": "locations/perks",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "new-perk": {
+          "uri": "locations/perk/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-perk": {
+          "uri": "locations/perk/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "partnerships": {
+          "uri": "partnerships",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "view-partnership": {
+          "uri": "locations/partnership/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "website": {
+          "uri": "website",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-page": {
+          "uri": "website/public/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "edit-members-homepage": {
+          "uri": "website/members/homepage",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-members-page": {
+          "uri": "website/members/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "navigation": {
+          "uri": "website/navigation",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-navigation": {
+          "uri": "website/navigation/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "modules": {
+          "uri": "website/modules",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-module": {
+          "uri": "website/module/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "update-module": {
+          "uri": "website/module/{slug}",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "chapters": {
+          "uri": "chapters",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "edit-chapter": {
+          "uri": "website/chapter/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "update-chapter": {
+          "uri": "website/chapter",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "settings": {
+          "uri": "settings",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "instagram": {
+          "uri": "settings/instagram",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "update-instagram": {
+          "uri": "settings/instagram",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "payments": {
+          "uri": "settings/payments",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "view-payment": {
+          "uri": "settings/payment/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "submit-payment": {
+          "uri": "settings/payment",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "payment-intent": {
+          "uri": "my/intent",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "email-log": {
+          "uri": "settings/email-log",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "view-email-log": {
+          "uri": "settings/email-log/{id}/view",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "resend-email-log": {
+          "uri": "settings/email-log/{id}/resend",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "emails": {
+          "uri": "settings/emails",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-email": {
+          "uri": "settings/email/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "preview-email": {
+          "uri": "settings/email/{id}/preview",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "update-email": {
+          "uri": "settings/email",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "notifications": {
+          "uri": "settings/notifications",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-notification": {
+          "uri": "settings/notification/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "preview-notification": {
+          "uri": "settings/notification/{id}/preview",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "update-notification": {
+          "uri": "settings/notification",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "memberships": {
+          "uri": "settings/memberships",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "membership_fees": {
+          "uri": "settings/memberships/fees",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-membership": {
+          "uri": "settings/membership/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "update-membership": {
+          "uri": "settings/membership",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "update-fees": {
+          "uri": "settings/memberships/fees",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "media": {
+          "uri": "settings/media",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "admins": {
+          "uri": "settings/admins",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "new-admin": {
+          "uri": "settings/admin/new",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        },
+        "edit-admin": {
+          "uri": "settings/admin/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "admin.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "members-login": {
+          "uri": "login",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "activate-membership": {
+          "uri": "activate/{code}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com",
+          "parameters": [
+            "code"
+          ]
+        },
+        "calculate-tax": {
+          "uri": "tax",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-activation": {
+          "uri": "my/activation",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-expired": {
+          "uri": "expired",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-renew": {
+          "uri": "my/renew",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-homepage": {
+          "uri": "/",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-contact": {
+          "uri": "contact",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-summary": {
+          "uri": "account",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-summary-payment": {
+          "uri": "account/payment",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-summary-upgrade": {
+          "uri": "account/upgrade",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-summary-renew": {
+          "uri": "account/renew",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-events": {
+          "uri": "events",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-events-all": {
+          "uri": "events/all",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-event": {
+          "uri": "event/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "export-event-ics": {
+          "uri": "event/{slug}/ics",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "members-gallery": {
+          "uri": "gallery",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-gallery-all": {
+          "uri": "gallery/all",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-hotspots": {
+          "uri": "hotspots",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-location-hotspots": {
+          "uri": "hotspot/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com",
+          "parameters": [
+            "slug"
+          ]
+        },
+        "members-benefits": {
+          "uri": "benefits",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-club-rules": {
+          "uri": "club-rules",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "members-logout": {
+          "uri": "logout",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-event-details": {
+          "uri": "my/event/{id}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "domain": "members.thesupperclubinc.com",
+          "parameters": [
+            "id"
+          ]
+        },
+        "my-rsvp": {
+          "uri": "my/rsvp",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-waitlist": {
+          "uri": "my/waitlist",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-cancel": {
+          "uri": "my/cancel",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-guests": {
+          "uri": "my/guests",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-extend": {
+          "uri": "my/extend",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-membership": {
+          "uri": "my/membership",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-details": {
+          "uri": "my/details",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-password": {
+          "uri": "my/password",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "my-payment": {
+          "uri": "my/payment",
+          "methods": [
+            "POST"
+          ],
+          "domain": "members.thesupperclubinc.com"
+        },
+        "homepage": {
+          "uri": "/",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "apply": {
+          "uri": "apply",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "applied": {
+          "uri": "applied",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "submitted": {
+          "uri": "submitted",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "contact": {
+          "uri": "contact",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "membership": {
+          "uri": "membership",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "membership-open": {
+          "uri": "membership/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "slug"
+          ]
+        },
+        "privacy-policy": {
+          "uri": "privacy-policy",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "story": {
+          "uri": "story",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "terms-of-services": {
+          "uri": "terms-of-services",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "location-events": {
+          "uri": "events/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "slug"
+          ]
+        },
+        "event": {
+          "uri": "event/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "slug"
+          ]
+        },
+        "location-chapter": {
+          "uri": "chapter/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "slug"
+          ]
+        },
+        "coming-soon": {
+          "uri": "chapter/coming-soon",
+          "methods": [
+            "POST"
+          ]
+        },
+        "public-login": {
+          "uri": "public-login",
+          "methods": [
+            "POST"
+          ]
+        },
+        "public-logout": {
+          "uri": "public-logout",
+          "methods": [
+            "POST"
+          ]
+        },
+        "submit-application": {
+          "uri": "application",
+          "methods": [
+            "POST"
+          ]
+        },
+        "submit-partnership": {
+          "uri": "partnership",
+          "methods": [
+            "POST"
+          ]
+        },
+        "webhook.citi": {
+          "uri": "api/citi/register",
+          "methods": [
+            "POST"
+          ],
+          "domain": "admin.thesupperclubinc.com"
+        }
+      },
+      "location": "https://members.thesupperclubinc.com/membership"
+    },
+    "header": {
+      "menu": [
+        {
+          "button": {
+            "url": "/story",
+            "text": "Story"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "#",
+            "text": "Chapters"
+          },
+          "subnav": [
+            {
+              "url": "/chapter/la",
+              "text": "Los Angeles"
+            },
+            {
+              "url": "/chapter/ny",
+              "text": "New York"
+            },
+            {
+              "url": "/chapter/miami",
+              "text": "Miami"
+            },
+            {
+              "url": "/chapter/austin",
+              "text": "Austin"
+            },
+            {
+              "url": "/chapter/chicago",
+              "text": "Chicago"
+            },
+            {
+              "url": "/chapter/denver",
+              "text": "Denver"
+            },
+            {
+              "url": "/chapter/sf",
+              "text": "San Francisco"
+            },
+            {
+              "url": "/chapter/dallas",
+              "text": "Dallas"
+            },
+            {
+              "url": "/chapter/nashville",
+              "text": "Nashville"
+            },
+            {
+              "url": "/chapter/global",
+              "text": "...And Beyond"
+            }
+          ]
+        },
+        {
+          "button": {
+            "url": "/events",
+            "text": "Events"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/membership",
+            "text": "Membership"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/partnerships",
+            "text": "Partnerships"
+          },
+          "subnav": []
+        }
+      ],
+      "second_menu": [
+        {
+          "url": "#",
+          "text": "Log In"
+        },
+        {
+          "url": "/apply",
+          "text": "Apply"
+        }
+      ]
+    },
+    "content": {
+      "data": {
+        "intro": {
+          "tagline": "Membership",
+          "headline": "Join the Party",
+          "body": "Extraordinary experiences, memorable conversations and authentic connections: The only way to tap into everything The Supper Club offers is through membership. Becoming a member unlocks access to bespoke events centered around food, music, drink and design, as well as weekend getaways sure to invigorate and inspire. Explore the membership tiers below."
+        },
+        "memberships": [
+          {
+            "membership": 6,
+            "name": "VIP",
+            "description": "Our elite national membership tier offers exclusive access to our nationwide Secret Supper Series, unlimited access to all events nationwide, global trips, invitations to every pre-launch event in new TSC cities and priority inclusion for guests at events. VIP members also enjoy dinner bookings with our nationwide restaurant partners (we’ll pick up the check), special access to third-party film, fashion, culture and arts events; and bespoke gifts delivered to your door – plus all the dinner parties, cocktail soirées, themed nights, weekend getaways you already know and love.",
+            "note": null,
+            "image": {
+              "name": " The-Supper-Club-Private-Members-Club-VIP-Membership.jpg",
+              "type": "image",
+              "code": "iienqavvcvmhbt1odckr",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1679510435/iienqavvcvmhbt1odckr.jpg",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1679510435/iienqavvcvmhbt1odckr.jpg"
+            },
+            "events": null,
+            "cities": "Worldwide",
+            "attend": "Unlimited Events"
+          },
+          {
+            "membership": 7,
+            "name": "VIP Local",
+            "description": "The local adaptation of our elite VIP tier, this membership offers access to VIP Suppers, unlimited access to events in your state, and priority inclusion of first-time guests when space allows.",
+            "note": null,
+            "image": {
+              "name": " The-Supper-Club-Private-Members-Club-Gold-Membership.jpg",
+              "type": "image",
+              "code": "aefrihn2uch3ntnr9ayg",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1679511185/aefrihn2uch3ntnr9ayg.jpg",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1679511185/aefrihn2uch3ntnr9ayg.jpg"
+            },
+            "events": null,
+            "cities": "1 State",
+            "attend": "Unlimited events"
+          },
+          {
+            "membership": 4,
+            "name": "Silver",
+            "description": "Our local membership level includes unlimited attendance at events in the state chapter of the Silver member’s choice. Members in this tier can look forward to invitations to dinner parties, cocktail soirées, themed nights– and all the other entrancing events that are our specialty.",
+            "note": null,
+            "image": {
+              "name": "Supper Club 20 Jan 2022 Seaspice  (154).jpg",
+              "type": "image",
+              "code": "piustlz9dpfib0ctvxlc",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1679515650/piustlz9dpfib0ctvxlc.jpg",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1679515650/piustlz9dpfib0ctvxlc.jpg"
+            },
+            "events": null,
+            "cities": "1 State",
+            "attend": "Unlimited events"
+          },
+          {
+            "membership": 3,
+            "name": "Explorer",
+            "description": "Our traveling membership offers select access to events in every TSC city chapter nationwide. Explorer members may attend up to eight events per year.",
+            "note": null,
+            "image": {
+              "name": "The Supper Club Inc 7 April 2021  (186).jpg",
+              "type": "image",
+              "code": "djyyw5z1vh3w5uxdk0ex",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1681839139/djyyw5z1vh3w5uxdk0ex.jpg",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1681839139/djyyw5z1vh3w5uxdk0ex.jpg"
+            },
+            "events": null,
+            "cities": "Nationwide",
+            "attend": "8 Events"
+          },
+          {
+            "membership": 2,
+            "name": "Young Professsional",
+            "description": "A local membership designed for members aged 27 and under, our Young Professional level offers all the benefits of a Silver membership at a reduced rate. YP members can look forward to unlimited access to events in their state chapter, including dinner parties, cocktail soirées, themed nights, weekend getaways – and all the other entrancing events that are our specialty.",
+            "note": null,
+            "image": {
+              "name": "SCAVRA-91.png",
+              "type": "image",
+              "code": "ii2zrzrr73ocbdhcoh8n",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1736291497/ii2zrzrr73ocbdhcoh8n.png",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1736291497/ii2zrzrr73ocbdhcoh8n.png"
+            },
+            "attend": "Unlimited Events",
+            "cities": "1 State"
+          },
+          {
+            "membership": 1,
+            "name": "Quattro",
+            "description": "Curious? Our introductory local membership offers a taste of The Supper Club, without the full commitment. Quattro members may attend four events in the state of their choice per year. Please note that this tier is available to first time applicants only and does not include guest privileges or access to our And Beyond - nationwide weekend escapes and international trips.",
+            "note": null,
+            "image": {
+              "name": "Screenshot 2024-12-30 at 12.43.14 PM.png",
+              "type": "image",
+              "code": "baaurwakvqaylqbjvvnj",
+              "thumbnail": "https://res.cloudinary.com/dknwhnbg4/image/upload/w_240,h_240,c_limit/v1736291817/baaurwakvqaylqbjvvnj.png",
+              "url": "https://res.cloudinary.com/dknwhnbg4/image/upload/v1736291817/baaurwakvqaylqbjvvnj.png"
+            },
+            "attend": "4 Events",
+            "cities": "1 State"
+          }
+        ],
+        "seo": {
+          "title": "The Supper Club | Private Members Club | Membership",
+          "description": "The Supper Club is a members-only club devoted to the art of the dinner party in locations around the world. Read more about the memberships offered."
+        }
+      },
+      "memberships": [
+        {
+          "id": 1,
+          "name": "Quattro",
+          "price": "2500.00",
+          "order": 1,
+          "vip": 0,
+          "event_limit": 4,
+          "city_limit": 1,
+          "legacy": 0,
+          "can_upgrade": 1
+        },
+        {
+          "id": 2,
+          "name": "Young Professional",
+          "price": "5000.00",
+          "order": 2,
+          "vip": 0,
+          "event_limit": 0,
+          "city_limit": 1,
+          "legacy": 0,
+          "can_upgrade": 1
+        },
+        {
+          "id": 3,
+          "name": "Explorer",
+          "price": "5000.00",
+          "order": 3,
+          "vip": 0,
+          "event_limit": 8,
+          "city_limit": 0,
+          "legacy": 0,
+          "can_upgrade": 1
+        },
+        {
+          "id": 4,
+          "name": "Silver",
+          "price": "6500.00",
+          "order": 4,
+          "vip": 0,
+          "event_limit": 0,
+          "city_limit": 1,
+          "legacy": 0,
+          "can_upgrade": 1
+        },
+        {
+          "id": 5,
+          "name": "Gold",
+          "price": "8000.00",
+          "order": 5,
+          "vip": 0,
+          "event_limit": 0,
+          "city_limit": 100,
+          "legacy": 1,
+          "can_upgrade": 0
+        },
+        {
+          "id": 6,
+          "name": "VIP",
+          "price": "10000.00",
+          "order": 10,
+          "vip": 1,
+          "event_limit": 0,
+          "city_limit": 100,
+          "legacy": 0,
+          "can_upgrade": 1
+        },
+        {
+          "id": 7,
+          "name": "VIP Local",
+          "price": "7500.00",
+          "order": 6,
+          "vip": 1,
+          "event_limit": 0,
+          "city_limit": 1,
+          "legacy": 0,
+          "can_upgrade": 1
+        }
+      ],
+      "settings": {
+        "initiation_enabled": "1",
+        "initiation_price": "750"
+      },
+      "open": false
+    },
+    "footer": {
+      "menu": [
+        {
+          "button": {
+            "url": "/events",
+            "text": "Events"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/apply",
+            "text": "Apply"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/story",
+            "text": "Story"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/contact",
+            "text": "Contact"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/membership",
+            "text": "Membership"
+          },
+          "subnav": []
+        },
+        {
+          "button": {
+            "url": "/partnerships",
+            "text": "Partnerships"
+          },
+          "subnav": []
+        }
+      ],
+      "second_menu": [
+        {
+          "url": "/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "/terms-of-services",
+          "text": "Terms of Services"
+        }
+      ]
+    }
+  },
+  "url": "/membership",
+  "version": "ed8b31789d8d1805c6e8494cb6d3813a"
+}

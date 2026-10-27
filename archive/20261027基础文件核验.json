@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "purpose": "建立项目后续工作的基础对齐与首读入口",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6873f2110903b70ff64236656f0a0e1e006d971f57aa342d1747b24488df893d"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "44f323becf795bebebe96ce8fed77722aad61a333a11b06396358f65712bf69a"
+    },
+    {
+      "path": "docs/项目定位与业务共识.md",
+      "sha256": "ea2021d03060e9364f6e632b31198a943b3cbf1fd9c6e446312911ab2b03bbd1"
+    }
+  ],
+  "checks": {
+    "39800_with_3_slots": true,
+    "98000_with_6_slots": true,
+    "unconfirmed_rights_returns_contributions_marked_pending": true,
+    "equity_structure_not_published": true,
+    "raw_meeting_not_published": true,
+    "read_first_instruction_in_README_and_AGENTS": true
+  },
+  "historical_reports": "保留原日期与原有研究，不因当前项目方向改写行业事实"
+}

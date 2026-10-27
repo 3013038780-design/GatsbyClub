@@ -1,0 +1,682 @@
+[
+  {
+    "id": "A02",
+    "name": "2025胡润财富报告",
+    "url": "https://www.hurun.net/zh-CN/Info/Detail?num=CVWLBLAWHVHX",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；15764字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "A01",
+    "name": "2025婚姻登记最终公报省民政转载",
+    "url": "https://mzt.fujian.gov.cn/gk/wpldq/202610/t20261008_7221424.htm",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；5012字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "A04",
+    "name": "2025国内居民旅游官方数据",
+    "url": "https://zwgk.mct.gov.cn/zfxxgkml/tjxx/202601/t20260126_964367.html",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；1650字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B02",
+    "name": "EO中国华东会籍及会员",
+    "url": "https://member.eonetwork.org/chinaeast/about-our-chapter/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "302；7994字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "BOL",
+    "name": "BoL会籍与Selected商品实查",
+    "url": "",
+    "period": "2026-10-24",
+    "kind": "微信小程序页面实查",
+    "note": "微信搜索BoL万象博联；VIP及10月24日Selected活动；截图留存在证据包"
+  },
+  {
+    "id": "A03",
+    "name": "2026高净值人群品质生活调查",
+    "url": "https://www.hurun.net/zh-CN/Info/Detail?num=CSX6BTOMEWY4",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；32573字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B01",
+    "name": "长江商学院2026EMBA",
+    "url": "https://embaminiweb.ckgsb.com/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；14829字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B04",
+    "name": "EO年度业绩官方发布",
+    "url": "https://eonetwork.org/newsroom-old/translations/2024-2025-annual-report-release-zh/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；8987字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B05",
+    "name": "木兰汇2026年会",
+    "url": "https://www.iceo.com.cn/zt/2026_mulannh/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；5766字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B07",
+    "name": "Founders Network会籍",
+    "url": "https://foundersnetwork.com/benefits/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；16672字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "PO13",
+    "name": "北京香港马会会所 个人入会费",
+    "url": "https://members.hkjc.com/about-membership/en-US/Membership",
+    "period": "2026-01-01起",
+    "kind": "原轮官方价格记录；本轮保留原适用期",
+    "note": "沿用10月22日记录；更新结果以本版正文为准"
+  },
+  {
+    "id": "EOFEES",
+    "name": "EO当前资格及费用",
+    "url": "https://eonetwork.org/one/join-eo/?scLang=en",
+    "period": "2026-10-24核对",
+    "kind": "官网",
+    "note": "全球2630美元年费另3500入会，地方另收"
+  },
+  {
+    "id": "B06",
+    "name": "木兰汇2026年会收费",
+    "url": "https://swapp.iceo.com.cn/mulan2026/reg.html",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；2122字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "B12",
+    "name": "Founder Feast现行会籍价格",
+    "url": "https://founderfeast.com/pricing",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；7642字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "C01",
+    "name": "钻石婚恋爱情定制本轮复核",
+    "url": "https://www.zuanshi.com/new/loveCustomization",
+    "period": "2026-10-24读取；页面未标更新日",
+    "kind": "Crawl4AI原文",
+    "note": "HTTP 200；正文6878字；HTML及SHA256本机保存。"
+  },
+  {
+    "id": "M06",
+    "name": "HIMMR产品与人群",
+    "url": "https://www.himmr.tech/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；6042字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M10",
+    "name": "我主良缘集团品牌",
+    "url": "https://www.liangyuan.com/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；9881字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M08",
+    "name": "珍爱网服务入口",
+    "url": "https://www.zhenai.com/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；8214字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M11",
+    "name": "金凤凰会员等级",
+    "url": "https://www.jfh999.com/about/20.html",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；4484字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M12",
+    "name": "金凤凰具体活动收费",
+    "url": "https://www.jfh999.com/party/311.html",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；4165字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "E01",
+    "name": "2025年度数字生活市场数据报告原始发布",
+    "url": "https://imgs-b2b.100ec.cn/zt/2025szshbg/",
+    "period": "2026-10-24采集；统计期2025年",
+    "kind": "Crawl4AI原文",
+    "note": "HTTP 200；正文5428字；HTML及SHA256本机保存。"
+  },
+  {
+    "id": "E02",
+    "name": "互联网婚恋五年规模原始解读",
+    "url": "https://imgs-b2b.100ec.cn/detail--6658734.html",
+    "period": "2026-10-24采集；统计期2025年",
+    "kind": "Crawl4AI原文",
+    "note": "HTTP 200；正文44494字；HTML及SHA256本机保存。"
+  },
+  {
+    "id": "PX03",
+    "name": "陌上花开HIMMR小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/61c8653b0000000021020fff",
+    "period": "2026-10-22T14:39:33.589754+08:00",
+    "kind": "名称与简介匹配；主体认证未单独取得",
+    "note": "沿用10月22日记录；更新结果以本版正文为准"
+  },
+  {
+    "id": "PX05",
+    "name": "金凤凰深港婚恋小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/5f03d342000000000100684b",
+    "period": "2026-10-22T14:43:40.024632+08:00",
+    "kind": "名称与简介匹配；主体认证未单独取得",
+    "note": "沿用10月22日记录；更新结果以本版正文为准"
+  },
+  {
+    "id": "BOLSCREEN",
+    "name": "BoL会籍及Selected六张用户提供截图",
+    "url": "",
+    "period": "2026-10-24收到；会籍页未标发布日，Selected为10月24日活动",
+    "kind": "用户提供的小程序页面截图",
+    "note": "六张原图及哈希随证据保存；确认488／2888年费、七项权益、审核与五环节。1288元／次×12位于价值栏，不作为会员票价；本批未展示最终报名规格或结算价。"
+  },
+  {
+    "id": "QI",
+    "name": "奇语旅行济州岛4天3晚",
+    "url": "https://www.douyin.com/note/7611854005258612965",
+    "period": "2026-02-28发布；10-24读取",
+    "kind": "抖音产品原文",
+    "note": "1k+地面价，非总旅费"
+  },
+  {
+    "id": "OWR",
+    "name": "Other Way Round墨西哥城4日",
+    "url": "https://www.otherwayround.travel/mexico-city-4-days/",
+    "period": "2026-10-24；在列2026年末及2027团期",
+    "kind": "官网商品",
+    "note": "完整含项、定金及尾款"
+  },
+  {
+    "id": "HEART",
+    "name": "心动计划草原恋综旅行",
+    "url": "https://www.xiaohongshu.com/explore/69d8a678000000001f00385f",
+    "period": "2026-04-10发布；10-24读取",
+    "kind": "小红书商品正文及海报",
+    "note": "正文6280元起、封面7280元起存在差异，未替品牌选择一个价格"
+  },
+  {
+    "id": "STAR",
+    "name": "星七Club金海湖单身一日团",
+    "url": "https://www.xingqiclub.com/pd.jsp?fromColId=2&id=1360",
+    "period": "2026-10-24读取",
+    "kind": "官网商品",
+    "note": "198元；餐饮自理"
+  },
+  {
+    "id": "MOYU",
+    "name": "墨鱼旅行中国区内购",
+    "url": "https://apps.apple.com/cn/app/id6467105543",
+    "period": "2026-10-24读取",
+    "kind": "App Store开发者商品",
+    "note": "23/38元为订阅，不是旅行团费"
+  },
+  {
+    "id": "TD17",
+    "name": "32号海南六日私家团",
+    "url": "https://www.32hike.com/personal_detail/92.html",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": "5980元起，两人同住基础房；日期与房态需二次确认，非指定日期成交价"
+  },
+  {
+    "id": "TD19",
+    "name": "游侠客茅家埠一日线路",
+    "url": "https://www.youxiake.com/lines.html?id=64810",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": "费用规则可读，价格由前端动态加载，本轮未取得有效金额"
+  },
+  {
+    "id": "R09",
+    "name": "32号海南六日私家团",
+    "url": "https://www.32hike.com/personal_detail/92.html",
+    "period": "2026-10-24T15:59:38.411745+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "23034字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R10",
+    "name": "三亚四天私家包车产品",
+    "url": "https://www.eastchinatrip.com/zh-hant/tours/sanya-4-day-private-tour/",
+    "period": "2026-10-24T15:59:51.015774+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "19014字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "TD08",
+    "name": "如爱盘锦一日活动",
+    "url": "https://www.ruailove.com/party/89.html",
+    "period": "活动2026年10月18日，10月23日复核",
+    "kind": "机构公开资料",
+    "note": "男115女95，报名显示18，现场签到模块为空"
+  },
+  {
+    "id": "R12",
+    "name": "The Offline Club五月法国房型与付款退改",
+    "url": "https://luma.com/theofflinegetaway-france-20-25-may",
+    "period": "2026-10-24T16:00:42.473851+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "8961字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R06",
+    "name": "FTLO客群及复购优惠",
+    "url": "https://www.ftlotravel.com/faqs",
+    "period": "2026-10-24T15:58:52.836520+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "87519字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R04",
+    "name": "OWR旅行适配条件",
+    "url": "https://www.otherwayround.travel/owr-trip-style/",
+    "period": "2026-10-24T15:58:24.580722+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "11044字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R07",
+    "name": "The Offline Club法国社群度假",
+    "url": "https://www.theoffline-club.com/retreat-locations/5-day-retreat-in-france",
+    "period": "2026-10-24T15:59:07.950400+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "29038字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R05",
+    "name": "OWR预订付款取消条款",
+    "url": "https://www.otherwayround.travel/booking-terms-and-conditions/",
+    "period": "2026-10-24T15:58:40.515560+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "23432字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "X01",
+    "name": "Women In Business Women In Business 成立啦！",
+    "url": "https://www.xiaohongshu.com/explore/6a8a654a000000003300e7b0",
+    "period": "2026-08-23发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "品牌名称账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X02",
+    "name": "Pitch.拓点学习室 小众但有效的社交✨✨认识100个搞钱CEO！",
+    "url": "https://www.xiaohongshu.com/explore/688b13c4000000002302eecf",
+    "period": "2025-07-31发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "品牌名称账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X03",
+    "name": "上海企投俱乐部 上海最近流行的“搞钱局”，你还没来过？",
+    "url": "https://www.xiaohongshu.com/explore/689572f90000000003026418",
+    "period": "2025-08-08发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "品牌名称账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "XP1",
+    "name": "Women In Business 小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/6960a37f0000000003010777",
+    "period": "2026-10-24T13:02:28.902952+08:00",
+    "kind": "MediaCrawler账号主页公开快照",
+    "note": "仅列主页可见计数；平台标记不公开的粉丝值留空。经营主体待核。"
+  },
+  {
+    "id": "XP2",
+    "name": "Pitch.拓点学习室 小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/5cc20cf90000000017030456",
+    "period": "2026-10-24T13:03:15.797318+08:00",
+    "kind": "MediaCrawler账号主页公开快照",
+    "note": "仅列主页可见计数；平台标记不公开的粉丝值留空。经营主体待核。"
+  },
+  {
+    "id": "XP3",
+    "name": "上海企投俱乐部 小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/6866066a000000001d008975",
+    "period": "2026-10-24T13:04:02.645053+08:00",
+    "kind": "MediaCrawler账号主页公开快照",
+    "note": "仅列主页可见计数；平台标记不公开的粉丝值留空。经营主体待核。"
+  },
+  {
+    "id": "X05",
+    "name": "小雷说媒 成都高新区金融城｜五月高净值相亲活动",
+    "url": "https://www.xiaohongshu.com/explore/69f1f2c40000000035039ba4",
+    "period": "2026-04-29发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "个人命名账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X07",
+    "name": "天书定位说媒 9月13日 杭州精品相亲活动",
+    "url": "https://www.xiaohongshu.com/explore/6aa3eae000000000280320cc",
+    "period": "2026-09-11发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "个人命名账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X08",
+    "name": "近佚有用社交上海俱乐部 上海单身桌游局｜名校海归×985/211，轻松交友",
+    "url": "https://www.xiaohongshu.com/explore/6adc38be000000003301dbc7",
+    "period": "2026-10-24发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "品牌名称账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X09",
+    "name": "崎悦高净值脱单I丰硕 成都两天一夜恋综，招募单身男女｜泳池别墅",
+    "url": "https://www.xiaohongshu.com/explore/6aa6a28c000000000d0244d7",
+    "period": "2026-09-13发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "品牌顾问名称账号；主体未核实。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "XP4",
+    "name": "近佚有用社交上海俱乐部 小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/54e5598be7798967d62fa880",
+    "period": "2026-10-24T13:04:49.393777+08:00",
+    "kind": "MediaCrawler账号主页公开快照",
+    "note": "仅列主页可见计数；平台标记不公开的粉丝值留空。经营主体待核。"
+  },
+  {
+    "id": "XP5",
+    "name": "崎悦高净值脱单I丰硕 小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/68a91cad000000001901fb6e",
+    "period": "2026-10-24T13:05:36.348796+08:00",
+    "kind": "MediaCrawler账号主页公开快照",
+    "note": "仅列主页可见计数；平台标记不公开的粉丝值留空。经营主体待核。"
+  },
+  {
+    "id": "X04",
+    "name": "Hhh 月老鳌烨线下活动有感",
+    "url": "https://www.xiaohongshu.com/explore/6a4a8622000000001101c56c",
+    "period": "2026-07-06发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "个人参与者自述。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "X06",
+    "name": "亚历山大美（面基版） 98 女 第一次体验 中产线下高端相亲局",
+    "url": "https://www.xiaohongshu.com/explore/6abb88dc000000001b01d1c6",
+    "period": "2026-09-29发布；2026-10-24采集",
+    "kind": "MediaCrawler公开正文及互动量",
+    "note": "个人受邀体验；非机构披露。原始正文、海报和采集时间本机保存；历史帖不计为当期活跃。"
+  },
+  {
+    "id": "B10",
+    "name": "Founder Feast产品和收费",
+    "url": "https://founderfeast.com/",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；14281字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "R01",
+    "name": "Founder Feast匹配与交付",
+    "url": "https://founderfeast.com/how-it-works",
+    "period": "2026-10-24T15:57:47.869333+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "8805字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R03",
+    "name": "Founder Feast常见问题",
+    "url": "https://founderfeast.com/faq",
+    "period": "2026-10-24T15:58:12.850824+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "10411字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "R11",
+    "name": "Founder Feast现行价格复核",
+    "url": "https://founderfeast.com/pricing",
+    "period": "2026-10-24T16:00:08.143798+08:00",
+    "kind": "本轮Crawl4AI官网或主办方售票页原文",
+    "note": "7642字；原文及SHA-256留档。客户比例与规模为品牌自述，未列调查年份的保留原口径。"
+  },
+  {
+    "id": "C04",
+    "name": "Founder Feast十一月酒会流程复核",
+    "url": "https://founderfeast.com/events/november-5th",
+    "period": "2026-10-24读取；页面未标更新日",
+    "kind": "Crawl4AI原文",
+    "note": "HTTP 200；正文11192字；HTML及SHA256本机保存。"
+  },
+  {
+    "id": "B14",
+    "name": "Founder Feast加拿大应用商店",
+    "url": "https://apps.apple.com/ca/app/founder-feast/id6765519776",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；24868字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M02",
+    "name": "钻石婚恋会员条件",
+    "url": "https://www.zuanshi.com/webContent/question",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；4213字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M04",
+    "name": "钻石精英会500强名企活动",
+    "url": "https://www.zuanshi.com/webActivity/newActivityDetail?id=eb19e98e3e5642f3a51907c180b4930c",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；3915字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "M05",
+    "name": "钻石私董会亿元资产单身局",
+    "url": "https://www.zuanshi.com/webActivity/newActivityDetail?id=b4a2dc587c604ac59cfa6ccfc05193ab",
+    "period": "2026-10-24采集",
+    "kind": "Crawl4AI官网原文",
+    "note": "200；4011字；原始文件及哈希本机留存"
+  },
+  {
+    "id": "PX01",
+    "name": "钻石婚恋小红书主页",
+    "url": "https://www.xiaohongshu.com/user/profile/61480fc80000000002020d91",
+    "period": "2026-10-22T14:32:07.604578+08:00",
+    "kind": "名称与简介匹配；主体认证未单独取得",
+    "note": "沿用10月22日记录；更新结果以本版正文为准"
+  },
+  {
+    "id": "QI2",
+    "name": "奇语旅行企业账号实查",
+    "url": "https://www.douyin.com/search/奇语旅行",
+    "period": "2026-10-24",
+    "kind": "抖音企业认证主页",
+    "note": "认证主体深圳市奇语旅行文化有限公司；原主页AX和截图留存，搜索入口作为备用导航"
+  },
+  {
+    "id": "OWR2",
+    "name": "Other Way Round产品与客群",
+    "url": "https://www.otherwayround.travel/",
+    "period": "2026-10-24",
+    "kind": "官网自述",
+    "note": "30—49岁及年客量为品牌自述"
+  },
+  {
+    "id": "MARBB",
+    "name": "万豪官网同日青樾大床含早套餐",
+    "url": "https://www.marriott.com.cn/search/availabilityCalendar.mi?lengthOfStay=3&fromDate=2026-11-19&toDate=2026-11-22&numberOfRooms=1&numberOfAdults=1&childrenCount=0&clusterCode=none&isHwsGroupSearch=true&propertyCode=SYXXR&useRewardsPoints=false&flexibleDateSearch=false",
+    "period": "2026-10-24T12:51:01.152462+08:00；2026-11-19至22日三晚",
+    "kind": "万豪官网查询结果及房价详情；浏览器实查",
+    "note": "7870元／间／三晚；每天2成人及2位6岁以下儿童早餐；本次按1位成人查询；明细显示2026-10-25 23:59后取消预计扣6750元，即全部晚数房费；1间客房、1位成人的零售公开价；未证明可按此价取得14间房；不是旅行社或酒店团体书面报价"
+  },
+  {
+    "id": "CTRBB",
+    "name": "携程同日青樾大床含早预订详情",
+    "url": "https://hotels.ctrip.com/hotels/detail/?checkin=2026-11-19&checkout=2026-11-22&city=43&adult=1&crn=1&hotelId=345074",
+    "period": "2026-10-24T15:23:27+08:00；2026-11-19至22日三晚",
+    "kind": "用户已登录Chrome；酒店详情及预订详情页只读核验，未提交订单",
+    "note": "7240.86元／间／三晚；2份早餐；2026-10-24 23:59前免费取消；之后不可取消，未入住收7240.86元（优惠券积分另按实际支付）；搜索1房1成人；结算页写房型可住2人。1间三晚零售报价，未取得14间库存及团体价"
+  },
+  {
+    "id": "HAM",
+    "name": "Hampton收费及客户",
+    "url": "https://joinhampton.com/hampton-vs-ypo",
+    "period": "2026-10-24前轮实查",
+    "kind": "官网比较页",
+    "note": "15000美元年费；创始人传播资源与本项目不同"
+  },
+  {
+    "id": "FLASH",
+    "name": "Flash Pack旅行服务流程",
+    "url": "https://www.flashpack.com/us/how-it-works/",
+    "period": "2026-10-24前轮实查",
+    "kind": "官网",
+    "note": "30—49及50—65年龄组；动态团价未取得"
+  },
+  {
+    "id": "OFF",
+    "name": "The Offline Club法国度假",
+    "url": "https://www.theoffline-club.com/retreat-locations/5-day-retreat-in-france",
+    "period": "2026-10-24前轮实查；2027团期",
+    "kind": "官网产品",
+    "note": "895—1125欧元；页标题5日但含项写5晚，保留差异"
+  },
+  {
+    "id": "FTLO",
+    "name": "FTLO日本九日",
+    "url": "https://www.ftlotravel.com/trips/japan",
+    "period": "2026-10-24前轮核查",
+    "kind": "官网产品",
+    "note": "6899美元起，独住2026加1999起、2027加2199起；非指定团期最终价"
+  },
+  {
+    "id": "TF01",
+    "name": "Modernist社区与活动",
+    "url": "https://www.modernist.club/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF02",
+    "name": "The Supper Club会籍",
+    "url": "https://members.thesupperclubinc.com/membership",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": "价格与规则从同页公开data-page结构核对"
+  },
+  {
+    "id": "TF03",
+    "name": "The Supper Club条款",
+    "url": "https://thesupperclubinc.com/terms-of-services",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF04",
+    "name": "Parlor会员手册",
+    "url": "https://parlor.social/Parlor%20Membership.pdf",
+    "period": "未注明手册日期，2026年10月23日仍可访问",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF05",
+    "name": "Mandala权益与会籍",
+    "url": "https://www.mandala.club/enquire",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF06",
+    "name": "Mandala活动入口",
+    "url": "https://www.mandala.club/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF07",
+    "name": "67 Pall Mall新加坡收费",
+    "url": "https://www.67pallmall.com/the-singapore-club/membership/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": "浏览搜索工具可读，本地直接请求403"
+  },
+  {
+    "id": "TF08",
+    "name": "The Battery社群目录",
+    "url": "https://legacy.thebatterysf.com/societies",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": "旧版社群目录，当前社群仍否开放须另核"
+  },
+  {
+    "id": "TF09",
+    "name": "The Battery活动入口",
+    "url": "https://thebatterysf.com/events",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF10",
+    "name": "Carlyle & Co会员定位",
+    "url": "https://www.carlyleandco.com/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF11",
+    "name": "Estelle三处空间",
+    "url": "https://estellecommunity.com/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF12",
+    "name": "The Arts Club会费",
+    "url": "https://www.theartsclub.co.uk/membership/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  },
+  {
+    "id": "TF13",
+    "name": "The Arts Club文化活动",
+    "url": "https://theartsclub.co.uk/arts-culture/",
+    "period": "页面未标更新日，2026年10月23日复核",
+    "kind": "机构公开资料",
+    "note": ""
+  }
+]
