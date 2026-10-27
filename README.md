@@ -58,7 +58,7 @@
 - 旧文件不删除、不改名，避免破坏既有链接；已在[资料导航](docs/项目文件导航.md)中标清用途和版本。
 - 网页下载副本、排版PDF和原成品可能相同，统一以本页入口为准，不重复判为新版本。
 - 更多：[全部研究目录](outputs/README.md) · [版本维护规则](docs/版本与维护规则.md) · [工具](tools/README.md) · [归档与验收](archive/README.md) · [更新记录](CHANGELOG.md)。
-- 当前更新在[PR #7](https://github.com/3013038780-design/GatsbyClub/pull/7)，尚未自动合并到主分支。
+- 本轮成果已合并到默认分支 **main**，打开仓库首页即可阅读最新版；整理过程见[PR #7](https://github.com/3013038780-design/GatsbyClub/pull/7)。
 
 </details>
 
