@@ -1,10 +1,10 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
 {"path": "AGENTS.md", "bytes": 2052, "sha256": "89c13a9e76244440aab1a19d501bc38294c967f40dd0629231729b5ecca54e1b"}
-{"path": "CHANGELOG.md", "bytes": 1240, "sha256": "8851a854f35e4bfc8554756adbad335395c3db8734d98711ecf95311206eba4a"}
-{"path": "README.md", "bytes": 5003, "sha256": "249caf546b1d62d2125ee07fa8a6badefbac259f3ca78bd564dbe7e78335f76a"}
+{"path": "CHANGELOG.md", "bytes": 1496, "sha256": "acfa7bd484dba8924c5a544e89c8cd6e7e6bc525e0e76e21d4e3d62a40a16137"}
+{"path": "README.md", "bytes": 5060, "sha256": "f8fc0d2f7fb965e16d66fdb189d64a18c530bc1ab0be7b9ab16b4165f8af6b60"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
-{"path": "archive/20261024同步清单.json", "bytes": 38447, "sha256": "e51cf7f73141db35c467a2e6c38470ed1f5a4a1ea08e665a7b7a75dcf0aefdf5"}
+{"path": "archive/20261024同步清单.json", "bytes": 1158, "sha256": "5c0e09030686b3fb12fc67c7884b19189103501543d34d0aa17ccec534984011"}
 {"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
 {"path": "archive/20261024导出核验.json", "bytes": 98, "sha256": "c7a1628e3f2fa3ed499e5ebacdb62e97edebc2987ff3ac9b76fe6d60e6f0f350"}
 {"path": "archive/20261024计划验收审计.json", "bytes": 5557, "sha256": "f7377e18c42e39e2c429ab33d5b912052b32a1dc502f76a529fa03ba57832ca1"}
