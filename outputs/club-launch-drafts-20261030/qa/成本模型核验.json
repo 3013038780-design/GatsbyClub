@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "people": 8,
+      "contribution": -152.17279999999937
+    },
+    {
+      "people": 10,
+      "contribution": 904.7839999999997
+    },
+    {
+      "people": 12,
+      "contribution": 1961.7408000000014
+    },
+    {
+      "people": 16,
+      "contribution": 4075.6544000000013
+    },
+    {
+      "slotType": 1,
+      "coop39": 21921.2,
+      "coop98": 61212,
+      "served": 44,
+      "capacity": "本假设容量满足"
+    },
+    {
+      "slotType": 2,
+      "coop39": -758.8,
+      "coop98": 15852,
+      "served": 44,
+      "capacity": "席位不足，需增场或调整"
+    }
+  ],
+  "missing_inputs_blocked": true,
+  "basicCost": 520,
+  "coreCost": 8080,
+  "salary": 14438,
+  "startup": 64988.3,
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}
