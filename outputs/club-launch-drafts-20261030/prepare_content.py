@@ -29,5 +29,5 @@ for i,p in enumerate(pages,1):
  if p['headers']:
   md+=['| '+' | '.join(p['headers'])+' |','| '+' | '.join(['---']*len(p['headers']))+' |']+['| '+' | '.join(r)+' |'for r in p['rows']]+['']
  md+=p['notes']+['']
-(B/'启动工作方案.md').write_text('\n\n'.join(md))
+(B/'启动工作方案.md').write_text('\n\n'.join(md).rstrip()+'\n')
 print('Prepared',len(pages),'sections')
