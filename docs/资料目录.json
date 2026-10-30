@@ -64,6 +64,12 @@
       "name": "03 产品、权益与测算",
       "items": [
         {
+          "name": "八项启动工作初稿",
+          "path": "outputs/club-launch-drafts-20261030/README.md",
+          "status": "2026-10-30 · 待合伙人批准",
+          "purpose": "权益、成本、薪酬、排期、企业PPT及外部对接"
+        },
+        {
           "name": "会员与收益框架",
           "path": "docs/项目定位与业务共识.md",
           "status": "待完善",
