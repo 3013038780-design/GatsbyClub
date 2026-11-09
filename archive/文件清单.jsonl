@@ -1,8 +1,8 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
 {"path": "AGENTS.md", "bytes": 2219, "sha256": "1511c4a22074050a8817f8b8e3e3e7a85b151e434349d2245aa72185a7d909f7"}
-{"path": "CHANGELOG.md", "bytes": 2501, "sha256": "8c67daf745c5ad1157556247910af63dbe12a136e85117f11fca1fd302946dc8"}
-{"path": "README.md", "bytes": 6308, "sha256": "75d7407264f043e34ea7855a7d8fbb00596d85e7fb64e2ed28141694cf665998"}
+{"path": "CHANGELOG.md", "bytes": 2972, "sha256": "397a031b9b5dedf3d98a8860442bb824e2a01ce455d76af33ec80f56070cc621"}
+{"path": "README.md", "bytes": 6826, "sha256": "e147e07101233c6f718bb792f0b84be1ba646b383d511d5dea867617cd281ca3"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
 {"path": "archive/20261024同步清单.json", "bytes": 6032, "sha256": "53d8c8fe818195759c0422f705704ab641fe0dd549ae33414aaa24ef94474808"}
 {"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
@@ -13,10 +13,11 @@
 {"path": "archive/20261027导航预览/README-mobile.png", "bytes": 94643, "sha256": "2742190f1254fe24c5c0eab43017ea3d6c01eb8d6c3dc21928a8a4e2de6be1cd"}
 {"path": "archive/20261027文件整理核验.json", "bytes": 788, "sha256": "6237c01b086293d86cc673ad4d3f65e77e97b39bde40d060e26d33d928dd4033"}
 {"path": "archive/20261106定位更新核验.json", "bytes": 914, "sha256": "2e3290dada3db899e6ed01cf4f19d74507893af45a8691977745b3fa09d2bfa6"}
+{"path": "archive/20261109会议整理核验.json", "bytes": 518, "sha256": "855187adc44fa76cf7f1d8b56968e2a9d0608734394fc5b14fd2a693a4fcb7ec"}
 {"path": "archive/MediaCrawler-local-changes.patch", "bytes": 3261, "sha256": "f7440a0095ecd587c7472b5cd1ba42e2fdfdf836a854c434d3c516772766c1db"}
 {"path": "archive/README.md", "bytes": 1029, "sha256": "7f1ec804306caf7c75af2dcf8d953ded7d5ceca539cbe60ac4c99504e4e3f9d9"}
 {"path": "archive/工具来源.md", "bytes": 868, "sha256": "7357c54572f57e25bad75263b83ed2d0ea37aa13aa3fe29c7bdde0adf946480a"}
-{"path": "archive/归档范围.json", "bytes": 1609, "sha256": "160173fd06e5ebd9921944cef1ad9d16ccf47d1eb0ce5152bf8499ee8950ebc4"}
+{"path": "archive/归档范围.json", "bytes": 1609, "sha256": "48dd69b6656b9d1a83405b6ab73f738878faf6f1e4f53b40a6ae01831335ce5d"}
 {"path": "assets/project-overview.svg", "bytes": 1605, "sha256": "535c5e48e41c85caed0121e5bb3392722862c1073de44476cf4b5ebf0b6b68cc"}
 {"path": "club_research_20261019/build_report.py", "bytes": 68780, "sha256": "802b10196e68db8e3197e7444026cb501b5cfe55a10b44e924e0d1b9ea172025"}
 {"path": "club_research_20261019/financial_model.json", "bytes": 26360, "sha256": "6864a1595b83e9ae017daa698c99b95f07f1208fc9c2ab214df8750bee950573"}
@@ -268,12 +269,13 @@
 {"path": "club_research_20261019/speech_work/speech_model.json", "bytes": 17313, "sha256": "b117b6f62488e14f98cfa849c71254bfe7f2a592a5d97949bf6a642be93eb27f"}
 {"path": "docs/history/README_20261027整理前.md", "bytes": 9854, "sha256": "c31da0fb24e351297a0b5724ea279e9969bc9fab752a7f2981cd693a6ef769cd"}
 {"path": "docs/history/项目待办_20261024.md", "bytes": 10735, "sha256": "99df16a1136326b2f55365cff20b5caf6fa49571aa5248cc1ce5b5276a8a3aa5"}
+{"path": "docs/商业与生活方式协作会议整理_20261109.md", "bytes": 7054, "sha256": "27c4550777cda15893f5ef5a62c7bac7eb5f86958da5b363f5028a2f59da7e3f"}
 {"path": "docs/学习型社群定位更新_20261106.md", "bytes": 3586, "sha256": "f5fc7bfbd1dc706000c98c693b360b86bc51ec8eb4c0d4e593622b18ca85032b"}
 {"path": "docs/文件整理记录.md", "bytes": 1807, "sha256": "fa60c4eb678edcca69256143770a91ab13a32f4ac01799e89b041b9342b9bc4d"}
 {"path": "docs/版本与维护规则.md", "bytes": 2502, "sha256": "60eb43c2210357dc8295e8f9a58294a789f1ecef2d814236c80db5190e1aa81f"}
-{"path": "docs/资料目录.json", "bytes": 8530, "sha256": "a2ca63abe9d365b06daa709692f5259fd0b7276110f9dc22fa3f46459d6aed98"}
-{"path": "docs/项目定位与业务共识.md", "bytes": 17231, "sha256": "b0cb33376af1e23a176f4c00c000ba9493bfada00872cff9e8c19c9f2eee8631"}
-{"path": "docs/项目文件导航.md", "bytes": 6779, "sha256": "18a788e206a92578cc34ab506e29562714e90fb5a43aa7069ce62d136b765ffc"}
+{"path": "docs/资料目录.json", "bytes": 8822, "sha256": "81ff23120ca6d9be5a974ce72c59b27681a41d16dbef28852411fad71121d302"}
+{"path": "docs/项目定位与业务共识.md", "bytes": 19451, "sha256": "84201fe62f07a7a0d75c66bcf6c159671afeeb54344a01308c32ec86745eaccb"}
+{"path": "docs/项目文件导航.md", "bytes": 6927, "sha256": "9ee3a5391b795438a405475d7bee62cf66888a0498b5d0425f69e52eecf1c61e"}
 {"path": "outputs/README.md", "bytes": 1902, "sha256": "0d104c8aef116d4bc1268cde3ffe487631d14aa7c32b0896d5f4150faae4b7bf"}
 {"path": "outputs/club-launch-drafts-20261030/README.md", "bytes": 2801, "sha256": "ab9e54699a2782a027be0fccfc2adc3ea8800fd15e9ef6c8b551395eff881a34"}
 {"path": "outputs/club-launch-drafts-20261030/build_deck.mjs", "bytes": 9743, "sha256": "d17861aa200765d42d2f5a96d0e5d39f821af0f18896af039c674046502d4913"}
@@ -4610,4 +4612,4 @@
 {"path": "tools/MediaCrawler/webui/tsconfig.json", "bytes": 649, "sha256": "f4813c95dfb993628a3184707f1189f3151f533b001a7e554501dd13abe093d4"}
 {"path": "tools/MediaCrawler/webui/vite.config.ts", "bytes": 500, "sha256": "d5e11fc8effe4f78c956561cf16c650d1cd39fa9636dee8734208e39b61217f9"}
 {"path": "tools/README.md", "bytes": 808, "sha256": "03ad508247f6ee5026612c1d9ebc2e6a0fa6420c3403777c72ae903f7a89861d"}
-{"path": "项目待办清单.md", "bytes": 4755, "sha256": "4404bdbc8f98d8d032b6251d0753bef5d03cb1f02d05b3b6557814f37cdf5d7d"}
+{"path": "项目待办清单.md", "bytes": 5505, "sha256": "5f43040811e537079cd52da4e05515a8a843eb2a7c1061d5ac97f62e903ad7a3"}

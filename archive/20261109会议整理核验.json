@@ -1,0 +1,19 @@
+{
+  "updated": "2026-11-09",
+  "meeting_date": "未注明",
+  "paths": [
+    "README.md",
+    "CHANGELOG.md",
+    "项目待办清单.md",
+    "docs/项目定位与业务共识.md",
+    "docs/商业与生活方式协作会议整理_20261109.md",
+    "docs/项目文件导航.md",
+    "docs/资料目录.json"
+  ],
+  "raw_meeting_exported": false,
+  "pricing_conflicts_preserved": true,
+  "documents": 29,
+  "relative_links_checked": 262,
+  "link_failures": [],
+  "sensitive_scan": "no high-confidence token matches"
+}
