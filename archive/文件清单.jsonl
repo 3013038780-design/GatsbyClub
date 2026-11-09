@@ -1,8 +1,8 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
-{"path": "AGENTS.md", "bytes": 2052, "sha256": "89c13a9e76244440aab1a19d501bc38294c967f40dd0629231729b5ecca54e1b"}
-{"path": "CHANGELOG.md", "bytes": 1496, "sha256": "acfa7bd484dba8924c5a544e89c8cd6e7e6bc525e0e76e21d4e3d62a40a16137"}
-{"path": "README.md", "bytes": 5060, "sha256": "f8fc0d2f7fb965e16d66fdb189d64a18c530bc1ab0be7b9ab16b4165f8af6b60"}
+{"path": "AGENTS.md", "bytes": 2213, "sha256": "502f1029ba9dbe84ac27bef67303751b95b3a3628fe9eae720ae13f77547b74c"}
+{"path": "CHANGELOG.md", "bytes": 1857, "sha256": "02d398ddc62a72a21e4d07b86d781fbbbd78f680f5ecdd38d33852fc53221ada"}
+{"path": "README.md", "bytes": 5361, "sha256": "1ae05f0f14b1cc65b446f1c7daa8d9d8fe328f97b645f81024ac2b20ab606746"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
 {"path": "archive/20261024同步清单.json", "bytes": 1158, "sha256": "5c0e09030686b3fb12fc67c7884b19189103501543d34d0aa17ccec534984011"}
 {"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
@@ -270,8 +270,8 @@
 {"path": "docs/文件整理记录.md", "bytes": 1807, "sha256": "fa60c4eb678edcca69256143770a91ab13a32f4ac01799e89b041b9342b9bc4d"}
 {"path": "docs/版本与维护规则.md", "bytes": 2502, "sha256": "60eb43c2210357dc8295e8f9a58294a789f1ecef2d814236c80db5190e1aa81f"}
 {"path": "docs/资料目录.json", "bytes": 7983, "sha256": "fd082afe1758f03e93a597c80ec990396875b909e4a355d548584df274ffade2"}
-{"path": "docs/项目定位与业务共识.md", "bytes": 12963, "sha256": "ea2021d03060e9364f6e632b31198a943b3cbf1fd9c6e446312911ab2b03bbd1"}
-{"path": "docs/项目文件导航.md", "bytes": 5747, "sha256": "3d10edbe9aada10456676b49e9a30f22ba1d77965a4f47b069a888efe2cd169a"}
+{"path": "docs/项目定位与业务共识.md", "bytes": 15851, "sha256": "30ac0bc02edf24d7d8754b7aaa9527a44c2d2b4c7674d384e0218a76665b9362"}
+{"path": "docs/项目文件导航.md", "bytes": 5923, "sha256": "31756d592a58776191ece79ec6ed4deebdc0497625970a562847e0f04b1b015e"}
 {"path": "outputs/README.md", "bytes": 1475, "sha256": "99bfd43afc751069902140eb2c5cb83a4bbdbb4b7243af78ed6e21a99e7a44b5"}
 {"path": "outputs/community-research-final-20261022/README.md", "bytes": 797, "sha256": "2a74e9ab9daac32dfe71c443569c7abd9a7c41bb4743dc96115abb419aeb17e0"}
 {"path": "outputs/community-research-final-20261022/audit_workbook.py", "bytes": 864, "sha256": "a44412df456ae90835079790a674fa8624e96c8d06c39ff30df70475d8bbadeb"}
