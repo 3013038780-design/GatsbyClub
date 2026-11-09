@@ -1,8 +1,8 @@
 {"path": ".gitattributes", "bytes": 107, "sha256": "aba7ef941971e15410c18c5880b6563dcb327fe99a5363af39968e119ffa1eee"}
 {"path": ".gitignore", "bytes": 472, "sha256": "0833340f7b5bd1d4c88ee5f22e848562052555740e9d4450628ee73636f51256"}
 {"path": "AGENTS.md", "bytes": 2219, "sha256": "1511c4a22074050a8817f8b8e3e3e7a85b151e434349d2245aa72185a7d909f7"}
-{"path": "CHANGELOG.md", "bytes": 3574, "sha256": "746c075e8c081df5150de2efbfff46dae22ef41d99090c071882ee7b49d5e3ec"}
-{"path": "README.md", "bytes": 7385, "sha256": "662123496371d0fac4ed58ad0f08ce7d2d2719c41306921edcd0a193ee2c8b6a"}
+{"path": "CHANGELOG.md", "bytes": 3840, "sha256": "7bfe809dad4e26df5701f3ace4b3599faa50fffa0b54f5ec1fdaed7216882346"}
+{"path": "README.md", "bytes": 7416, "sha256": "69b5676c047afadf9faf350949cddfbf29ac033eaa01e28b387493ad2d9816c0"}
 {"path": "archive/20261024GitHub跟踪.json", "bytes": 1102, "sha256": "9711531a42a5da9024c239dd4999ecfc3d0716ef34e145edf6a9d1cbc891cf90"}
 {"path": "archive/20261024同步清单.json", "bytes": 6032, "sha256": "53d8c8fe818195759c0422f705704ab641fe0dd549ae33414aaa24ef94474808"}
 {"path": "archive/20261024后续工作范围.json", "bytes": 654, "sha256": "f40325c1ff6365627b2a486faf104dec78ea10381250ba14704afc40c5e686cd"}
@@ -275,7 +275,7 @@
 {"path": "docs/文件整理记录.md", "bytes": 1807, "sha256": "fa60c4eb678edcca69256143770a91ab13a32f4ac01799e89b041b9342b9bc4d"}
 {"path": "docs/版本与维护规则.md", "bytes": 2502, "sha256": "60eb43c2210357dc8295e8f9a58294a789f1ecef2d814236c80db5190e1aa81f"}
 {"path": "docs/资料目录.json", "bytes": 9107, "sha256": "d4b00ac18bda38ec5a0c4e86278cb436976c07e23d951204865df0e7fffa65a3"}
-{"path": "docs/项目定位与业务共识.md", "bytes": 22375, "sha256": "14c320e794ce3e1ed708d3042740a55a24fef93b66c5332a04fe2e0418feb01b"}
+{"path": "docs/项目定位与业务共识.md", "bytes": 22639, "sha256": "915980611402ff0df59c0e6e97c143618fc4306db69cf9b36c99fded9d9ed561"}
 {"path": "docs/项目文件导航.md", "bytes": 7086, "sha256": "60d63422c6e51b9a73b4a8ecd0a5ca22257f9f24fa9a7a691ab2629c0e70b097"}
 {"path": "outputs/README.md", "bytes": 1902, "sha256": "0d104c8aef116d4bc1268cde3ffe487631d14aa7c32b0896d5f4150faae4b7bf"}
 {"path": "outputs/club-launch-drafts-20261030/README.md", "bytes": 2801, "sha256": "ab9e54699a2782a027be0fccfc2adc3ea8800fd15e9ef6c8b551395eff881a34"}
