@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-30",
+  "manual_pages": 19,
+  "slides": 16,
+  "workbook_sheets": 4,
+  "visual_review": "19页手册、16页幻灯片和四表截图已检查",
+  "baseline": "39800/3,98000/6 retained; other added rights and budgets remain proposals",
+  "ppts_final_sha256": "912a21483b1b5b247b9fbb5ee5e50ccbae0106b3eb7e6abe7b4eaf5c10a65ab5",
+  "xlsx_tests": {
+    "tests": [
+      {
+        "people": 8,
+        "contribution": -152.17279999999937
+      },
+      {
+        "people": 10,
+        "contribution": 904.7839999999997
+      },
+      {
+        "people": 12,
+        "contribution": 1961.7408000000014
+      },
+      {
+        "people": 16,
+        "contribution": 4075.6544000000013
+      },
+      {
+        "slotType": 1,
+        "coop39": 21921.2,
+        "coop98": 61212,
+        "served": 44,
+        "capacity": "本假设容量满足"
+      },
+      {
+        "slotType": 2,
+        "coop39": -758.8,
+        "coop98": 15852,
+        "served": 44,
+        "capacity": "席位不足，需增场或调整"
+      }
+    ],
+    "missing_inputs_blocked": true,
+    "basicCost": 520,
+    "coreCost": 8080,
+    "salary": 14438,
+    "startup": 64988.3,
+    "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "deliverables": {
+    "俱乐部启动初稿_全套资料.zip": "e39e136f6312c48f55e6230578ef1b1595e0f37ed9f1a67d453a9b2f360707f1",
+    "俱乐部启动工作方案.docx": "6d68cc2e92176aaf3d7d18d3f8001a614a1e818aed36edb2d8b9962de2a4b8d1",
+    "俱乐部启动工作方案_直接打开.html": "e917275b2a5af96c645e6aeb55943912f3067352b5e9ca3a86c551dd653c6808",
+    "俱乐部启动工作方案.pdf": "9add6a0b69df543b2c9e8b44910755915b7360b539bed8baa389220a5bb01069",
+    "俱乐部企业介绍与合作方案.pptx": "912a21483b1b5b247b9fbb5ee5e50ccbae0106b3eb7e6abe7b4eaf5c10a65ab5",
+    "俱乐部成本与薪酬测算.xlsx": "3ffd4d0306c9e929258f7744bbf06d89059a2ee01c0e02a5024a1d11d53958e9",
+    "阅读说明.txt": "79eb6e3d5e6ed9a82519d580968fab3be916011cedeb3d55810de6acff9f403d"
+  }
+}

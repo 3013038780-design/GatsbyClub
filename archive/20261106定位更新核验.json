@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "meeting_date": "2026-11-01",
+  "scope": "学习型社群前端及子品牌定位，近期三项工作状态",
+  "changed_paths": [
+    "README.md",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "项目待办清单.md",
+    "assets/project-overview.svg",
+    "docs/项目定位与业务共识.md",
+    "docs/学习型社群定位更新_20261106.md",
+    "docs/项目文件导航.md",
+    "docs/资料目录.json",
+    "outputs/README.md",
+    "outputs/club-launch-drafts-20261030/README.md"
+  ],
+  "raw_meeting_exported": false,
+  "prices_changed": false,
+  "event_status": "场地、宣导会、教授讲座均未落实，用户2026-11-06确认",
+  "historical_artifacts_rebuilt": false,
+  "export_scan": {
+    "new_files": 12,
+    "new_bytes": 58930,
+    "candidate_secret_patterns": [],
+    "over_95mb": []
+  },
+  "documents": 28,
+  "relative_links_checked": 256,
+  "link_failures": []
+}
